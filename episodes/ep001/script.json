@@ -1,0 +1,61 @@
+{
+  "id": "ep001",
+  "title_en": "Koreans don't say hi. They ask if you ate. #shorts",
+  "description_en": "In Korea, \"bap meogeosseo?\" (Did you eat?) is an everyday greeting between friends. Learn what it means and how to answer.",
+  "hashtags": [
+    "#learnkorean",
+    "#koreanculture",
+    "#korean",
+    "#koreanphrases",
+    "#shorts"
+  ],
+  "hook_en": "In Korea, \"Did you eat?\" means \"Hi.\"",
+  "hook_vi": "Ở Hàn Quốc, \"Ăn cơm chưa?\" nghĩa là \"Xin chào.\"",
+  "hook_id": "Di Korea, \"Sudah makan?\" artinya \"Halo.\"",
+  "hook_voice": "In Korea, did you eat, means hi.",
+  "hook_bg": "seoul_night",
+  "scenes": [
+    {
+      "img": "img1.png",
+      "ko": "밥 먹었어?",
+      "roman": "bap meogeosseo?",
+      "en": "Did you eat?",
+      "vi": "Ăn cơm chưa?",
+      "id": "Sudah makan?",
+      "voice": "Korean friends often greet you with: bap meogeosseo? Did you eat?",
+      "bg": "bapsang"
+    },
+    {
+      "img": "img2.png",
+      "ko": "식사하셨어요?",
+      "roman": "siksa hasyeosseoyo?",
+      "en": "Have you eaten? (polite)",
+      "vi": "Anh chị đã ăn cơm chưa ạ? (lịch sự)",
+      "id": "Sudah makan? (sopan)",
+      "voice": "Many say it comes from harder times, when asking if someone ate meant: are you okay? To older people, say: siksa hasyeosseoyo?",
+      "bg": "hanok"
+    },
+    {
+      "img": "img3.png",
+      "ko": "응, 먹었어!",
+      "roman": "eung, meogeosseo!",
+      "en": "Yeah, I ate!",
+      "vi": "Ừ, ăn rồi!",
+      "id": "Iya, sudah makan!",
+      "voice": "You don't need to explain your lunch. Just say: eung, meogeosseo!",
+      "bg": "bapsang"
+    }
+  ],
+  "cta": {
+    "ko": "밥 한번 먹자!",
+    "roman": "bap hanbeon meokja!",
+    "en": "Let's grab a meal sometime! (Next time: is it a real invite?)",
+    "vi": "Bữa nào đi ăn nhé! (Lần sau: có phải lời mời thật không?)",
+    "id": "Kapan-kapan makan bareng ya! (Berikutnya: ajakan beneran?)",
+    "voice": "Next time: is bap hanbeon meokja a real invitation? Follow for one Korean phrase a day.",
+    "img": "img4.png",
+    "bg": "pojangmacha"
+  },
+  "music": "calm01.mp3",
+  "particles": "snow"
+}

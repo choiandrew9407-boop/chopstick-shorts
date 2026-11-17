@@ -1,0 +1,61 @@
+{
+  "id": "ep002",
+  "title_en": "Never pour your own soju in Korea #shorts",
+  "description_en": "Korean drinking manners in 30 seconds: pour for each other, use two hands with elders, and turn your head when you drink.",
+  "hashtags": [
+    "#learnkorean",
+    "#koreanculture",
+    "#soju",
+    "#koreanetiquette",
+    "#shorts"
+  ],
+  "hook_en": "Pouring your own soju? Not in Korea.",
+  "hook_vi": "Tự rót soju cho mình? Ở Hàn Quốc thì không nhé.",
+  "hook_id": "Tuang soju sendiri? Jangan di Korea.",
+  "hook_voice": "Pouring your own soju? Not in Korea.",
+  "hook_bg": "pojangmacha",
+  "scenes": [
+    {
+      "img": "img1.png",
+      "ko": "한 잔 하세요",
+      "roman": "han jan haseyo",
+      "en": "Have a drink (please)",
+      "vi": "Mời anh chị một ly",
+      "id": "Silakan minum",
+      "voice": "In Korea, you pour for others, and they pour for you. Han jan haseyo.",
+      "bg": "pojangmacha"
+    },
+    {
+      "img": "img2.png",
+      "ko": "두 손으로",
+      "roman": "du soneuro",
+      "en": "With two hands",
+      "vi": "Bằng hai tay",
+      "id": "Dengan dua tangan",
+      "voice": "When an older person pours, hold your glass with two hands. Du soneuro.",
+      "bg": "hanok"
+    },
+    {
+      "img": "img3.png",
+      "ko": "고개 돌려서 마시기",
+      "roman": "gogae dollyeoseo masigi",
+      "en": "Turn your head to drink",
+      "vi": "Quay đầu sang bên khi uống",
+      "id": "Menoleh saat minum",
+      "voice": "With elders, many Koreans turn their head slightly away when they drink.",
+      "bg": "seoul_night"
+    }
+  ],
+  "cta": {
+    "ko": "건배!",
+    "roman": "geonbae!",
+    "en": "Cheers!",
+    "vi": "Cạn ly!",
+    "id": "Bersulang!",
+    "voice": "And then, geonbae! Follow for one Korean phrase a day.",
+    "img": "img4.png",
+    "bg": "pojangmacha"
+  },
+  "music": "calm02.mp3",
+  "particles": "snow"
+}
