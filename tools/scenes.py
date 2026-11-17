@@ -255,20 +255,21 @@ def elevator(w, h, seed):
     for k in range(12):  # brushed steel
         x = k * W / 12
         d.line((x, 0, x, H), fill=(180, 184, 196), width=3 * SS)
-    d.rounded_rectangle((W * .22, H * .12, W * .78, H * .78), 40 * SS, fill=(70, 74, 84))
-    d.rounded_rectangle((W * .3, H * .15, W * .7, H * .22), 20 * SS, fill=(20, 20, 26))
-    d.text((W * .5, H * .185), "▲ 15", font=_font(int(90 * SS)), fill=(255, 90, 60), anchor="mm")
+    d.rounded_rectangle((W * .22, H * .08, W * .78, H * .50), 40 * SS, fill=(70, 74, 84))
+    d.rounded_rectangle((W * .3, H * .10, W * .7, H * .16), 20 * SS, fill=(20, 20, 26))
+    d.text((W * .5, H * .13), "▲ 15", font=_font(int(80 * SS)), fill=(255, 90, 60), anchor="mm")
     lights = []
     labels = [("1", "2"), ("3", "4"), ("5", "6"), ("열림", "닫힘")]
     for r, (a, b) in enumerate(labels):
         for c, t in enumerate((a, b)):
-            cx, cy = W * (.38 + c * .24), H * (.31 + r * .11)
+            cx, cy = W * (.40 + c * .20), H * (.215 + r * .07)
             hot = t == "닫힘"
-            d.ellipse((cx - 90 * SS, cy - 90 * SS, cx + 90 * SS, cy + 90 * SS),
-                      fill=(255, 190, 70) if hot else (210, 212, 220), outline=(40, 40, 46), width=6 * SS)
-            d.text((cx, cy), t, font=_font(int((56 if len(t) > 1 else 70) * SS)), fill=(30, 30, 36), anchor="mm")
+            rr = 58 * SS
+            d.ellipse((cx - rr, cy - rr, cx + rr, cy + rr),
+                      fill=(255, 190, 70) if hot else (210, 212, 220), outline=(40, 40, 46), width=5 * SS)
+            d.text((cx, cy), t, font=_font(int((42 if len(t) > 1 else 56) * SS)), fill=(30, 30, 36), anchor="mm")
             if hot:
-                lights.append((cx / SS, cy / SS, 120, (255, 200, 90)))
+                lights.append((cx / SS, cy / SS, 80, (255, 200, 90)))
     return img.resize((w, h), Image.LANCZOS), lights
 
 

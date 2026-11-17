@@ -1,0 +1,19 @@
+{
+  "id": "ep006",
+  "title_en": "No Waiter Is Coming... Unless You Do This 🔔 #shorts",
+  "description_en": "In Korean restaurants you call the staff — out loud or with the table bell. Learn 저기요! and 이모!",
+  "hashtags": ["#Korean", "#LearnKorean", "#KoreanRestaurant", "#Korea", "#shorts"],
+  "hook_en": "No waiter is coming. Unless you do this.",
+  "hook_voice": "No waiter is coming. Unless you do this.",
+  "hook_vi": "Sẽ không có phục vụ nào tới. Trừ khi bạn làm thế này.",
+  "hook_id": "Pelayan nggak akan datang. Kecuali kamu lakukan ini.",
+  "hook_bg": "bapsang",
+  "hook_img": "img0.png",
+  "scenes": [
+    {"ko": "저기요!", "roman": "Jeogiyo!", "en": "Excuse me! Say it out loud. It's not rude here.", "vi": "Xin lỗi ơi! Cứ gọi to lên. Ở đây không bất lịch sự đâu.", "id": "Permisi! Ucapkan dengan keras. Di sini itu nggak kasar.", "voice": "Jeogiyo. Excuse me. Say it out loud. It's not rude here.", "img": "img1.png", "bg": "bapsang"},
+    {"ko": "띵동", "roman": "Ttingdong", "en": "Or press the table bell. Ding-dong!", "vi": "Hoặc bấm chuông trên bàn. Ding-dong!", "id": "Atau tekan bel di meja. Ting-tong!", "voice": "Or just press the table bell. Ding dong.", "img": "img2.png", "bg": "bapsang"},
+    {"ko": "이모!", "roman": "Imo!", "en": "Twist: regulars call the server 'Auntie'.", "vi": "Bất ngờ: khách quen gọi người phục vụ là 'dì'.", "id": "Plot twist: pelanggan tetap memanggil pelayan 'Tante'.", "voice": "Plot twist. Regulars call the server Imo. Auntie.", "img": "img3.png", "bg": "pojangmacha"}
+  ],
+  "cta": {"ko": "잘 먹었습니다!", "roman": "Jal meogeotseumnida!", "en": "Thanks for the meal! Follow for more.", "vi": "Cảm ơn vì bữa ăn! Theo dõi để xem thêm.", "id": "Terima kasih atas makanannya! Follow untuk lainnya.", "voice": "Jal meogeotseumnida. Thanks for the meal. Follow for more.", "bg": "hanok"},
+  "particles": "snow"
+}

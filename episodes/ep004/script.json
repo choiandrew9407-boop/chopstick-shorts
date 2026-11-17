@@ -1,0 +1,19 @@
+{
+  "id": "ep004",
+  "title_en": "Why Koreans Ask Your Age First 🇰🇷 #shorts",
+  "description_en": "In Korea, your age decides how you talk, what you call people... and who pays for dinner. Learn 몇 살이에요? and 형/언니.",
+  "hashtags": ["#Korean", "#LearnKorean", "#KoreanCulture", "#Korea", "#shorts"],
+  "hook_en": "Koreans ask your age before your name. Here's why.",
+  "hook_voice": "Koreans ask your age before your name. Here's why.",
+  "hook_vi": "Người Hàn hỏi tuổi bạn trước cả tên. Đây là lý do.",
+  "hook_id": "Orang Korea tanya umurmu sebelum namamu. Ini alasannya.",
+  "hook_bg": "pojangmacha",
+  "hook_img": "img0.png",
+  "scenes": [
+    {"ko": "몇 살이에요?", "roman": "Myeot sarieyo?", "en": "How old are you? Asked within 5 minutes.", "vi": "Bạn bao nhiêu tuổi? Hỏi ngay trong 5 phút đầu.", "id": "Umurmu berapa? Ditanya dalam 5 menit pertama.", "voice": "Myeot sarieyo. How old are you? Asked within five minutes.", "img": "img1.png", "bg": "pojangmacha"},
+    {"ko": "형 / 언니", "roman": "Hyeong / Eonni", "en": "Older? Now they're your big brother or big sister.", "vi": "Lớn tuổi hơn? Họ thành 'anh' hoặc 'chị' của bạn.", "id": "Lebih tua? Mereka jadi 'kakak' kamu.", "voice": "If they're older, they become your big brother or big sister.", "img": "img2.png", "bg": "seoul_night"},
+    {"ko": "형이 쏜다!", "roman": "Hyeong-i ssonda!", "en": "Twist: the older one usually pays. Being young pays off.", "vi": "Bất ngờ: người lớn tuổi hơn thường trả tiền. Nhỏ tuổi cũng có lợi!", "id": "Plot twist: yang lebih tua biasanya bayar. Jadi yang muda untung!", "voice": "Plot twist. The older one usually pays. Being young pays off.", "img": "img3.png", "bg": "pojangmacha"}
+  ],
+  "cta": {"ko": "말 놓을까?", "roman": "Mal noeulkka?", "en": "Shall we talk casually now? Follow for more!", "vi": "Mình nói chuyện thân mật nhé? Theo dõi để xem thêm!", "id": "Ngobrol santai aja yuk? Follow untuk lainnya!", "voice": "Mal noeulkka. Shall we talk casually? Follow for more.", "bg": "hanok"},
+  "particles": "snow"
+}

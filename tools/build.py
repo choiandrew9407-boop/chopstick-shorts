@@ -80,17 +80,20 @@ def text_layer(scene, kind):
     ko = wrap(d, scene["ko"], fk, max_w)
     en = wrap(d, scene["en"], fe, max_w)
     block = len(ko) * 150 + 90 + len(en) * 84
-    top = max(SAFE_TOP + 40, SAFE_BOTTOM - block - 120)
-    d.rounded_rectangle((40, top - 50, W - 40, top + block + 50), 40, fill=(0, 0, 0, 160))
+    if scene.get("card") == "top":
+        top = SAFE_TOP + 60
+    else:
+        top = max(SAFE_TOP + 40, SAFE_BOTTOM - block - 150)
+    d.rounded_rectangle((40, top - 50, W - 40, top + block + 90), 40, fill=(0, 0, 0, 160))
     y = top
     for ln in ko:
         d.text((W // 2, y + 75), ln, font=fk, fill=(255, 226, 120), anchor="mm"); y += 150
     d.text((W // 2, y + 40), scene.get("roman", ""), font=fr, fill=(220, 220, 220), anchor="mm"); y += 90
     for ln in en:
         d.text((W // 2, y + 42), ln, font=fe, fill="white", anchor="mm"); y += 84
-    # small channel tag in the top safe area edge
-    d.text((W // 2, SAFE_TOP - 30), "Chopstick Club", font=font("bold", 40),
-           fill=(255, 255, 255, 200), anchor="mm")
+    # channel tag lives inside the card, so it never collides with signs/displays
+    d.text((W - 80, top + block + 55), "Chopstick Club", font=font("bold", 34),
+           fill=(255, 255, 255, 170), anchor="rm")
     return layer
 
 
