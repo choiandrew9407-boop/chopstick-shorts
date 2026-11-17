@@ -14,6 +14,7 @@
   "hook_id": "Tuang soju sendiri? Jangan di Korea.",
   "hook_voice": "Pouring your own soju? Not in Korea.",
   "hook_bg": "pojangmacha",
+  "hook_img": "img0.png",
   "scenes": [
     {
       "img": "img1.png",
