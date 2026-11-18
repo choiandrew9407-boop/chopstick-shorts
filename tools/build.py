@@ -19,6 +19,7 @@ Usage: python tools/build.py episodes/ep001 [episodes/ep002 ...]
 import json
 import math
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -65,6 +66,15 @@ def font(weight, size):
                 # index 1 = KR face inside the .ttc collections
                 return ImageFont.truetype(str(p), size, index=1 if p.suffix == ".ttc" else 0)
     raise SystemExit("Korean font not found: install fonts-noto-cjk or put Pretendard in assets/fonts")
+
+
+# 이모지·변형선택자·ZWJ: Noto Sans CJK에 글리프가 없어 카드에 두부(□) 박스로 찍힌다.
+_EMOJI = re.compile("[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE00-\uFE0F\u200D\u20E3]")
+
+
+def clean(text):
+    """카드에 그릴 텍스트에서 폰트가 못 그리는 이모지를 지운다(자막 .srt에는 그대로 남는다)."""
+    return _EMOJI.sub("", text or "").strip()
 
 
 def wrap(draw, text, fnt, max_w):
@@ -152,7 +162,7 @@ def text_layer(scene, kind, show_tag=True):
     max_w = W - 140
     if kind == "hook":
         f = font("bold", 92)
-        lines = wrap(d, scene["text"], f, max_w)
+        lines = wrap(d, clean(scene["text"]), f, max_w)
         lh = 118
         y = (H - lh * len(lines)) // 2 - 80
         pad = 48
@@ -164,8 +174,8 @@ def text_layer(scene, kind, show_tag=True):
                    fill=(255, 255, 255, 170), anchor="rm")
         return layer
     fk, fr, fe = font("bold", 120), font("regular", 54), font("bold", 64)
-    ko = wrap(d, scene["ko"], fk, max_w)
-    en = wrap(d, scene["en"], fe, max_w)
+    ko = wrap(d, clean(scene["ko"]), fk, max_w)
+    en = wrap(d, clean(scene["en"]), fe, max_w)
     block = len(ko) * 150 + 90 + len(en) * 84
     if scene.get("card") == "top":
         top = CARD_MIN_TOP
@@ -176,7 +186,7 @@ def text_layer(scene, kind, show_tag=True):
     y = top
     for ln in ko:
         d.text((W // 2, y + 75), ln, font=fk, fill=(255, 226, 120), anchor="mm"); y += 150
-    d.text((W // 2, y + 40), scene.get("roman", ""), font=fr, fill=(220, 220, 220), anchor="mm"); y += 90
+    d.text((W // 2, y + 40), clean(scene.get("roman", "")), font=fr, fill=(220, 220, 220), anchor="mm"); y += 90
     for ln in en:
         d.text((W // 2, y + 42), ln, font=fe, fill="white", anchor="mm"); y += 84
     # channel tag lives inside the card, so it never collides with signs/displays
