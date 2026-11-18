@@ -1,0 +1,19 @@
+ep007 — 실사 스톡 클립 출처
+수집일: 2026-11-18 (Asia/Seoul)
+
+vid0.mp4  — 타일 바닥을 걷는 맨발(일상 속 사소한 실수)
+  출처: Pexels / Peggy Anke
+  원본: https://www.pexels.com/video/woman-walking-on-the-tiled-floor-5094157/
+  제목: Woman Walking on the Tiled Floor
+  사용 구간: 원본 0:01.5~0:09.5 (원본 1080x1920 세로)
+  라이선스: Pexels License — 상업적 사용·편집 무료, 출처 표기 의무 없음(권장)
+
+vid1.mp4  — 허리를 짚는 손(아이고 허리야)
+  출처: Pexels / Kindel Media
+  원본: https://www.pexels.com/video/person-holding-his-back-7297881/
+  제목: Person Holding his Back
+  사용 구간: 원본 0:04~0:12, 1080x1920 세로 크롭
+  라이선스: Pexels License
+
+표정이 주제인 편이라 얼굴 정면 클로즈업 없이 손·발·뒷모습 중심으로 골랐습니다.
+AI 생성 이미지(img0~img4)는 이 편에서 모두 제거했습니다(work/removed-ai-images/ep007 보관).

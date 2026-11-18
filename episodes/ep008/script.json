@@ -2,7 +2,7 @@
   "id": "ep008",
   "format": "how-to",
   "title_en": "Korean Convenience Store Dinner Under $5 🍙 #shorts",
-  "description_en": "Triangle kimbap, cup ramen, free hot water and 1+1 deals. Learn 삼각김밥 and 셀프예요.",
+  "description_en": "Triangle kimbap, cup ramen, free hot water and 1+1 deals. Learn 삼각김밥 and 셀프예요. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#KoreanFood",
@@ -15,7 +15,6 @@
   "hook_vi": "Bữa tối ở Hàn Quốc dưới 5 đô?",
   "hook_id": "Makan malam di Korea di bawah 5 dolar?",
   "hook_bg": "seoul_night",
-  "hook_img": "img0.png",
   "scenes": [
     {
       "ko": "삼각김밥",
@@ -24,9 +23,8 @@
       "vi": "Cơm nắm tam giác, khoảng 1 đô. Kéo theo số 1, 2, 3.",
       "id": "Kimbap segitiga, sekitar 1 dolar. Tarik nomor 1, 2, 3.",
       "voice": "Samgak gimbap. Triangle kimbap, about one dollar. Pull tab one, two, three.",
-      "img": "img1.png",
       "bg": "bapsang",
-      "dur": 2.8
+      "video": "vid0.mp4"
     },
     {
       "ko": "컵라면",
@@ -35,7 +33,6 @@
       "vi": "Mì ly, có nước nóng miễn phí ngay tại chỗ.",
       "id": "Ramen cup, air panasnya gratis di tempat.",
       "voice": "Keom ramyeon. Cup ramen, with free hot water right there.",
-      "img": "img2.png",
       "bg": "bapsang",
       "dur": 2.5
     },
@@ -46,10 +43,10 @@
       "vi": "Bất ngờ: bạn tự hâm bằng lò vi sóng. Nhân viên không làm giúp.",
       "id": "Plot twist: kamu panaskan sendiri. Stafnya nggak bantu.",
       "voice": "Plot twist. You microwave it yourself. The staff won't do it for you.",
-      "img": "img3.png",
       "bg": "elevator",
       "twist": true,
-      "dur": 3.2
+      "video": "vid1.mp4",
+      "dur": 3.3
     },
     {
       "ko": "1+1",

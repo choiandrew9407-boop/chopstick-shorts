@@ -2,7 +2,7 @@
   "id": "ep010",
   "format": "experience",
   "title_en": "Korean Jjimjilbang: Sleep Here for About $10 🧖 #shorts",
-  "description_en": "Hot baths, saunas, sheep-head towels, eggs and sikhye — and yes, people sleep here. Learn 찜질방 and 양머리.",
+  "description_en": "Hot baths, saunas, sheep-head towels, eggs and sikhye — and yes, people sleep here. Learn 찜질방 and 양머리. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#Jjimjilbang",
@@ -15,7 +15,6 @@
   "hook_vi": "Ngủ ở Hàn Quốc chỉ khoảng 10 đô? Ở đây nè.",
   "hook_id": "Tidur di Korea sekitar 10 dolar? Di sini tempatnya.",
   "hook_bg": "hanok",
-  "hook_img": "img0.png",
   "scenes": [
     {
       "ko": "찜질방",
@@ -24,9 +23,8 @@
       "vi": "Jjimjilbang: tắm nóng, xông hơi, một sảnh lớn.",
       "id": "Spa Korea: air panas, sauna, satu aula besar.",
       "voice": "Jjimjilbang. Hot baths, saunas, and one big hall.",
-      "img": "img1.png",
       "bg": "hanok",
-      "dur": 2.5
+      "video": "vid0.mp4"
     },
     {
       "ko": "양머리",
@@ -35,9 +33,8 @@
       "vi": "Khăn 'đầu cừu' + trứng nướng + nước sikhye.",
       "id": "Handuk 'kepala domba' + telur panggang + sikhye.",
       "voice": "Yangmeori. Roll your towel into a sheep head. Then baked eggs and sikhye.",
-      "img": "img2.png",
       "bg": "bapsang",
-      "dur": 2.8
+      "video": "vid1.mp4"
     },
     {
       "ko": "여기서 자요",
@@ -46,7 +43,6 @@
       "vi": "Bất ngờ: mọi người ngủ qua đêm ở đây, cạnh người lạ.",
       "id": "Plot twist: orang beneran tidur di sini, di samping orang asing.",
       "voice": "Plot twist. People really sleep here overnight, right next to strangers.",
-      "img": "img3.png",
       "bg": "hanok",
       "twist": true,
       "dur": 3.3
@@ -58,7 +54,7 @@
       "vi": "Vì sao? Sàn ấm, nhiều nơi mở suốt đêm, lại rẻ.",
       "id": "Kenapa? Lantai hangat, banyak yang buka semalaman, murah.",
       "voice": "Why? Warm floors, many are open all night, and it's cheap.",
-      "bg": "hanok",
+      "bg": "seoul_night",
       "dur": 2.6
     }
   ],

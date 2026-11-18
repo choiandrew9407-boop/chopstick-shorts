@@ -2,7 +2,7 @@
   "id": "ep011",
   "format": "rule-quiz",
   "title_en": "Never Sit in THIS Subway Seat in Korea 🚇 #shorts",
-  "description_en": "Seats for seniors, the pink seat for pregnant women, and the unwritten rule of nunchi. Learn 노약자석 and 눈치.",
+  "description_en": "Seats for seniors, the pink seat for pregnant women, and the unwritten rule of nunchi. Learn 노약자석 and 눈치. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#SeoulSubway",
@@ -15,7 +15,6 @@
   "hook_vi": "Đừng bao giờ ngồi ghế NÀY trên tàu điện Hàn Quốc.",
   "hook_id": "Jangan duduk di kursi INI di kereta Korea.",
   "hook_bg": "seoul_night",
-  "hook_img": "img0.png",
   "scenes": [
     {
       "ko": "노약자석",
@@ -24,9 +23,8 @@
       "vi": "Ghế cuối toa: cho người già, khuyết tật, bà bầu.",
       "id": "Kursi ujung: untuk lansia, difabel, ibu hamil.",
       "voice": "Noyakjaseok. The end seats are for seniors, the disabled, and pregnant women.",
-      "img": "img1.png",
       "bg": "seoul_night",
-      "dur": 2.9
+      "video": "vid0.mp4"
     },
     {
       "ko": "임산부 배려석",
@@ -35,7 +33,6 @@
       "vi": "Ghế màu hồng = dành cho bà bầu.",
       "id": "Kursi pink = untuk ibu hamil.",
       "voice": "Imsanbu baeryeoseok. The pink seat is for pregnant women.",
-      "img": "img2.png",
       "bg": "seoul_night",
       "dur": 2.6
     },
@@ -46,9 +43,9 @@
       "vi": "Bất ngờ: dù trống, hầu hết người trẻ vẫn không ngồi.",
       "id": "Plot twist: walau kosong, kebanyakan anak muda nggak duduk.",
       "voice": "Plot twist. Even when they're empty, most young people won't sit there.",
-      "img": "img3.png",
       "bg": "elevator",
       "twist": true,
+      "video": "vid1.mp4",
       "dur": 3.3
     },
     {

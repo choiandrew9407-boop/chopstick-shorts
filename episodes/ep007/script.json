@@ -1,19 +1,58 @@
 {
   "id": "ep007",
   "title_en": "One Korean Word for EVERYTHING: Aigo 😩 #shorts",
-  "description_en": "Pain, joy, surprise, getting older... Koreans say 아이고 for all of it.",
-  "hashtags": ["#Korean", "#LearnKorean", "#Aigo", "#KoreanCulture", "#shorts"],
+  "description_en": "Pain, joy, surprise, getting older... Koreans say 아이고 for all of it. Stock footage: Pexels (free license)",
+  "hashtags": [
+    "#Korean",
+    "#LearnKorean",
+    "#Aigo",
+    "#KoreanCulture",
+    "#shorts"
+  ],
   "hook_en": "One Korean word for pain, joy, and surprise.",
   "hook_voice": "One Korean word for pain, joy, and surprise.",
   "hook_vi": "Một từ tiếng Hàn cho cả đau, vui và bất ngờ.",
   "hook_id": "Satu kata Korea untuk sakit, senang, dan kaget.",
   "hook_bg": "hanok",
-  "hook_img": "img0.png",
   "scenes": [
-    {"ko": "아이고!", "roman": "Aigo!", "en": "Stubbed your toe? Aigo!", "vi": "Vấp ngón chân? Aigo!", "id": "Jari kaki kebentur? Aigo!", "voice": "Stubbed your toe? Aigo!", "img": "img1.png", "bg": "bapsang"},
-    {"ko": "아이고, 예뻐라!", "roman": "Aigo, yeppeora!", "en": "See a cute baby? Aigo, so cute!", "vi": "Thấy em bé dễ thương? Aigo, xinh quá!", "id": "Lihat bayi lucu? Aigo, lucunya!", "voice": "See a cute baby? Aigo, yeppeora. So cute!", "img": "img2.png", "bg": "hanok"},
-    {"ko": "아이고 허리야", "roman": "Aigo heoriya", "en": "Twist: after 30, standing up = 'Aigo, my back!'", "vi": "Bất ngờ: qua tuổi 30, đứng dậy cũng 'Aigo, cái lưng!'", "id": "Plot twist: lewat 30, berdiri pun 'Aigo, pinggangku!'", "voice": "Plot twist. After thirty, even standing up is, aigo, my back.", "img": "img3.png", "bg": "elevator"}
+    {
+      "ko": "아이고!",
+      "roman": "Aigo!",
+      "en": "Stubbed your toe? Aigo!",
+      "vi": "Vấp ngón chân? Aigo!",
+      "id": "Jari kaki kebentur? Aigo!",
+      "voice": "Stubbed your toe? Aigo!",
+      "bg": "bapsang",
+      "video": "vid0.mp4"
+    },
+    {
+      "ko": "아이고, 예뻐라!",
+      "roman": "Aigo, yeppeora!",
+      "en": "See a cute baby? Aigo, so cute!",
+      "vi": "Thấy em bé dễ thương? Aigo, xinh quá!",
+      "id": "Lihat bayi lucu? Aigo, lucunya!",
+      "voice": "See a cute baby? Aigo, yeppeora. So cute!",
+      "bg": "hanok"
+    },
+    {
+      "ko": "아이고 허리야",
+      "roman": "Aigo heoriya",
+      "en": "Twist: after 30, standing up = 'Aigo, my back!'",
+      "vi": "Bất ngờ: qua tuổi 30, đứng dậy cũng 'Aigo, cái lưng!'",
+      "id": "Plot twist: lewat 30, berdiri pun 'Aigo, pinggangku!'",
+      "voice": "Plot twist. After thirty, even standing up is, aigo, my back.",
+      "bg": "elevator",
+      "video": "vid1.mp4"
+    }
   ],
-  "cta": {"ko": "아이고, 벌써 끝?", "roman": "Aigo, beolsseo kkeut?", "en": "Aigo, over already? Follow for more!", "vi": "Aigo, hết rồi sao? Theo dõi để xem thêm!", "id": "Aigo, udah selesai? Follow untuk lainnya!", "voice": "Aigo, over already? Follow for more.", "bg": "seoul_night"},
+  "cta": {
+    "ko": "아이고, 벌써 끝?",
+    "roman": "Aigo, beolsseo kkeut?",
+    "en": "Aigo, over already? Follow for more!",
+    "vi": "Aigo, hết rồi sao? Theo dõi để xem thêm!",
+    "id": "Aigo, udah selesai? Follow untuk lainnya!",
+    "voice": "Aigo, over already? Follow for more.",
+    "bg": "seoul_night"
+  },
   "particles": "snow"
 }

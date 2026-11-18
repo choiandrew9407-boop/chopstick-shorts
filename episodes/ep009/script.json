@@ -2,7 +2,7 @@
   "id": "ep009",
   "format": "why-explainer",
   "title_en": "Why Koreans Study in Cafés for 6 Hours ☕ #shorts",
-  "description_en": "Meet the 'kagongjok' — the café study tribe. One iced Americano, one desk for hours. Learn 카공족 and 아아.",
+  "description_en": "Meet the 'kagongjok' — the café study tribe. One iced Americano, one desk for hours. Learn 카공족 and 아아. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#StudyWithMe",
@@ -15,7 +15,6 @@
   "hook_vi": "Sao người Hàn học ở quán cà phê tận 6 tiếng?",
   "hook_id": "Kenapa orang Korea belajar di kafe sampai 6 jam?",
   "hook_bg": "seoul_night",
-  "hook_img": "img0.png",
   "scenes": [
     {
       "ko": "카공족",
@@ -24,9 +23,8 @@
       "vi": "'Hội học ở quán cà phê'. 9 giờ sáng đã mở laptop.",
       "id": "'Suku belajar di kafe'. Jam 9 pagi laptop sudah terbuka.",
       "voice": "Kagongjok. The café study tribe. Laptops out by nine a.m.",
-      "img": "img1.png",
       "bg": "seoul_night",
-      "dur": 2.6
+      "video": "vid0.mp4"
     },
     {
       "ko": "아아 한 잔",
@@ -35,9 +33,8 @@
       "vi": "Một ly Americano đá = một chỗ ngồi cả mấy tiếng.",
       "id": "Satu es Americano = meja berjam-jam.",
       "voice": "A-a han jan. One iced Americano. One desk for hours.",
-      "img": "img2.png",
       "bg": "seoul_night",
-      "dur": 2.5
+      "video": "vid1.mp4"
     },
     {
       "ko": "자리 맡기",
@@ -46,7 +43,6 @@
       "vi": "Bất ngờ: mọi người để laptop trên bàn để giữ chỗ.",
       "id": "Plot twist: orang taruh laptop di meja buat jaga kursi.",
       "voice": "Plot twist. People leave their laptops on the table just to save a seat.",
-      "img": "img3.png",
       "bg": "seoul_night",
       "twist": true,
       "dur": 3.3
