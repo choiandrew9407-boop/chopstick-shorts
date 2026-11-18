@@ -1,71 +1,86 @@
 {
   "id": "ep009",
-  "format": "why-explainer",
-  "title_en": "Why Koreans Study in Cafés for 6 Hours ☕ #shorts",
-  "description_en": "Meet the 'kagongjok' — the café study tribe. One iced Americano, one desk for hours. Learn 카공족 and 아아. Stock footage: Pexels (free license)",
+  "title_en": "Why Do Koreans Study in Cafés for 6 Hours? ☕ #shorts",
+  "description_en": "Meet the kagongjok: one iced Americano, one desk, six hours. The reason is smaller than you think. Learn 카공족 (café-study tribe) and 아아 (iced Americano). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#Korea",
-    "#StudyWithMe",
-    "#KoreanCafe",
-    "#LearnKorean",
+    "#korea",
+    "#studywithme",
+    "#koreancafe",
+    "#learnkorean",
+    "#koreanphrases",
     "#shorts"
   ],
-  "hook_en": "Why do Koreans study in cafés for 6 hours?",
-  "hook_voice": "Why do Koreans study in cafés for six hours?",
-  "hook_vi": "Sao người Hàn học ở quán cà phê tận 6 tiếng?",
-  "hook_id": "Kenapa orang Korea belajar di kafe sampai 6 jam?",
+  "hook_en": "Why study six hours in cafés?",
+  "hook_vi": "Vì sao học sáu tiếng ở quán cà phê?",
+  "hook_id": "Kenapa belajar enam jam di kafe?",
+  "hook_voice": "Why study six hours in cafés?",
+  "hook_voice_parts": [
+    { "lang": "en", "text": "Why study six hours in cafés?" }
+  ],
   "hook_bg": "seoul_night",
+  "hook_video": "vid0.mp4",
+  "hook_dur": 1.9,
   "scenes": [
     {
       "ko": "카공족",
-      "roman": "Kagongjok",
-      "en": "The 'café study tribe'. Laptops out by 9am.",
-      "vi": "'Hội học ở quán cà phê'. 9 giờ sáng đã mở laptop.",
-      "id": "'Suku belajar di kafe'. Jam 9 pagi laptop sudah terbuka.",
-      "voice": "Kagongjok. The café study tribe. Laptops out by nine a.m.",
-      "bg": "seoul_night",
-      "video": "vid0.mp4"
+      "roman": "kagongjok",
+      "en": "The café study tribe. Laptops by nine.",
+      "vi": "Bộ tộc học ở quán cà phê. Laptop từ 9 giờ sáng.",
+      "id": "Suku belajar kafe. Laptop sejak jam sembilan.",
+      "voice": "Kagongjok. The cafe study tribe. Laptops out by nine in the morning.",
+      "voice_parts": [
+        { "lang": "ko", "text": "카공족." },
+        { "lang": "en", "text": "The cafe study tribe. Laptops out by nine in the morning." }
+      ],
+      "dur": 4.6,
+      "bg": "seoul_night"
     },
     {
       "ko": "아아 한 잔",
-      "roman": "A-a han jan",
-      "en": "One iced Americano = a desk for hours.",
-      "vi": "Một ly Americano đá = một chỗ ngồi cả mấy tiếng.",
-      "id": "Satu es Americano = meja berjam-jam.",
-      "voice": "A-a han jan. One iced Americano. One desk for hours.",
-      "bg": "seoul_night",
+      "roman": "a-a han jan",
+      "en": "One iced Americano. One desk, hours.",
+      "vi": "Một ly Americano đá. Một cái bàn, hàng giờ.",
+      "id": "Satu Americano dingin. Satu meja, berjam-jam.",
+      "voice": "A-a han jan. One iced Americano. One desk, for hours.",
+      "voice_parts": [
+        { "lang": "ko", "text": "아아 한 잔." },
+        { "lang": "en", "text": "One iced Americano. One desk, for hours." }
+      ],
+      "dur": 4.4,
+      "bg": "bapsang",
       "video": "vid1.mp4"
     },
     {
-      "ko": "자리 맡기",
-      "roman": "Jari matgi",
-      "en": "Twist: people leave laptops out to save seats.",
-      "vi": "Bất ngờ: mọi người để laptop trên bàn để giữ chỗ.",
-      "id": "Plot twist: orang taruh laptop di meja buat jaga kursi.",
-      "voice": "Plot twist. People leave their laptops on the table just to save a seat.",
-      "bg": "seoul_night",
-      "twist": true,
-      "dur": 3.3
-    },
-    {
       "ko": "집이 좁아서",
-      "roman": "Jibi jobaseo",
-      "en": "Why? Small rooms, and a café feels less lonely.",
-      "vi": "Vì sao? Phòng nhỏ, và ở quán cà phê đỡ cô đơn hơn.",
-      "id": "Kenapa? Kamar sempit, dan di kafe nggak terlalu sepi.",
-      "voice": "Why? Small rooms at home, and a café feels less lonely.",
-      "bg": "hanok",
-      "dur": 2.6
+      "roman": "jibi jobaseo",
+      "en": "Their room at home is smaller.",
+      "vi": "Phòng ở nhà còn nhỏ hơn cái bàn này. Quán là phòng khách.",
+      "id": "Kamar di rumah lebih kecil dari meja ini. Kafe jadi ruang tamunya.",
+      "voice": "Jibi jobaseo. And why? Their room at home is smaller than this table. The cafe is the living room.",
+      "voice_parts": [
+        { "lang": "ko", "text": "집이 좁아서." },
+        { "lang": "en", "text": "And why? Their room at home is smaller than this table. The cafe is the living room." }
+      ],
+      "dur": 5.4,
+      "bg": "bapsang",
+      "twist": true
     }
   ],
   "cta": {
-    "ko": "같이 공부할래?",
-    "roman": "Gachi gongbuhallae?",
-    "en": "Do people do this in your country? 👇",
-    "vi": "Ở nước bạn có vậy không? 👇",
-    "id": "Di negaramu juga begini? 👇",
-    "voice": "Gachi gongbuhallae. Study together? So, why six hours in a café?",
-    "bg": "seoul_night"
+    "ko": "같이 공부할래요?",
+    "roman": "gachi gongbuhallaeyo?",
+    "en": "So, where do you study? 👇",
+    "vi": "Vậy bạn học ở đâu? 👇",
+    "id": "Jadi, kamu belajar di mana? 👇",
+    "voice": "Gachi gongbuhallaeyo? Study together? So, where do you study?",
+    "voice_parts": [
+      { "lang": "ko", "text": "같이 공부할래요?" },
+      { "lang": "en", "text": "Study together? So, where do you study?" }
+    ],
+    "dur": 4.6,
+    "bg": "seoul_night",
+    "video": "vid0.mp4"
   },
+  "music": "calm03.mp3",
   "particles": "snow"
 }

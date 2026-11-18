@@ -1,58 +1,86 @@
 {
   "id": "ep006",
-  "title_en": "No Waiter Is Coming... Unless You Do This 🔔 #shorts",
-  "description_en": "In Korean restaurants you call the staff — out loud or with the table bell. Learn 저기요! and 이모! Stock footage: Pexels (free license)",
+  "title_en": "No Waiter Comes Unless You Do This 🔔 #shorts",
+  "description_en": "Korean restaurants don't come to you — you call, or you press the bell on the table. Learn 저기요 (excuse me), 띵동 (ding dong) and 이모 (auntie). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#Korean",
-    "#LearnKorean",
-    "#KoreanRestaurant",
-    "#Korea",
+    "#learnkorean",
+    "#koreanrestaurant",
+    "#koreanphrases",
+    "#lifeinkorea",
+    "#koreanfood",
     "#shorts"
   ],
-  "hook_en": "No waiter is coming. Unless you do this.",
-  "hook_voice": "No waiter is coming. Unless you do this.",
-  "hook_vi": "Sẽ không có phục vụ nào tới. Trừ khi bạn làm thế này.",
-  "hook_id": "Pelayan nggak akan datang. Kecuali kamu lakukan ini.",
+  "hook_en": "No waiter is coming. Now what?",
+  "hook_vi": "Không có bồi bàn đến. Giờ sao?",
+  "hook_id": "Tidak ada pelayan datang. Lalu?",
+  "hook_voice": "No waiter is coming. Now what?",
+  "hook_voice_parts": [
+    { "lang": "en", "text": "No waiter is coming. Now what?" }
+  ],
   "hook_bg": "bapsang",
+  "hook_video": "vid0.mp4",
+  "hook_dur": 1.9,
   "scenes": [
     {
       "ko": "저기요!",
-      "roman": "Jeogiyo!",
-      "en": "Excuse me! Say it out loud. It's not rude here.",
-      "vi": "Xin lỗi ơi! Cứ gọi to lên. Ở đây không bất lịch sự đâu.",
-      "id": "Permisi! Ucapkan dengan keras. Di sini itu nggak kasar.",
-      "voice": "Jeogiyo. Excuse me. Say it out loud. It's not rude here.",
-      "bg": "bapsang",
-      "video": "vid0.mp4"
+      "roman": "jeogiyo!",
+      "en": "You just call out. Not rude here.",
+      "vi": "Cứ gọi lớn. Không bất lịch sự ở đây.",
+      "id": "Panggil saja. Tidak kasar di sini.",
+      "voice": "Jeogiyo. You just call out. It is not rude here.",
+      "voice_parts": [
+        { "lang": "ko", "text": "저기요." },
+        { "lang": "en", "text": "You just call out. It is not rude here." }
+      ],
+      "dur": 4.0,
+      "bg": "bapsang"
     },
     {
       "ko": "띵동",
-      "roman": "Ttingdong",
-      "en": "Or press the table bell. Ding-dong!",
-      "vi": "Hoặc bấm chuông trên bàn. Ding-dong!",
-      "id": "Atau tekan bel di meja. Ting-tong!",
-      "voice": "Or just press the table bell. Ding dong.",
+      "roman": "ttingdong",
+      "en": "Or press the bell on the table.",
+      "vi": "Hoặc bấm chuông trên bàn. Ding dong.",
+      "id": "Atau tekan bel di meja. Ding dong.",
+      "voice": "Ttingdong. Or press the little bell on the table. Ding dong.",
+      "voice_parts": [
+        { "lang": "ko", "text": "띵동." },
+        { "lang": "en", "text": "Or press the little bell on the table. Ding dong." }
+      ],
+      "dur": 4.4,
       "bg": "bapsang",
       "video": "vid1.mp4"
     },
     {
       "ko": "이모!",
-      "roman": "Imo!",
-      "en": "Twist: regulars call the server 'Auntie'.",
-      "vi": "Bất ngờ: khách quen gọi người phục vụ là 'dì'.",
-      "id": "Plot twist: pelanggan tetap memanggil pelayan 'Tante'.",
-      "voice": "Plot twist. Regulars call the server Imo. Auntie.",
-      "bg": "pojangmacha"
+      "roman": "imo!",
+      "en": "Regulars call the server \"auntie\".",
+      "vi": "Khách quen gọi nhân viên là \"dì\".",
+      "id": "Pelanggan tetap memanggil pelayan \"bibi\".",
+      "voice": "Imo. And regulars call the server Imo. Auntie. She answers.",
+      "voice_parts": [
+        { "lang": "ko", "text": "이모." },
+        { "lang": "en", "text": "And regulars call the server Imo. Auntie. She answers." }
+      ],
+      "dur": 4.8,
+      "bg": "pojangmacha",
+      "twist": true
     }
   ],
   "cta": {
-    "ko": "잘 먹었습니다!",
-    "roman": "Jal meogeotseumnida!",
-    "en": "Thanks for the meal! Follow for more.",
-    "vi": "Cảm ơn vì bữa ăn! Theo dõi để xem thêm.",
-    "id": "Terima kasih atas makanannya! Follow untuk lainnya.",
-    "voice": "Jal meogeotseumnida. Thanks for the meal. Follow for more.",
-    "bg": "hanok"
+    "ko": "잘 먹겠습니다",
+    "roman": "jal meokgetseumnida",
+    "en": "So, what would you shout? 👇",
+    "vi": "Vậy bạn sẽ gọi thế nào? 👇",
+    "id": "Jadi, kamu akan memanggil apa? 👇",
+    "voice": "Jal meokgetseumnida. Thanks for the meal. So, what would you call out?",
+    "voice_parts": [
+      { "lang": "ko", "text": "잘 먹겠습니다." },
+      { "lang": "en", "text": "Thanks for the meal. So, what would you call out?" }
+    ],
+    "dur": 4.6,
+    "bg": "bapsang",
+    "video": "vid0.mp4"
   },
+  "music": "calm03.mp3",
   "particles": "snow"
 }

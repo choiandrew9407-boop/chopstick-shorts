@@ -1,58 +1,86 @@
 {
   "id": "ep005",
-  "title_en": "Fried Chicken Delivered to a PARK?! 🍗 #shorts",
-  "description_en": "Chimaek (chicken + beer) by the Han River — and yes, delivery finds you there. Learn 치맥 and 배달 왔습니다! Stock footage: Pexels (free license)",
+  "title_en": "Can Fried Chicken Find You in a Park? 🍗 #shorts",
+  "description_en": "Chimaek by the Han River: chicken, beer, and a delivery rider who finds your exact picnic blanket at midnight. Learn 치맥 (chicken + beer) and 배달 왔습니다 (your delivery is here). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#Korean",
-    "#Chimaek",
-    "#HanRiver",
-    "#KoreanFood",
+    "#learnkorean",
+    "#chimaek",
+    "#hanriver",
+    "#koreanfood",
+    "#koreanphrases",
     "#shorts"
   ],
-  "hook_en": "In Korea, fried chicken can find you in a park.",
-  "hook_voice": "In Korea, fried chicken can find you in a park.",
-  "hook_vi": "Ở Hàn Quốc, gà rán có thể tìm đến bạn tận công viên.",
-  "hook_id": "Di Korea, ayam goreng bisa menemukanmu di taman.",
-  "hook_bg": "seoul_night",
+  "hook_en": "Can fried chicken find you here?",
+  "hook_vi": "Gà rán có thể tìm thấy bạn ở đây?",
+  "hook_id": "Ayam goreng bisa menemukanmu di sini?",
+  "hook_voice": "Can fried chicken find you here?",
+  "hook_voice_parts": [
+    { "lang": "en", "text": "Can fried chicken find you here?" }
+  ],
+  "hook_bg": "pojangmacha",
+  "hook_video": "vid0.mp4",
+  "hook_dur": 1.9,
   "scenes": [
     {
       "ko": "치맥",
-      "roman": "Chimaek",
-      "en": "Chicken + beer = chimaek.",
-      "vi": "Gà rán + bia = chimaek.",
-      "id": "Ayam goreng + bir = chimaek.",
-      "voice": "Chimaek. Chicken plus beer.",
-      "bg": "pojangmacha",
-      "video": "vid0.mp4"
+      "roman": "chimaek",
+      "en": "Chicken plus beer. One word.",
+      "vi": "Gà cộng bia. Một từ thôi.",
+      "id": "Ayam plus bir. Satu kata.",
+      "voice": "Chimaek. Chicken plus beer. One word.",
+      "voice_parts": [
+        { "lang": "ko", "text": "치맥." },
+        { "lang": "en", "text": "Chicken plus beer. One word." }
+      ],
+      "dur": 3.4,
+      "bg": "pojangmacha"
     },
     {
       "ko": "배달 왔습니다!",
-      "roman": "Baedal watseumnida!",
-      "en": "Delivery! Even to a riverside park at midnight.",
-      "vi": "Giao hàng đây! Kể cả ra công viên ven sông lúc nửa đêm.",
-      "id": "Pesanan datang! Bahkan ke taman tepi sungai tengah malam.",
-      "voice": "Baedal watseumnida. Delivery, even to a riverside park at midnight.",
-      "bg": "seoul_night",
-      "video": "vid1.mp4"
+      "roman": "baedal watseumnida!",
+      "en": "Your delivery is here. At a park.",
+      "vi": "Đơn hàng đã đến. Ở công viên bên sông, lúc nửa đêm.",
+      "id": "Pesananmu datang. Di taman tepi sungai, tengah malam.",
+      "voice": "Baedal watseumnida. Your delivery is here. At a riverside park, at midnight.",
+      "voice_parts": [
+        { "lang": "ko", "text": "배달 왔습니다." },
+        { "lang": "en", "text": "Your delivery is here. At a riverside park, at midnight." }
+      ],
+      "dur": 4.8,
+      "bg": "seoul_night"
     },
     {
       "ko": "배달존",
-      "roman": "Baedal-jon",
-      "en": "Twist: Han River parks have official delivery zones.",
-      "vi": "Bất ngờ: công viên sông Hàn có cả khu nhận đồ giao riêng.",
-      "id": "Plot twist: taman Sungai Han punya zona antar resmi.",
-      "voice": "Plot twist. Han River parks have official delivery zones.",
-      "bg": "seoul_night"
+      "roman": "baedal-jon",
+      "en": "Parks have official delivery zones.",
+      "vi": "Công viên có khu giao hàng chính thức, ngay trên cỏ.",
+      "id": "Taman punya zona antar resmi, di atas rumput.",
+      "voice": "Baedal-jon. The part nobody believes: the parks have official delivery zones.",
+      "voice_parts": [
+        { "lang": "ko", "text": "배달존." },
+        { "lang": "en", "text": "The part nobody believes: parks have official delivery zones." }
+      ],
+      "dur": 5.0,
+      "bg": "pojangmacha",
+      "video": "vid1.mp4",
+      "twist": true
     }
   ],
   "cta": {
-    "ko": "맛있게 드세요!",
-    "roman": "Masitge deuseyo!",
-    "en": "Enjoy your meal! Follow for more.",
-    "vi": "Chúc ngon miệng! Theo dõi để xem thêm.",
-    "id": "Selamat makan! Follow untuk lainnya.",
-    "voice": "Masitge deuseyo. Enjoy your meal. Follow for more.",
-    "bg": "pojangmacha"
+    "ko": "맛있게 드세요",
+    "roman": "masitge deuseyo",
+    "en": "Where would you order to? 👇",
+    "vi": "Bạn sẽ đặt giao đến đâu? 👇",
+    "id": "Mau dikirim ke mana? 👇",
+    "voice": "Masitge deuseyo. Enjoy your meal. So, where would you have it delivered?",
+    "voice_parts": [
+      { "lang": "ko", "text": "맛있게 드세요." },
+      { "lang": "en", "text": "Enjoy your meal. So, where would you have it delivered?" }
+    ],
+    "dur": 4.6,
+    "bg": "pojangmacha",
+    "video": "vid0.mp4"
   },
+  "music": "calm03.mp3",
   "particles": "snow"
 }

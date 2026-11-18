@@ -1,58 +1,86 @@
 {
   "id": "ep007",
-  "title_en": "One Korean Word for EVERYTHING: Aigo 😩 #shorts",
-  "description_en": "Pain, joy, surprise, getting older... Koreans say 아이고 for all of it. Stock footage: Pexels (free license)",
+  "title_en": "The One Word Koreans Say All Day 😩 #shorts",
+  "description_en": "Stubbed toe, cute baby, a sore back after thirty — 아이고 covers all of it. Learn 아이고 (aigo) and 아이고 허리야 (aigo, my back). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#Korean",
-    "#LearnKorean",
-    "#Aigo",
-    "#KoreanCulture",
+    "#learnkorean",
+    "#aigo",
+    "#koreanculture",
+    "#koreanphrases",
+    "#lifeinkorea",
     "#shorts"
   ],
-  "hook_en": "One Korean word for pain, joy, and surprise.",
-  "hook_voice": "One Korean word for pain, joy, and surprise.",
-  "hook_vi": "Một từ tiếng Hàn cho cả đau, vui và bất ngờ.",
-  "hook_id": "Satu kata Korea untuk sakit, senang, dan kaget.",
+  "hook_en": "One word for every Korean feeling?",
+  "hook_vi": "Một từ cho mọi cảm xúc của người Hàn?",
+  "hook_id": "Satu kata untuk semua rasa orang Korea?",
+  "hook_voice": "One word for every Korean feeling?",
+  "hook_voice_parts": [
+    { "lang": "en", "text": "One word for every Korean feeling?" }
+  ],
   "hook_bg": "hanok",
+  "hook_video": "vid0.mp4",
+  "hook_dur": 1.9,
   "scenes": [
     {
       "ko": "아이고!",
-      "roman": "Aigo!",
-      "en": "Stubbed your toe? Aigo!",
-      "vi": "Vấp ngón chân? Aigo!",
-      "id": "Jari kaki kebentur? Aigo!",
-      "voice": "Stubbed your toe? Aigo!",
-      "bg": "bapsang",
-      "video": "vid0.mp4"
-    },
-    {
-      "ko": "아이고, 예뻐라!",
-      "roman": "Aigo, yeppeora!",
-      "en": "See a cute baby? Aigo, so cute!",
-      "vi": "Thấy em bé dễ thương? Aigo, xinh quá!",
-      "id": "Lihat bayi lucu? Aigo, lucunya!",
-      "voice": "See a cute baby? Aigo, yeppeora. So cute!",
+      "roman": "aigo!",
+      "en": "Stubbed your toe? Aigo.",
+      "vi": "Vấp ngón chân? Aigo.",
+      "id": "Keseleo jari kaki? Aigo.",
+      "voice": "Aigo. Stubbed your toe? Aigo.",
+      "voice_parts": [
+        { "lang": "ko", "text": "아이고." },
+        { "lang": "en", "text": "Stubbed your toe? Aigo." }
+      ],
+      "dur": 3.0,
       "bg": "hanok"
     },
     {
+      "ko": "아이고, 예뻐라!",
+      "roman": "aigo, yeppeora!",
+      "en": "Cute baby? Same word, softer.",
+      "vi": "Em bé dễ thương? Cùng một từ, nhẹ hơn. Dễ thương quá!",
+      "id": "Bayi lucu? Kata yang sama, lebih lembut. Lucu sekali!",
+      "voice": "Aigo, yeppeora. A cute baby? Same word, softer voice. So cute.",
+      "voice_parts": [
+        { "lang": "ko", "text": "아이고, 예뻐라." },
+        { "lang": "en", "text": "A cute baby? Same word, softer voice. So cute." }
+      ],
+      "dur": 4.6,
+      "bg": "bapsang"
+    },
+    {
       "ko": "아이고 허리야",
-      "roman": "Aigo heoriya",
-      "en": "Twist: after 30, standing up = 'Aigo, my back!'",
-      "vi": "Bất ngờ: qua tuổi 30, đứng dậy cũng 'Aigo, cái lưng!'",
-      "id": "Plot twist: lewat 30, berdiri pun 'Aigo, pinggangku!'",
-      "voice": "Plot twist. After thirty, even standing up is, aigo, my back.",
-      "bg": "elevator",
-      "video": "vid1.mp4"
+      "roman": "aigo heoriya",
+      "en": "After thirty, it means \"my back\".",
+      "vi": "Sau ba mươi, câu đó nghĩa là \"đau lưng\".",
+      "id": "Setelah tiga puluh, artinya \"punggungku sakit\".",
+      "voice": "Aigo, heoriya. And after thirty, the same word means my back hurts.",
+      "voice_parts": [
+        { "lang": "ko", "text": "아이고, 허리야." },
+        { "lang": "en", "text": "And after thirty, the same word means my back hurts." }
+      ],
+      "dur": 5.0,
+      "bg": "hanok",
+      "video": "vid1.mp4",
+      "twist": true
     }
   ],
   "cta": {
-    "ko": "아이고, 벌써 끝?",
-    "roman": "Aigo, beolsseo kkeut?",
-    "en": "Aigo, over already? Follow for more!",
-    "vi": "Aigo, hết rồi sao? Theo dõi để xem thêm!",
-    "id": "Aigo, udah selesai? Follow untuk lainnya!",
-    "voice": "Aigo, over already? Follow for more.",
-    "bg": "seoul_night"
+    "ko": "아이고, 끝났네",
+    "roman": "aigo, kkeunnanne",
+    "en": "What's your aigo moment? 👇",
+    "vi": "Khoảnh khắc aigo của bạn là gì? 👇",
+    "id": "Apa momen aigo-mu? 👇",
+    "voice": "Aigo, kkeunnanne. Aigo, already over? So, what is your aigo moment?",
+    "voice_parts": [
+      { "lang": "ko", "text": "아이고, 끝났네." },
+      { "lang": "en", "text": "Aigo, already over? So, what is your aigo moment?" }
+    ],
+    "dur": 4.8,
+    "bg": "hanok",
+    "video": "vid0.mp4"
   },
+  "music": "calm03.mp3",
   "particles": "snow"
 }

@@ -1,72 +1,86 @@
 {
   "id": "ep008",
-  "format": "how-to",
-  "title_en": "Korean Convenience Store Dinner Under $5 🍙 #shorts",
-  "description_en": "Triangle kimbap, cup ramen, free hot water and 1+1 deals. Learn 삼각김밥 and 셀프예요. Stock footage: Pexels (free license)",
+  "title_en": "Dinner in Korea for Under $5? 🍙 #shorts",
+  "description_en": "Triangle kimbap, cup ramen, free hot water and 1+1 deals — dinner for under $5. The catch: you microwave it yourself. Learn 삼각김밥, 컵라면 and 셀프예요 (self-service). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#Korea",
-    "#KoreanFood",
-    "#ConvenienceStore",
-    "#LearnKorean",
+    "#korea",
+    "#koreanfood",
+    "#conveniencestore",
+    "#learnkorean",
+    "#budgettravel",
     "#shorts"
   ],
-  "hook_en": "Dinner in Korea for under $5?",
-  "hook_voice": "Dinner in Korea for under five dollars?",
-  "hook_vi": "Bữa tối ở Hàn Quốc dưới 5 đô?",
-  "hook_id": "Makan malam di Korea di bawah 5 dolar?",
+  "hook_en": "Dinner for five dollars in Korea?",
+  "hook_vi": "Bữa tối 5 đô ở Hàn?",
+  "hook_id": "Makan malam lima dolar di Korea?",
+  "hook_voice": "Dinner for five dollars in Korea?",
+  "hook_voice_parts": [
+    { "lang": "en", "text": "Dinner for five dollars in Korea?" }
+  ],
   "hook_bg": "seoul_night",
+  "hook_video": "vid0.mp4",
+  "hook_dur": 1.9,
   "scenes": [
     {
       "ko": "삼각김밥",
-      "roman": "Samgak gimbap",
-      "en": "Triangle kimbap, about $1. Pull tab 1, 2, 3.",
-      "vi": "Cơm nắm tam giác, khoảng 1 đô. Kéo theo số 1, 2, 3.",
-      "id": "Kimbap segitiga, sekitar 1 dolar. Tarik nomor 1, 2, 3.",
-      "voice": "Samgak gimbap. Triangle kimbap, about one dollar. Pull tab one, two, three.",
-      "bg": "bapsang",
-      "video": "vid0.mp4"
+      "roman": "samgak gimbap",
+      "en": "Triangle kimbap. About a dollar.",
+      "vi": "Cơm cuộn hình tam giác. Khoảng một đô.",
+      "id": "Kimbap segitiga. Sekitar satu dolar.",
+      "voice": "Samgak gimbap. Triangle kimbap, about one dollar. Pull the tab, one, two, three.",
+      "voice_parts": [
+        { "lang": "ko", "text": "삼각김밥." },
+        { "lang": "en", "text": "Triangle kimbap, about one dollar. Pull the tab, one, two, three." }
+      ],
+      "dur": 4.8,
+      "bg": "seoul_night"
     },
     {
       "ko": "컵라면",
-      "roman": "Keom-ramyeon",
-      "en": "Cup ramen, with free hot water right there.",
-      "vi": "Mì ly, có nước nóng miễn phí ngay tại chỗ.",
-      "id": "Ramen cup, air panasnya gratis di tempat.",
-      "voice": "Keom ramyeon. Cup ramen, with free hot water right there.",
-      "bg": "bapsang",
-      "dur": 2.5
+      "roman": "keom ramyeon",
+      "en": "Cup ramen, free hot water, 1+1.",
+      "vi": "Mì ly, nước nóng miễn phí, mua 1 tặng 1 khắp nơi.",
+      "id": "Mie cup, air panas gratis, dan promo beli 1 gratis 1.",
+      "voice": "Keom ramyeon. Cup ramen, free hot water right there. And one plus one deals everywhere.",
+      "voice_parts": [
+        { "lang": "ko", "text": "컵라면." },
+        { "lang": "en", "text": "Cup ramen, free hot water right there. And one plus one deals everywhere." }
+      ],
+      "dur": 5.0,
+      "bg": "bapsang"
     },
     {
       "ko": "셀프예요",
-      "roman": "Selpeu-yeyo",
-      "en": "Twist: you microwave it yourself. Staff won't.",
-      "vi": "Bất ngờ: bạn tự hâm bằng lò vi sóng. Nhân viên không làm giúp.",
-      "id": "Plot twist: kamu panaskan sendiri. Stafnya nggak bantu.",
-      "voice": "Plot twist. You microwave it yourself. The staff won't do it for you.",
-      "bg": "elevator",
-      "twist": true,
-      "video": "vid1.mp4",
-      "dur": 3.3
-    },
-    {
-      "ko": "1+1",
-      "roman": "Wonpeulleowon",
-      "en": "Why so cheap? '1+1' deals: buy one, get one.",
-      "vi": "Sao rẻ vậy? Khuyến mãi '1+1': mua 1 tặng 1.",
-      "id": "Kenapa murah? Promo '1+1': beli satu gratis satu.",
-      "voice": "Why so cheap? One plus one deals. Buy one, get one free.",
+      "roman": "selpeu-yeyo",
+      "en": "The catch: you microwave it yourself.",
+      "vi": "Cái bẫy: bạn tự hâm trong lò vi sóng.",
+      "id": "Triknya: kamu sendiri yang memanaskan di microwave.",
+      "voice": "Selpeu-yeyo. And the catch? You microwave it yourself. The staff will not do it for you.",
+      "voice_parts": [
+        { "lang": "ko", "text": "셀프예요." },
+        { "lang": "en", "text": "And the catch? You microwave it yourself. The staff will not do it for you." }
+      ],
+      "dur": 5.2,
       "bg": "seoul_night",
-      "dur": 2.6
+      "video": "vid1.mp4",
+      "twist": true
     }
   ],
   "cta": {
-    "ko": "잘 먹겠습니다!",
-    "roman": "Jal meokgetseumnida!",
-    "en": "Do people do this in your country? 👇",
-    "vi": "Ở nước bạn có vậy không? 👇",
-    "id": "Di negaramu juga begini? 👇",
-    "voice": "Jal meokgetseumnida. So... dinner for under five dollars?",
-    "bg": "hanok"
+    "ko": "다 먹었어요",
+    "roman": "da meogeosseoyo",
+    "en": "So, what would you buy? 👇",
+    "vi": "Vậy bạn sẽ mua gì với 5 đô? 👇",
+    "id": "Jadi, kamu akan beli apa dengan lima dolar? 👇",
+    "voice": "Da meogeosseoyo. All finished. So, what would you buy with five dollars?",
+    "voice_parts": [
+      { "lang": "ko", "text": "다 먹었어요." },
+      { "lang": "en", "text": "All finished. So, what would you buy with five dollars?" }
+    ],
+    "dur": 4.6,
+    "bg": "seoul_night",
+    "video": "vid0.mp4"
   },
+  "music": "calm03.mp3",
   "particles": "snow"
 }
