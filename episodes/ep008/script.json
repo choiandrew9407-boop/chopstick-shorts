@@ -15,7 +15,10 @@
   "hook_id": "Makan malam lima dolar di Korea?",
   "hook_voice": "Dinner for five dollars in Korea?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "Dinner for five dollars in Korea?" }
+    {
+      "lang": "en",
+      "text": "Dinner for five dollars in Korea?"
+    }
   ],
   "hook_bg": "seoul_night",
   "hook_video": "vid0.mp4",
@@ -27,12 +30,18 @@
       "en": "Triangle kimbap. About a dollar.",
       "vi": "Cơm cuộn hình tam giác. Khoảng một đô.",
       "id": "Kimbap segitiga. Sekitar satu dolar.",
-      "voice": "Samgak gimbap. Triangle kimbap, about one dollar. Pull the tab, one, two, three.",
+      "voice": "삼각김밥. Triangle kimbap, about a dollar. Pull the tab, one, two, three.",
       "voice_parts": [
-        { "lang": "ko", "text": "삼각김밥." },
-        { "lang": "en", "text": "Triangle kimbap, about one dollar. Pull the tab, one, two, three." }
+        {
+          "lang": "ko",
+          "text": "삼각김밥."
+        },
+        {
+          "lang": "en",
+          "text": "Triangle kimbap, about a dollar. Pull the tab, one, two, three."
+        }
       ],
-      "dur": 4.8,
+      "dur": 5.6,
       "bg": "seoul_night"
     },
     {
@@ -41,12 +50,18 @@
       "en": "Cup ramen, free hot water, 1+1.",
       "vi": "Mì ly, nước nóng miễn phí, mua 1 tặng 1 khắp nơi.",
       "id": "Mie cup, air panas gratis, dan promo beli 1 gratis 1.",
-      "voice": "Keom ramyeon. Cup ramen, free hot water right there. And one plus one deals everywhere.",
+      "voice": "컵라면. Cup ramen, free hot water. And one plus one deals.",
       "voice_parts": [
-        { "lang": "ko", "text": "컵라면." },
-        { "lang": "en", "text": "Cup ramen, free hot water right there. And one plus one deals everywhere." }
+        {
+          "lang": "ko",
+          "text": "컵라면."
+        },
+        {
+          "lang": "en",
+          "text": "Cup ramen, free hot water. And one plus one deals."
+        }
       ],
-      "dur": 5.0,
+      "dur": 4.6,
       "bg": "bapsang"
     },
     {
@@ -55,12 +70,18 @@
       "en": "The catch: you microwave it yourself.",
       "vi": "Cái bẫy: bạn tự hâm trong lò vi sóng.",
       "id": "Triknya: kamu sendiri yang memanaskan di microwave.",
-      "voice": "Selpeu-yeyo. And the catch? You microwave it yourself. The staff will not do it for you.",
+      "voice": "셀프예요. And the catch? You microwave it yourself. The staff will not do it for you.",
       "voice_parts": [
-        { "lang": "ko", "text": "셀프예요." },
-        { "lang": "en", "text": "And the catch? You microwave it yourself. The staff will not do it for you." }
+        {
+          "lang": "ko",
+          "text": "셀프예요."
+        },
+        {
+          "lang": "en",
+          "text": "And the catch? You microwave it yourself. The staff will not do it for you."
+        }
       ],
-      "dur": 5.2,
+      "dur": 5.3,
       "bg": "seoul_night",
       "video": "vid1.mp4",
       "twist": true
@@ -72,12 +93,18 @@
     "en": "So, what would you buy? 👇",
     "vi": "Vậy bạn sẽ mua gì với 5 đô? 👇",
     "id": "Jadi, kamu akan beli apa dengan lima dolar? 👇",
-    "voice": "Da meogeosseoyo. All finished. So, what would you buy with five dollars?",
+    "voice": "다 먹었어요. All finished. So, what would you buy with five dollars?",
     "voice_parts": [
-      { "lang": "ko", "text": "다 먹었어요." },
-      { "lang": "en", "text": "All finished. So, what would you buy with five dollars?" }
+      {
+        "lang": "ko",
+        "text": "다 먹었어요."
+      },
+      {
+        "lang": "en",
+        "text": "All finished. So, what would you buy with five dollars?"
+      }
     ],
-    "dur": 4.6,
+    "dur": 4.3,
     "bg": "seoul_night",
     "video": "vid0.mp4"
   },

@@ -15,11 +15,14 @@
   "hook_id": "Ayam goreng bisa menemukanmu di sini?",
   "hook_voice": "Can fried chicken find you here?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "Can fried chicken find you here?" }
+    {
+      "lang": "en",
+      "text": "Can fried chicken find you here?"
+    }
   ],
   "hook_bg": "pojangmacha",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 1.6,
   "scenes": [
     {
       "ko": "치맥",
@@ -27,12 +30,18 @@
       "en": "Chicken plus beer. One word.",
       "vi": "Gà cộng bia. Một từ thôi.",
       "id": "Ayam plus bir. Satu kata.",
-      "voice": "Chimaek. Chicken plus beer. One word.",
+      "voice": "치맥. Chicken plus beer. One word.",
       "voice_parts": [
-        { "lang": "ko", "text": "치맥." },
-        { "lang": "en", "text": "Chicken plus beer. One word." }
+        {
+          "lang": "ko",
+          "text": "치맥."
+        },
+        {
+          "lang": "en",
+          "text": "Chicken plus beer. One word."
+        }
       ],
-      "dur": 3.4,
+      "dur": 2.9,
       "bg": "pojangmacha"
     },
     {
@@ -41,10 +50,16 @@
       "en": "Your delivery is here. At a park.",
       "vi": "Đơn hàng đã đến. Ở công viên bên sông, lúc nửa đêm.",
       "id": "Pesananmu datang. Di taman tepi sungai, tengah malam.",
-      "voice": "Baedal watseumnida. Your delivery is here. At a riverside park, at midnight.",
+      "voice": "배달 왔습니다. Your delivery is here. At a riverside park, at midnight.",
       "voice_parts": [
-        { "lang": "ko", "text": "배달 왔습니다." },
-        { "lang": "en", "text": "Your delivery is here. At a riverside park, at midnight." }
+        {
+          "lang": "ko",
+          "text": "배달 왔습니다."
+        },
+        {
+          "lang": "en",
+          "text": "Your delivery is here. At a riverside park, at midnight."
+        }
       ],
       "dur": 4.8,
       "bg": "seoul_night"
@@ -55,12 +70,18 @@
       "en": "Parks have official delivery zones.",
       "vi": "Công viên có khu giao hàng chính thức, ngay trên cỏ.",
       "id": "Taman punya zona antar resmi, di atas rumput.",
-      "voice": "Baedal-jon. The part nobody believes: the parks have official delivery zones.",
+      "voice": "배달존. The part nobody believes: parks have official delivery zones.",
       "voice_parts": [
-        { "lang": "ko", "text": "배달존." },
-        { "lang": "en", "text": "The part nobody believes: parks have official delivery zones." }
+        {
+          "lang": "ko",
+          "text": "배달존."
+        },
+        {
+          "lang": "en",
+          "text": "The part nobody believes: parks have official delivery zones."
+        }
       ],
-      "dur": 5.0,
+      "dur": 4.8,
       "bg": "pojangmacha",
       "video": "vid1.mp4",
       "twist": true
@@ -72,12 +93,18 @@
     "en": "Where would you order to? 👇",
     "vi": "Bạn sẽ đặt giao đến đâu? 👇",
     "id": "Mau dikirim ke mana? 👇",
-    "voice": "Masitge deuseyo. Enjoy your meal. So, where would you have it delivered?",
+    "voice": "맛있게 드세요. Enjoy your meal. So, where would you have it delivered?",
     "voice_parts": [
-      { "lang": "ko", "text": "맛있게 드세요." },
-      { "lang": "en", "text": "Enjoy your meal. So, where would you have it delivered?" }
+      {
+        "lang": "ko",
+        "text": "맛있게 드세요."
+      },
+      {
+        "lang": "en",
+        "text": "Enjoy your meal. So, where would you have it delivered?"
+      }
     ],
-    "dur": 4.6,
+    "dur": 4.3,
     "bg": "pojangmacha",
     "video": "vid0.mp4"
   },

@@ -15,11 +15,14 @@
   "hook_id": "Kenapa orang Korea tanya umurmu?",
   "hook_voice": "Why do Koreans ask your age?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "Why do Koreans ask your age?" }
+    {
+      "lang": "en",
+      "text": "Why do Koreans ask your age?"
+    }
   ],
   "hook_bg": "bapsang",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 1.8,
   "scenes": [
     {
       "ko": "몇 살이에요?",
@@ -27,12 +30,18 @@
       "en": "How old are you? Asked in minute one.",
       "vi": "Bạn bao nhiêu tuổi? Câu hỏi trong phút đầu.",
       "id": "Berapa umurmu? Ditanya di menit pertama.",
-      "voice": "Myeot sarieyo. How old are you? It comes up within five minutes.",
+      "voice": "몇 살이에요? How old are you? It comes up within five minutes.",
       "voice_parts": [
-        { "lang": "ko", "text": "몇 살이에요?" },
-        { "lang": "en", "text": "How old are you? It comes up within five minutes." }
+        {
+          "lang": "ko",
+          "text": "몇 살이에요?"
+        },
+        {
+          "lang": "en",
+          "text": "How old are you? It comes up within five minutes."
+        }
       ],
-      "dur": 4.8,
+      "dur": 4.1,
       "bg": "bapsang"
     },
     {
@@ -41,12 +50,18 @@
       "en": "Older? They become your big brother.",
       "vi": "Hơn tuổi? Họ thành anh, chị của bạn.",
       "id": "Lebih tua? Mereka jadi kakakmu.",
-      "voice": "Hyeong, eonni. One year older, and they are your big brother or big sister.",
+      "voice": "형, 언니. One year older, and they are your big brother or big sister.",
       "voice_parts": [
-        { "lang": "ko", "text": "형, 언니." },
-        { "lang": "en", "text": "One year older, and they are your big brother or big sister." }
+        {
+          "lang": "ko",
+          "text": "형, 언니."
+        },
+        {
+          "lang": "en",
+          "text": "One year older, and they are your big brother or big sister."
+        }
       ],
-      "dur": 4.6,
+      "dur": 5.0,
       "bg": "hanok"
     },
     {
@@ -55,12 +70,18 @@
       "en": "The answer: the older one pays.",
       "vi": "Đáp án: người lớn tuổi trả tiền. Luôn luôn.",
       "id": "Jawabannya: yang lebih tua yang bayar. Selalu.",
-      "voice": "Hyeong-i ssonda. And the answer: the older one pays. Every time.",
+      "voice": "형이 쏜다. And the answer: the older one pays. Every time.",
       "voice_parts": [
-        { "lang": "ko", "text": "형이 쏜다." },
-        { "lang": "en", "text": "And the answer: the older one pays. Every time." }
+        {
+          "lang": "ko",
+          "text": "형이 쏜다."
+        },
+        {
+          "lang": "en",
+          "text": "And the answer: the older one pays. Every time."
+        }
       ],
-      "dur": 5.0,
+      "dur": 4.5,
       "bg": "bapsang",
       "video": "vid1.mp4",
       "twist": true
@@ -72,12 +93,18 @@
     "en": "So — how old are you? 👇",
     "vi": "Vậy bạn bao nhiêu tuổi? 👇",
     "id": "Jadi, berapa umurmu? 👇",
-    "voice": "Mal noeulkka? Shall we drop the formal talk? So, how old are you?",
+    "voice": "말 놓을까요? Shall we drop the formal talk? So, how old are you?",
     "voice_parts": [
-      { "lang": "ko", "text": "말 놓을까요?" },
-      { "lang": "en", "text": "Shall we drop the formal talk? So, how old are you?" }
+      {
+        "lang": "ko",
+        "text": "말 놓을까요?"
+      },
+      {
+        "lang": "en",
+        "text": "Shall we drop the formal talk? So, how old are you?"
+      }
     ],
-    "dur": 4.8,
+    "dur": 4.1,
     "bg": "bapsang",
     "video": "vid0.mp4"
   },

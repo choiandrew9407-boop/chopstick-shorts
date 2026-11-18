@@ -15,11 +15,14 @@
   "hook_id": "Kursi kereta mana yang selalu kosong?",
   "hook_voice": "Which subway seat is always empty?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "Which subway seat is always empty?" }
+    {
+      "lang": "en",
+      "text": "Which subway seat is always empty?"
+    }
   ],
   "hook_bg": "seoul_night",
   "hook_video": "vid1.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 2.3,
   "scenes": [
     {
       "ko": "노약자석",
@@ -27,12 +30,18 @@
       "en": "End seats: seniors, disabled, pregnant.",
       "vi": "Ghế cuối: người già, khuyết tật, mang thai.",
       "id": "Kursi ujung: lansia, disabilitas, hamil.",
-      "voice": "Noyakjaseok. The end seats are for the elderly, the disabled and pregnant women.",
+      "voice": "노약자석. The end seats are for the elderly, the disabled and pregnant women.",
       "voice_parts": [
-        { "lang": "ko", "text": "노약자석." },
-        { "lang": "en", "text": "The end seats are for the elderly, the disabled and pregnant women." }
+        {
+          "lang": "ko",
+          "text": "노약자석."
+        },
+        {
+          "lang": "en",
+          "text": "The end seats are for the elderly, the disabled and pregnant women."
+        }
       ],
-      "dur": 4.8,
+      "dur": 4.9,
       "bg": "seoul_night",
       "video": "vid0.mp4"
     },
@@ -42,12 +51,18 @@
       "en": "The pink seat is for pregnant women.",
       "vi": "Ghế màu hồng dành cho phụ nữ mang thai.",
       "id": "Kursi merah muda untuk ibu hamil.",
-      "voice": "Imsanbu baeryeoseok. And the pink seat is for pregnant women.",
+      "voice": "임산부 배려석. And the pink seat is for pregnant women.",
       "voice_parts": [
-        { "lang": "ko", "text": "임산부 배려석." },
-        { "lang": "en", "text": "And the pink seat is for pregnant women." }
+        {
+          "lang": "ko",
+          "text": "임산부 배려석."
+        },
+        {
+          "lang": "en",
+          "text": "And the pink seat is for pregnant women."
+        }
       ],
-      "dur": 4.4,
+      "dur": 3.6,
       "bg": "seoul_night"
     },
     {
@@ -56,12 +71,18 @@
       "en": "Empty? Nobody sits. No fine. Nunchi.",
       "vi": "Trống? Không ai ngồi. Không phạt. Chỉ là \"nunchi\".",
       "id": "Kosong? Tak ada yang duduk. Tanpa denda. Hanya nunchi.",
-      "voice": "Bieo isseodo. But even when they are empty, most young people will not sit. No fine. Just nunchi.",
+      "voice": "비어 있어도. Even when they are empty, nobody sits. No fine. Just nunchi.",
       "voice_parts": [
-        { "lang": "ko", "text": "비어 있어도." },
-        { "lang": "en", "text": "But even when they are empty, most young people will not sit. No fine. Just nunchi." }
+        {
+          "lang": "ko",
+          "text": "비어 있어도."
+        },
+        {
+          "lang": "en",
+          "text": "Even when they are empty, nobody sits. No fine. Just nunchi."
+        }
       ],
-      "dur": 5.4,
+      "dur": 5.8,
       "bg": "seoul_night",
       "video": "vid1.mp4",
       "twist": true
@@ -73,12 +94,18 @@
     "en": "So, which seat is it? 👇",
     "vi": "Vậy đó là ghế nào? 👇",
     "id": "Jadi, kursi yang mana? 👇",
-    "voice": "Yangbohaeyo. We give up our seats. So, which seat is it?",
+    "voice": "양보해요. We give up our seats. So, which seat is it?",
     "voice_parts": [
-      { "lang": "ko", "text": "양보해요." },
-      { "lang": "en", "text": "We give up our seats. So, which seat is it?" }
+      {
+        "lang": "ko",
+        "text": "양보해요."
+      },
+      {
+        "lang": "en",
+        "text": "We give up our seats. So, which seat is it?"
+      }
     ],
-    "dur": 4.4,
+    "dur": 3.5,
     "bg": "seoul_night",
     "video": "vid1.mp4"
   },

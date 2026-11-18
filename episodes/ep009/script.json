@@ -15,11 +15,14 @@
   "hook_id": "Kenapa belajar enam jam di kafe?",
   "hook_voice": "Why study six hours in cafés?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "Why study six hours in cafés?" }
+    {
+      "lang": "en",
+      "text": "Why study six hours in cafés?"
+    }
   ],
   "hook_bg": "seoul_night",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 2.3,
   "scenes": [
     {
       "ko": "카공족",
@@ -27,12 +30,18 @@
       "en": "The café study tribe. Laptops by nine.",
       "vi": "Bộ tộc học ở quán cà phê. Laptop từ 9 giờ sáng.",
       "id": "Suku belajar kafe. Laptop sejak jam sembilan.",
-      "voice": "Kagongjok. The cafe study tribe. Laptops out by nine in the morning.",
+      "voice": "카공족. The cafe study tribe. Laptops out by nine in the morning.",
       "voice_parts": [
-        { "lang": "ko", "text": "카공족." },
-        { "lang": "en", "text": "The cafe study tribe. Laptops out by nine in the morning." }
+        {
+          "lang": "ko",
+          "text": "카공족."
+        },
+        {
+          "lang": "en",
+          "text": "The cafe study tribe. Laptops out by nine in the morning."
+        }
       ],
-      "dur": 4.6,
+      "dur": 4.8,
       "bg": "seoul_night"
     },
     {
@@ -41,12 +50,18 @@
       "en": "One iced Americano. One desk, hours.",
       "vi": "Một ly Americano đá. Một cái bàn, hàng giờ.",
       "id": "Satu Americano dingin. Satu meja, berjam-jam.",
-      "voice": "A-a han jan. One iced Americano. One desk, for hours.",
+      "voice": "아아 한 잔. One iced Americano. One desk, for hours. Sometimes all night.",
       "voice_parts": [
-        { "lang": "ko", "text": "아아 한 잔." },
-        { "lang": "en", "text": "One iced Americano. One desk, for hours." }
+        {
+          "lang": "ko",
+          "text": "아아 한 잔."
+        },
+        {
+          "lang": "en",
+          "text": "One iced Americano. One desk, for hours. Sometimes all night."
+        }
       ],
-      "dur": 4.4,
+      "dur": 5.5,
       "bg": "bapsang",
       "video": "vid1.mp4"
     },
@@ -56,12 +71,18 @@
       "en": "Their room at home is smaller.",
       "vi": "Phòng ở nhà còn nhỏ hơn cái bàn này. Quán là phòng khách.",
       "id": "Kamar di rumah lebih kecil dari meja ini. Kafe jadi ruang tamunya.",
-      "voice": "Jibi jobaseo. And why? Their room at home is smaller than this table. The cafe is the living room.",
+      "voice": "집이 좁아서. And why? Their room at home is smaller than this table.",
       "voice_parts": [
-        { "lang": "ko", "text": "집이 좁아서." },
-        { "lang": "en", "text": "And why? Their room at home is smaller than this table. The cafe is the living room." }
+        {
+          "lang": "ko",
+          "text": "집이 좁아서."
+        },
+        {
+          "lang": "en",
+          "text": "And why? Their room at home is smaller than this table."
+        }
       ],
-      "dur": 5.4,
+      "dur": 4.8,
       "bg": "bapsang",
       "twist": true
     }
@@ -72,12 +93,18 @@
     "en": "So, where do you study? 👇",
     "vi": "Vậy bạn học ở đâu? 👇",
     "id": "Jadi, kamu belajar di mana? 👇",
-    "voice": "Gachi gongbuhallaeyo? Study together? So, where do you study?",
+    "voice": "같이 공부할래요? Study together? So, where do you study?",
     "voice_parts": [
-      { "lang": "ko", "text": "같이 공부할래요?" },
-      { "lang": "en", "text": "Study together? So, where do you study?" }
+      {
+        "lang": "ko",
+        "text": "같이 공부할래요?"
+      },
+      {
+        "lang": "en",
+        "text": "Study together? So, where do you study?"
+      }
     ],
-    "dur": 4.6,
+    "dur": 3.6,
     "bg": "seoul_night",
     "video": "vid0.mp4"
   },

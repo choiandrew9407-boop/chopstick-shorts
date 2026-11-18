@@ -15,11 +15,14 @@
   "hook_id": "Tidur di Korea dengan sepuluh dolar?",
   "hook_voice": "Sleep in Korea for ten dollars?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "Sleep in Korea for ten dollars?" }
+    {
+      "lang": "en",
+      "text": "Sleep in Korea for ten dollars?"
+    }
   ],
   "hook_bg": "seoul_night",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 2.3,
   "scenes": [
     {
       "ko": "찜질방",
@@ -27,12 +30,18 @@
       "en": "Baths, saunas, one big hall.",
       "vi": "Bồn tắm nóng, sauna, một sảnh lớn.",
       "id": "Bak air panas, sauna, satu aula besar.",
-      "voice": "Jjimjilbang. Hot baths, saunas, and one big hall.",
+      "voice": "찜질방. Hot baths, saunas, and one big hall.",
       "voice_parts": [
-        { "lang": "ko", "text": "찜질방." },
-        { "lang": "en", "text": "Hot baths, saunas, and one big hall." }
+        {
+          "lang": "ko",
+          "text": "찜질방."
+        },
+        {
+          "lang": "en",
+          "text": "Hot baths, saunas, and one big hall."
+        }
       ],
-      "dur": 3.6,
+      "dur": 3.2,
       "bg": "seoul_night"
     },
     {
@@ -41,12 +50,18 @@
       "en": "Roll the towel into sheep horns.",
       "vi": "Cuốn khăn thành sừng cừu. Rồi ăn trứng nướng.",
       "id": "Gulung handuk jadi tanduk domba. Lalu telur bakar.",
-      "voice": "Yangmeori. Roll the towel into sheep horns. Then baked eggs and sikhye.",
+      "voice": "양머리. Roll the towel into sheep horns. Then baked eggs and sikhye.",
       "voice_parts": [
-        { "lang": "ko", "text": "양머리." },
-        { "lang": "en", "text": "Roll the towel into sheep horns. Then baked eggs and sikhye." }
+        {
+          "lang": "ko",
+          "text": "양머리."
+        },
+        {
+          "lang": "en",
+          "text": "Roll the towel into sheep horns. Then baked eggs and sikhye."
+        }
       ],
-      "dur": 4.6,
+      "dur": 5.2,
       "bg": "bapsang",
       "video": "vid1.mp4"
     },
@@ -56,12 +71,18 @@
       "en": "People sleep here. All night. Strangers.",
       "vi": "Người ta ngủ thật. Cả đêm. Ngay cạnh người lạ.",
       "id": "Orang benar-benar tidur di sini. Semalam. Di sebelah orang asing.",
-      "voice": "Yeogiseo jayo. And yes: people really sleep here overnight, right next to strangers.",
+      "voice": "여기서 자요. And yes: people really sleep here overnight, right next to strangers.",
       "voice_parts": [
-        { "lang": "ko", "text": "여기서 자요." },
-        { "lang": "en", "text": "And yes: people really sleep here overnight, right next to strangers." }
+        {
+          "lang": "ko",
+          "text": "여기서 자요."
+        },
+        {
+          "lang": "en",
+          "text": "And yes: people really sleep here overnight, right next to strangers."
+        }
       ],
-      "dur": 5.2,
+      "dur": 5.6,
       "bg": "hanok",
       "twist": true
     }
@@ -72,12 +93,18 @@
     "en": "So, would you sleep here? 👇",
     "vi": "Vậy bạn có ngủ ở đây không? 👇",
     "id": "Jadi, mau tidur di sini? 👇",
-    "voice": "Puk swiseyo. Rest well. So, would you sleep here for ten dollars?",
+    "voice": "푹 쉬세요. Rest well. So, would you sleep here for ten dollars?",
     "voice_parts": [
-      { "lang": "ko", "text": "푹 쉬세요." },
-      { "lang": "en", "text": "Rest well. So, would you sleep here for ten dollars?" }
+      {
+        "lang": "ko",
+        "text": "푹 쉬세요."
+      },
+      {
+        "lang": "en",
+        "text": "Rest well. So, would you sleep here for ten dollars?"
+      }
     ],
-    "dur": 4.4,
+    "dur": 4.6,
     "bg": "seoul_night",
     "video": "vid0.mp4"
   },

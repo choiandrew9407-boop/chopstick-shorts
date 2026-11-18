@@ -10,16 +10,19 @@
     "#lifeinkorea",
     "#shorts"
   ],
-  "hook_en": "One word for every Korean feeling?",
+  "hook_en": "One word for every feeling?",
   "hook_vi": "Một từ cho mọi cảm xúc của người Hàn?",
   "hook_id": "Satu kata untuk semua rasa orang Korea?",
-  "hook_voice": "One word for every Korean feeling?",
+  "hook_voice": "One word for every feeling?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "One word for every Korean feeling?" }
+    {
+      "lang": "en",
+      "text": "One word for every feeling?"
+    }
   ],
   "hook_bg": "hanok",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 2.3,
   "scenes": [
     {
       "ko": "아이고!",
@@ -27,12 +30,18 @@
       "en": "Stubbed your toe? Aigo.",
       "vi": "Vấp ngón chân? Aigo.",
       "id": "Keseleo jari kaki? Aigo.",
-      "voice": "Aigo. Stubbed your toe? Aigo.",
+      "voice": "아이고. Stubbed your toe? Aigo.",
       "voice_parts": [
-        { "lang": "ko", "text": "아이고." },
-        { "lang": "en", "text": "Stubbed your toe? Aigo." }
+        {
+          "lang": "ko",
+          "text": "아이고."
+        },
+        {
+          "lang": "en",
+          "text": "Stubbed your toe? Aigo."
+        }
       ],
-      "dur": 3.0,
+      "dur": 2.7,
       "bg": "hanok"
     },
     {
@@ -41,12 +50,18 @@
       "en": "Cute baby? Same word, softer.",
       "vi": "Em bé dễ thương? Cùng một từ, nhẹ hơn. Dễ thương quá!",
       "id": "Bayi lucu? Kata yang sama, lebih lembut. Lucu sekali!",
-      "voice": "Aigo, yeppeora. A cute baby? Same word, softer voice. So cute.",
+      "voice": "아이고, 예뻐라. A cute baby? Same word, softer. So cute.",
       "voice_parts": [
-        { "lang": "ko", "text": "아이고, 예뻐라." },
-        { "lang": "en", "text": "A cute baby? Same word, softer voice. So cute." }
+        {
+          "lang": "ko",
+          "text": "아이고, 예뻐라."
+        },
+        {
+          "lang": "en",
+          "text": "A cute baby? Same word, softer. So cute."
+        }
       ],
-      "dur": 4.6,
+      "dur": 5.5,
       "bg": "bapsang"
     },
     {
@@ -55,12 +70,18 @@
       "en": "After thirty, it means \"my back\".",
       "vi": "Sau ba mươi, câu đó nghĩa là \"đau lưng\".",
       "id": "Setelah tiga puluh, artinya \"punggungku sakit\".",
-      "voice": "Aigo, heoriya. And after thirty, the same word means my back hurts.",
+      "voice": "아이고, 허리야. And after thirty, the same word means my back hurts.",
       "voice_parts": [
-        { "lang": "ko", "text": "아이고, 허리야." },
-        { "lang": "en", "text": "And after thirty, the same word means my back hurts." }
+        {
+          "lang": "ko",
+          "text": "아이고, 허리야."
+        },
+        {
+          "lang": "en",
+          "text": "And after thirty, the same word means my back hurts."
+        }
       ],
-      "dur": 5.0,
+      "dur": 5.2,
       "bg": "hanok",
       "video": "vid1.mp4",
       "twist": true
@@ -72,12 +93,18 @@
     "en": "What's your aigo moment? 👇",
     "vi": "Khoảnh khắc aigo của bạn là gì? 👇",
     "id": "Apa momen aigo-mu? 👇",
-    "voice": "Aigo, kkeunnanne. Aigo, already over? So, what is your aigo moment?",
+    "voice": "아이고, 끝났네. Aigo, already over? So, what is your aigo moment?",
     "voice_parts": [
-      { "lang": "ko", "text": "아이고, 끝났네." },
-      { "lang": "en", "text": "Aigo, already over? So, what is your aigo moment?" }
+      {
+        "lang": "ko",
+        "text": "아이고, 끝났네."
+      },
+      {
+        "lang": "en",
+        "text": "Aigo, already over? So, what is your aigo moment?"
+      }
     ],
-    "dur": 4.8,
+    "dur": 5.1,
     "bg": "hanok",
     "video": "vid0.mp4"
   },

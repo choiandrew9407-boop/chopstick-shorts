@@ -15,11 +15,14 @@
   "hook_id": "Tidak ada pelayan datang. Lalu?",
   "hook_voice": "No waiter is coming. Now what?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "No waiter is coming. Now what?" }
+    {
+      "lang": "en",
+      "text": "No waiter is coming. Now what?"
+    }
   ],
   "hook_bg": "bapsang",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 2.1,
   "scenes": [
     {
       "ko": "저기요!",
@@ -27,12 +30,18 @@
       "en": "You just call out. Not rude here.",
       "vi": "Cứ gọi lớn. Không bất lịch sự ở đây.",
       "id": "Panggil saja. Tidak kasar di sini.",
-      "voice": "Jeogiyo. You just call out. It is not rude here.",
+      "voice": "저기요. You just call out. Jeogiyo. It is not rude here.",
       "voice_parts": [
-        { "lang": "ko", "text": "저기요." },
-        { "lang": "en", "text": "You just call out. It is not rude here." }
+        {
+          "lang": "ko",
+          "text": "저기요."
+        },
+        {
+          "lang": "en",
+          "text": "You just call out. Jeogiyo. It is not rude here."
+        }
       ],
-      "dur": 4.0,
+      "dur": 4.2,
       "bg": "bapsang"
     },
     {
@@ -41,12 +50,18 @@
       "en": "Or press the bell on the table.",
       "vi": "Hoặc bấm chuông trên bàn. Ding dong.",
       "id": "Atau tekan bel di meja. Ding dong.",
-      "voice": "Ttingdong. Or press the little bell on the table. Ding dong.",
+      "voice": "띵동. Or press the little bell on the table. Ding dong. Someone comes.",
       "voice_parts": [
-        { "lang": "ko", "text": "띵동." },
-        { "lang": "en", "text": "Or press the little bell on the table. Ding dong." }
+        {
+          "lang": "ko",
+          "text": "띵동."
+        },
+        {
+          "lang": "en",
+          "text": "Or press the little bell on the table. Ding dong. Someone comes."
+        }
       ],
-      "dur": 4.4,
+      "dur": 4.8,
       "bg": "bapsang",
       "video": "vid1.mp4"
     },
@@ -56,12 +71,18 @@
       "en": "Regulars call the server \"auntie\".",
       "vi": "Khách quen gọi nhân viên là \"dì\".",
       "id": "Pelanggan tetap memanggil pelayan \"bibi\".",
-      "voice": "Imo. And regulars call the server Imo. Auntie. She answers.",
+      "voice": "이모. And regulars call the server Imo. Auntie. She answers.",
       "voice_parts": [
-        { "lang": "ko", "text": "이모." },
-        { "lang": "en", "text": "And regulars call the server Imo. Auntie. She answers." }
+        {
+          "lang": "ko",
+          "text": "이모."
+        },
+        {
+          "lang": "en",
+          "text": "And regulars call the server Imo. Auntie. She answers."
+        }
       ],
-      "dur": 4.8,
+      "dur": 4.6,
       "bg": "pojangmacha",
       "twist": true
     }
@@ -72,12 +93,18 @@
     "en": "So, what would you shout? 👇",
     "vi": "Vậy bạn sẽ gọi thế nào? 👇",
     "id": "Jadi, kamu akan memanggil apa? 👇",
-    "voice": "Jal meokgetseumnida. Thanks for the meal. So, what would you call out?",
+    "voice": "잘 먹겠습니다. Thanks for the meal. So, what would you shout from your table?",
     "voice_parts": [
-      { "lang": "ko", "text": "잘 먹겠습니다." },
-      { "lang": "en", "text": "Thanks for the meal. So, what would you call out?" }
+      {
+        "lang": "ko",
+        "text": "잘 먹겠습니다."
+      },
+      {
+        "lang": "en",
+        "text": "Thanks for the meal. So, what would you shout from your table?"
+      }
     ],
-    "dur": 4.6,
+    "dur": 4.4,
     "bg": "bapsang",
     "video": "vid0.mp4"
   },
