@@ -13,6 +13,10 @@
   "hook_en": "Why do Koreans ask your age?",
   "hook_vi": "Vì sao người Hàn hỏi tuổi bạn?",
   "hook_id": "Kenapa orang Korea tanya umurmu?",
+  "hook_es": "¿Por qué los coreanos te preguntan la edad?",
+  "hook_pt": "Por que os coreanos perguntam sua idade?",
+  "hook_ar": "لماذا يسأل الكوريون عن عمرك؟",
+  "hook_fil": "Bakit tinatanong ng mga Korean ang edad mo?",
   "hook_voice": "Why do Koreans ask your age?",
   "hook_voice_parts": [
     {
@@ -30,7 +34,12 @@
       "en": "How old are you? Asked in minute one.",
       "vi": "Bạn bao nhiêu tuổi? Câu hỏi trong phút đầu.",
       "id": "Berapa umurmu? Ditanya di menit pertama.",
+      "es": "¿Cuántos años tienes? Te lo preguntan al minuto uno.",
+      "pt": "Quantos anos você tem? Perguntam no primeiro minuto.",
+      "ar": "كم عمرك؟ يسألونها في الدقيقة الأولى.",
+      "fil": "Ilang taon ka na? Tanong agad sa unang minuto.",
       "voice": "몇 살이에요? How old are you? It comes up within five minutes.",
+      "bg": "bapsang",
       "voice_parts": [
         {
           "lang": "ko",
@@ -41,8 +50,7 @@
           "text": "How old are you? It comes up within five minutes."
         }
       ],
-      "dur": 4.1,
-      "bg": "bapsang"
+      "dur": 4.1
     },
     {
       "ko": "형 / 언니",
@@ -50,7 +58,12 @@
       "en": "Older? They become your big brother.",
       "vi": "Hơn tuổi? Họ thành anh, chị của bạn.",
       "id": "Lebih tua? Mereka jadi kakakmu.",
+      "es": "¿Mayor? Se vuelve tu hermano mayor.",
+      "pt": "Mais velho? Vira seu irmão mais velho.",
+      "ar": "أكبر منك؟ يصبح أخاك الأكبر.",
+      "fil": "Mas matanda? Magiging kuya mo.",
       "voice": "형, 언니. One year older, and they are your big brother or big sister.",
+      "bg": "hanok",
       "voice_parts": [
         {
           "lang": "ko",
@@ -61,8 +74,7 @@
           "text": "One year older, and they are your big brother or big sister."
         }
       ],
-      "dur": 5.0,
-      "bg": "hanok"
+      "dur": 5.0
     },
     {
       "ko": "형이 쏜다!",
@@ -70,7 +82,13 @@
       "en": "The answer: the older one pays.",
       "vi": "Đáp án: người lớn tuổi trả tiền. Luôn luôn.",
       "id": "Jawabannya: yang lebih tua yang bayar. Selalu.",
+      "es": "La respuesta: paga el mayor.",
+      "pt": "A resposta: o mais velho paga.",
+      "ar": "الجواب: الأكبر هو من يدفع.",
+      "fil": "Ang sagot: ang mas matanda ang taya.",
       "voice": "형이 쏜다. And the answer: the older one pays. Every time.",
+      "bg": "bapsang",
+      "twist": true,
       "voice_parts": [
         {
           "lang": "ko",
@@ -82,9 +100,7 @@
         }
       ],
       "dur": 4.5,
-      "bg": "bapsang",
-      "video": "vid1.mp4",
-      "twist": true
+      "video": "vid1.mp4"
     }
   ],
   "cta": {
@@ -93,7 +109,12 @@
     "en": "So — how old are you? 👇",
     "vi": "Vậy bạn bao nhiêu tuổi? 👇",
     "id": "Jadi, berapa umurmu? 👇",
+    "es": "Entonces, ¿cuántos años tienes? 👇",
+    "pt": "Então, quantos anos você tem? 👇",
+    "ar": "إذن، كم عمرك؟ 👇",
+    "fil": "So, ilang taon ka na? 👇",
     "voice": "말 놓을까요? Shall we drop the formal talk? So, how old are you?",
+    "bg": "bapsang",
     "voice_parts": [
       {
         "lang": "ko",
@@ -105,7 +126,6 @@
       }
     ],
     "dur": 4.1,
-    "bg": "bapsang",
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",

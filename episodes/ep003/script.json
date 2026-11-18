@@ -13,9 +13,16 @@
   "hook_en": "Why do Koreans spam this button?",
   "hook_vi": "Vì sao người Hàn bấm nút này liên tục?",
   "hook_id": "Kenapa orang Korea tekan tombol ini terus?",
+  "hook_es": "¿Por qué los coreanos pulsan tanto este botón?",
+  "hook_pt": "Por que os coreanos apertam tanto este botão?",
+  "hook_ar": "لماذا يضغط الكوريون هذا الزر مرارًا؟",
+  "hook_fil": "Bakit paulit-ulit pinipindot ng mga Korean ang button na ito?",
   "hook_voice": "Why do Koreans spam this button?",
   "hook_voice_parts": [
-    { "lang": "en", "text": "Why do Koreans spam this button?" }
+    {
+      "lang": "en",
+      "text": "Why do Koreans spam this button?"
+    }
   ],
   "hook_bg": "elevator",
   "hook_video": "vid1.mp4",
@@ -27,13 +34,23 @@
       "en": "Speed is the default.",
       "vi": "Tốc độ là mặc định.",
       "id": "Kecepatan itu default.",
+      "es": "La prisa es lo normal.",
+      "pt": "A pressa é o padrão.",
+      "ar": "السرعة هي الأصل.",
+      "fil": "Bilis ang default.",
       "voice": "Koreans call it ppalli-ppalli. Faster, faster.",
+      "bg": "seoul_night",
       "voice_parts": [
-        { "lang": "ko", "text": "빨리빨리." },
-        { "lang": "en", "text": "Faster, faster. Speed is the default." }
+        {
+          "lang": "ko",
+          "text": "빨리빨리."
+        },
+        {
+          "lang": "en",
+          "text": "Faster, faster. Speed is the default."
+        }
       ],
-      "dur": 3.9,
-      "bg": "seoul_night"
+      "dur": 3.9
     },
     {
       "ko": "배달",
@@ -41,13 +58,23 @@
       "en": "Delivery at 2 a.m. In 20 minutes.",
       "vi": "Giao hàng lúc 2 giờ sáng. Trong 20 phút.",
       "id": "Antar pesanan jam 2 pagi. Dalam 20 menit.",
+      "es": "Delivery a las 2 a.m. En 20 minutos.",
+      "pt": "Entrega às 2 da manhã. Em 20 minutos.",
+      "ar": "توصيل الساعة 2 صباحًا. خلال 20 دقيقة.",
+      "fil": "Delivery ng 2 AM. Within 20 minutes.",
       "voice": "Delivery, baedal, at two a.m. Twenty minutes.",
+      "bg": "pojangmacha",
       "voice_parts": [
-        { "lang": "ko", "text": "배달." },
-        { "lang": "en", "text": "Delivery at two in the morning. Twenty minutes. Still warm." }
+        {
+          "lang": "ko",
+          "text": "배달."
+        },
+        {
+          "lang": "en",
+          "text": "Delivery at two in the morning. Twenty minutes. Still warm."
+        }
       ],
       "dur": 4.4,
-      "bg": "pojangmacha",
       "video": "vid0.mp4"
     },
     {
@@ -56,16 +83,29 @@
       "en": "The close button. Pressed ten times.",
       "vi": "Nút đóng cửa. Bấm mười lần.",
       "id": "Tombol tutup. Ditekan sepuluh kali.",
+      "es": "El botón de cerrar. Pulsado diez veces.",
+      "pt": "O botão de fechar. Apertado dez vezes.",
+      "ar": "زر الإغلاق. يُضغط عشر مرات.",
+      "fil": "Ang close button. Sampung beses pinipindot.",
       "voice": "In the elevator, dachim gets pressed ten times. Not rude. Just ppalli-ppalli.",
+      "bg": "elevator",
+      "twist": true,
       "voice_parts": [
-        { "lang": "ko", "text": "닫힘." },
-        { "lang": "en", "text": "The close button, pressed ten times. Not rude. Just" },
-        { "lang": "ko", "text": "빨리빨리." }
+        {
+          "lang": "ko",
+          "text": "닫힘."
+        },
+        {
+          "lang": "en",
+          "text": "The close button, pressed ten times. Not rude. Just"
+        },
+        {
+          "lang": "ko",
+          "text": "빨리빨리."
+        }
       ],
       "dur": 5.6,
-      "bg": "elevator",
-      "video": "vid1.mp4",
-      "twist": true
+      "video": "vid1.mp4"
     }
   ],
   "cta": {
@@ -74,13 +114,23 @@
     "en": "Slow is okay too. Do you press it too? 👇",
     "vi": "Chậm lại cũng được. Bạn cũng bấm nút đó chứ? 👇",
     "id": "Pelan-pelan juga boleh. Kamu juga menekannya? 👇",
+    "es": "Ir despacio también está bien. ¿Tú también lo pulsas? 👇",
+    "pt": "Devagar também pode. Você também aperta? 👇",
+    "ar": "البطء لا بأس به أيضًا. هل تضغطه أنت أيضًا؟ 👇",
+    "fil": "Okay lang din ang mabagal. Pinipindot mo rin ba? 👇",
     "voice": "Slow down: cheoncheonhi haedo dwaeyo. So, do you press it too?",
+    "bg": "elevator",
     "voice_parts": [
-      { "lang": "ko", "text": "천천히 해도 돼요." },
-      { "lang": "en", "text": "Slowing down is okay too. Do you press it too?" }
+      {
+        "lang": "ko",
+        "text": "천천히 해도 돼요."
+      },
+      {
+        "lang": "en",
+        "text": "Slowing down is okay too. Do you press it too?"
+      }
     ],
     "dur": 4.3,
-    "bg": "elevator",
     "video": "vid1.mp4"
   },
   "music": "calm03.mp3",

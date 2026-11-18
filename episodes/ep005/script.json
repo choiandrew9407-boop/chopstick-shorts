@@ -13,6 +13,10 @@
   "hook_en": "Can fried chicken find you here?",
   "hook_vi": "Gà rán có thể tìm thấy bạn ở đây?",
   "hook_id": "Ayam goreng bisa menemukanmu di sini?",
+  "hook_es": "¿Puede el pollo frito encontrarte aquí?",
+  "hook_pt": "O frango frito consegue te achar aqui?",
+  "hook_ar": "هل يستطيع الدجاج المقلي أن يجدك هنا؟",
+  "hook_fil": "Mahahanap ka ba ng fried chicken dito?",
   "hook_voice": "Can fried chicken find you here?",
   "hook_voice_parts": [
     {
@@ -30,7 +34,12 @@
       "en": "Chicken plus beer. One word.",
       "vi": "Gà cộng bia. Một từ thôi.",
       "id": "Ayam plus bir. Satu kata.",
+      "es": "Pollo más cerveza. Una sola palabra.",
+      "pt": "Frango com cerveja. Uma palavra só.",
+      "ar": "دجاج مع بيرة. كلمة واحدة.",
+      "fil": "Chicken at beer. Isang salita lang.",
       "voice": "치맥. Chicken plus beer. One word.",
+      "bg": "pojangmacha",
       "voice_parts": [
         {
           "lang": "ko",
@@ -41,8 +50,7 @@
           "text": "Chicken plus beer. One word."
         }
       ],
-      "dur": 2.9,
-      "bg": "pojangmacha"
+      "dur": 2.9
     },
     {
       "ko": "배달 왔습니다!",
@@ -50,7 +58,12 @@
       "en": "Your delivery is here. At a park.",
       "vi": "Đơn hàng đã đến. Ở công viên bên sông, lúc nửa đêm.",
       "id": "Pesananmu datang. Di taman tepi sungai, tengah malam.",
+      "es": "¡Tu pedido llegó! En un parque.",
+      "pt": "Sua entrega chegou! Num parque.",
+      "ar": "طلبك وصل! في حديقة.",
+      "fil": "Delivery na! Sa park.",
       "voice": "배달 왔습니다. Your delivery is here. At a riverside park, at midnight.",
+      "bg": "seoul_night",
       "voice_parts": [
         {
           "lang": "ko",
@@ -61,8 +74,7 @@
           "text": "Your delivery is here. At a riverside park, at midnight."
         }
       ],
-      "dur": 4.8,
-      "bg": "seoul_night"
+      "dur": 4.8
     },
     {
       "ko": "배달존",
@@ -70,7 +82,13 @@
       "en": "Parks have official delivery zones.",
       "vi": "Công viên có khu giao hàng chính thức, ngay trên cỏ.",
       "id": "Taman punya zona antar resmi, di atas rumput.",
+      "es": "Los parques tienen zonas de entrega oficiales.",
+      "pt": "Parques têm zonas de entrega oficiais.",
+      "ar": "الحدائق فيها مناطق توصيل رسمية.",
+      "fil": "May official delivery zone ang mga park.",
       "voice": "배달존. The part nobody believes: parks have official delivery zones.",
+      "bg": "pojangmacha",
+      "twist": true,
       "voice_parts": [
         {
           "lang": "ko",
@@ -82,9 +100,7 @@
         }
       ],
       "dur": 4.8,
-      "bg": "pojangmacha",
-      "video": "vid1.mp4",
-      "twist": true
+      "video": "vid1.mp4"
     }
   ],
   "cta": {
@@ -93,7 +109,12 @@
     "en": "Where would you order to? 👇",
     "vi": "Bạn sẽ đặt giao đến đâu? 👇",
     "id": "Mau dikirim ke mana? 👇",
+    "es": "¿A dónde pedirías? 👇",
+    "pt": "Onde você pediria? 👇",
+    "ar": "أين ستطلب التوصيل؟ 👇",
+    "fil": "Saan ka magpapa-deliver? 👇",
     "voice": "맛있게 드세요. Enjoy your meal. So, where would you have it delivered?",
+    "bg": "pojangmacha",
     "voice_parts": [
       {
         "lang": "ko",
@@ -105,7 +126,6 @@
       }
     ],
     "dur": 4.3,
-    "bg": "pojangmacha",
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",

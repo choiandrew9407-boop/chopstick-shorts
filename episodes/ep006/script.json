@@ -13,6 +13,10 @@
   "hook_en": "No waiter is coming. Now what?",
   "hook_vi": "Không có bồi bàn đến. Giờ sao?",
   "hook_id": "Tidak ada pelayan datang. Lalu?",
+  "hook_es": "No viene ningún mesero. ¿Y ahora?",
+  "hook_pt": "Nenhum garçom vem. E agora?",
+  "hook_ar": "لا يأتي أي نادل. ماذا الآن؟",
+  "hook_fil": "Walang dumarating na waiter. Anong gagawin?",
   "hook_voice": "No waiter is coming. Now what?",
   "hook_voice_parts": [
     {
@@ -30,7 +34,12 @@
       "en": "You just call out. Not rude here.",
       "vi": "Cứ gọi lớn. Không bất lịch sự ở đây.",
       "id": "Panggil saja. Tidak kasar di sini.",
+      "es": "Solo llamas. Aquí no es de mala educación.",
+      "pt": "Você só chama. Aqui não é falta de educação.",
+      "ar": "تنادي فقط. ليس وقاحة هنا.",
+      "fil": "Tatawag ka lang. Hindi bastos dito.",
       "voice": "저기요. You just call out. Jeogiyo. It is not rude here.",
+      "bg": "bapsang",
       "voice_parts": [
         {
           "lang": "ko",
@@ -41,8 +50,7 @@
           "text": "You just call out. Jeogiyo. It is not rude here."
         }
       ],
-      "dur": 4.2,
-      "bg": "bapsang"
+      "dur": 4.2
     },
     {
       "ko": "띵동",
@@ -50,7 +58,12 @@
       "en": "Or press the bell on the table.",
       "vi": "Hoặc bấm chuông trên bàn. Ding dong.",
       "id": "Atau tekan bel di meja. Ding dong.",
+      "es": "O pulsa el timbre de la mesa.",
+      "pt": "Ou aperte a campainha da mesa.",
+      "ar": "أو اضغط جرس الطاولة.",
+      "fil": "O pindutin ang bell sa mesa.",
       "voice": "띵동. Or press the little bell on the table. Ding dong. Someone comes.",
+      "bg": "bapsang",
       "voice_parts": [
         {
           "lang": "ko",
@@ -62,7 +75,6 @@
         }
       ],
       "dur": 4.8,
-      "bg": "bapsang",
       "video": "vid1.mp4"
     },
     {
@@ -71,7 +83,13 @@
       "en": "Regulars call the server \"auntie\".",
       "vi": "Khách quen gọi nhân viên là \"dì\".",
       "id": "Pelanggan tetap memanggil pelayan \"bibi\".",
+      "es": "Los habituales llaman «tía» a la mesera.",
+      "pt": "Os clientes fiéis chamam a atendente de «tia».",
+      "ar": "الزبائن الدائمون ينادون النادلة «عمّة».",
+      "fil": "Tinatawag ng suki ang server na «auntie».",
       "voice": "이모. And regulars call the server Imo. Auntie. She answers.",
+      "bg": "pojangmacha",
+      "twist": true,
       "voice_parts": [
         {
           "lang": "ko",
@@ -82,9 +100,7 @@
           "text": "And regulars call the server Imo. Auntie. She answers."
         }
       ],
-      "dur": 4.6,
-      "bg": "pojangmacha",
-      "twist": true
+      "dur": 4.6
     }
   ],
   "cta": {
@@ -93,7 +109,12 @@
     "en": "So, what would you shout? 👇",
     "vi": "Vậy bạn sẽ gọi thế nào? 👇",
     "id": "Jadi, kamu akan memanggil apa? 👇",
+    "es": "¿Y tú qué gritarías? 👇",
+    "pt": "E você, o que gritaria? 👇",
+    "ar": "وأنت، بماذا ستنادي؟ 👇",
+    "fil": "Ikaw, ano ang isisigaw mo? 👇",
     "voice": "잘 먹겠습니다. Thanks for the meal. So, what would you shout from your table?",
+    "bg": "bapsang",
     "voice_parts": [
       {
         "lang": "ko",
@@ -105,7 +126,6 @@
       }
     ],
     "dur": 4.4,
-    "bg": "bapsang",
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",

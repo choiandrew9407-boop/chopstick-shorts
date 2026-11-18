@@ -13,6 +13,10 @@
   "hook_en": "Why study six hours in cafés?",
   "hook_vi": "Vì sao học sáu tiếng ở quán cà phê?",
   "hook_id": "Kenapa belajar enam jam di kafe?",
+  "hook_es": "¿Por qué estudiar seis horas en cafeterías?",
+  "hook_pt": "Por que estudar seis horas em cafés?",
+  "hook_ar": "لماذا تدرس ست ساعات في المقاهي؟",
+  "hook_fil": "Bakit anim na oras mag-aral sa café?",
   "hook_voice": "Why study six hours in cafés?",
   "hook_voice_parts": [
     {
@@ -30,7 +34,12 @@
       "en": "The café study tribe. Laptops by nine.",
       "vi": "Bộ tộc học ở quán cà phê. Laptop từ 9 giờ sáng.",
       "id": "Suku belajar kafe. Laptop sejak jam sembilan.",
+      "es": "La tribu de estudio en cafés. Portátiles a las nueve.",
+      "pt": "A tribo de estudo em café. Notebooks às nove.",
+      "ar": "قبيلة الدراسة في المقاهي. الحواسيب قبل التاسعة.",
+      "fil": "Ang café study tribe. Laptop by nine.",
       "voice": "카공족. The cafe study tribe. Laptops out by nine in the morning.",
+      "bg": "seoul_night",
       "voice_parts": [
         {
           "lang": "ko",
@@ -41,8 +50,7 @@
           "text": "The cafe study tribe. Laptops out by nine in the morning."
         }
       ],
-      "dur": 4.8,
-      "bg": "seoul_night"
+      "dur": 4.8
     },
     {
       "ko": "아아 한 잔",
@@ -50,7 +58,12 @@
       "en": "One iced Americano. One desk, hours.",
       "vi": "Một ly Americano đá. Một cái bàn, hàng giờ.",
       "id": "Satu Americano dingin. Satu meja, berjam-jam.",
+      "es": "Un americano con hielo. Una mesa, horas.",
+      "pt": "Um americano gelado. Uma mesa, horas.",
+      "ar": "أمريكانو مثلج واحد. طاولة واحدة، ساعات.",
+      "fil": "Isang iced Americano. Isang mesa, ilang oras.",
       "voice": "아아 한 잔. One iced Americano. One desk, for hours. Sometimes all night.",
+      "bg": "bapsang",
       "voice_parts": [
         {
           "lang": "ko",
@@ -62,7 +75,6 @@
         }
       ],
       "dur": 5.5,
-      "bg": "bapsang",
       "video": "vid1.mp4"
     },
     {
@@ -71,7 +83,13 @@
       "en": "Their room at home is smaller.",
       "vi": "Phòng ở nhà còn nhỏ hơn cái bàn này. Quán là phòng khách.",
       "id": "Kamar di rumah lebih kecil dari meja ini. Kafe jadi ruang tamunya.",
+      "es": "Su cuarto en casa es más pequeño.",
+      "pt": "O quarto deles em casa é menor.",
+      "ar": "غرفتهم في البيت أصغر.",
+      "fil": "Mas maliit ang kwarto nila sa bahay.",
       "voice": "집이 좁아서. And why? Their room at home is smaller than this table.",
+      "bg": "bapsang",
+      "twist": true,
       "voice_parts": [
         {
           "lang": "ko",
@@ -82,9 +100,7 @@
           "text": "And why? Their room at home is smaller than this table."
         }
       ],
-      "dur": 4.8,
-      "bg": "bapsang",
-      "twist": true
+      "dur": 4.8
     }
   ],
   "cta": {
@@ -93,7 +109,12 @@
     "en": "Study together? So, where do you study? 👇",
     "vi": "Học cùng nhau nhé? Vậy bạn học ở đâu? 👇",
     "id": "Belajar bareng? Jadi, kamu belajar di mana? 👇",
+    "es": "¿Estudiamos juntos? ¿Y dónde estudias? 👇",
+    "pt": "Vamos estudar juntos? E onde você estuda? 👇",
+    "ar": "ندرس معًا؟ إذن، أين تدرس؟ 👇",
+    "fil": "Sabay tayong mag-aral? So, saan ka nag-aaral? 👇",
     "voice": "같이 공부할래요? Study together? So, where do you study? 어디서요?",
+    "bg": "seoul_night",
     "voice_parts": [
       {
         "lang": "ko",
@@ -109,7 +130,6 @@
       }
     ],
     "dur": 4.4,
-    "bg": "seoul_night",
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",

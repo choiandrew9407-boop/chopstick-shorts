@@ -13,6 +13,10 @@
   "hook_en": "Dinner for five dollars in Korea?",
   "hook_vi": "Bữa tối 5 đô ở Hàn?",
   "hook_id": "Makan malam lima dolar di Korea?",
+  "hook_es": "¿Cena por cinco dólares en Corea?",
+  "hook_pt": "Jantar por cinco dólares na Coreia?",
+  "hook_ar": "عشاء بخمسة دولارات في كوريا؟",
+  "hook_fil": "Dinner for five dollars sa Korea?",
   "hook_voice": "Dinner for five dollars in Korea?",
   "hook_voice_parts": [
     {
@@ -30,7 +34,12 @@
       "en": "Triangle kimbap. About a dollar.",
       "vi": "Cơm cuộn hình tam giác. Khoảng một đô.",
       "id": "Kimbap segitiga. Sekitar satu dolar.",
+      "es": "Kimbap triangular. Como un dólar.",
+      "pt": "Kimbap triangular. Cerca de um dólar.",
+      "ar": "كيمباب مثلث. بدولار تقريبًا.",
+      "fil": "Triangle kimbap. Mga isang dollar.",
       "voice": "삼각김밥. Triangle kimbap, about a dollar. Pull the tab, one, two, three.",
+      "bg": "seoul_night",
       "voice_parts": [
         {
           "lang": "ko",
@@ -41,8 +50,7 @@
           "text": "Triangle kimbap, about a dollar. Pull the tab, one, two, three."
         }
       ],
-      "dur": 5.6,
-      "bg": "seoul_night"
+      "dur": 5.6
     },
     {
       "ko": "컵라면",
@@ -50,7 +58,12 @@
       "en": "Cup ramen, free hot water, 1+1.",
       "vi": "Mì ly, nước nóng miễn phí, mua 1 tặng 1 khắp nơi.",
       "id": "Mie cup, air panas gratis, dan promo beli 1 gratis 1.",
+      "es": "Ramen en vaso, agua caliente gratis, 1+1.",
+      "pt": "Cup ramen, água quente grátis, 1+1.",
+      "ar": "نودلز بالكوب، ماء ساخن مجانًا، 1+1.",
+      "fil": "Cup ramen, libreng hot water, 1+1.",
       "voice": "컵라면. Cup ramen, free hot water. And one plus one deals.",
+      "bg": "bapsang",
       "voice_parts": [
         {
           "lang": "ko",
@@ -61,8 +74,7 @@
           "text": "Cup ramen, free hot water. And one plus one deals."
         }
       ],
-      "dur": 4.6,
-      "bg": "bapsang"
+      "dur": 4.6
     },
     {
       "ko": "셀프예요",
@@ -70,7 +82,13 @@
       "en": "The catch: you microwave it yourself.",
       "vi": "Cái bẫy: bạn tự hâm trong lò vi sóng.",
       "id": "Triknya: kamu sendiri yang memanaskan di microwave.",
+      "es": "El detalle: lo calientas tú mismo.",
+      "pt": "O detalhe: você mesmo aquece no micro-ondas.",
+      "ar": "المفاجأة: أنت من يسخّنه في الميكروويف.",
+      "fil": "Ang catch: ikaw ang magmi-microwave.",
       "voice": "셀프예요. And the catch? You microwave it yourself. The staff will not do it for you.",
+      "bg": "seoul_night",
+      "twist": true,
       "voice_parts": [
         {
           "lang": "ko",
@@ -82,9 +100,7 @@
         }
       ],
       "dur": 5.3,
-      "bg": "seoul_night",
-      "video": "vid1.mp4",
-      "twist": true
+      "video": "vid1.mp4"
     }
   ],
   "cta": {
@@ -93,7 +109,12 @@
     "en": "So, what would you buy? 👇",
     "vi": "Vậy bạn sẽ mua gì với 5 đô? 👇",
     "id": "Jadi, kamu akan beli apa dengan lima dolar? 👇",
+    "es": "¿Y tú qué comprarías? 👇",
+    "pt": "E você, o que compraria? 👇",
+    "ar": "وأنت، ماذا ستشتري؟ 👇",
+    "fil": "Ikaw, ano ang bibilhin mo? 👇",
     "voice": "다 먹었어요. All finished. So, what would you buy with five dollars?",
+    "bg": "seoul_night",
     "voice_parts": [
       {
         "lang": "ko",
@@ -105,7 +126,6 @@
       }
     ],
     "dur": 4.3,
-    "bg": "seoul_night",
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",

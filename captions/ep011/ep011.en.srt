@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:02,300
+Which subway seat is always empty?
+
+2
+00:00:02,300 --> 00:00:07,200
+노약자석 (noyakjaseok)
+End seats: seniors, disabled, pregnant.
+
+3
+00:00:07,200 --> 00:00:10,800
+임산부 배려석 (imsanbu baeryeoseok)
+The pink seat is for pregnant women.
+
+4
+00:00:10,800 --> 00:00:16,600
+비어 있어도… (bieo isseodo…)
+Empty? Nobody sits. No fine. Nunchi.
+
+5
+00:00:16,600 --> 00:00:21,200
+양보해요 (yangbohaeyo)
+So, which seat do you never take? 👇

@@ -12,6 +12,10 @@
   "hook_en": "In Korea, \"Did you eat?\" means \"Hi.\"",
   "hook_vi": "Ở Hàn Quốc, \"Ăn cơm chưa?\" nghĩa là \"Xin chào.\"",
   "hook_id": "Di Korea, \"Sudah makan?\" artinya \"Halo.\"",
+  "hook_es": "En Corea, «¿Comiste?» significa «Hola».",
+  "hook_pt": "Na Coreia, «Você já comeu?» quer dizer «Oi».",
+  "hook_ar": "في كوريا، «هل أكلت؟» تعني «مرحبًا».",
+  "hook_fil": "Sa Korea, ang «Kumain ka na?» ay «Hi» lang.",
   "hook_voice": "In Korea, did you eat, means hi.",
   "hook_bg": "seoul_night",
   "scenes": [
@@ -22,6 +26,10 @@
       "en": "Did you eat?",
       "vi": "Ăn cơm chưa?",
       "id": "Sudah makan?",
+      "es": "¿Comiste?",
+      "pt": "Você já comeu?",
+      "ar": "هل أكلت؟",
+      "fil": "Kumain ka na?",
       "voice": "Korean friends often greet you with: bap meogeosseo? Did you eat?",
       "bg": "bapsang"
     },
@@ -32,6 +40,10 @@
       "en": "Have you eaten? (polite)",
       "vi": "Anh chị đã ăn cơm chưa ạ? (lịch sự)",
       "id": "Sudah makan? (sopan)",
+      "es": "¿Ya ha comido? (formal)",
+      "pt": "O senhor já comeu? (formal)",
+      "ar": "هل تناولت الطعام؟ (بصيغة رسمية)",
+      "fil": "Nakakain na po kayo? (pormal)",
       "voice": "Many say it comes from harder times, when asking if someone ate meant: are you okay? To older people, say: siksa hasyeosseoyo?",
       "bg": "hanok"
     },
@@ -42,6 +54,10 @@
       "en": "Yeah, I ate!",
       "vi": "Ừ, ăn rồi!",
       "id": "Iya, sudah makan!",
+      "es": "¡Sí, ya comí!",
+      "pt": "Já, comi!",
+      "ar": "نعم، أكلت!",
+      "fil": "Oo, kumain na ako!",
       "voice": "You don't need to explain your lunch. Just say: eung, meogeosseo!",
       "bg": "bapsang"
     }
@@ -52,8 +68,12 @@
     "en": "Let's grab a meal sometime! (Next time: is it a real invite?)",
     "vi": "Bữa nào đi ăn nhé! (Lần sau: có phải lời mời thật không?)",
     "id": "Kapan-kapan makan bareng ya! (Berikutnya: ajakan beneran?)",
-    "voice": "Next time: is bap hanbeon meokja a real invitation? Follow for one Korean phrase a day.",
+    "es": "¡Comamos juntos algún día! (¿Es una invitación de verdad?)",
+    "pt": "Vamos comer juntos qualquer dia! (É convite de verdade?)",
+    "ar": "لنتناول الطعام معًا يومًا ما! (هل هي دعوة حقيقية؟)",
+    "fil": "Kain tayo minsan! (Totoo ba ang imbitasyon?)",
     "img": "img4.png",
+    "voice": "Next time: is bap hanbeon meokja a real invitation? Follow for one Korean phrase a day.",
     "bg": "pojangmacha"
   },
   "music": "calm01.mp3",

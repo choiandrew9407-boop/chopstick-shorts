@@ -39,6 +39,9 @@ from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from scenes import DEFAULT_CYCLE, Particles, draw_scene, glow_sprite  # noqa: E402
 
+# 자막 트랙 언어: 영/베트남/인도네시아 + 대륙별 대표 4개(스페인/포르투갈(브라질)/아랍/필리핀)
+LANGS = ("en", "vi", "id", "es", "pt", "ar", "fil")
+
 W, H, FPS = 1080, 1920, 30
 SAFE_TOP, SAFE_BOTTOM = int(H * 0.15), int(H * 0.80)  # keep text out of Shorts UI zones
 ROOT = Path(__file__).resolve().parent.parent
@@ -515,8 +518,9 @@ def build(ep_dir):
         if sc["kind"] == "phrase":
             cues.append((t, t + dur, sc))
         else:
-            cues.append((t, t + dur, {"en": sc["text"], "vi": spec.get("hook_vi", sc["text"]),
-                                      "id": spec.get("hook_id", sc["text"])}))
+            cues.append((t, t + dur, {"en": sc["text"],
+                                      **{l: spec.get(f"hook_{l}", sc["text"])
+                                         for l in LANGS if l != "en"}}))
         t += dur
 
     # video track
@@ -554,7 +558,7 @@ def build(ep_dir):
              "-map", "0:v", "-map", "1:a", "-af", f"{LOUDNORM},aresample=44100", "-c:v", "copy", "-c:a", "aac",
              "-b:a", "128k", "-ar", "44100", "-shortest", "-movflags", "+faststart", str(final)])
 
-    for lang in ("en", "vi", "id"):
+    for lang in LANGS:
         lines = []
         for n, (a, b, sc) in enumerate(cues, 1):
             body = sc[lang] if lang == "en" else sc.get(lang, sc["en"])

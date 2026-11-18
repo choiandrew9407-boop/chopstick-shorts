@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:01,600
+O frango frito consegue te achar aqui?
+
+2
+00:00:01,600 --> 00:00:04,500
+치맥 (chimaek)
+Frango com cerveja. Uma palavra só.
+
+3
+00:00:04,500 --> 00:00:09,300
+배달 왔습니다! (baedal watseumnida!)
+Sua entrega chegou! Num parque.
+
+4
+00:00:09,300 --> 00:00:14,100
+배달존 (baedal-jon)
+Parques têm zonas de entrega oficiais.
+
+5
+00:00:14,100 --> 00:00:18,400
+맛있게 드세요 (masitge deuseyo)
+Onde você pediria? 👇

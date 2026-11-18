@@ -13,6 +13,10 @@
   "hook_en": "One word for every feeling?",
   "hook_vi": "Một từ cho mọi cảm xúc của người Hàn?",
   "hook_id": "Satu kata untuk semua rasa orang Korea?",
+  "hook_es": "¿Una palabra para cada emoción?",
+  "hook_pt": "Uma palavra para cada sentimento?",
+  "hook_ar": "كلمة واحدة لكل شعور؟",
+  "hook_fil": "Isang salita para sa bawat emosyon?",
   "hook_voice": "One word for every feeling?",
   "hook_voice_parts": [
     {
@@ -30,7 +34,12 @@
       "en": "Stubbed your toe? Aigo.",
       "vi": "Vấp ngón chân? Aigo.",
       "id": "Keseleo jari kaki? Aigo.",
+      "es": "¿Te golpeaste el dedo? Aigo.",
+      "pt": "Bateu o dedo do pé? Aigo.",
+      "ar": "اصطدمت إصبعك؟ أيغو.",
+      "fil": "Nabunggo mo ang daliri mo? Aigo.",
       "voice": "아이고. Stubbed your toe? Aigo.",
+      "bg": "hanok",
       "voice_parts": [
         {
           "lang": "ko",
@@ -41,8 +50,7 @@
           "text": "Stubbed your toe? Aigo."
         }
       ],
-      "dur": 2.7,
-      "bg": "hanok"
+      "dur": 2.7
     },
     {
       "ko": "아이고, 예뻐라!",
@@ -50,7 +58,12 @@
       "en": "Cute baby? Same word, softer.",
       "vi": "Em bé dễ thương? Cùng một từ, nhẹ hơn. Dễ thương quá!",
       "id": "Bayi lucu? Kata yang sama, lebih lembut. Lucu sekali!",
+      "es": "¿Un bebé lindo? La misma palabra, más suave.",
+      "pt": "Bebê fofo? A mesma palavra, mais suave.",
+      "ar": "طفل لطيف؟ الكلمة نفسها بنبرة ألطف.",
+      "fil": "Cute na baby? Isang salita lang, mas lambing.",
       "voice": "아이고, 예뻐라. A cute baby? Same word, softer. So cute.",
+      "bg": "bapsang",
       "voice_parts": [
         {
           "lang": "ko",
@@ -61,8 +74,7 @@
           "text": "A cute baby? Same word, softer. So cute."
         }
       ],
-      "dur": 5.5,
-      "bg": "bapsang"
+      "dur": 5.5
     },
     {
       "ko": "아이고 허리야",
@@ -70,7 +82,13 @@
       "en": "After thirty, it means \"my back\".",
       "vi": "Sau ba mươi, câu đó nghĩa là \"đau lưng\".",
       "id": "Setelah tiga puluh, artinya \"punggungku sakit\".",
+      "es": "Después de los treinta, significa «mi espalda».",
+      "pt": "Depois dos trinta, significa «minhas costas».",
+      "ar": "بعد الثلاثين تعني «ظهري».",
+      "fil": "Pagkatapos ng 30, ibig sabihin «ang likod ko».",
       "voice": "아이고, 허리야. And after thirty, the same word means my back hurts.",
+      "bg": "hanok",
+      "twist": true,
       "voice_parts": [
         {
           "lang": "ko",
@@ -82,9 +100,7 @@
         }
       ],
       "dur": 5.2,
-      "bg": "hanok",
-      "video": "vid1.mp4",
-      "twist": true
+      "video": "vid1.mp4"
     }
   ],
   "cta": {
@@ -93,7 +109,12 @@
     "en": "What's your aigo moment? 👇",
     "vi": "Khoảnh khắc aigo của bạn là gì? 👇",
     "id": "Apa momen aigo-mu? 👇",
+    "es": "¿Cuál es tu momento aigo? 👇",
+    "pt": "Qual é o seu momento aigo? 👇",
+    "ar": "ما هي لحظة «أيغو» عندك؟ 👇",
+    "fil": "Ano ang aigo moment mo? 👇",
     "voice": "아이고, 끝났네. Aigo, already over? So, what is your aigo moment?",
+    "bg": "hanok",
     "voice_parts": [
       {
         "lang": "ko",
@@ -105,7 +126,6 @@
       }
     ],
     "dur": 5.1,
-    "bg": "hanok",
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",
