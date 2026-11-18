@@ -1,0 +1,75 @@
+{
+  "id": "ep010",
+  "format": "experience",
+  "title_en": "Korean Jjimjilbang: Sleep Here for About $10 🧖 #shorts",
+  "description_en": "Hot baths, saunas, sheep-head towels, eggs and sikhye — and yes, people sleep here. Learn 찜질방 and 양머리.",
+  "hashtags": [
+    "#Korea",
+    "#Jjimjilbang",
+    "#KoreanCulture",
+    "#KoreaTravel",
+    "#shorts"
+  ],
+  "hook_en": "Sleep in Korea for about $10? Here's where.",
+  "hook_voice": "Sleep in Korea for about ten dollars? Here's where.",
+  "hook_vi": "Ngủ ở Hàn Quốc chỉ khoảng 10 đô? Ở đây nè.",
+  "hook_id": "Tidur di Korea sekitar 10 dolar? Di sini tempatnya.",
+  "hook_bg": "hanok",
+  "hook_img": "img0.png",
+  "scenes": [
+    {
+      "ko": "찜질방",
+      "roman": "Jjimjilbang",
+      "en": "Korean spa: hot baths, saunas, one big hall.",
+      "vi": "Jjimjilbang: tắm nóng, xông hơi, một sảnh lớn.",
+      "id": "Spa Korea: air panas, sauna, satu aula besar.",
+      "voice": "Jjimjilbang. Hot baths, saunas, and one big hall.",
+      "img": "img1.png",
+      "bg": "hanok",
+      "dur": 2.5
+    },
+    {
+      "ko": "양머리",
+      "roman": "Yangmeori",
+      "en": "Towel 'sheep head' + baked eggs + sikhye.",
+      "vi": "Khăn 'đầu cừu' + trứng nướng + nước sikhye.",
+      "id": "Handuk 'kepala domba' + telur panggang + sikhye.",
+      "voice": "Yangmeori. Roll your towel into a sheep head. Then baked eggs and sikhye.",
+      "img": "img2.png",
+      "bg": "bapsang",
+      "dur": 2.8
+    },
+    {
+      "ko": "여기서 자요",
+      "roman": "Yeogiseo jayo",
+      "en": "Twist: people really sleep here, next to strangers.",
+      "vi": "Bất ngờ: mọi người ngủ qua đêm ở đây, cạnh người lạ.",
+      "id": "Plot twist: orang beneran tidur di sini, di samping orang asing.",
+      "voice": "Plot twist. People really sleep here overnight, right next to strangers.",
+      "img": "img3.png",
+      "bg": "hanok",
+      "twist": true,
+      "dur": 3.3
+    },
+    {
+      "ko": "뜨끈한 바닥",
+      "roman": "Tteukkeunhan badak",
+      "en": "Why? Warm floors, often open all night, cheap.",
+      "vi": "Vì sao? Sàn ấm, nhiều nơi mở suốt đêm, lại rẻ.",
+      "id": "Kenapa? Lantai hangat, banyak yang buka semalaman, murah.",
+      "voice": "Why? Warm floors, many are open all night, and it's cheap.",
+      "bg": "hanok",
+      "dur": 2.6
+    }
+  ],
+  "cta": {
+    "ko": "푹 쉬세요!",
+    "roman": "Puk swiseyo!",
+    "en": "Do people do this in your country? 👇",
+    "vi": "Ở nước bạn có vậy không? 👇",
+    "id": "Di negaramu juga begini? 👇",
+    "voice": "Puk swiseyo. Rest well. So... sleep for about ten dollars?",
+    "bg": "seoul_night"
+  },
+  "particles": "snow"
+}

@@ -1,19 +1,58 @@
 {
   "id": "ep005",
   "title_en": "Fried Chicken Delivered to a PARK?! 🍗 #shorts",
-  "description_en": "Chimaek (chicken + beer) by the Han River — and yes, delivery finds you there. Learn 치맥 and 배달 왔습니다!",
-  "hashtags": ["#Korean", "#Chimaek", "#HanRiver", "#KoreanFood", "#shorts"],
+  "description_en": "Chimaek (chicken + beer) by the Han River — and yes, delivery finds you there. Learn 치맥 and 배달 왔습니다! Stock footage: Pexels (free license)",
+  "hashtags": [
+    "#Korean",
+    "#Chimaek",
+    "#HanRiver",
+    "#KoreanFood",
+    "#shorts"
+  ],
   "hook_en": "In Korea, fried chicken can find you in a park.",
   "hook_voice": "In Korea, fried chicken can find you in a park.",
   "hook_vi": "Ở Hàn Quốc, gà rán có thể tìm đến bạn tận công viên.",
   "hook_id": "Di Korea, ayam goreng bisa menemukanmu di taman.",
   "hook_bg": "seoul_night",
-  "hook_img": "img0.png",
   "scenes": [
-    {"ko": "치맥", "roman": "Chimaek", "en": "Chicken + beer = chimaek.", "vi": "Gà rán + bia = chimaek.", "id": "Ayam goreng + bir = chimaek.", "voice": "Chimaek. Chicken plus beer.", "img": "img1.png", "bg": "pojangmacha"},
-    {"ko": "배달 왔습니다!", "roman": "Baedal watseumnida!", "en": "Delivery! Even to a riverside park at midnight.", "vi": "Giao hàng đây! Kể cả ra công viên ven sông lúc nửa đêm.", "id": "Pesanan datang! Bahkan ke taman tepi sungai tengah malam.", "voice": "Baedal watseumnida. Delivery, even to a riverside park at midnight.", "img": "img2.png", "bg": "seoul_night"},
-    {"ko": "배달존", "roman": "Baedal-jon", "en": "Twist: Han River parks have official delivery zones.", "vi": "Bất ngờ: công viên sông Hàn có cả khu nhận đồ giao riêng.", "id": "Plot twist: taman Sungai Han punya zona antar resmi.", "voice": "Plot twist. Han River parks have official delivery zones.", "img": "img3.png", "bg": "seoul_night"}
+    {
+      "ko": "치맥",
+      "roman": "Chimaek",
+      "en": "Chicken + beer = chimaek.",
+      "vi": "Gà rán + bia = chimaek.",
+      "id": "Ayam goreng + bir = chimaek.",
+      "voice": "Chimaek. Chicken plus beer.",
+      "bg": "pojangmacha",
+      "video": "vid0.mp4"
+    },
+    {
+      "ko": "배달 왔습니다!",
+      "roman": "Baedal watseumnida!",
+      "en": "Delivery! Even to a riverside park at midnight.",
+      "vi": "Giao hàng đây! Kể cả ra công viên ven sông lúc nửa đêm.",
+      "id": "Pesanan datang! Bahkan ke taman tepi sungai tengah malam.",
+      "voice": "Baedal watseumnida. Delivery, even to a riverside park at midnight.",
+      "bg": "seoul_night",
+      "video": "vid1.mp4"
+    },
+    {
+      "ko": "배달존",
+      "roman": "Baedal-jon",
+      "en": "Twist: Han River parks have official delivery zones.",
+      "vi": "Bất ngờ: công viên sông Hàn có cả khu nhận đồ giao riêng.",
+      "id": "Plot twist: taman Sungai Han punya zona antar resmi.",
+      "voice": "Plot twist. Han River parks have official delivery zones.",
+      "bg": "seoul_night"
+    }
   ],
-  "cta": {"ko": "맛있게 드세요!", "roman": "Masitge deuseyo!", "en": "Enjoy your meal! Follow for more.", "vi": "Chúc ngon miệng! Theo dõi để xem thêm.", "id": "Selamat makan! Follow untuk lainnya.", "voice": "Masitge deuseyo. Enjoy your meal. Follow for more.", "bg": "pojangmacha"},
+  "cta": {
+    "ko": "맛있게 드세요!",
+    "roman": "Masitge deuseyo!",
+    "en": "Enjoy your meal! Follow for more.",
+    "vi": "Chúc ngon miệng! Theo dõi để xem thêm.",
+    "id": "Selamat makan! Follow untuk lainnya.",
+    "voice": "Masitge deuseyo. Enjoy your meal. Follow for more.",
+    "bg": "pojangmacha"
+  },
   "particles": "snow"
 }

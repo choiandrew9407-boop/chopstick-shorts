@@ -1,0 +1,19 @@
+ep003 — 실사 스톡 클립 출처
+수집일: 2026-11-18 (Asia/Seoul)
+
+vid0.mp4  — 2 a.m. 배달 장면
+  출처: Pexels / Pavel Danilyuk
+  원본: https://www.pexels.com/video/a-person-riding-a-motorcycle-at-night-4922676/
+  제목: A Person Riding a Motorcycle at Night
+  사용 구간: 원본 0:00.5~0:08.5, 1080x1920 세로 크롭
+  라이선스: Pexels License — 상업적 사용·편집 무료, 출처 표기 의무 없음(권장)
+
+vid1.mp4  — 엘리베이터 '닫힘' 버튼 장면
+  출처: Pexels / MART PRODUCTION
+  원본: https://www.pexels.com/video/close-up-video-of-a-person-pushing-a-button-7702051/
+  제목: Close-Up Video of a Person Pushing a Button
+  사용 구간: 원본 0:04~0:12, 1080x1920 세로 크롭
+  라이선스: Pexels License
+
+AI 생성 이미지(img0~img4)는 이 편에서 모두 제거했습니다(work/removed-ai-images/ep003 보관).
+나머지 장면은 build.py의 자체 디자인 배경(bg)만 사용합니다.

@@ -1,0 +1,75 @@
+{
+  "id": "ep011",
+  "format": "rule-quiz",
+  "title_en": "Never Sit in THIS Subway Seat in Korea 🚇 #shorts",
+  "description_en": "Seats for seniors, the pink seat for pregnant women, and the unwritten rule of nunchi. Learn 노약자석 and 눈치.",
+  "hashtags": [
+    "#Korea",
+    "#SeoulSubway",
+    "#KoreanCulture",
+    "#LearnKorean",
+    "#shorts"
+  ],
+  "hook_en": "Never sit in THIS subway seat in Korea.",
+  "hook_voice": "Never sit in this subway seat in Korea.",
+  "hook_vi": "Đừng bao giờ ngồi ghế NÀY trên tàu điện Hàn Quốc.",
+  "hook_id": "Jangan duduk di kursi INI di kereta Korea.",
+  "hook_bg": "seoul_night",
+  "hook_img": "img0.png",
+  "scenes": [
+    {
+      "ko": "노약자석",
+      "roman": "Noyakjaseok",
+      "en": "End seats: for seniors, disabled, pregnant.",
+      "vi": "Ghế cuối toa: cho người già, khuyết tật, bà bầu.",
+      "id": "Kursi ujung: untuk lansia, difabel, ibu hamil.",
+      "voice": "Noyakjaseok. The end seats are for seniors, the disabled, and pregnant women.",
+      "img": "img1.png",
+      "bg": "seoul_night",
+      "dur": 2.9
+    },
+    {
+      "ko": "임산부 배려석",
+      "roman": "Imsanbu baeryeoseok",
+      "en": "The pink seat = for pregnant women.",
+      "vi": "Ghế màu hồng = dành cho bà bầu.",
+      "id": "Kursi pink = untuk ibu hamil.",
+      "voice": "Imsanbu baeryeoseok. The pink seat is for pregnant women.",
+      "img": "img2.png",
+      "bg": "seoul_night",
+      "dur": 2.6
+    },
+    {
+      "ko": "비어 있어도…",
+      "roman": "Bieo isseodo…",
+      "en": "Twist: even empty, most young people won't sit.",
+      "vi": "Bất ngờ: dù trống, hầu hết người trẻ vẫn không ngồi.",
+      "id": "Plot twist: walau kosong, kebanyakan anak muda nggak duduk.",
+      "voice": "Plot twist. Even when they're empty, most young people won't sit there.",
+      "img": "img3.png",
+      "bg": "elevator",
+      "twist": true,
+      "dur": 3.3
+    },
+    {
+      "ko": "눈치",
+      "roman": "Nunchi",
+      "en": "Why? No fine. It's nunchi: reading the room.",
+      "vi": "Vì sao? Không bị phạt. Đó là nunchi: biết ý tứ.",
+      "id": "Kenapa? Nggak ada denda. Itu nunchi: peka situasi.",
+      "voice": "Why? There's no fine. It's nunchi. Reading the room.",
+      "bg": "hanok",
+      "dur": 2.6
+    }
+  ],
+  "cta": {
+    "ko": "양보해요",
+    "roman": "Yangbohaeyo",
+    "en": "Do people do this in your country? 👇",
+    "vi": "Ở nước bạn có vậy không? 👇",
+    "id": "Di negaramu juga begini? 👇",
+    "voice": "Yangbohaeyo. We give up our seats. So, which seat should you never sit in?",
+    "bg": "seoul_night"
+  },
+  "particles": "snow"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ep008",
+  "format": "how-to",
+  "title_en": "Korean Convenience Store Dinner Under $5 🍙 #shorts",
+  "description_en": "Triangle kimbap, cup ramen, free hot water and 1+1 deals. Learn 삼각김밥 and 셀프예요.",
+  "hashtags": [
+    "#Korea",
+    "#KoreanFood",
+    "#ConvenienceStore",
+    "#LearnKorean",
+    "#shorts"
+  ],
+  "hook_en": "Dinner in Korea for under $5?",
+  "hook_voice": "Dinner in Korea for under five dollars?",
+  "hook_vi": "Bữa tối ở Hàn Quốc dưới 5 đô?",
+  "hook_id": "Makan malam di Korea di bawah 5 dolar?",
+  "hook_bg": "seoul_night",
+  "hook_img": "img0.png",
+  "scenes": [
+    {
+      "ko": "삼각김밥",
+      "roman": "Samgak gimbap",
+      "en": "Triangle kimbap, about $1. Pull tab 1, 2, 3.",
+      "vi": "Cơm nắm tam giác, khoảng 1 đô. Kéo theo số 1, 2, 3.",
+      "id": "Kimbap segitiga, sekitar 1 dolar. Tarik nomor 1, 2, 3.",
+      "voice": "Samgak gimbap. Triangle kimbap, about one dollar. Pull tab one, two, three.",
+      "img": "img1.png",
+      "bg": "bapsang",
+      "dur": 2.8
+    },
+    {
+      "ko": "컵라면",
+      "roman": "Keom-ramyeon",
+      "en": "Cup ramen, with free hot water right there.",
+      "vi": "Mì ly, có nước nóng miễn phí ngay tại chỗ.",
+      "id": "Ramen cup, air panasnya gratis di tempat.",
+      "voice": "Keom ramyeon. Cup ramen, with free hot water right there.",
+      "img": "img2.png",
+      "bg": "bapsang",
+      "dur": 2.5
+    },
+    {
+      "ko": "셀프예요",
+      "roman": "Selpeu-yeyo",
+      "en": "Twist: you microwave it yourself. Staff won't.",
+      "vi": "Bất ngờ: bạn tự hâm bằng lò vi sóng. Nhân viên không làm giúp.",
+      "id": "Plot twist: kamu panaskan sendiri. Stafnya nggak bantu.",
+      "voice": "Plot twist. You microwave it yourself. The staff won't do it for you.",
+      "img": "img3.png",
+      "bg": "elevator",
+      "twist": true,
+      "dur": 3.2
+    },
+    {
+      "ko": "1+1",
+      "roman": "Wonpeulleowon",
+      "en": "Why so cheap? '1+1' deals: buy one, get one.",
+      "vi": "Sao rẻ vậy? Khuyến mãi '1+1': mua 1 tặng 1.",
+      "id": "Kenapa murah? Promo '1+1': beli satu gratis satu.",
+      "voice": "Why so cheap? One plus one deals. Buy one, get one free.",
+      "bg": "seoul_night",
+      "dur": 2.6
+    }
+  ],
+  "cta": {
+    "ko": "잘 먹겠습니다!",
+    "roman": "Jal meokgetseumnida!",
+    "en": "Do people do this in your country? 👇",
+    "vi": "Ở nước bạn có vậy không? 👇",
+    "id": "Di negaramu juga begini? 👇",
+    "voice": "Jal meokgetseumnida. So... dinner for under five dollars?",
+    "bg": "hanok"
+  },
+  "particles": "snow"
+}
