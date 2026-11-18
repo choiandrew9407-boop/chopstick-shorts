@@ -23,7 +23,7 @@
       "en": "Speed is the default.",
       "vi": "Tốc độ là mặc định.",
       "id": "Kecepatan itu default.",
-      "voice": "Koreans have a name for it: ppalli-ppalli. Faster, faster. Speed is the default.",
+      "voice": "Koreans call it ppalli-ppalli. Faster, faster.",
       "bg": "seoul_night"
     },
     {
@@ -32,7 +32,7 @@
       "en": "Delivery at 2 a.m. In 20 minutes.",
       "vi": "Giao hàng lúc 2 giờ sáng. Trong 20 phút.",
       "id": "Antar pesanan jam 2 pagi. Dalam 20 menit.",
-      "voice": "Delivery is baedal. At two in the morning, it still takes twenty minutes.",
+      "voice": "Delivery, baedal, at two a.m. Twenty minutes.",
       "bg": "pojangmacha",
       "video": "vid0.mp4"
     },
@@ -42,7 +42,7 @@
       "en": "The close button. Pressed ten times.",
       "vi": "Nút đóng cửa. Bấm mười lần.",
       "id": "Tombol tutup. Ditekan sepuluh kali.",
-      "voice": "So in the elevator: dachim. The close button, pressed ten times before the doors move. Not rude. Just ppalli-ppalli.",
+      "voice": "Now the elevator: dachim, the close button. Pressed ten times. Not rude. Just ppalli-ppalli.",
       "bg": "elevator",
       "video": "vid1.mp4",
       "twist": true
@@ -54,7 +54,7 @@
     "en": "Slow is okay too. Do you press it too? 👇",
     "vi": "Chậm lại cũng được. Bạn cũng bấm nút đó chứ? 👇",
     "id": "Pelan-pelan juga boleh. Kamu juga menekannya? 👇",
-    "voice": "And when you want to slow down: cheoncheonhi haedo dwaeyo. So, do you press it too?",
+    "voice": "Slow down: cheoncheonhi haedo dwaeyo. So, do you press it too?",
     "bg": "elevator",
     "video": "vid1.mp4"
   },
