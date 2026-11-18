@@ -394,15 +394,15 @@ def build(ep_dir):
     music = ROOT / "assets/music" / spec.get("music", "")
     if spec.get("music") and music.exists():
         mix = (f"[2]volume=0.12,afade=t=out:st={t - 1.5:.2f}:d=1.5[m];"
-               f"[1][m]amix=inputs=2:duration=first:normalize=0,{LOUDNORM}[a]")
+               f"[1][m]amix=inputs=2:duration=first:normalize=0,{LOUDNORM},aresample=44100[a]")
         run([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(voice),
              "-stream_loop", "-1", "-i", str(music), "-filter_complex", mix,
              "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
              "-t", f"{t:.3f}", "-movflags", "+faststart", str(final)])
     else:
         run([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(voice),
-             "-map", "0:v", "-map", "1:a", "-af", LOUDNORM, "-c:v", "copy", "-c:a", "aac",
-             "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
+             "-map", "0:v", "-map", "1:a", "-af", f"{LOUDNORM},aresample=44100", "-c:v", "copy", "-c:a", "aac",
+             "-b:a", "128k", "-ar", "44100", "-shortest", "-movflags", "+faststart", str(final)])
 
     for lang in ("en", "vi", "id"):
         lines = []
