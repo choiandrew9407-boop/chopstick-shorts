@@ -1,58 +1,62 @@
 {
   "id": "ep003",
-  "title_en": "Why everything in Korea is so fast: ppalli-ppalli #shorts",
-  "description_en": "Late-night delivery, next-day packages, and the famous elevator close button. Meet ppalli-ppalli, Korea's love of speed. Stock footage: Pexels (free license)",
+  "title_en": "Why Koreans press this button non-stop #shorts",
+  "description_en": "Every Korean elevator has a close button, and almost nobody waits for the doors. The reason is one word: ppalli-ppalli. Learn 빨리빨리, 배달 (delivery) and 닫힘 (close). Stock footage: Pexels (free license)",
   "hashtags": [
     "#learnkorean",
     "#koreanculture",
     "#ppalippali",
     "#lifeinkorea",
+    "#koreanelevator",
     "#shorts"
   ],
-  "hook_en": "Food delivery in 20 minutes. At 2 a.m.",
-  "hook_vi": "Giao đồ ăn trong 20 phút. Lúc 2 giờ sáng.",
-  "hook_id": "Makanan diantar 20 menit. Jam 2 pagi.",
-  "hook_voice": "Food delivery in twenty minutes. At two a.m.",
-  "hook_bg": "seoul_night",
+  "hook_en": "Why do Koreans spam this button?",
+  "hook_vi": "Vì sao người Hàn bấm nút này liên tục?",
+  "hook_id": "Kenapa orang Korea tekan tombol ini terus?",
+  "hook_voice": "Why do Koreans spam this button?",
+  "hook_bg": "elevator",
+  "hook_video": "vid1.mp4",
   "scenes": [
     {
       "ko": "빨리빨리",
       "roman": "ppalli-ppalli",
-      "en": "Quick, quick!",
-      "vi": "Nhanh lên, nhanh lên!",
-      "id": "Cepat, cepat!",
-      "voice": "Koreans have a phrase for their love of speed: ppalli ppalli. Quick, quick!",
+      "en": "Speed is the default.",
+      "vi": "Tốc độ là mặc định.",
+      "id": "Kecepatan itu default.",
+      "voice": "Koreans have a name for it: ppalli-ppalli. Faster, faster. Speed is the default.",
       "bg": "seoul_night"
     },
     {
       "ko": "배달",
       "roman": "baedal",
-      "en": "Delivery",
-      "vi": "Giao hàng",
-      "id": "Pesan antar",
-      "voice": "Food arrives fast, even late at night, and many packages arrive the next day. Baedal.",
+      "en": "Delivery at 2 a.m. In 20 minutes.",
+      "vi": "Giao hàng lúc 2 giờ sáng. Trong 20 phút.",
+      "id": "Antar pesanan jam 2 pagi. Dalam 20 menit.",
+      "voice": "Delivery is baedal. At two in the morning, it still takes twenty minutes.",
       "bg": "pojangmacha",
       "video": "vid0.mp4"
     },
     {
       "ko": "닫힘",
       "roman": "dachim",
-      "en": "Close (elevator button)",
-      "vi": "Nút đóng cửa thang máy",
-      "id": "Tombol tutup lift",
-      "voice": "And in elevators, the close button, dachim, gets a lot of love.",
+      "en": "The close button. Pressed ten times.",
+      "vi": "Nút đóng cửa. Bấm mười lần.",
+      "id": "Tombol tutup. Ditekan sepuluh kali.",
+      "voice": "So in the elevator: dachim. The close button, pressed ten times before the doors move. Not rude. Just ppalli-ppalli.",
       "bg": "elevator",
-      "video": "vid1.mp4"
+      "video": "vid1.mp4",
+      "twist": true
     }
   ],
   "cta": {
     "ko": "천천히 해도 돼요",
     "roman": "cheoncheonhi haedo dwaeyo",
-    "en": "It's okay to take your time",
-    "vi": "Cứ từ từ cũng được",
-    "id": "Pelan-pelan saja, tidak apa-apa",
-    "voice": "But if you need a break, say: cheoncheonhi haedo dwaeyo. Follow for one Korean phrase a day.",
-    "bg": "hanok"
+    "en": "Slow is okay too. Do you press it too? 👇",
+    "vi": "Chậm lại cũng được. Bạn cũng bấm nút đó chứ? 👇",
+    "id": "Pelan-pelan juga boleh. Kamu juga menekannya? 👇",
+    "voice": "And when you want to slow down: cheoncheonhi haedo dwaeyo. So, do you press it too?",
+    "bg": "elevator",
+    "video": "vid1.mp4"
   },
   "music": "calm03.mp3",
   "particles": "snow"
