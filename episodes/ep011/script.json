@@ -91,10 +91,10 @@
   "cta": {
     "ko": "양보해요",
     "roman": "yangbohaeyo",
-    "en": "So, which seat is it? 👇",
-    "vi": "Vậy đó là ghế nào? 👇",
-    "id": "Jadi, kursi yang mana? 👇",
-    "voice": "양보해요. We give up our seats. So, which seat is it?",
+    "en": "So, which seat do you never take? 👇",
+    "vi": "Vậy bạn không bao giờ ngồi ghế nào? 👇",
+    "id": "Jadi, kursi mana yang tidak pernah kamu duduki? 👇",
+    "voice": "양보해요. We give up our seats. So, which seat do you never take?",
     "voice_parts": [
       {
         "lang": "ko",
@@ -102,10 +102,10 @@
       },
       {
         "lang": "en",
-        "text": "We give up our seats. So, which seat is it?"
+        "text": "We give up our seats. So, which seat do you never take?"
       }
     ],
-    "dur": 3.5,
+    "dur": 4.6,
     "bg": "seoul_night",
     "video": "vid1.mp4"
   },

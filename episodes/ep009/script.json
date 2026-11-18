@@ -88,12 +88,12 @@
     }
   ],
   "cta": {
-    "ko": "같이 공부할래요?",
-    "roman": "gachi gongbuhallaeyo?",
-    "en": "So, where do you study? 👇",
-    "vi": "Vậy bạn học ở đâu? 👇",
-    "id": "Jadi, kamu belajar di mana? 👇",
-    "voice": "같이 공부할래요? Study together? So, where do you study?",
+    "ko": "같이 공부할래요? 어디서요?",
+    "roman": "gachi gongbuhallaeyo? eodiseoyo?",
+    "en": "Study together? So, where do you study? 👇",
+    "vi": "Học cùng nhau nhé? Vậy bạn học ở đâu? 👇",
+    "id": "Belajar bareng? Jadi, kamu belajar di mana? 👇",
+    "voice": "같이 공부할래요? Study together? So, where do you study? 어디서요?",
     "voice_parts": [
       {
         "lang": "ko",
@@ -102,9 +102,13 @@
       {
         "lang": "en",
         "text": "Study together? So, where do you study?"
+      },
+      {
+        "lang": "ko",
+        "text": "어디서요?"
       }
     ],
-    "dur": 3.6,
+    "dur": 4.4,
     "bg": "seoul_night",
     "video": "vid0.mp4"
   },
