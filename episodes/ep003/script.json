@@ -14,8 +14,12 @@
   "hook_vi": "Vì sao người Hàn bấm nút này liên tục?",
   "hook_id": "Kenapa orang Korea tekan tombol ini terus?",
   "hook_voice": "Why do Koreans spam this button?",
+  "hook_voice_parts": [
+    { "lang": "en", "text": "Why do Koreans spam this button?" }
+  ],
   "hook_bg": "elevator",
   "hook_video": "vid1.mp4",
+  "hook_dur": 1.9,
   "scenes": [
     {
       "ko": "빨리빨리",
@@ -24,6 +28,11 @@
       "vi": "Tốc độ là mặc định.",
       "id": "Kecepatan itu default.",
       "voice": "Koreans call it ppalli-ppalli. Faster, faster.",
+      "voice_parts": [
+        { "lang": "ko", "text": "빨리빨리." },
+        { "lang": "en", "text": "Faster, faster. Speed is the default." }
+      ],
+      "dur": 3.9,
       "bg": "seoul_night"
     },
     {
@@ -33,6 +42,11 @@
       "vi": "Giao hàng lúc 2 giờ sáng. Trong 20 phút.",
       "id": "Antar pesanan jam 2 pagi. Dalam 20 menit.",
       "voice": "Delivery, baedal, at two a.m. Twenty minutes.",
+      "voice_parts": [
+        { "lang": "ko", "text": "배달." },
+        { "lang": "en", "text": "Delivery at two in the morning. Twenty minutes. Still warm." }
+      ],
+      "dur": 4.4,
       "bg": "pojangmacha",
       "video": "vid0.mp4"
     },
@@ -43,6 +57,12 @@
       "vi": "Nút đóng cửa. Bấm mười lần.",
       "id": "Tombol tutup. Ditekan sepuluh kali.",
       "voice": "In the elevator, dachim gets pressed ten times. Not rude. Just ppalli-ppalli.",
+      "voice_parts": [
+        { "lang": "ko", "text": "닫힘." },
+        { "lang": "en", "text": "The close button, pressed ten times. Not rude. Just" },
+        { "lang": "ko", "text": "빨리빨리." }
+      ],
+      "dur": 5.6,
       "bg": "elevator",
       "video": "vid1.mp4",
       "twist": true
@@ -55,6 +75,11 @@
     "vi": "Chậm lại cũng được. Bạn cũng bấm nút đó chứ? 👇",
     "id": "Pelan-pelan juga boleh. Kamu juga menekannya? 👇",
     "voice": "Slow down: cheoncheonhi haedo dwaeyo. So, do you press it too?",
+    "voice_parts": [
+      { "lang": "ko", "text": "천천히 해도 돼요." },
+      { "lang": "en", "text": "Slowing down is okay too. Do you press it too?" }
+    ],
+    "dur": 4.3,
     "bg": "elevator",
     "video": "vid1.mp4"
   },

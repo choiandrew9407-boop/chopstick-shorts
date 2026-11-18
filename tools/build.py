@@ -12,8 +12,15 @@ v3 tempo patch (Claude 25차): hook 1.5 s, card bottom margin 170 px with card t
 ken-burns 1.00->1.06 with a 1.00->1.12 punch on `twist` scenes, slide cut every 3rd cut,
 subtitle fade 0.12 s, voice +0.1 s, -14 LUFS loudnorm.
 
+v4 voice (Claude/은석님 피드백): 네이티브 발음 분리 합성.
+    장면마다 `voice_parts` [{"lang":"ko"|"en","text":...}]를 받아 **한국어는 ko-KR-InJoonNeural,
+    영어는 en-US-AndrewMultilingualNeural**(edge-tts, 무료)로 따로 만들고 0.12 s 간격 + 파트별
+    레벨 정규화 후 이어 붙인다. 로마자(ppalli-ppalli)를 영어 음성으로 읽던 문제를 없앤다.
+    `voice_parts`가 없는 장면은 기존 `voice` 문자열을 영어 뉴럴 음성으로 읽는다(ep004~011 호환).
+    edge-tts가 없거나 실패하면 Piper(PIPER_MODEL)로 fallback.
+
 Needs: ffmpeg (FFMPEG env var or on PATH), Pillow, Noto Sans CJK fonts, tools/scenes.py.
-Optional: Piper TTS (PIPER_MODEL env).
+Optional: edge-tts (권장), Piper TTS (PIPER_MODEL env, fallback).
 Usage: python tools/build.py episodes/ep001 [episodes/ep002 ...]
 """
 import json
@@ -23,6 +30,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 import wave
 from pathlib import Path
 
@@ -44,6 +52,16 @@ GRADE = ("eq=saturation=1.08:contrast=1.05:brightness=0.01,"
 LOUDNORM = "loudnorm=I=-14:TP=-1.5:LRA=11"
 VOICE_DELAY = 0.1         # 자막이 음성보다 0.1 s 먼저
 SLIDE_SEC = 0.15
+
+# --- v4 voice (edge-tts neural, native Korean/English split) ---
+EN_VOICE = os.environ.get("EDGE_EN_VOICE", "en-US-AndrewMultilingualNeural")
+KO_VOICE = os.environ.get("EDGE_KO_VOICE", "ko-KR-InJoonNeural")
+RATE = {"en": os.environ.get("EDGE_EN_RATE", "+5%"), "ko": os.environ.get("EDGE_KO_RATE", "+3%")}
+PART_GAP = 0.12           # 한국어 단어 <-> 영어 문장 사이 숨
+PART_MEAN_DB = -20.0      # 파트별 평균 음량 목표(두 목소리 크기 맞춤)
+TRIM_SILENCE = ("silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04,"
+                "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04,areverse")
+EDGE_PIP_SPEC = "edge-tts==7.3.1"   # 워크플로에 pip 설치가 없어도 build.py가 직접 설치
 
 FONT_DIRS = [ROOT / "assets/fonts", Path("/usr/share/fonts/opentype/noto"),
              Path("/usr/share/fonts/opentype/noto-cjk"), Path("/usr/share/fonts/noto-cjk")]
@@ -309,6 +327,127 @@ def tts(text, out):
     return out
 
 
+def script_parts(sc):
+    """장면의 발음 단위 목록. `voice_parts`가 없으면 기존 `voice`(영어) 한 덩어리."""
+    parts = sc.get("voice_parts")
+    if parts:
+        out = [{"lang": (p.get("lang") or "en"), "text": p["text"].strip()}
+               for p in parts if (p.get("text") or "").strip()]
+        if out:
+            return out
+    v = (sc.get("voice") or "").strip()
+    return [{"lang": "en", "text": v}] if v else []
+
+
+def _edge_cmd():
+    """edge-tts CLI(있으면) 또는 `python -m edge_tts`."""
+    exe = shutil.which("edge-tts")
+    return [exe] if exe else [sys.executable, "-m", "edge_tts"]
+
+
+_EDGE_OK = None
+
+
+def edge_available(auto_install=True):
+    """edge-tts 사용 가능 여부. 없으면 pip로 설치를 한 번 시도(워크플로 권한 없이도 동작)."""
+    global _EDGE_OK
+    if _EDGE_OK is not None:
+        return _EDGE_OK
+
+    def _probe():
+        try:
+            return subprocess.run(_edge_cmd() + ["--help"], capture_output=True,
+                                  text=True, timeout=90).returncode == 0
+        except Exception:
+            return False
+
+    ok = _probe()
+    if not ok and auto_install:
+        sys.stderr.write(f"[tts] edge-tts not found; pip install {EDGE_PIP_SPEC}\n")
+        try:
+            subprocess.run([sys.executable, "-m", "pip", "install", "-q", EDGE_PIP_SPEC],
+                           check=True, capture_output=True, timeout=600)
+        except Exception as e:
+            sys.stderr.write(f"[tts] pip install edge-tts failed: {e}\n")
+        ok = _probe()
+    _EDGE_OK = ok
+    return ok
+
+
+def _edge_part(text, lang, wav):
+    """edge-tts로 한 덩어리 합성 → 44.1k 모노 WAV(앞뒤 무음 정리)."""
+    voice = KO_VOICE if lang == "ko" else EN_VOICE
+    mp3 = wav.with_suffix(".mp3")
+    err = "unknown error"
+    for attempt in range(3):
+        r = subprocess.run(_edge_cmd() + ["--voice", voice,
+                                           f"--rate={RATE.get(lang, '+0%')}", "--text", text,
+                                           "--write-media", str(mp3)], capture_output=True, text=True)
+        if r.returncode == 0 and mp3.exists() and mp3.stat().st_size > 1000:
+            break
+        err = (r.stderr or r.stdout or "").strip()[-300:]
+        time.sleep(1.5 * (attempt + 1))
+    else:
+        raise RuntimeError(f"edge-tts {voice}: {err}")
+    run([FF, "-y", "-loglevel", "error", "-i", str(mp3), "-af", TRIM_SILENCE,
+         "-ac", "1", "-ar", "44100", "-c:a", "pcm_s16le", str(wav)])
+    mp3.unlink(missing_ok=True)
+
+
+def _mean_db(wav):
+    r = subprocess.run([FF, "-hide_banner", "-nostats", "-i", str(wav),
+                        "-af", "volumedetect", "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"mean_volume:\s*(-?[\d.]+) dB", r.stderr)
+    return float(m.group(1)) if m else None
+
+
+def _match_level(wav):
+    """한국어·영어 목소리 크기를 같은 평균 음량으로 맞춘다(파트별 ±12 dB 한도)."""
+    db = _mean_db(wav)
+    if db is None:
+        return
+    gain = max(-12.0, min(12.0, PART_MEAN_DB - db))
+    tmp = wav.with_name(wav.stem + "_lvl.wav")
+    run([FF, "-y", "-loglevel", "error", "-i", str(wav), "-af", f"volume={gain:.1f}dB",
+         "-c:a", "pcm_s16le", str(tmp)])
+    tmp.replace(wav)
+
+
+def _join_parts(wavs, out, gap=PART_GAP):
+    """파트들을 gap초 무음으로 이어 한 WAV로."""
+    with wave.open(str(wavs[0])) as w0:
+        rate, width, ch = w0.getframerate(), w0.getsampwidth(), w0.getnchannels()
+    silence = b"\x00" * int(rate * gap) * width * ch
+    with wave.open(str(out), "wb") as o:
+        o.setnchannels(ch); o.setsampwidth(width); o.setframerate(rate)
+        for i, w in enumerate(wavs):
+            with wave.open(str(w)) as r:
+                o.writeframes(r.readframes(r.getnframes()))
+            if i < len(wavs) - 1:
+                o.writeframes(silence)
+
+
+def speak(sc, work, stem):
+    """장면 하나의 목소리 트랙. edge-tts(한/영 분리) 우선, 실패 시 Piper."""
+    parts = script_parts(sc)
+    if not parts:
+        return None
+    out = work / f"{stem}.wav"
+    if edge_available():
+        try:
+            wavs = []
+            for j, p in enumerate(parts):
+                w = work / f"{stem}_{j}_{p['lang']}.wav"
+                _edge_part(p["text"], p["lang"], w)
+                _match_level(w)
+                wavs.append(w)
+            _join_parts(wavs, out)
+            return out
+        except Exception as e:  # edge-tts 불통(차단·네트워크) → Piper
+            sys.stderr.write(f"[tts] edge-tts failed on {stem}: {e}\n[tts] falling back to Piper\n")
+    return tts(" ".join(p["text"] for p in parts), out)
+
+
 def srt_time(t):
     ms = int(round(t * 1000))
     return f"{ms // 3600000:02}:{ms // 60000 % 60:02}:{ms // 1000 % 60:02},{ms % 1000:03}"
@@ -327,7 +466,8 @@ def build(ep_dir):
     particles = spec.get("particles", "snow")
 
     scenes = [{"kind": "hook", "text": spec["hook_en"], "voice": spec.get("hook_voice", spec["hook_en"]),
-               "dur": HOOK_SEC, "img": spec.get("hook_img", ""), "video": spec.get("hook_video", ""),
+               "voice_parts": spec.get("hook_voice_parts"), "dur": spec.get("hook_dur", HOOK_SEC),
+               "img": spec.get("hook_img", ""), "video": spec.get("hook_video", ""),
                "bg": spec.get("hook_bg", "seoul_night")}]
     scenes += [dict(s, kind="phrase") for s in spec["scenes"]]
     if spec.get("cta"):
@@ -338,8 +478,8 @@ def build(ep_dir):
     for i, sc in enumerate(scenes):
         kind, src = scene_source(ep_dir, sc)
         text = text_layer(sc, sc["kind"], show_tag=(sc["kind"] != "hook"))
-        v = tts(sc.get("voice", ""), work / f"v{i}.wav")
-        dur = HOOK_SEC if sc["kind"] == "hook" else scene_dur(sc)
+        v = speak(sc, work, f"v{i}")
+        dur = scene_dur(sc)
         delay = 0.0 if sc["kind"] == "hook" else VOICE_DELAY  # 훅 음성은 0.0s 시작
         dur = max(dur, (wav_seconds(v) + delay + 0.2) if v else 0)
         clip = work / f"c{i}.mp4"
