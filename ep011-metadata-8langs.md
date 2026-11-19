@@ -7,7 +7,7 @@
 ```
 The end seats are for seniors, the disabled and pregnant women — and when they're empty, nobody sits. No fine, just nunchi. Learn 노약자석, 임산부 배려석 and 눈치 (reading the room). Stock footage: Pexels (free license)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 한국어 표현(노약자석, 임산부 배려석, 눈치)과 해시태그는 모든 언어에서 그대로 유지한다.
@@ -19,7 +19,7 @@ The end seats are for seniors, the disabled and pregnant women — and when they
 ```
 Ghế ở đầu toa dành cho người già, người khuyết tật và phụ nữ mang thai — và khi trống, không ai ngồi. Không phạt, chỉ là "nunchi". Học 노약자석, 임산부 배려석 và 눈치 (đọc không khí). Stock footage: Pexels (giấy phép miễn phí)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 ## id — 인도네시아어
@@ -28,7 +28,7 @@ Ghế ở đầu toa dành cho người già, người khuyết tật và phụ 
 ```
 Kursi ujung untuk lansia, disabilitas, dan ibu hamil — dan saat kosong, tak ada yang duduk. Tanpa denda, hanya nunchi. Pelajari 노약자석, 임산부 배려석, dan 눈치 (membaca suasana). Stock footage: Pexels (lisensi gratis)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 ## es — 스페인어 (중남미/스페인 공용)
@@ -37,7 +37,7 @@ Kursi ujung untuk lansia, disabilitas, dan ibu hamil — dan saat kosong, tak ad
 ```
 Los asientos de los extremos son para mayores, personas con discapacidad y embarazadas — y cuando están vacíos, nadie se sienta. Sin multa, solo nunchi. Aprende 노약자석, 임산부 배려석 y 눈치 (leer el ambiente). Stock footage: Pexels (licencia gratuita)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 ## pt — 포르투갈어(브라질)
@@ -46,7 +46,7 @@ Los asientos de los extremos son para mayores, personas con discapacidad y embar
 ```
 Os assentos das pontas são para idosos, pessoas com deficiência e gestantes — e quando estão vazios, ninguém senta. Sem multa, só nunchi. Aprenda 노약자석, 임산부 배려석 e 눈치 (ler o ambiente). Stock footage: Pexels (licença gratuita)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 ## ar — 아랍어 (MSA)
@@ -55,7 +55,7 @@ Os assentos das pontas são para idosos, pessoas com deficiência e gestantes �
 ```
 المقاعد الطرفية لكبار السن وذوي الإعاقة والحوامل — وحين تكون فارغة لا يجلس عليها أحد. لا غرامة، فقط «نونتشي». تعلّم 노약자석 و임산부 배려석 و눈치 (قراءة الجو). Stock footage: Pexels (ترخيص مجاني)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 ## fil — 필리핀어
@@ -64,7 +64,7 @@ Os assentos das pontas são para idosos, pessoas com deficiência e gestantes �
 ```
 Ang upuan sa dulo ay para sa senior, PWD at buntis — at kapag bakante, walang umuupo. Walang multa, nunchi lang. Alamin ang 노약자석, 임산부 배려석 at 눈치 (pagbasa ng paligid). Stock footage: Pexels (free license)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 ## hi — 힌디어
@@ -73,7 +73,7 @@ Ang upuan sa dulo ay para sa senior, PWD at buntis — at kapag bakante, walang 
 ```
 आखिरी सीटें बुज़ुर्गों, दिव्यांगों और गर्भवती महिलाओं के लिए हैं — और खाली होने पर भी कोई नहीं बैठता। जुर्माना नहीं, बस नूनची। सीखें 노약자석, 임산부 배려석 और 눈치 (माहौल पढ़ना)। Stock footage: Pexels (मुफ़्त लाइसेंस)
 
-#korea #seoulsubway #koreanculture #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```
 
 ## 등록 순서 메모 (업로드 서브에이전트용)

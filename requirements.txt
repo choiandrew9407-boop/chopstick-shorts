@@ -1,0 +1,5 @@
+# Chopstick Club shorts — build dependencies
+# edge-tts 는 CI와 로컬의 음성 버전이 갈리지 않도록 버전을 고정한다(클로드 지시 2026-11-19).
+edge-tts==7.3.1
+pillow>=10.0
+piper-tts==1.2.0

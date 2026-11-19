@@ -1,0 +1,77 @@
+name: Build shorts
+
+on:
+  push:
+    paths: ["episodes/**", "tools/**", "assets/**", "requirements.txt"]
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "Episode folders to build, space-separated (blank = all)"
+        required: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg and Korean fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk
+
+      - name: Install TTS deps (edge-tts pinned 7.3.1 + Piper fallback)
+        run: |
+          pip install -q -r requirements.txt
+          python - <<'EOF'
+          import edge_tts, sys
+          print("edge-tts", edge_tts.__version__)
+          if edge_tts.__version__ != "7.3.1":
+              sys.exit("edge-tts version mismatch: 7.3.1 pinned in requirements.txt")
+          EOF
+          mkdir -p voices
+          base=https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/medium
+          curl -sSL -o voices/en.onnx      $base/en_US-ljspeech-medium.onnx
+          curl -sSL -o voices/en.onnx.json $base/en_US-ljspeech-medium.onnx.json
+          echo "PIPER_MODEL=$PWD/voices/en.onnx" >> $GITHUB_ENV
+
+      - name: TTS smoke test (Korean + English neural voices)
+        run: |
+          ok=0
+          for i in 1 2 3; do
+            if edge-tts --voice ko-KR-InJoonNeural --rate=+3% --text "빨리빨리. 배달. 닫힘." --write-media /tmp/ko.mp3 \
+               && edge-tts --voice en-US-AndrewMultilingualNeural --rate=+5% --text "Why do Koreans spam this button?" --write-media /tmp/en.mp3; then
+              ok=1; break
+            fi
+            echo "edge-tts attempt $i failed, retrying"; sleep 5
+          done
+          if [ "$ok" != "1" ]; then echo "::error::edge-tts unreachable from this runner — Korean voice would fall back to Piper"; exit 1; fi
+          ls -l /tmp/ko.mp3 /tmp/en.mp3
+
+      - name: Pick episodes to build
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.episodes }}" ]; then
+            list="${{ github.event.inputs.episodes }}"
+          else
+            list=$(git diff --name-only HEAD~1 HEAD -- episodes | cut -d/ -f1-2 | sort -u | tr '\n' ' ')
+            [ -z "$list" ] && list=$(ls -d episodes/*/ | sed 's#/$##' | tr '\n' ' ')
+          fi
+          echo "list=$list" >> $GITHUB_OUTPUT
+          echo "Building: $list"
+
+      - name: Build
+        run: python tools/build.py ${{ steps.pick.outputs.list }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shorts-${{ github.run_number }}
+          path: out/
+          retention-days: 30

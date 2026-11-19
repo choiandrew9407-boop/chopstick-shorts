@@ -3,11 +3,12 @@
   "title_en": "Why Do Koreans Study in Cafés for 6 Hours? ☕ #shorts",
   "description_en": "Meet the kagongjok: one iced Americano, one desk, six hours. The reason is smaller than you think. Learn 카공족 (café-study tribe) and 아아 (iced Americano). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#korea",
-    "#studywithme",
-    "#koreancafe",
-    "#learnkorean",
-    "#koreanphrases",
+    "#Korea",
+    "#LearnKorean",
+    "#KoreanCulture",
+    "#AsianCulture",
+    "#StudyWithMe",
+    "#KoreanCafe",
     "#shorts"
   ],
   "hook_en": "Why study six hours in cafés?",
@@ -26,7 +27,7 @@
     }
   ],
   "hook_bg": "seoul_night",
-  "hook_video": "vid0.mp4",
+  "hook_video": "vid1.mp4",
   "hook_dur": 3.0,
   "scenes": [
     {
@@ -78,7 +79,7 @@
         }
       ],
       "dur": 5.5,
-      "video": "vid1.mp4"
+      "video": "vid0.mp4"
     },
     {
       "ko": "집이 좁아서",
@@ -108,18 +109,18 @@
     }
   ],
   "cta": {
-    "ko": "같이 공부할래요? 어디서요?",
-    "roman": "gachi gongbuhallaeyo? eodiseoyo?",
-    "en": "Study together? So, where do you study? 👇",
+    "ko": "같이 공부할래요?",
+    "roman": "gachi gongbuhallaeyo?",
+    "en": "Would you study here? Yes or no?",
     "like": "Like if you study in cafés 👇",
-    "vi": "Học cùng nhau nhé? Vậy bạn học ở đâu? 👇",
-    "id": "Belajar bareng? Jadi, kamu belajar di mana? 👇",
-    "es": "¿Estudiamos juntos? ¿Y dónde estudias? 👇",
-    "pt": "Vamos estudar juntos? E onde você estuda? 👇",
-    "ar": "ندرس معًا؟ إذن، أين تدرس؟ 👇",
-    "fil": "Sabay tayong mag-aral? So, saan ka nag-aaral? 👇",
-    "hi": "साथ पढ़ें? तो आप कहाँ पढ़ते हैं? 👇",
-    "voice": "같이 공부할래요? Study together? So, where do you study? 어디서요? Like if you study in cafes.",
+    "vi": "Bạn có học ở đây không? Có hay không?",
+    "id": "Mau belajar di sini? Iya atau tidak?",
+    "es": "¿Estudiarías aquí? ¿Sí o no?",
+    "pt": "Você estudaria aqui? Sim ou não?",
+    "ar": "هل تدرس هنا؟ نعم أم لا؟",
+    "fil": "Mag-aaral ka ba dito? Oo o hindi?",
+    "hi": "क्या आप यहाँ पढ़ेंगे? हाँ या नहीं?",
+    "voice": "같이 공부할래요?. Would you study here? Yes or no?",
     "bg": "seoul_night",
     "voice_parts": [
       {
@@ -128,19 +129,11 @@
       },
       {
         "lang": "en",
-        "text": "Study together? So, where do you study?"
-      },
-      {
-        "lang": "ko",
-        "text": "어디서요?"
-      },
-      {
-        "lang": "en",
-        "text": "Like if you study in cafes."
+        "text": "Would you study here? Yes or no?"
       }
     ],
-    "dur": 4.4,
-    "video": "vid0.mp4"
+    "dur": 4.2,
+    "video": "vid1.mp4"
   },
   "music": "calm03.mp3",
   "particles": "snow"

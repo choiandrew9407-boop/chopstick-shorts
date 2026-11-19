@@ -3,11 +3,12 @@
   "title_en": "No Waiter Comes Unless You Do This 🔔 #shorts",
   "description_en": "Korean restaurants don't come to you — you call, or you press the bell on the table. Learn 저기요 (excuse me), 띵동 (ding dong) and 이모 (auntie). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#learnkorean",
-    "#koreanrestaurant",
-    "#koreanphrases",
-    "#lifeinkorea",
-    "#koreanfood",
+    "#Korea",
+    "#LearnKorean",
+    "#KoreanCulture",
+    "#AsianCulture",
+    "#KoreanRestaurant",
+    "#KoreanPhrases",
     "#shorts"
   ],
   "hook_en": "No waiter is coming. Now what?",
@@ -108,18 +109,18 @@
     }
   ],
   "cta": {
-    "ko": "잘 먹겠습니다",
-    "roman": "jal meokgetseumnida",
-    "en": "So, what would you shout? 👇",
+    "ko": "잘 먹겠습니다.",
+    "roman": "jal meokget-seumnida",
+    "en": "Would you shout this at your table? Yes or no?",
     "like": "Like if you'd shout this 👇",
-    "vi": "Vậy bạn sẽ gọi thế nào? 👇",
-    "id": "Jadi, kamu akan memanggil apa? 👇",
-    "es": "¿Y tú qué gritarías? 👇",
-    "pt": "E você, o que gritaria? 👇",
-    "ar": "وأنت، بماذا ستنادي؟ 👇",
-    "fil": "Ikaw, ano ang isisigaw mo? 👇",
-    "hi": "तो आप क्या कहकर बुलाएँगे? 👇",
-    "voice": "잘 먹겠습니다. Thanks for the meal. So, what would you shout from your table? Like if you'd shout this.",
+    "vi": "Bạn có hét câu này ở bàn không? Có hay không?",
+    "id": "Mau teriak ini di meja? Iya atau tidak?",
+    "es": "¿Gritarías esto en tu mesa? ¿Sí o no?",
+    "pt": "Você gritaria isso na sua mesa? Sim ou não?",
+    "ar": "هل تصرخ بهذا على طاولتك؟ نعم أم لا؟",
+    "fil": "Sisigaw ka ba nito sa mesa? Oo o hindi?",
+    "hi": "क्या आप अपनी टेबल पर यह चिल्लाएँगे? हाँ या नहीं?",
+    "voice": "잘 먹겠습니다.. Would you shout this at your table? Yes or no?",
     "bg": "bapsang",
     "voice_parts": [
       {
@@ -128,7 +129,7 @@
       },
       {
         "lang": "en",
-        "text": "Thanks for the meal. So, what would you shout from your table? Like if you'd shout this."
+        "text": "Would you shout this at your table? Yes or no?"
       }
     ],
     "dur": 4.4,

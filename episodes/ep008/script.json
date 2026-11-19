@@ -3,11 +3,12 @@
   "title_en": "Dinner in Korea for Under $5? 🍙 #shorts",
   "description_en": "Triangle kimbap, cup ramen, free hot water and 1+1 deals — dinner for under $5. The catch: you microwave it yourself. Learn 삼각김밥, 컵라면 and 셀프예요 (self-service). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#korea",
-    "#koreanfood",
-    "#conveniencestore",
-    "#learnkorean",
-    "#budgettravel",
+    "#Korea",
+    "#LearnKorean",
+    "#KoreanCulture",
+    "#AsianCulture",
+    "#ConvenienceStore",
+    "#BudgetTravel",
     "#shorts"
   ],
   "hook_en": "Dinner for five dollars in Korea?",
@@ -52,7 +53,7 @@
           "text": "Triangle kimbap, about a dollar. Pull the tab, one, two, three."
         }
       ],
-      "dur": 5.6
+      "dur": 5.4
     },
     {
       "ko": "컵라면",
@@ -77,7 +78,7 @@
           "text": "Cup ramen, free hot water. And one plus one deals."
         }
       ],
-      "dur": 4.6
+      "dur": 4.4
     },
     {
       "ko": "셀프예요",
@@ -103,35 +104,35 @@
           "text": "And the catch? You microwave it yourself. The staff will not do it for you."
         }
       ],
-      "dur": 5.3,
+      "dur": 5.1,
       "video": "vid1.mp4"
     }
   ],
   "cta": {
     "ko": "다 먹었어요",
     "roman": "da meogeosseoyo",
-    "en": "So, what would you buy? 👇",
+    "en": "Would you eat this for five dollars? Yes or no?",
     "like": "Like if you'd eat this 👇",
-    "vi": "Vậy bạn sẽ mua gì với 5 đô? 👇",
-    "id": "Jadi, kamu akan beli apa dengan lima dolar? 👇",
-    "es": "¿Y tú qué comprarías? 👇",
-    "pt": "E você, o que compraria? 👇",
-    "ar": "وأنت، ماذا ستشتري؟ 👇",
-    "fil": "Ikaw, ano ang bibilhin mo? 👇",
-    "hi": "तो आप क्या खरीदेंगे? 👇",
-    "voice": "다 먹었어요. All finished. So, what would you buy with five dollars? Like if you would eat this.",
+    "vi": "Bạn có ăn món này với 5 đô không? Có hay không?",
+    "id": "Mau makan ini dengan lima dolar? Iya atau tidak?",
+    "es": "¿Comerías esto por cinco dólares? ¿Sí o no?",
+    "pt": "Você comeria isso por cinco dólares? Sim ou não?",
+    "ar": "هل تأكل هذا بخمسة دولارات؟ نعم أم لا؟",
+    "fil": "Kakainin mo ito sa limang dolar? Oo o hindi?",
+    "hi": "क्या आप यह पाँच डॉलर में खाएँगे? हाँ या नहीं?",
+    "voice": "다 먹었어요. Would you eat this for five dollars? Yes or no?",
     "bg": "seoul_night",
     "voice_parts": [
       {
         "lang": "ko",
-        "text": "다 먹었어요."
+        "text": "다 먹었어요"
       },
       {
         "lang": "en",
-        "text": "All finished. So, what would you buy with five dollars? Like if you would eat this."
+        "text": "Would you eat this for five dollars? Yes or no?"
       }
     ],
-    "dur": 4.3,
+    "dur": 4.2,
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",

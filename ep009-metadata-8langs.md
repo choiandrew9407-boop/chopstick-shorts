@@ -7,7 +7,7 @@
 ```
 Meet the kagongjok: one iced Americano, one desk, six hours. The reason is smaller than you think. Learn 카공족 (café-study tribe) and 아아 (iced Americano). Stock footage: Pexels (free license)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 한국어 표현(카공족, 아아)과 해시태그는 모든 언어에서 그대로 유지한다.
@@ -19,7 +19,7 @@ Meet the kagongjok: one iced Americano, one desk, six hours. The reason is small
 ```
 Gặp gỡ "kagongjok": một ly Americano đá, một cái bàn, sáu tiếng. Lý do nhỏ hơn bạn nghĩ. Học 카공족 (bộ tộc học ở quán cà phê) và 아아 (Americano đá). Stock footage: Pexels (giấy phép miễn phí)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 ## id — 인도네시아어
@@ -28,7 +28,7 @@ Gặp gỡ "kagongjok": một ly Americano đá, một cái bàn, sáu tiếng. 
 ```
 Kenalan dengan kagongjok: satu Americano dingin, satu meja, enam jam. Alasannya lebih kecil dari yang kamu kira. Pelajari 카공족 (suku belajar di kafe) dan 아아 (Americano dingin). Stock footage: Pexels (lisensi gratis)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 ## es — 스페인어 (중남미/스페인 공용)
@@ -37,7 +37,7 @@ Kenalan dengan kagongjok: satu Americano dingin, satu meja, enam jam. Alasannya 
 ```
 Conoce a los kagongjok: un americano con hielo, una mesa, seis horas. La razón es más pequeña de lo que crees. Aprende 카공족 (tribu de estudio en cafés) y 아아 (americano con hielo). Stock footage: Pexels (licencia gratuita)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 ## pt — 포르투갈어(브라질)
@@ -46,7 +46,7 @@ Conoce a los kagongjok: un americano con hielo, una mesa, seis horas. La razón 
 ```
 Conheça os kagongjok: um americano gelado, uma mesa, seis horas. O motivo é menor do que você imagina. Aprenda 카공족 (tribo de estudo em café) e 아아 (americano gelado). Stock footage: Pexels (licença gratuita)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 ## ar — 아랍어 (MSA)
@@ -55,7 +55,7 @@ Conheça os kagongjok: um americano gelado, uma mesa, seis horas. O motivo é me
 ```
 تعرّف على «كاغونغجوك»: أمريكانو مثلج واحد، طاولة واحدة، وست ساعات. السبب أصغر مما تتخيل. تعلّم 카공족 (قبيلة الدراسة في المقاهي) و아아 (أمريكانو مثلج). Stock footage: Pexels (ترخيص مجاني)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 ## fil — 필리핀어
@@ -64,7 +64,7 @@ Conheça os kagongjok: um americano gelado, uma mesa, seis horas. O motivo é me
 ```
 Kilalanin ang kagongjok: isang iced Americano, isang mesa, anim na oras. Ang dahilan ay mas maliit pa sa iniisip mo. Alamin ang 카공족 (café study tribe) at 아아 (iced Americano). Stock footage: Pexels (free license)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 ## hi — 힌디어
@@ -73,7 +73,7 @@ Kilalanin ang kagongjok: isang iced Americano, isang mesa, anim na oras. Ang dah
 ```
 मिलिए "कागोंगजोक" से: एक आइस्ड अमेरिकानो, एक मेज़, छह घंटे। वजह आपकी सोच से छोटी है। सीखें 카공족 (कैफ़े में पढ़ने वाला समूह) और 아아 (आइस्ड अमेरिकानो)। Stock footage: Pexels (मुफ़्त लाइसेंस)
 
-#korea #studywithme #koreancafe #learnkorean #koreanphrases #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #StudyWithMe #KoreanCafe #shorts
 ```
 
 ## 등록 순서 메모 (업로드 서브에이전트용)

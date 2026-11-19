@@ -3,11 +3,12 @@
   "title_en": "Which Subway Seat Do Koreans Never Take? 🚇 #shorts",
   "description_en": "The end seats are for seniors, the disabled and pregnant women — and when they're empty, nobody sits. No fine, just nunchi. Learn 노약자석, 임산부 배려석 and 눈치 (reading the room). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#korea",
-    "#seoulsubway",
-    "#koreanculture",
-    "#learnkorean",
-    "#koreanphrases",
+    "#Korea",
+    "#LearnKorean",
+    "#KoreanCulture",
+    "#AsianCulture",
+    "#SeoulSubway",
+    "#KoreanPhrases",
     "#shorts"
   ],
   "hook_en": "Which subway seat is always empty?",
@@ -111,25 +112,25 @@
   "cta": {
     "ko": "양보해요",
     "roman": "yangbohaeyo",
-    "en": "So, which seat do you never take? 👇",
+    "en": "Would you take this seat? Yes or no?",
     "like": "Like if you'd stand instead 👇",
-    "vi": "Vậy bạn không bao giờ ngồi ghế nào? 👇",
-    "id": "Jadi, kursi mana yang tidak pernah kamu duduki? 👇",
-    "es": "¿Qué asiento nunca tomas? 👇",
-    "pt": "Qual assento você nunca ocupa? 👇",
-    "ar": "أي مقعد لا تجلس عليه أبدًا؟ 👇",
-    "fil": "Aling upuan ang hindi mo inuupuan? 👇",
-    "hi": "तो आप कौन-सी सीट पर कभी नहीं बैठते? 👇",
-    "voice": "양보해요. We give up our seats. So, which seat do you never take? Like if you would stand instead.",
+    "vi": "Bạn có ngồi vào ghế này không? Có hay không?",
+    "id": "Mau duduk di kursi ini? Iya atau tidak?",
+    "es": "¿Te sentarías en este asiento? ¿Sí o no?",
+    "pt": "Você sentaria neste assento? Sim ou não?",
+    "ar": "هل تجلس على هذا المقعد؟ نعم أم لا؟",
+    "fil": "Uupo ka ba dito? Oo o hindi?",
+    "hi": "क्या आप इस सीट पर बैठेंगे? हाँ या नहीं?",
+    "voice": "양보해요. Would you take this seat? Yes or no?",
     "bg": "seoul_night",
     "voice_parts": [
       {
         "lang": "ko",
-        "text": "양보해요."
+        "text": "양보해요"
       },
       {
         "lang": "en",
-        "text": "We give up our seats. So, which seat do you never take? Like if you would stand instead."
+        "text": "Would you take this seat? Yes or no?"
       }
     ],
     "dur": 4.6,

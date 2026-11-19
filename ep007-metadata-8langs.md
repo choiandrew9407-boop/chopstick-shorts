@@ -7,7 +7,7 @@
 ```
 Stubbed toe, cute baby, a sore back after thirty — 아이고 covers all of it. Learn 아이고 (aigo) and 아이고 허리야 (aigo, my back). Stock footage: Pexels (free license)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 한국어 표현(아이고, 아이고 허리야)과 해시태그는 모든 언어에서 그대로 유지한다.
@@ -19,7 +19,7 @@ Stubbed toe, cute baby, a sore back after thirty — 아이고 covers all of it.
 ```
 Vấp ngón chân, em bé dễ thương, đau lưng sau tuổi ba mươi — 아이고 nói được tất cả. Học 아이고 (aigo) và 아이고 허리야 (aigo, đau lưng quá). Stock footage: Pexels (giấy phép miễn phí)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 ## id — 인도네시아어
@@ -28,7 +28,7 @@ Vấp ngón chân, em bé dễ thương, đau lưng sau tuổi ba mươi — 아
 ```
 Keseleo jari, bayi lucu, punggung pegal setelah usia tiga puluh — 아이고 mencakup semuanya. Pelajari 아이고 (aigo) dan 아이고 허리야 (aigo, punggungku). Stock footage: Pexels (lisensi gratis)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 ## es — 스페인어 (중남미/스페인 공용)
@@ -37,7 +37,7 @@ Keseleo jari, bayi lucu, punggung pegal setelah usia tiga puluh — 아이고 me
 ```
 Te golpeas el dedo, ves un bebé lindo, te duele la espalda después de los treinta: 아이고 lo cubre todo. Aprende 아이고 (aigo) e 아이고 허리야 (aigo, mi espalda). Stock footage: Pexels (licencia gratuita)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 ## pt — 포르투갈어(브라질)
@@ -46,7 +46,7 @@ Te golpeas el dedo, ves un bebé lindo, te duele la espalda después de los trei
 ```
 Bateu o dedo do pé, bebê fofo, dor nas costas depois dos trinta — 아이고 cobre tudo. Aprenda 아이고 (aigo) e 아이고 허리야 (aigo, minhas costas). Stock footage: Pexels (licença gratuita)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 ## ar — 아랍어 (MSA)
@@ -55,7 +55,7 @@ Bateu o dedo do pé, bebê fofo, dor nas costas depois dos trinta — 아이고 
 ```
 إصابة في الإصبع، طفل لطيف، ظهر يوجع بعد الثلاثين — كلمة 아이고 تكفي لكل ذلك. تعلّم 아이고 (أيغو) و아이고 허리야 (أيغو، يا ظهري). Stock footage: Pexels (ترخيص مجاني)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 ## fil — 필리핀어
@@ -64,7 +64,7 @@ Bateu o dedo do pé, bebê fofo, dor nas costas depois dos trinta — 아이고 
 ```
 Nabunggo ang daliri, cute na baby, sumasakit ang likod pagkatapos ng 30 — sakop ng 아이고 ang lahat. Alamin ang 아이고 (aigo) at 아이고 허리야 (aigo, likod ko). Stock footage: Pexels (free license)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 ## hi — 힌디어
@@ -73,7 +73,7 @@ Nabunggo ang daliri, cute na baby, sumasakit ang likod pagkatapos ng 30 — sako
 ```
 उँगली में चोट, प्यारा बच्चा, तीस के बाद कमर का दर्द — 아이고 सबके लिए है। सीखें 아이고 (आइगो) और 아이고 허리야 (आइगो, हाय मेरी कमर)। Stock footage: Pexels (मुफ़्त लाइसेंस)
 
-#learnkorean #aigo #koreanculture #koreanphrases #lifeinkorea #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #Aigo #KoreanPhrases #shorts
 ```
 
 ## 등록 순서 메모 (업로드 서브에이전트용)

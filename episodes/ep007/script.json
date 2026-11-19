@@ -3,11 +3,12 @@
   "title_en": "The One Word Koreans Say All Day 😩 #shorts",
   "description_en": "Stubbed toe, cute baby, a sore back after thirty — 아이고 covers all of it. Learn 아이고 (aigo) and 아이고 허리야 (aigo, my back). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#learnkorean",
-    "#aigo",
-    "#koreanculture",
-    "#koreanphrases",
-    "#lifeinkorea",
+    "#Korea",
+    "#LearnKorean",
+    "#KoreanCulture",
+    "#AsianCulture",
+    "#Aigo",
+    "#KoreanPhrases",
     "#shorts"
   ],
   "hook_en": "One word for every feeling?",
@@ -109,26 +110,26 @@
   ],
   "cta": {
     "ko": "아이고, 끝났네",
-    "roman": "aigo, kkeunnanne",
-    "en": "What's your aigo moment? 👇",
+    "roman": "aigo, kkeutnatne",
+    "en": "Do you say aigo too? Yes or no?",
     "like": "Like if you've said aigo 👇",
-    "vi": "Khoảnh khắc aigo của bạn là gì? 👇",
-    "id": "Apa momen aigo-mu? 👇",
-    "es": "¿Cuál es tu momento aigo? 👇",
-    "pt": "Qual é o seu momento aigo? 👇",
-    "ar": "ما هي لحظة «أيغو» عندك؟ 👇",
-    "fil": "Ano ang aigo moment mo? 👇",
-    "hi": "आपका आइगो वाला पल कौन-सा है? 👇",
-    "voice": "아이고, 끝났네. Aigo, already over? So, what is your aigo moment? Like if you have said aigo.",
+    "vi": "Bạn cũng nói aigo chứ? Có hay không?",
+    "id": "Kamu juga bilang aigo? Iya atau tidak?",
+    "es": "¿Tú también dices aigo? ¿Sí o no?",
+    "pt": "Você também fala aigo? Sim ou não?",
+    "ar": "هل تقول «aigo» أيضًا؟ نعم أم لا؟",
+    "fil": "Nag-aigo ka rin ba? Oo o hindi?",
+    "hi": "क्या आप भी aigo कहते हैं? हाँ या नहीं?",
+    "voice": "아이고, 끝났네. Do you say aigo too? Yes or no?",
     "bg": "hanok",
     "voice_parts": [
       {
         "lang": "ko",
-        "text": "아이고, 끝났네."
+        "text": "아이고, 끝났네"
       },
       {
         "lang": "en",
-        "text": "Aigo, already over? So, what is your aigo moment? Like if you have said aigo."
+        "text": "Do you say aigo too? Yes or no?"
       }
     ],
     "dur": 5.1,

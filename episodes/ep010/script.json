@@ -3,11 +3,12 @@
   "title_en": "Sleep in Korea for $10? 🧖 #shorts",
   "description_en": "Hot baths, saunas, sheep-head towels, baked eggs — and people really sleep here overnight. Learn 찜질방 (jjimjilbang), 양머리 (sheep-head towel) and 여기서 자요 (people sleep here). Stock footage: Pexels (free license)",
   "hashtags": [
-    "#korea",
-    "#jjimjilbang",
-    "#koreanculture",
-    "#koreatravel",
-    "#learnkorean",
+    "#Korea",
+    "#LearnKorean",
+    "#KoreanCulture",
+    "#AsianCulture",
+    "#Jjimjilbang",
+    "#KoreaTravel",
     "#shorts"
   ],
   "hook_en": "Sleep in Korea for ten dollars?",
@@ -110,25 +111,25 @@
   "cta": {
     "ko": "푹 쉬세요",
     "roman": "puk swiseyo",
-    "en": "So, would you sleep here? 👇",
+    "en": "Would you sleep here for ten dollars? Yes or no?",
     "like": "Like if you'd sleep here 👇",
-    "vi": "Vậy bạn có ngủ ở đây không? 👇",
-    "id": "Jadi, mau tidur di sini? 👇",
-    "es": "¿Y tú dormirías aquí? 👇",
-    "pt": "E você dormiria aqui? 👇",
-    "ar": "وأنت، هل ستنام هنا؟ 👇",
-    "fil": "Ikaw, matutulog ka ba dito? 👇",
-    "hi": "तो क्या आप यहाँ सोएँगे? 👇",
-    "voice": "푹 쉬세요. Rest well. So, would you sleep here for ten dollars? Like if you would sleep here.",
+    "vi": "Bạn có ngủ ở đây với 10 đô không? Có hay không?",
+    "id": "Mau tidur di sini dengan sepuluh dolar? Iya atau tidak?",
+    "es": "¿Dormirías aquí por diez dólares? ¿Sí o no?",
+    "pt": "Você dormiria aqui por dez dólares? Sim ou não?",
+    "ar": "هل تنام هنا بعشرة دولارات؟ نعم أم لا؟",
+    "fil": "Matutulog ka ba dito sa sampung dolar? Oo o hindi?",
+    "hi": "क्या आप यहाँ दस डॉलर में सोएँगे? हाँ या नहीं?",
+    "voice": "푹 쉬세요. Would you sleep here for ten dollars? Yes or no?",
     "bg": "seoul_night",
     "voice_parts": [
       {
         "lang": "ko",
-        "text": "푹 쉬세요."
+        "text": "푹 쉬세요"
       },
       {
         "lang": "en",
-        "text": "Rest well. So, would you sleep here for ten dollars? Like if you would sleep here."
+        "text": "Would you sleep here for ten dollars? Yes or no?"
       }
     ],
     "dur": 4.6,

@@ -7,7 +7,7 @@
 ```
 Triangle kimbap, cup ramen, free hot water and 1+1 deals — dinner for under $5. The catch: you microwave it yourself. Learn 삼각김밥, 컵라면 and 셀프예요 (self-service). Stock footage: Pexels (free license)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 한국어 표현(삼각김밥, 컵라면, 셀프예요)과 해시태그는 모든 언어에서 그대로 유지한다.
@@ -19,7 +19,7 @@ Triangle kimbap, cup ramen, free hot water and 1+1 deals — dinner for under $5
 ```
 Cơm cuộn tam giác, mì ly, nước nóng miễn phí và khuyến mãi 1+1 — bữa tối dưới 5 đô. Cái bẫy: bạn tự hâm trong lò vi sóng. Học 삼각김밥, 컵라면 và 셀프예요 (tự phục vụ). Stock footage: Pexels (giấy phép miễn phí)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 ## id — 인도네시아어
@@ -28,7 +28,7 @@ Cơm cuộn tam giác, mì ly, nước nóng miễn phí và khuyến mãi 1+1 �
 ```
 Kimbap segitiga, mie cup, air panas gratis, dan promo 1+1 — makan malam di bawah 5 dolar. Triknya: kamu sendiri yang memanaskan di microwave. Pelajari 삼각김밥, 컵라면, dan 셀프예요 (layani sendiri). Stock footage: Pexels (lisensi gratis)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 ## es — 스페인어 (중남미/스페인 공용)
@@ -37,7 +37,7 @@ Kimbap segitiga, mie cup, air panas gratis, dan promo 1+1 — makan malam di baw
 ```
 Kimbap triangular, ramen en vaso, agua caliente gratis y ofertas 1+1: cena por menos de 5 dólares. El detalle: lo calientas tú en el microondas. Aprende 삼각김밥, 컵라면 y 셀프예요 (autoservicio). Stock footage: Pexels (licencia gratuita)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 ## pt — 포르투갈어(브라질)
@@ -46,7 +46,7 @@ Kimbap triangular, ramen en vaso, agua caliente gratis y ofertas 1+1: cena por m
 ```
 Kimbap triangular, cup ramen, água quente grátis e promoções 1+1 — jantar por menos de 5 dólares. O detalhe: você mesmo aquece no micro-ondas. Aprenda 삼각김밥, 컵라면 e 셀프예요 (autosserviço). Stock footage: Pexels (licença gratuita)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 ## ar — 아랍어 (MSA)
@@ -55,7 +55,7 @@ Kimbap triangular, cup ramen, água quente grátis e promoções 1+1 — jantar 
 ```
 كيمباب مثلث، نودلز بالكوب، ماء ساخن مجانًا وعروض 1+1 — عشاء بأقل من خمسة دولارات. المفاجأة: أنت من يسخّنه في الميكروويف. تعلّم 삼각김밥 و컵라면 و셀프예요 (خدمة ذاتية). Stock footage: Pexels (ترخيص مجاني)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 ## fil — 필리핀어
@@ -64,7 +64,7 @@ Kimbap triangular, cup ramen, água quente grátis e promoções 1+1 — jantar 
 ```
 Triangle kimbap, cup ramen, libreng hot water at 1+1 — dinner sa ilalim ng 5 dollars. Ang catch: ikaw ang magmi-microwave. Alamin ang 삼각김밥, 컵라면 at 셀프예요 (self-service). Stock footage: Pexels (free license)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 ## hi — 힌디어
@@ -73,7 +73,7 @@ Triangle kimbap, cup ramen, libreng hot water at 1+1 — dinner sa ilalim ng 5 d
 ```
 त्रिकोणीय किम्बाप, कप रामेन, मुफ़्त गरम पानी और 1+1 ऑफ़र — पाँच डॉलर से कम में पूरा खाना। शर्त: माइक्रोवेव आपको खुद करना होगा। सीखें 삼각김밥, 컵라면 और 셀프예요 (सेल्फ-सर्विस)। Stock footage: Pexels (मुफ़्त लाइसेंस)
 
-#korea #koreanfood #conveniencestore #learnkorean #budgettravel #shorts
+#Korea #LearnKorean #KoreanCulture #AsianCulture #ConvenienceStore #BudgetTravel #shorts
 ```
 
 ## 등록 순서 메모 (업로드 서브에이전트용)
