@@ -17,6 +17,7 @@
   "hook_pt": "Uma palavra para cada sentimento?",
   "hook_ar": "كلمة واحدة لكل شعور؟",
   "hook_fil": "Isang salita para sa bawat emosyon?",
+  "hook_hi": "हर भावना के लिए एक ही शब्द?",
   "hook_voice": "One word for every feeling?",
   "hook_voice_parts": [
     {
@@ -26,7 +27,7 @@
   ],
   "hook_bg": "hanok",
   "hook_video": "vid0.mp4",
-  "hook_dur": 2.3,
+  "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "아이고!",
@@ -38,6 +39,7 @@
       "pt": "Bateu o dedo do pé? Aigo.",
       "ar": "اصطدمت إصبعك؟ أيغو.",
       "fil": "Nabunggo mo ang daliri mo? Aigo.",
+      "hi": "पैर की उँगली में चोट लगी? आइगो।",
       "voice": "아이고. Stubbed your toe? Aigo.",
       "bg": "hanok",
       "voice_parts": [
@@ -62,6 +64,7 @@
       "pt": "Bebê fofo? A mesma palavra, mais suave.",
       "ar": "طفل لطيف؟ الكلمة نفسها بنبرة ألطف.",
       "fil": "Cute na baby? Isang salita lang, mas lambing.",
+      "hi": "प्यारा बच्चा? वही शब्द, ज़्यादा नरमी से।",
       "voice": "아이고, 예뻐라. A cute baby? Same word, softer. So cute.",
       "bg": "bapsang",
       "voice_parts": [
@@ -86,6 +89,7 @@
       "pt": "Depois dos trinta, significa «minhas costas».",
       "ar": "بعد الثلاثين تعني «ظهري».",
       "fil": "Pagkatapos ng 30, ibig sabihin «ang likod ko».",
+      "hi": "तीस के बाद इसका मतलब होता है «मेरी कमर»।",
       "voice": "아이고, 허리야. And after thirty, the same word means my back hurts.",
       "bg": "hanok",
       "twist": true,
@@ -107,13 +111,15 @@
     "ko": "아이고, 끝났네",
     "roman": "aigo, kkeunnanne",
     "en": "What's your aigo moment? 👇",
+    "like": "Like if you've said aigo 👇",
     "vi": "Khoảnh khắc aigo của bạn là gì? 👇",
     "id": "Apa momen aigo-mu? 👇",
     "es": "¿Cuál es tu momento aigo? 👇",
     "pt": "Qual é o seu momento aigo? 👇",
     "ar": "ما هي لحظة «أيغو» عندك؟ 👇",
     "fil": "Ano ang aigo moment mo? 👇",
-    "voice": "아이고, 끝났네. Aigo, already over? So, what is your aigo moment?",
+    "hi": "आपका आइगो वाला पल कौन-सा है? 👇",
+    "voice": "아이고, 끝났네. Aigo, already over? So, what is your aigo moment? Like if you have said aigo.",
     "bg": "hanok",
     "voice_parts": [
       {
@@ -122,7 +128,7 @@
       },
       {
         "lang": "en",
-        "text": "Aigo, already over? So, what is your aigo moment?"
+        "text": "Aigo, already over? So, what is your aigo moment? Like if you have said aigo."
       }
     ],
     "dur": 5.1,

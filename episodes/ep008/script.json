@@ -17,6 +17,7 @@
   "hook_pt": "Jantar por cinco dólares na Coreia?",
   "hook_ar": "عشاء بخمسة دولارات في كوريا؟",
   "hook_fil": "Dinner for five dollars sa Korea?",
+  "hook_hi": "कोरिया में पाँच डॉलर में रात का खाना?",
   "hook_voice": "Dinner for five dollars in Korea?",
   "hook_voice_parts": [
     {
@@ -26,7 +27,7 @@
   ],
   "hook_bg": "seoul_night",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.9,
+  "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "삼각김밥",
@@ -38,6 +39,7 @@
       "pt": "Kimbap triangular. Cerca de um dólar.",
       "ar": "كيمباب مثلث. بدولار تقريبًا.",
       "fil": "Triangle kimbap. Mga isang dollar.",
+      "hi": "त्रिकोणीय किम्बाप। लगभग एक डॉलर।",
       "voice": "삼각김밥. Triangle kimbap, about a dollar. Pull the tab, one, two, three.",
       "bg": "seoul_night",
       "voice_parts": [
@@ -62,6 +64,7 @@
       "pt": "Cup ramen, água quente grátis, 1+1.",
       "ar": "نودلز بالكوب، ماء ساخن مجانًا، 1+1.",
       "fil": "Cup ramen, libreng hot water, 1+1.",
+      "hi": "कप रामेन, मुफ़्त गरम पानी, और 1+1।",
       "voice": "컵라면. Cup ramen, free hot water. And one plus one deals.",
       "bg": "bapsang",
       "voice_parts": [
@@ -86,6 +89,7 @@
       "pt": "O detalhe: você mesmo aquece no micro-ondas.",
       "ar": "المفاجأة: أنت من يسخّنه في الميكروويف.",
       "fil": "Ang catch: ikaw ang magmi-microwave.",
+      "hi": "पर शर्त यह है: माइक्रोवेव आपको खुद करना होगा।",
       "voice": "셀프예요. And the catch? You microwave it yourself. The staff will not do it for you.",
       "bg": "seoul_night",
       "twist": true,
@@ -107,13 +111,15 @@
     "ko": "다 먹었어요",
     "roman": "da meogeosseoyo",
     "en": "So, what would you buy? 👇",
+    "like": "Like if you'd eat this 👇",
     "vi": "Vậy bạn sẽ mua gì với 5 đô? 👇",
     "id": "Jadi, kamu akan beli apa dengan lima dolar? 👇",
     "es": "¿Y tú qué comprarías? 👇",
     "pt": "E você, o que compraria? 👇",
     "ar": "وأنت، ماذا ستشتري؟ 👇",
     "fil": "Ikaw, ano ang bibilhin mo? 👇",
-    "voice": "다 먹었어요. All finished. So, what would you buy with five dollars?",
+    "hi": "तो आप क्या खरीदेंगे? 👇",
+    "voice": "다 먹었어요. All finished. So, what would you buy with five dollars? Like if you would eat this.",
     "bg": "seoul_night",
     "voice_parts": [
       {
@@ -122,7 +128,7 @@
       },
       {
         "lang": "en",
-        "text": "All finished. So, what would you buy with five dollars?"
+        "text": "All finished. So, what would you buy with five dollars? Like if you would eat this."
       }
     ],
     "dur": 4.3,

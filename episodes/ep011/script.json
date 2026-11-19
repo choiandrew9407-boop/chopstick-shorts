@@ -17,6 +17,7 @@
   "hook_pt": "Qual assento do metrô está sempre vazio?",
   "hook_ar": "أي مقعد في المترو يبقى دائمًا فارغًا؟",
   "hook_fil": "Aling upuan sa subway ang laging bakante?",
+  "hook_hi": "मेट्रो की कौन-सी सीट हमेशा खाली रहती है?",
   "hook_voice": "Which subway seat is always empty?",
   "hook_voice_parts": [
     {
@@ -26,7 +27,7 @@
   ],
   "hook_bg": "seoul_night",
   "hook_video": "vid1.mp4",
-  "hook_dur": 2.3,
+  "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "노약자석",
@@ -38,6 +39,7 @@
       "pt": "Assentos da ponta: idosos, PcD, gestantes.",
       "ar": "المقاعد الطرفية: كبار السن، ذوو الإعاقة، الحوامل.",
       "fil": "Dulo ng upuan: seniors, PWD, buntis.",
+      "hi": "आखिरी सीटें: बुज़ुर्ग, दिव्यांग और गर्भवती के लिए।",
       "voice": "노약자석. The end seats are for the elderly, the disabled and pregnant women.",
       "bg": "seoul_night",
       "voice_parts": [
@@ -63,6 +65,7 @@
       "pt": "O assento rosa é para gestantes.",
       "ar": "المقعد الوردي للحوامل.",
       "fil": "Ang pink na upuan ay para sa buntis.",
+      "hi": "गुलाबी सीट गर्भवती महिलाओं के लिए है।",
       "voice": "임산부 배려석. And the pink seat is for pregnant women.",
       "bg": "seoul_night",
       "voice_parts": [
@@ -87,6 +90,7 @@
       "pt": "Vazio? Ninguém senta. Sem multa. Nunchi.",
       "ar": "فارغ؟ لا أحد يجلس. لا غرامة. نونتشي.",
       "fil": "Bakante? Walang umuupo. Walang multa. Nunchi.",
+      "hi": "खाली है? फिर भी कोई नहीं बैठता। जुर्माना नहीं। बस नूनची।",
       "voice": "비어 있어도. Even when they are empty, nobody sits. No fine. Just nunchi.",
       "bg": "seoul_night",
       "twist": true,
@@ -108,13 +112,15 @@
     "ko": "양보해요",
     "roman": "yangbohaeyo",
     "en": "So, which seat do you never take? 👇",
+    "like": "Like if you'd stand instead 👇",
     "vi": "Vậy bạn không bao giờ ngồi ghế nào? 👇",
     "id": "Jadi, kursi mana yang tidak pernah kamu duduki? 👇",
     "es": "¿Qué asiento nunca tomas? 👇",
     "pt": "Qual assento você nunca ocupa? 👇",
     "ar": "أي مقعد لا تجلس عليه أبدًا؟ 👇",
     "fil": "Aling upuan ang hindi mo inuupuan? 👇",
-    "voice": "양보해요. We give up our seats. So, which seat do you never take?",
+    "hi": "तो आप कौन-सी सीट पर कभी नहीं बैठते? 👇",
+    "voice": "양보해요. We give up our seats. So, which seat do you never take? Like if you would stand instead.",
     "bg": "seoul_night",
     "voice_parts": [
       {
@@ -123,7 +129,7 @@
       },
       {
         "lang": "en",
-        "text": "We give up our seats. So, which seat do you never take?"
+        "text": "We give up our seats. So, which seat do you never take? Like if you would stand instead."
       }
     ],
     "dur": 4.6,

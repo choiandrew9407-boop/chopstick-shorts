@@ -1,19 +1,21 @@
 ep011 — 실사 스톡 클립 출처
-수집일: 2026-11-18 (Asia/Seoul)
+수집일: 2026-11-18 (Asia/Seoul) / vid1 교체 2026-11-19
 
 vid0.mp4  — 창가 좌석(노약자석이 있는 끝자리)
   출처: Pexels / Beck Luo
   원본: https://www.pexels.com/video/empty-blue-seats-on-japanese-train-with-city-view-31260217/
   제목: Empty Blue Seats on Japanese Train with City View
   사용 구간: 원본 0:01~0:08.5 (원본 1080x1920 세로)
-  라이선스: Pexels License — 상업적 사용·편집 무료, 출처 표기 의무 없음(권장)
-
-vid1.mp4  — 손잡이를 잡고 서 있는 승객(비어 있어도 앉지 않는 반전)
-  출처: Pexels / cottonbro studio
-  원본: https://www.pexels.com/video/a-man-hanging-by-the-grab-handle-bar-inside-the-train-4770658/
-  제목: A Man Hanging By The Grab Handle Bar Inside The Train
-  사용 구간: 원본 0:04.3~0:08.8 (얼굴이 가려지는 구간만 사용), 1080x1920 세로 크롭
   라이선스: Pexels License
 
-반전 장면 배경이던 elevator(키패드) 일러스트는 지하철 손잡이 클립으로 교체했습니다.
+vid1.mp4  — 지하철 창문에 비친 승객 실루엣(비어 있어도 앉지 않는 반전)
+  출처: Pexels / Earth Photart
+  원본: https://www.pexels.com/video/silhouette-reflection-on-train-window-38572229/
+  제목: Silhouette Reflection on Train Window
+  사용 구간: 원본 전체(0:00~0:06) 정방향 + 역재생(부메랑), 1080x1920 30fps,
+            오른쪽 지도·안내문이 잡히던 부분은 960px로 잘라내고 밝기 +0.06 보정
+  라이선스: Pexels License — 상업적 사용·편집 무료, 출처 표기 의무 없음(권장)
+  교체 사유(2026-11-19): 이전 클립 `a-man-hanging-by-the-grab-handle-bar-inside-the-train-4770658`은
+  승객의 옆얼굴이 화면에 크게 잡혀 인물 노출 문제로 내렸다. 새 클립은 역광 실루엣만 보여 얼굴이 드러나지 않는다.
+
 이 편은 저장소에 AI 이미지가 없었습니다(대본만 있던 상태) — 실사 클립 2장면 + 자체 배경으로 구성.

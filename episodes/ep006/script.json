@@ -17,6 +17,7 @@
   "hook_pt": "Nenhum garçom vem. E agora?",
   "hook_ar": "لا يأتي أي نادل. ماذا الآن؟",
   "hook_fil": "Walang dumarating na waiter. Anong gagawin?",
+  "hook_hi": "कोई वेटर नहीं आ रहा। अब क्या करें?",
   "hook_voice": "No waiter is coming. Now what?",
   "hook_voice_parts": [
     {
@@ -26,7 +27,7 @@
   ],
   "hook_bg": "bapsang",
   "hook_video": "vid0.mp4",
-  "hook_dur": 2.1,
+  "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "저기요!",
@@ -38,6 +39,7 @@
       "pt": "Você só chama. Aqui não é falta de educação.",
       "ar": "تنادي فقط. ليس وقاحة هنا.",
       "fil": "Tatawag ka lang. Hindi bastos dito.",
+      "hi": "आप बस आवाज़ लगाते हैं। यहाँ यह असभ्य नहीं है।",
       "voice": "저기요. You just call out. Jeogiyo. It is not rude here.",
       "bg": "bapsang",
       "voice_parts": [
@@ -62,6 +64,7 @@
       "pt": "Ou aperte a campainha da mesa.",
       "ar": "أو اضغط جرس الطاولة.",
       "fil": "O pindutin ang bell sa mesa.",
+      "hi": "या मेज़ पर लगी घंटी दबाइए।",
       "voice": "띵동. Or press the little bell on the table. Ding dong. Someone comes.",
       "bg": "bapsang",
       "voice_parts": [
@@ -87,6 +90,7 @@
       "pt": "Os clientes fiéis chamam a atendente de «tia».",
       "ar": "الزبائن الدائمون ينادون النادلة «عمّة».",
       "fil": "Tinatawag ng suki ang server na «auntie».",
+      "hi": "नियमित ग्राहक वेट्रेस को «आंटी» कहते हैं।",
       "voice": "이모. And regulars call the server Imo. Auntie. She answers.",
       "bg": "pojangmacha",
       "twist": true,
@@ -107,13 +111,15 @@
     "ko": "잘 먹겠습니다",
     "roman": "jal meokgetseumnida",
     "en": "So, what would you shout? 👇",
+    "like": "Like if you'd shout this 👇",
     "vi": "Vậy bạn sẽ gọi thế nào? 👇",
     "id": "Jadi, kamu akan memanggil apa? 👇",
     "es": "¿Y tú qué gritarías? 👇",
     "pt": "E você, o que gritaria? 👇",
     "ar": "وأنت، بماذا ستنادي؟ 👇",
     "fil": "Ikaw, ano ang isisigaw mo? 👇",
-    "voice": "잘 먹겠습니다. Thanks for the meal. So, what would you shout from your table?",
+    "hi": "तो आप क्या कहकर बुलाएँगे? 👇",
+    "voice": "잘 먹겠습니다. Thanks for the meal. So, what would you shout from your table? Like if you'd shout this.",
     "bg": "bapsang",
     "voice_parts": [
       {
@@ -122,7 +128,7 @@
       },
       {
         "lang": "en",
-        "text": "Thanks for the meal. So, what would you shout from your table?"
+        "text": "Thanks for the meal. So, what would you shout from your table? Like if you'd shout this."
       }
     ],
     "dur": 4.4,

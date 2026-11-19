@@ -17,6 +17,7 @@
   "hook_pt": "Por que estudar seis horas em cafés?",
   "hook_ar": "لماذا تدرس ست ساعات في المقاهي؟",
   "hook_fil": "Bakit anim na oras mag-aral sa café?",
+  "hook_hi": "कैफ़े में छह घंटे पढ़ाई क्यों?",
   "hook_voice": "Why study six hours in cafés?",
   "hook_voice_parts": [
     {
@@ -26,7 +27,7 @@
   ],
   "hook_bg": "seoul_night",
   "hook_video": "vid0.mp4",
-  "hook_dur": 2.3,
+  "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "카공족",
@@ -38,6 +39,7 @@
       "pt": "A tribo de estudo em café. Notebooks às nove.",
       "ar": "قبيلة الدراسة في المقاهي. الحواسيب قبل التاسعة.",
       "fil": "Ang café study tribe. Laptop by nine.",
+      "hi": "कैफ़े में पढ़ने वाला समूह। सुबह नौ बजे तक लैपटॉप।",
       "voice": "카공족. The cafe study tribe. Laptops out by nine in the morning.",
       "bg": "seoul_night",
       "voice_parts": [
@@ -62,6 +64,7 @@
       "pt": "Um americano gelado. Uma mesa, horas.",
       "ar": "أمريكانو مثلج واحد. طاولة واحدة، ساعات.",
       "fil": "Isang iced Americano. Isang mesa, ilang oras.",
+      "hi": "एक आइस्ड अमेरिकानो। एक मेज़, कई घंटे।",
       "voice": "아아 한 잔. One iced Americano. One desk, for hours. Sometimes all night.",
       "bg": "bapsang",
       "voice_parts": [
@@ -87,6 +90,7 @@
       "pt": "O quarto deles em casa é menor.",
       "ar": "غرفتهم في البيت أصغر.",
       "fil": "Mas maliit ang kwarto nila sa bahay.",
+      "hi": "उनका घर का कमरा इससे भी छोटा है।",
       "voice": "집이 좁아서. And why? Their room at home is smaller than this table.",
       "bg": "bapsang",
       "twist": true,
@@ -107,13 +111,15 @@
     "ko": "같이 공부할래요? 어디서요?",
     "roman": "gachi gongbuhallaeyo? eodiseoyo?",
     "en": "Study together? So, where do you study? 👇",
+    "like": "Like if you study in cafés 👇",
     "vi": "Học cùng nhau nhé? Vậy bạn học ở đâu? 👇",
     "id": "Belajar bareng? Jadi, kamu belajar di mana? 👇",
     "es": "¿Estudiamos juntos? ¿Y dónde estudias? 👇",
     "pt": "Vamos estudar juntos? E onde você estuda? 👇",
     "ar": "ندرس معًا؟ إذن، أين تدرس؟ 👇",
     "fil": "Sabay tayong mag-aral? So, saan ka nag-aaral? 👇",
-    "voice": "같이 공부할래요? Study together? So, where do you study? 어디서요?",
+    "hi": "साथ पढ़ें? तो आप कहाँ पढ़ते हैं? 👇",
+    "voice": "같이 공부할래요? Study together? So, where do you study? 어디서요? Like if you study in cafes.",
     "bg": "seoul_night",
     "voice_parts": [
       {
@@ -127,6 +133,10 @@
       {
         "lang": "ko",
         "text": "어디서요?"
+      },
+      {
+        "lang": "en",
+        "text": "Like if you study in cafes."
       }
     ],
     "dur": 4.4,
