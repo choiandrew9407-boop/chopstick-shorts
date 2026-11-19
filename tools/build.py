@@ -99,16 +99,33 @@ def clean(text):
 
 
 def wrap(draw, text, fnt, max_w):
-    words, lines, cur = text.split(" "), [], ""
-    for w in words:
-        trial = (cur + " " + w).strip()
-        if draw.textlength(trial, font=fnt) <= max_w or not cur:
-            cur = trial
-        else:
-            lines.append(cur); cur = w
-    if cur:
-        lines.append(cur)
-    return lines
+    """단어 단위 최소 raggedness 줄바꿈.
+
+    왼쪽부터 채우는 방식은 마지막 줄에 단어 하나만 남기 쉽다(예: "Would you study here? Yes or / no?").
+    줄 폭의 제곱합을 최소로 하는 분할을 골라 두 줄이 고르게 나뉜다. 글자 수·줄 수는 그대로다.
+    """
+    words = text.split(" ")
+    n = len(words)
+    if n <= 1:
+        return [text]
+    INF = float("inf")
+    dp = [INF] * (n + 1)
+    prev = [0] * (n + 1)
+    dp[0] = 0.0
+    for j in range(1, n + 1):
+        for i in range(j):
+            w = draw.textlength(" ".join(words[i:j]), font=fnt)
+            if w > max_w and j - i > 1:   # 넘치는 줄은 단어 하나짜리만 허용
+                continue
+            cost = (max_w - w) ** 2
+            if dp[i] + cost < dp[j]:
+                dp[j] = dp[i] + cost
+                prev[j] = i
+    lines, j = [], n
+    while j > 0:
+        lines.append(" ".join(words[prev[j]:j]))
+        j = prev[j]
+    return lines[::-1]
 
 
 def run(cmd):

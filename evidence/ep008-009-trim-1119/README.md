@@ -44,6 +44,12 @@ ep008·ep009 모두 23.0s 이하고 권장 범위(20~22.5s) 안. 자막(.srt 8�
 
 8개 언어 자막·카드 번역도 같은 질문으로 맞췄고, 나라 이름은 넣지 않았다.
 
+## CTA 카드 줄바꿈(추가 수정)
+
+`tools/build.py`의 `wrap()`을 왼쪽 채우기 → **최소 raggedness(줄 폭 제곱합 최소)** 로 바꿨다.
+기존에는 `Would you study here? Yes or / no?`처럼 마지막 줄에 `no?`만 남았는데, 지금은 `Would you study / here? Yes or no?`로 고르게 나뉜다.
+줄 수·카드 높이·영상 길이는 그대로이고(6편 재빌드 후 21.00/21.50/22.17/22.30/21.60/21.90s 동일), 6편 모든 카드·훅 문구가 같은 규칙으로 다시 그려졌다.
+
 ## 해시태그
 
 ep006~011 전부 `#Korea #LearnKorean #KoreanCulture #AsianCulture` + 편별 태그 + `#shorts` 로 통일했다
