@@ -39,8 +39,8 @@ from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from scenes import DEFAULT_CYCLE, Particles, draw_scene, glow_sprite  # noqa: E402
 
-# 자막 트랙 언어: 영/베트남/인도네시아 + 대륙별 대표 4개(스페인/포르투갈(브라질)/아랍/필리핀)
-LANGS = ("en", "vi", "id", "es", "pt", "ar", "fil")
+# 자막 트랙 언어: 영/베트남/인도네시아 + 대륙별 대표 4개(스페인/포르투갈(브라질)/아랍/필리핀) + 힌디어
+LANGS = ("en", "vi", "id", "es", "pt", "ar", "fil", "hi")
 
 W, H, FPS = 1080, 1920, 30
 SAFE_TOP, SAFE_BOTTOM = int(H * 0.15), int(H * 0.80)  # keep text out of Shorts UI zones
@@ -195,9 +195,12 @@ def text_layer(scene, kind, show_tag=True):
                    fill=(255, 255, 255, 170), anchor="rm")
         return layer
     fk, fr, fe = font("bold", 120), font("regular", 54), font("bold", 64)
+    fl = font("bold", 50)
     ko = wrap(d, clean(scene["ko"]), fk, max_w)
     en = wrap(d, clean(scene["en"]), fe, max_w)
-    block = len(ko) * 150 + 90 + len(en) * 84
+    # `like`: 카드 맨 아래 한 줄짜리 좋아요 CTA(마지막 장면용, 영어 고정)
+    li = wrap(d, clean(scene.get("like", "")), fl, max_w) if scene.get("like") else []
+    block = len(ko) * 150 + 90 + len(en) * 84 + len(li) * 66
     if scene.get("card") == "top":
         top = CARD_MIN_TOP
     else:
@@ -210,6 +213,8 @@ def text_layer(scene, kind, show_tag=True):
     d.text((W // 2, y + 40), clean(scene.get("roman", "")), font=fr, fill=(220, 220, 220), anchor="mm"); y += 90
     for ln in en:
         d.text((W // 2, y + 42), ln, font=fe, fill="white", anchor="mm"); y += 84
+    for ln in li:
+        d.text((W // 2, y + 36), ln, font=fl, fill=(255, 226, 120), anchor="mm"); y += 66
     # channel tag lives inside the card, so it never collides with signs/displays
     if show_tag:
         d.text((W - 80, top + block + 55), "Chopstick Club", font=font("bold", 34),
@@ -559,6 +564,11 @@ def build(ep_dir):
              "-b:a", "128k", "-ar", "44100", "-shortest", "-movflags", "+faststart", str(final)])
 
     for lang in LANGS:
+        # 번역이 없는 언어는 만들지 않는다(영어 문장이 '힌디어 자막'으로 올라가는 사고 방지).
+        # hook_<lang>이 있으면 그 언어는 대본에 반영된 것으로 본다.
+        if lang != "en" and f"hook_{lang}" not in spec:
+            print(f"{eid}: hook_{lang} 없음 — {lang} 자막 건너뜀")
+            continue
         lines = []
         for n, (a, b, sc) in enumerate(cues, 1):
             body = sc[lang] if lang == "en" else sc.get(lang, sc["en"])

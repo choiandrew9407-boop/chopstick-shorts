@@ -17,6 +17,7 @@
   "hook_pt": "O frango frito consegue te achar aqui?",
   "hook_ar": "هل يستطيع الدجاج المقلي أن يجدك هنا؟",
   "hook_fil": "Mahahanap ka ba ng fried chicken dito?",
+  "hook_hi": "क्या फ्राइड चिकन आपको यहाँ तक ढूँढ लेगा?",
   "hook_voice": "Can fried chicken find you here?",
   "hook_voice_parts": [
     {
@@ -26,7 +27,7 @@
   ],
   "hook_bg": "pojangmacha",
   "hook_video": "vid0.mp4",
-  "hook_dur": 1.6,
+  "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "치맥",
@@ -38,6 +39,7 @@
       "pt": "Frango com cerveja. Uma palavra só.",
       "ar": "دجاج مع بيرة. كلمة واحدة.",
       "fil": "Chicken at beer. Isang salita lang.",
+      "hi": "चिकन और बियर. बस एक शब्द।",
       "voice": "치맥. Chicken plus beer. One word.",
       "bg": "pojangmacha",
       "voice_parts": [
@@ -62,6 +64,7 @@
       "pt": "Sua entrega chegou! Num parque.",
       "ar": "طلبك وصل! في حديقة.",
       "fil": "Delivery na! Sa park.",
+      "hi": "आपका ऑर्डर आ गया. एक पार्क में।",
       "voice": "배달 왔습니다. Your delivery is here. At a riverside park, at midnight.",
       "bg": "seoul_night",
       "voice_parts": [
@@ -86,6 +89,7 @@
       "pt": "Parques têm zonas de entrega oficiais.",
       "ar": "الحدائق فيها مناطق توصيل رسمية.",
       "fil": "May official delivery zone ang mga park.",
+      "hi": "पार्कों में डिलीवरी के लिए तय ज़ोन होते हैं।",
       "voice": "배달존. The part nobody believes: parks have official delivery zones.",
       "bg": "pojangmacha",
       "twist": true,
@@ -106,14 +110,16 @@
   "cta": {
     "ko": "맛있게 드세요",
     "roman": "masitge deuseyo",
-    "en": "Where would you order to? 👇",
-    "vi": "Bạn sẽ đặt giao đến đâu? 👇",
-    "id": "Mau dikirim ke mana? 👇",
-    "es": "¿A dónde pedirías? 👇",
-    "pt": "Onde você pediria? 👇",
-    "ar": "أين ستطلب التوصيل؟ 👇",
-    "fil": "Saan ka magpapa-deliver? 👇",
-    "voice": "맛있게 드세요. Enjoy your meal. So, where would you have it delivered?",
+    "en": "Is this normal in your country?",
+    "like": "Like if you'd order here 👇",
+    "vi": "Ở nước bạn có bình thường không? 👇",
+    "id": "Apakah ini normal di negaramu? 👇",
+    "es": "¿Esto es normal en tu país? 👇",
+    "pt": "Isso é normal no seu país? 👇",
+    "ar": "هل هذا طبيعي في بلدك؟ 👇",
+    "fil": "Normal ba ito sa bansa mo? 👇",
+    "hi": "क्या आपके देश में भी ऐसा होता है? 👇",
+    "voice": "맛있게 드세요. Enjoy your meal. Is this normal in your country? Like if you'd order here.",
     "bg": "pojangmacha",
     "voice_parts": [
       {
@@ -122,10 +128,10 @@
       },
       {
         "lang": "en",
-        "text": "Enjoy your meal. So, where would you have it delivered?"
+        "text": "Enjoy your meal. Is this normal in your country? Like if you'd order here."
       }
     ],
-    "dur": 4.3,
+    "dur": 5.6,
     "video": "vid0.mp4"
   },
   "music": "calm03.mp3",
