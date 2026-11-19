@@ -30,6 +30,7 @@ import re
 import shutil
 import subprocess
 import sys
+import textwrap
 import time
 import wave
 from pathlib import Path
@@ -165,10 +166,15 @@ def sub_alpha(t):
 
 
 # ---------------------------------------------------------------- clip prep
-def prep_clip(src, dur, out):
-    """스톡 클립을 1080x1920 세로로 잘라 dur초로 맞춤(짧으면 반복), 소리 제거, v3 그레이딩."""
+def prep_clip(src, dur, out, ss=0.0):
+    """스톡 클립을 1080x1920 세로로 잘라 dur초로 맞춤(짧으면 반복), 소리 제거, v3 그레이딩.
+
+    `ss`는 클립 안에서 시작할 지점(초) — 같은 클립을 앞 장면과 다른 구간에서 다시 쓸 때 쓴다.
+    """
     vf = ("scale=1080:1920:force_original_aspect_ratio=increase,"
           "crop=1080:1920,fps=30," + GRADE)
+    if ss:
+        vf = f"trim=start={ss:.3f},setpts=PTS-STARTPTS," + vf
     run([FF, "-y", "-loglevel", "error", "-stream_loop", "-1", "-i", str(src),
          "-t", f"{dur:.3f}", "-vf", vf, "-an",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
@@ -211,8 +217,25 @@ def text_layer(scene, kind, show_tag=True):
             d.text((W - 80, y + lh * len(lines) + pad - 14), "Chopstick Club", font=font("bold", 34),
                    fill=(255, 255, 255, 170), anchor="rm")
         return layer
-    fk, fr, fe = font("bold", 120), font("regular", 54), font("bold", 64)
     fl = font("bold", 50)
+    if not scene.get("ko"):
+        # v4 스토리형: 한국어 표현이 없는 설명·결론 장면은 영어 한 줄기 카드로 크게 보여 준다.
+        fe2 = font("bold", 72)
+        en = wrap(d, clean(scene["en"]), fe2, max_w)
+        li = wrap(d, clean(scene.get("like", "")), fl, max_w) if scene.get("like") else []
+        block = len(en) * 94 + len(li) * 66
+        top = max(CARD_MIN_TOP, SAFE_BOTTOM - block - CARD_BOTTOM_MARGIN)
+        d.rounded_rectangle((40, top - 50, W - 40, top + block + 60), 40, fill=(0, 0, 0, 160))
+        y = top
+        for ln in en:
+            d.text((W // 2, y + 47), ln, font=fe2, fill="white", anchor="mm"); y += 94
+        for ln in li:
+            d.text((W // 2, y + 36), ln, font=fl, fill=(255, 226, 120), anchor="mm"); y += 66
+        if show_tag:
+            d.text((W - 80, top + block + 30), "Chopstick Club", font=font("bold", 34),
+                   fill=(255, 255, 255, 170), anchor="rm")
+        return layer
+    fk, fr, fe = font("bold", 120), font("regular", 54), font("bold", 64)
     ko = wrap(d, clean(scene["ko"]), fk, max_w)
     en = wrap(d, clean(scene["en"]), fe, max_w)
     # `like`: 카드 맨 아래 한 줄짜리 좋아요 CTA(마지막 장면용, 영어 고정)
@@ -478,6 +501,17 @@ def srt_time(t):
     return f"{ms // 3600000:02}:{ms // 60000 % 60:02}:{ms // 1000 % 60:02},{ms % 1000:03}"
 
 
+SRT_LINE = 42   # 자막 한 줄 최대 글자수(은석님 규격)
+
+
+def srt_wrap(text):
+    """자막 본문을 한 줄 42자 이내로 끊는다(이미 여러 줄이면 각 줄마다)."""
+    out = []
+    for seg in (text or "").split("\n"):
+        out.extend(textwrap.wrap(seg, width=SRT_LINE, break_long_words=False) or [""])
+    return "\n".join(out)
+
+
 # ---------------------------------------------------------------- build
 def build(ep_dir):
     ep_dir = Path(ep_dir)
@@ -512,7 +546,7 @@ def build(ep_dir):
         slide = bool(cut_name)
 
         if kind == "video":
-            prepped = prep_clip(src, dur, work / f"p{i}.mp4")
+            prepped = prep_clip(src, dur, work / f"p{i}.mp4", float(sc.get("video_ss") or 0.0))
             prev_frame = render_video_scene(prepped, text, dur, clip, prev_frame, slide,
                                             fade=(sc["kind"] != "hook"))
         else:
@@ -588,7 +622,10 @@ def build(ep_dir):
             continue
         lines = []
         for n, (a, b, sc) in enumerate(cues, 1):
-            body = sc[lang] if lang == "en" else sc.get(lang, sc["en"])
+            # v4는 카드 문구(sc[lang])와 내레이션 자막(sub_<lang>)을 따로 둔다.
+            body = (sc.get(f"sub_{lang}") or sc[lang]) if lang == "en" else \
+                (sc.get(f"sub_{lang}") or sc.get(lang, sc["en"]))
+            body = srt_wrap(body)
             if sc.get("ko"):
                 body = f"{sc['ko']} ({sc.get('roman', '')})\n{body}"
             lines.append(f"{n}\n{srt_time(a)} --> {srt_time(b)}\n{body}\n")

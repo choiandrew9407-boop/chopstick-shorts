@@ -1,7 +1,7 @@
 {
   "id": "ep009",
-  "title_en": "Why Do Koreans Study in Cafés for 6 Hours? ☕ #shorts",
-  "description_en": "Meet the kagongjok: one iced Americano, one desk, six hours. The reason is smaller than you think. Learn 카공족 (café-study tribe) and 아아 (iced Americano). Stock footage: Pexels (free license)",
+  "title_en": "Why Students Study Six Hours in Cafés ☕ #shorts",
+  "description_en": "Many Korean students live in small rooms, so a café becomes their desk — one coffee, six hours. Koreans even have a word for it: 카공 (kagong). Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -12,14 +12,13 @@
     "#shorts"
   ],
   "hook_en": "Why study six hours in cafés?",
-  "hook_vi": "Vì sao học sáu tiếng ở quán cà phê?",
+  "hook_vi": "Vì sao học sáu tiếng trong quán cà phê?",
   "hook_id": "Kenapa belajar enam jam di kafe?",
-  "hook_es": "¿Por qué estudiar seis horas en cafeterías?",
+  "hook_es": "¿Por qué estudiar seis horas en cafés?",
   "hook_pt": "Por que estudar seis horas em cafés?",
   "hook_ar": "لماذا تدرس ست ساعات في المقاهي؟",
   "hook_fil": "Bakit anim na oras mag-aral sa café?",
-  "hook_hi": "कैफ़े में छह घंटे पढ़ाई क्यों?",
-  "hook_voice": "Why study six hours in cafés?",
+  "hook_hi": "कैफ़े में छह घंटे क्यों पढ़ते हैं?",
   "hook_voice_parts": [
     {
       "lang": "en",
@@ -31,109 +30,72 @@
   "hook_dur": 3.0,
   "scenes": [
     {
-      "ko": "카공족",
-      "roman": "kagongjok",
-      "en": "The café study tribe. Laptops by nine.",
-      "vi": "Bộ tộc học ở quán cà phê. Laptop từ 9 giờ sáng.",
-      "id": "Suku belajar kafe. Laptop sejak jam sembilan.",
-      "es": "La tribu de estudio en cafés. Portátiles a las nueve.",
-      "pt": "A tribo de estudo em café. Notebooks às nove.",
-      "ar": "قبيلة الدراسة في المقاهي. الحواسيب قبل التاسعة.",
-      "fil": "Ang café study tribe. Laptop by nine.",
-      "hi": "कैफ़े में पढ़ने वाला समूह। सुबह नौ बजे तक लैपटॉप।",
-      "voice": "카공족. The cafe study tribe. Laptops out by nine in the morning.",
+      "en": "Small rooms, shared homes.",
+      "sub_en": "Many Korean students live in small rooms, or share a home — so the café becomes their desk.",
+      "sub_vi": "Nhiều sinh viên Hàn ở phòng nhỏ hoặc ở chung nhà — nên quán cà phê thành bàn học.",
+      "sub_id": "Banyak mahasiswa Korea tinggal di kamar sempit atau berbagi rumah — jadi kafe menjadi meja belajar.",
+      "sub_es": "Muchos estudiantes coreanos viven en cuartos pequeños o comparten casa, así que el café es su escritorio.",
+      "sub_pt": "Muitos estudantes coreanos moram em quartos pequenos ou dividem casa — então o café vira a mesa deles.",
+      "sub_ar": "كثير من الطلاب الكوريين يعيشون في غرف صغيرة أو يتشاركون منزلًا، فيصبح المقهى مكتبهم.",
+      "sub_fil": "Maraming estudyanteng Koreano ang nakatira sa maliit na kwarto o nakikishare ng bahay — kaya ang café ang mesa nila.",
+      "sub_hi": "कई कोरियाई छात्र छोटे कमरों में या साझा घर में रहते हैं — इसलिए कैफ़े ही उनकी मेज़ है।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Many Korean students live in small rooms, or share a home — so the café becomes their desk."
+        }
+      ],
       "bg": "seoul_night",
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "카공족."
-        },
-        {
-          "lang": "en",
-          "text": "The cafe study tribe. Laptops out by nine in the morning."
-        }
-      ],
-      "dur": 4.8
+      "dur": 6.32
     },
     {
-      "ko": "아아 한 잔",
-      "roman": "a-a han jan",
-      "en": "One iced Americano. One desk, hours.",
-      "vi": "Một ly Americano đá. Một cái bàn, hàng giờ.",
-      "id": "Satu Americano dingin. Satu meja, berjam-jam.",
-      "es": "Un americano con hielo. Una mesa, horas.",
-      "pt": "Um americano gelado. Uma mesa, horas.",
-      "ar": "أمريكانو مثلج واحد. طاولة واحدة، ساعات.",
-      "fil": "Isang iced Americano. Isang mesa, ilang oras.",
-      "hi": "एक आइस्ड अमेरिकानो। एक मेज़, कई घंटे।",
-      "voice": "아아 한 잔. One iced Americano. One desk, for hours. Sometimes all night.",
-      "bg": "bapsang",
+      "ko": "카공",
+      "roman": "kagong",
+      "en": "Café plus study.",
+      "sub_en": "Cafés have light, a little noise and wifi — one coffee, six hours. Koreans call it kagong.",
+      "sub_vi": "Quán có ánh sáng, chút ồn và wifi — một ly cà phê, sáu tiếng. Người Hàn gọi là \"kagong\".",
+      "sub_id": "Kafe punya cahaya, sedikit suara dan wifi — satu kopi, enam jam. Orang Korea menyebutnya \"kagong\".",
+      "sub_es": "Los cafés tienen luz, algo de ruido y wifi: un café, seis horas. Los coreanos lo llaman «kagong».",
+      "sub_pt": "Cafés têm luz, um pouco de ruído e wifi: um café, seis horas. Os coreanos chamam de \"kagong\".",
+      "sub_ar": "المقاهي فيها إضاءة وضجيج خفيف وواي فاي — قهوة واحدة وست ساعات. الكوريون يسمونه \"كاغونغ\".",
+      "sub_fil": "May ilaw, konting ingay at wifi ang café — isang kape, anim na oras. Tinatawag itong \"kagong\".",
+      "sub_hi": "कैफ़े में रोशनी, थोड़ा शोर और वाई-फ़ाई है — एक कॉफ़ी, छह घंटे। कोरियाई इसे \"कागोंग\" कहते हैं।",
       "voice_parts": [
         {
-          "lang": "ko",
-          "text": "아아 한 잔."
+          "lang": "en",
+          "text": "Cafés have light, a little noise and wifi — one coffee, six hours. Koreans call it"
         },
         {
-          "lang": "en",
-          "text": "One iced Americano. One desk, for hours. Sometimes all night."
+          "lang": "ko",
+          "text": "카공"
         }
       ],
-      "dur": 5.5,
-      "video": "vid0.mp4"
-    },
-    {
-      "ko": "집이 좁아서",
-      "roman": "jibi jobaseo",
-      "en": "Their room at home is smaller.",
-      "vi": "Phòng ở nhà còn nhỏ hơn cái bàn này. Quán là phòng khách.",
-      "id": "Kamar di rumah lebih kecil dari meja ini. Kafe jadi ruang tamunya.",
-      "es": "Su cuarto en casa es más pequeño.",
-      "pt": "O quarto deles em casa é menor.",
-      "ar": "غرفتهم في البيت أصغر.",
-      "fil": "Mas maliit ang kwarto nila sa bahay.",
-      "hi": "उनका घर का कमरा इससे भी छोटा है।",
-      "voice": "집이 좁아서. And why? Their room at home is smaller than this table.",
       "bg": "bapsang",
-      "twist": true,
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "집이 좁아서."
-        },
-        {
-          "lang": "en",
-          "text": "And why? Their room at home is smaller than this table."
-        }
-      ],
-      "dur": 4.8
+      "video": "vid0.mp4",
+      "dur": 6.36
     }
   ],
   "cta": {
-    "ko": "같이 공부할래요?",
-    "roman": "gachi gongbuhallaeyo?",
-    "en": "Would you study here? Yes or no?",
-    "like": "Like if you study in cafés 👇",
-    "vi": "Bạn có học ở đây không? Có hay không?",
-    "id": "Mau belajar di sini? Iya atau tidak?",
-    "es": "¿Estudiarías aquí? ¿Sí o no?",
-    "pt": "Você estudaria aqui? Sim ou não?",
-    "ar": "هل تدرس هنا؟ نعم أم لا؟",
-    "fil": "Mag-aaral ka ba dito? Oo o hindi?",
-    "hi": "क्या आप यहाँ पढ़ेंगे? हाँ या नहीं?",
-    "voice": "같이 공부할래요?. Would you study here? Yes or no?",
-    "bg": "seoul_night",
+    "en": "Time limits now. Could you study like this? Yes or no?",
+    "like": "Like if you'd study here 👇",
+    "sub_en": "Some cafés now set time limits. Could you study like this? Yes or no?",
+    "sub_vi": "Giờ một số quán giới hạn thời gian. Bạn có học kiểu này được không? Có hay không?",
+    "sub_id": "Kini beberapa kafe membatasi waktu. Kamu bisa belajar seperti ini? Iya atau tidak?",
+    "sub_es": "Ahora algunos cafés ponen límite de tiempo. ¿Podrías estudiar así? ¿Sí o no?",
+    "sub_pt": "Agora alguns cafés limitam o tempo. Você conseguiria estudar assim? Sim ou não?",
+    "sub_ar": "بعض المقاهي تضع حدودًا للوقت. هل تستطيع الدراسة هكذا؟ نعم أم لا؟",
+    "sub_fil": "May time limit na ngayon ang ilang café. Kaya mo bang mag-aral nang ganito? Oo o hindi?",
+    "sub_hi": "अब कुछ कैफ़े समय की सीमा लगाते हैं। क्या आप ऐसे पढ़ सकेंगे? हाँ या नहीं?",
     "voice_parts": [
       {
-        "lang": "ko",
-        "text": "같이 공부할래요?"
-      },
-      {
         "lang": "en",
-        "text": "Would you study here? Yes or no?"
+        "text": "Some cafés now set time limits. Could you study like this? Yes or no?"
       }
     ],
-    "dur": 4.2,
-    "video": "vid1.mp4"
+    "bg": "seoul_night",
+    "video": "vid0.mp4",
+    "video_ss": 5.2,
+    "dur": 5.63
   },
   "music": "calm03.mp3",
   "particles": "snow"

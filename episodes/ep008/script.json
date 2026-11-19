@@ -1,7 +1,7 @@
 {
   "id": "ep008",
-  "title_en": "Dinner in Korea for Under $5? 🍙 #shorts",
-  "description_en": "Triangle kimbap, cup ramen, free hot water and 1+1 deals — dinner for under $5. The catch: you microwave it yourself. Learn 삼각김밥, 컵라면 and 셀프예요 (self-service). Stock footage: Pexels (free license)",
+  "title_en": "Dinner for Five Dollars in Korea? 🍙 #shorts",
+  "description_en": "After work many Koreans skip restaurants and walk into a 편의점 (pyeonuijeom) — a convenience store. Triangle kimbap, cup noodles, hot water and a microwave are all right there. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -12,14 +12,13 @@
     "#shorts"
   ],
   "hook_en": "Dinner for five dollars in Korea?",
-  "hook_vi": "Bữa tối 5 đô ở Hàn?",
+  "hook_vi": "Bữa tối 5 đô ở Hàn Quốc?",
   "hook_id": "Makan malam lima dolar di Korea?",
   "hook_es": "¿Cena por cinco dólares en Corea?",
   "hook_pt": "Jantar por cinco dólares na Coreia?",
   "hook_ar": "عشاء بخمسة دولارات في كوريا؟",
-  "hook_fil": "Dinner for five dollars sa Korea?",
-  "hook_hi": "कोरिया में पाँच डॉलर में रात का खाना?",
-  "hook_voice": "Dinner for five dollars in Korea?",
+  "hook_fil": "Hapunan sa limang dolyar sa Korea?",
+  "hook_hi": "कोरिया में पाँच डॉलर का डिनर?",
   "hook_voice_parts": [
     {
       "lang": "en",
@@ -31,109 +30,76 @@
   "hook_dur": 3.0,
   "scenes": [
     {
-      "ko": "삼각김밥",
-      "roman": "samgak gimbap",
-      "en": "Triangle kimbap. About a dollar.",
-      "vi": "Cơm cuộn hình tam giác. Khoảng một đô.",
-      "id": "Kimbap segitiga. Sekitar satu dolar.",
-      "es": "Kimbap triangular. Como un dólar.",
-      "pt": "Kimbap triangular. Cerca de um dólar.",
-      "ar": "كيمباب مثلث. بدولار تقريبًا.",
-      "fil": "Triangle kimbap. Mga isang dollar.",
-      "hi": "त्रिकोणीय किम्बाप। लगभग एक डॉलर।",
-      "voice": "삼각김밥. Triangle kimbap, about a dollar. Pull the tab, one, two, three.",
-      "bg": "seoul_night",
+      "ko": "편의점",
+      "roman": "pyeonuijeom",
+      "en": "A convenience store.",
+      "sub_en": "After work, many Koreans skip restaurants and walk into a pyeonuijeom — a convenience store.",
+      "sub_vi": "Sau giờ làm, nhiều người Hàn bỏ qua nhà hàng và ghé \"pyeonuijeom\" — cửa hàng tiện lợi.",
+      "sub_id": "Sepulang kerja, banyak orang Korea melewati restoran dan mampir ke \"pyeonuijeom\" — minimarket.",
+      "sub_es": "Tras el trabajo, muchos coreanos se saltan el restaurante y entran a un «pyeonuijeom»: una tienda de conveniencia.",
+      "sub_pt": "Depois do trabalho, muitos coreanos pulam o restaurante e entram num \"pyeonuijeom\": uma loja de conveniência.",
+      "sub_ar": "بعد العمل، كثير من الكوريين يتجاوزون المطاعم ويدخلون \"بيوني جوم\" — متجرًا صغيرًا مفتوحًا دائمًا.",
+      "sub_fil": "Pagkatapos ng trabaho, maraming Koreano ang hindi na pumapasok sa restaurant at dumadaan sa \"pyeonuijeom\" — convenience store.",
+      "sub_hi": "काम के बाद कई कोरियाई रेस्टोरेंट छोड़कर \"प्योनुइजोम\" — कन्वीनियंस स्टोर — चले जाते हैं।",
       "voice_parts": [
         {
+          "lang": "en",
+          "text": "After work, many Koreans skip restaurants and walk into a"
+        },
+        {
           "lang": "ko",
-          "text": "삼각김밥."
+          "text": "편의점"
         },
         {
           "lang": "en",
-          "text": "Triangle kimbap, about a dollar. Pull the tab, one, two, three."
+          "text": "— a convenience store."
         }
       ],
-      "dur": 5.4
+      "bg": "seoul_night",
+      "dur": 6.58
     },
     {
-      "ko": "컵라면",
-      "roman": "keom ramyeon",
-      "en": "Cup ramen, free hot water, 1+1.",
-      "vi": "Mì ly, nước nóng miễn phí, mua 1 tặng 1 khắp nơi.",
-      "id": "Mie cup, air panas gratis, dan promo beli 1 gratis 1.",
-      "es": "Ramen en vaso, agua caliente gratis, 1+1.",
-      "pt": "Cup ramen, água quente grátis, 1+1.",
-      "ar": "نودلز بالكوب، ماء ساخن مجانًا، 1+1.",
-      "fil": "Cup ramen, libreng hot water, 1+1.",
-      "hi": "कप रामेन, मुफ़्त गरम पानी, और 1+1।",
-      "voice": "컵라면. Cup ramen, free hot water. And one plus one deals.",
+      "en": "Kimbap, noodles, microwave — all there.",
+      "sub_en": "Triangle kimbap, cup noodles, hot water, a microwave — all right there.",
+      "sub_vi": "Cơm nắm tam giác, mì ly, nước nóng, lò vi sóng — có đủ ngay đó.",
+      "sub_id": "Kimbap segitiga, mi cup, air panas, microwave — semua ada di situ.",
+      "sub_es": "Kimbap triangular, fideos instantáneos, agua caliente y microondas: todo ahí.",
+      "sub_pt": "Kimbap triangular, miojo, água quente e micro-ondas: tudo ali.",
+      "sub_ar": "كيمباب مثلث، معكرونة فورية، ماء ساخن وميكروويف — كل شيء هناك.",
+      "sub_fil": "Triangle kimbap, cup noodles, mainit na tubig, microwave — nandiyan lahat.",
+      "sub_hi": "त्रिकोण किम्बैप, कप नूडल्स, गरम पानी, माइक्रोवेव — सब वहीं मौजूद।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Triangle kimbap, cup noodles, hot water, a microwave — all right there."
+        }
+      ],
       "bg": "bapsang",
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "컵라면."
-        },
-        {
-          "lang": "en",
-          "text": "Cup ramen, free hot water. And one plus one deals."
-        }
-      ],
-      "dur": 4.4
-    },
-    {
-      "ko": "셀프예요",
-      "roman": "selpeu-yeyo",
-      "en": "The catch: you microwave it yourself.",
-      "vi": "Cái bẫy: bạn tự hâm trong lò vi sóng.",
-      "id": "Triknya: kamu sendiri yang memanaskan di microwave.",
-      "es": "El detalle: lo calientas tú mismo.",
-      "pt": "O detalhe: você mesmo aquece no micro-ondas.",
-      "ar": "المفاجأة: أنت من يسخّنه في الميكروويف.",
-      "fil": "Ang catch: ikaw ang magmi-microwave.",
-      "hi": "पर शर्त यह है: माइक्रोवेव आपको खुद करना होगा।",
-      "voice": "셀프예요. And the catch? You microwave it yourself. The staff will not do it for you.",
-      "bg": "seoul_night",
-      "twist": true,
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "셀프예요."
-        },
-        {
-          "lang": "en",
-          "text": "And the catch? You microwave it yourself. The staff will not do it for you."
-        }
-      ],
-      "dur": 5.1,
-      "video": "vid1.mp4"
+      "video": "vid0.mp4",
+      "video_ss": 3.0,
+      "dur": 5.75
     }
   ],
   "cta": {
-    "ko": "다 먹었어요",
-    "roman": "da meogeosseoyo",
-    "en": "Would you eat this for five dollars? Yes or no?",
-    "like": "Like if you'd eat this 👇",
-    "vi": "Bạn có ăn món này với 5 đô không? Có hay không?",
-    "id": "Mau makan ini dengan lima dolar? Iya atau tidak?",
-    "es": "¿Comerías esto por cinco dólares? ¿Sí o no?",
-    "pt": "Você comeria isso por cinco dólares? Sim ou não?",
-    "ar": "هل تأكل هذا بخمسة دولارات؟ نعم أم لا؟",
-    "fil": "Kakainin mo ito sa limang dolar? Oo o hindi?",
-    "hi": "क्या आप यह पाँच डॉलर में खाएँगे? हाँ या नहीं?",
-    "voice": "다 먹었어요. Would you eat this for five dollars? Yes or no?",
-    "bg": "seoul_night",
+    "en": "Window counter, ten minutes. Would you eat here? Yes or no?",
+    "like": "Like if this is your dinner 👇",
+    "sub_en": "Eat at the window counter, done in ten minutes. Would you eat dinner here? Yes or no?",
+    "sub_vi": "Ăn ở quầy cửa sổ, xong trong mười phút. Bạn có ăn tối ở đây không? Có hay không?",
+    "sub_id": "Makan di meja dekat jendela, selesai sepuluh menit. Mau makan malam di sini? Iya atau tidak?",
+    "sub_es": "Comes en la barra junto a la ventana y listo en diez minutos. ¿Cenarías aquí? ¿Sí o no?",
+    "sub_pt": "Come na bancada da janela e termina em dez minutos. Você jantaria aqui? Sim ou não?",
+    "sub_ar": "تأكل عند النافذة وتنتهي في عشر دقائق. هل ستتعشى هنا؟ نعم أم لا؟",
+    "sub_fil": "Kakain sa may bintana, tapos sa sampung minuto. Kakain ka ba ng hapunan dito? Oo o hindi?",
+    "sub_hi": "खिड़की के पास बैठकर दस मिनट में खाना खत्म। क्या आप यहाँ डिनर करेंगे? हाँ या नहीं?",
     "voice_parts": [
       {
-        "lang": "ko",
-        "text": "다 먹었어요"
-      },
-      {
         "lang": "en",
-        "text": "Would you eat this for five dollars? Yes or no?"
+        "text": "Eat at the window counter, done in ten minutes. Would you eat dinner here? Yes or no?"
       }
     ],
-    "dur": 4.2,
-    "video": "vid0.mp4"
+    "bg": "seoul_night",
+    "video": "vid1.mp4",
+    "dur": 5.97
   },
   "music": "calm03.mp3",
   "particles": "snow"

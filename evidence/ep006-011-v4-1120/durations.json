@@ -1,0 +1,32 @@
+[
+ {
+  "ep": "ep006",
+  "seconds": 21.0,
+  "sheet": "ep006-sheet.png"
+ },
+ {
+  "ep": "ep007",
+  "seconds": 21.3,
+  "sheet": "ep007-sheet.png"
+ },
+ {
+  "ep": "ep008",
+  "seconds": 21.3,
+  "sheet": "ep008-sheet.png"
+ },
+ {
+  "ep": "ep009",
+  "seconds": 21.31,
+  "sheet": "ep009-sheet.png"
+ },
+ {
+  "ep": "ep010",
+  "seconds": 21.3,
+  "sheet": "ep010-sheet.png"
+ },
+ {
+  "ep": "ep011",
+  "seconds": 21.0,
+  "sheet": "ep011-sheet.png"
+ }
+]

@@ -1,7 +1,7 @@
 {
   "id": "ep007",
-  "title_en": "The One Word Koreans Say All Day 😩 #shorts",
-  "description_en": "Stubbed toe, cute baby, a sore back after thirty — 아이고 covers all of it. Learn 아이고 (aigo) and 아이고 허리야 (aigo, my back). Stock footage: Pexels (free license)",
+  "title_en": "One Word for Tired, Shocked and Sad 😮‍💨 #shorts",
+  "description_en": "Koreans say 아이고 (aigo) when they're tired, shocked, sad — even when they just stand up. One word that began as a cry of grief and became an everyday sigh. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -12,14 +12,13 @@
     "#shorts"
   ],
   "hook_en": "One word for every feeling?",
-  "hook_vi": "Một từ cho mọi cảm xúc của người Hàn?",
-  "hook_id": "Satu kata untuk semua rasa orang Korea?",
-  "hook_es": "¿Una palabra para cada emoción?",
-  "hook_pt": "Uma palavra para cada sentimento?",
+  "hook_vi": "Một từ cho mọi cảm xúc?",
+  "hook_id": "Satu kata untuk semua perasaan?",
+  "hook_es": "¿Una sola palabra para todo lo que sientes?",
+  "hook_pt": "Uma palavra para todo sentimento?",
   "hook_ar": "كلمة واحدة لكل شعور؟",
-  "hook_fil": "Isang salita para sa bawat emosyon?",
+  "hook_fil": "Isang salita para sa lahat ng damdamin?",
   "hook_hi": "हर भावना के लिए एक ही शब्द?",
-  "hook_voice": "One word for every feeling?",
   "hook_voice_parts": [
     {
       "lang": "en",
@@ -31,109 +30,76 @@
   "hook_dur": 3.0,
   "scenes": [
     {
-      "ko": "아이고!",
-      "roman": "aigo!",
-      "en": "Stubbed your toe? Aigo.",
-      "vi": "Vấp ngón chân? Aigo.",
-      "id": "Keseleo jari kaki? Aigo.",
-      "es": "¿Te golpeaste el dedo? Aigo.",
-      "pt": "Bateu o dedo do pé? Aigo.",
-      "ar": "اصطدمت إصبعك؟ أيغو.",
-      "fil": "Nabunggo mo ang daliri mo? Aigo.",
-      "hi": "पैर की उँगली में चोट लगी? आइगो।",
-      "voice": "아이고. Stubbed your toe? Aigo.",
-      "bg": "hanok",
+      "en": "Tired, shocked, sad — one word.",
+      "sub_en": "Tired, shocked, sad — even just standing up, Koreans use the same word for all of it.",
+      "sub_vi": "Mệt, sốc, buồn — kể cả khi vừa đứng dậy, người Hàn dùng cùng một từ cho tất cả.",
+      "sub_id": "Lelah, kaget, sedih — bahkan saat baru berdiri, orang Korea memakai satu kata yang sama untuk semuanya.",
+      "sub_es": "Cansado, sorprendido, triste: incluso al levantarse, los coreanos usan la misma palabra para todo.",
+      "sub_pt": "Cansado, chocado, triste: até ao se levantar, os coreanos usam a mesma palavra para tudo.",
+      "sub_ar": "متعب، مصدوم، حزين — حتى عند النهوض فقط، يستخدم الكوريون الكلمة نفسها لكل ذلك.",
+      "sub_fil": "Pagod, gulat, lungkot — kahit kakabangon lang, isang salita lang ang gamit ng mga Koreano.",
+      "sub_hi": "थके, चौंके, उदास — यहाँ तक कि उठते समय भी, कोरियाई लोग एक ही शब्द इस्तेमाल करते हैं।",
       "voice_parts": [
         {
+          "lang": "en",
+          "text": "Tired, shocked, sad — even just standing up, Koreans use the same word for all of it."
+        }
+      ],
+      "dur": 5.35,
+      "bg": "hanok",
+      "video": "vid0.mp4",
+      "video_ss": 3.0
+    },
+    {
+      "ko": "아이고",
+      "roman": "aigo",
+      "en": "A sigh that fits everything.",
+      "sub_en": "It's aigo. It began as a cry of grief, and slowly became an everyday sigh.",
+      "sub_vi": "Đó là \"aigo\". Khởi đầu là tiếng khóc than, dần thành tiếng thở dài mỗi ngày.",
+      "sub_id": "Itu \"aigo\". Awalnya tangisan duka, pelan-pelan jadi keluhan sehari-hari.",
+      "sub_es": "Es «aigo». Nació como un lamento y poco a poco se volvió un suspiro diario.",
+      "sub_pt": "É \"aigo\". Nasceu como um lamento e virou um suspiro do dia a dia.",
+      "sub_ar": "إنها \"aigo\". بدأت صرخة حزن، ثم صارت تنهيدة يومية.",
+      "sub_fil": "Ito ang \"aigo\". Nagsimula itong daing sa dalamhati, at naging pang-araw-araw na buntong-hininga.",
+      "sub_hi": "यह \"aigo\" है। शुरुआत में यह शोक की पुकार थी, धीरे-धीरे रोज़ की आह बन गई।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "It's"
+        },
+        {
           "lang": "ko",
-          "text": "아이고."
+          "text": "아이고"
         },
         {
           "lang": "en",
-          "text": "Stubbed your toe? Aigo."
+          "text": "— it began as a cry of grief, and slowly became an everyday sigh."
         }
       ],
-      "dur": 2.7
-    },
-    {
-      "ko": "아이고, 예뻐라!",
-      "roman": "aigo, yeppeora!",
-      "en": "Cute baby? Same word, softer.",
-      "vi": "Em bé dễ thương? Cùng một từ, nhẹ hơn. Dễ thương quá!",
-      "id": "Bayi lucu? Kata yang sama, lebih lembut. Lucu sekali!",
-      "es": "¿Un bebé lindo? La misma palabra, más suave.",
-      "pt": "Bebê fofo? A mesma palavra, mais suave.",
-      "ar": "طفل لطيف؟ الكلمة نفسها بنبرة ألطف.",
-      "fil": "Cute na baby? Isang salita lang, mas lambing.",
-      "hi": "प्यारा बच्चा? वही शब्द, ज़्यादा नरमी से।",
-      "voice": "아이고, 예뻐라. A cute baby? Same word, softer. So cute.",
       "bg": "bapsang",
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "아이고, 예뻐라."
-        },
-        {
-          "lang": "en",
-          "text": "A cute baby? Same word, softer. So cute."
-        }
-      ],
-      "dur": 5.5
-    },
-    {
-      "ko": "아이고 허리야",
-      "roman": "aigo heoriya",
-      "en": "After thirty, it means \"my back\".",
-      "vi": "Sau ba mươi, câu đó nghĩa là \"đau lưng\".",
-      "id": "Setelah tiga puluh, artinya \"punggungku sakit\".",
-      "es": "Después de los treinta, significa «mi espalda».",
-      "pt": "Depois dos trinta, significa «minhas costas».",
-      "ar": "بعد الثلاثين تعني «ظهري».",
-      "fil": "Pagkatapos ng 30, ibig sabihin «ang likod ko».",
-      "hi": "तीस के बाद इसका मतलब होता है «मेरी कमर»।",
-      "voice": "아이고, 허리야. And after thirty, the same word means my back hurts.",
-      "bg": "hanok",
-      "twist": true,
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "아이고, 허리야."
-        },
-        {
-          "lang": "en",
-          "text": "And after thirty, the same word means my back hurts."
-        }
-      ],
-      "dur": 5.2,
-      "video": "vid1.mp4"
+      "dur": 6.5
     }
   ],
   "cta": {
-    "ko": "아이고, 끝났네",
-    "roman": "aigo, kkeutnatne",
-    "en": "Do you say aigo too? Yes or no?",
-    "like": "Like if you've said aigo 👇",
-    "vi": "Bạn cũng nói aigo chứ? Có hay không?",
-    "id": "Kamu juga bilang aigo? Iya atau tidak?",
-    "es": "¿Tú también dices aigo? ¿Sí o no?",
-    "pt": "Você também fala aigo? Sim ou não?",
-    "ar": "هل تقول «aigo» أيضًا؟ نعم أم لا؟",
-    "fil": "Nag-aigo ka rin ba? Oo o hindi?",
-    "hi": "क्या आप भी aigo कहते हैं? हाँ या नहीं?",
-    "voice": "아이고, 끝났네. Do you say aigo too? Yes or no?",
-    "bg": "hanok",
+    "en": "Everyone says it. Do you have a word like this? Yes or no?",
+    "like": "Like if you said it today 👇",
+    "sub_en": "Old or young, everyone says it. Do you have a word like this? Yes or no?",
+    "sub_vi": "Già hay trẻ, ai cũng nói. Bạn có từ nào như vậy không? Có hay không?",
+    "sub_id": "Tua atau muda, semua mengucapkannya. Kamu punya kata seperti ini? Iya atau tidak?",
+    "sub_es": "Jóvenes y mayores lo dicen. ¿Tienes una palabra así? ¿Sí o no?",
+    "sub_pt": "Jovens e velhos dizem. Você tem uma palavra assim? Sim ou não?",
+    "sub_ar": "كبيرًا كان أو صغيرًا، الجميع يقولها. هل عندك كلمة مثلها؟ نعم أم لا؟",
+    "sub_fil": "Bata o matanda, sinasabi ito. May salita ka bang ganito? Oo o hindi?",
+    "sub_hi": "बूढ़े हों या जवान, सब कहते हैं। क्या आपके पास ऐसा कोई शब्द है? हाँ या नहीं?",
     "voice_parts": [
       {
-        "lang": "ko",
-        "text": "아이고, 끝났네"
-      },
-      {
         "lang": "en",
-        "text": "Do you say aigo too? Yes or no?"
+        "text": "Old or young, everyone says it. Do you have a word like this? Yes or no?"
       }
     ],
-    "dur": 5.1,
-    "video": "vid0.mp4"
+    "bg": "hanok",
+    "video": "vid1.mp4",
+    "dur": 6.45
   },
   "music": "calm03.mp3",
   "particles": "snow"

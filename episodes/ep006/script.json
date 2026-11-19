@@ -1,7 +1,7 @@
 {
   "id": "ep006",
   "title_en": "No Waiter Comes Unless You Do This 🔔 #shorts",
-  "description_en": "Korean restaurants don't come to you — you call, or you press the bell on the table. Learn 저기요 (excuse me), 띵동 (ding dong) and 이모 (auntie). Stock footage: Pexels (free license)",
+  "description_en": "Korean restaurants don't come to you — you call, or you press the bell on the table. Learn 저기요 (excuse me), the one phrase that gets you served. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -19,7 +19,6 @@
   "hook_ar": "لا يأتي أي نادل. ماذا الآن؟",
   "hook_fil": "Walang dumarating na waiter. Anong gagawin?",
   "hook_hi": "कोई वेटर नहीं आ रहा। अब क्या करें?",
-  "hook_voice": "No waiter is coming. Now what?",
   "hook_voice_parts": [
     {
       "lang": "en",
@@ -27,113 +26,79 @@
     }
   ],
   "hook_bg": "bapsang",
-  "hook_video": "vid0.mp4",
+  "hook_video": "vid1.mp4",
   "hook_dur": 3.0,
   "scenes": [
     {
-      "ko": "저기요!",
-      "roman": "jeogiyo!",
-      "en": "You just call out. Not rude here.",
-      "vi": "Cứ gọi lớn. Không bất lịch sự ở đây.",
-      "id": "Panggil saja. Tidak kasar di sini.",
-      "es": "Solo llamas. Aquí no es de mala educación.",
-      "pt": "Você só chama. Aqui não é falta de educação.",
-      "ar": "تنادي فقط. ليس وقاحة هنا.",
-      "fil": "Tatawag ka lang. Hindi bastos dito.",
-      "hi": "आप बस आवाज़ लगाते हैं। यहाँ यह असभ्य नहीं है।",
-      "voice": "저기요. You just call out. Jeogiyo. It is not rude here.",
-      "bg": "bapsang",
+      "en": "Staff don't hover. They give you space.",
+      "sub_en": "In many Korean restaurants, staff don't hover at your table. They give you space, and they're busy.",
+      "sub_vi": "Ở nhiều quán ăn Hàn Quốc, nhân viên không đứng quanh bàn bạn. Họ để bạn thoải mái, vì họ bận.",
+      "sub_id": "Di banyak restoran Korea, pelayan tidak berdiri di dekat meja. Mereka memberi kamu ruang, karena sibuk.",
+      "sub_es": "En muchos restaurantes coreanos el personal no ronda tu mesa. Te dan espacio, porque están ocupados.",
+      "sub_pt": "Em muitos restaurantes coreanos os funcionários não ficam rondando sua mesa. Dão espaço, porque estão ocupados.",
+      "sub_ar": "في كثير من المطاعم الكورية لا يقف الموظفون حول طاولتك. يتركون لك مساحتك، لأنهم مشغولون.",
+      "sub_fil": "Sa maraming Korean restaurant, hindi umiikot ang staff sa mesa mo. Binibigyan ka ng espasyo dahil abala sila.",
+      "sub_hi": "कई कोरियाई रेस्टोरेंट में स्टाफ़ आपकी मेज़ के आसपास नहीं मंडराता। वे आपको जगह देते हैं, क्योंकि वे व्यस्त हैं।",
       "voice_parts": [
         {
-          "lang": "ko",
-          "text": "저기요."
-        },
-        {
           "lang": "en",
-          "text": "You just call out. Jeogiyo. It is not rude here."
+          "text": "In many Korean restaurants, staff don't hover at your table. They give you space, and they're busy."
         }
       ],
-      "dur": 4.2
+      "bg": "bapsang",
+      "dur": 6.2
     },
     {
-      "ko": "띵동",
-      "roman": "ttingdong",
-      "en": "Or press the bell on the table.",
-      "vi": "Hoặc bấm chuông trên bàn. Ding dong.",
-      "id": "Atau tekan bel di meja. Ding dong.",
-      "es": "O pulsa el timbre de la mesa.",
-      "pt": "Ou aperte a campainha da mesa.",
-      "ar": "أو اضغط جرس الطاولة.",
-      "fil": "O pindutin ang bell sa mesa.",
-      "hi": "या मेज़ पर लगी घंटी दबाइए।",
-      "voice": "띵동. Or press the little bell on the table. Ding dong. Someone comes.",
+      "ko": "저기요",
+      "roman": "jeogiyo",
+      "en": "Call out: \"excuse me.\"",
+      "sub_en": "So you call them. Press the button on the table, or just say jeogiyo — it means \"excuse me.\"",
+      "sub_vi": "Vậy là bạn gọi họ: bấm chuông trên bàn, hoặc chỉ cần nói \"jeogiyo\" — nghĩa là \"xin cho hỏi\".",
+      "sub_id": "Jadi kamu memanggil mereka: tekan bel di meja, atau cukup bilang \"jeogiyo\" — artinya \"permisi\".",
+      "sub_es": "Así que los llamas: pulsa el timbre de la mesa o simplemente di «jeogiyo», que significa «disculpe».",
+      "sub_pt": "Então você os chama: aperta a campainha da mesa ou apenas diz \"jeogiyo\", que significa \"com licença\".",
+      "sub_ar": "لذا أنت تناديهم: اضغط جرس الطاولة، أو قل فقط \"jeogiyo\" أي \"عفوًا\".",
+      "sub_fil": "Kaya ikaw ang tatawag: pindutin ang bell sa mesa, o sabihin lang ang \"jeogiyo\" — ibig sabihin \"excuse me\".",
+      "sub_hi": "तो आप उन्हें बुलाते हैं: मेज़ पर लगी घंटी दबाइए, या बस \"jeogiyo\" कहिए — यानी \"सुनिए\"।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "So you call them. Press the button on the table, or just say"
+        },
+        {
+          "lang": "ko",
+          "text": "저기요"
+        },
+        {
+          "lang": "en",
+          "text": "— it means \"excuse me.\""
+        }
+      ],
       "bg": "bapsang",
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "띵동."
-        },
-        {
-          "lang": "en",
-          "text": "Or press the little bell on the table. Ding dong. Someone comes."
-        }
-      ],
-      "dur": 4.8,
-      "video": "vid1.mp4"
-    },
-    {
-      "ko": "이모!",
-      "roman": "imo!",
-      "en": "Regulars call the server \"auntie\".",
-      "vi": "Khách quen gọi nhân viên là \"dì\".",
-      "id": "Pelanggan tetap memanggil pelayan \"bibi\".",
-      "es": "Los habituales llaman «tía» a la mesera.",
-      "pt": "Os clientes fiéis chamam a atendente de «tia».",
-      "ar": "الزبائن الدائمون ينادون النادلة «عمّة».",
-      "fil": "Tinatawag ng suki ang server na «auntie».",
-      "hi": "नियमित ग्राहक वेट्रेस को «आंटी» कहते हैं।",
-      "voice": "이모. And regulars call the server Imo. Auntie. She answers.",
-      "bg": "pojangmacha",
-      "twist": true,
-      "voice_parts": [
-        {
-          "lang": "ko",
-          "text": "이모."
-        },
-        {
-          "lang": "en",
-          "text": "And regulars call the server Imo. Auntie. She answers."
-        }
-      ],
-      "dur": 4.6
+      "video": "vid0.mp4",
+      "dur": 6.0
     }
   ],
   "cta": {
-    "ko": "잘 먹겠습니다.",
-    "roman": "jal meokget-seumnida",
-    "en": "Would you shout this at your table? Yes or no?",
-    "like": "Like if you'd shout this 👇",
-    "vi": "Bạn có hét câu này ở bàn không? Có hay không?",
-    "id": "Mau teriak ini di meja? Iya atau tidak?",
-    "es": "¿Gritarías esto en tu mesa? ¿Sí o no?",
-    "pt": "Você gritaria isso na sua mesa? Sim ou não?",
-    "ar": "هل تصرخ بهذا على طاولتك؟ نعم أم لا؟",
-    "fil": "Sisigaw ka ba nito sa mesa? Oo o hindi?",
-    "hi": "क्या आप अपनी टेबल पर यह चिल्लाएँगे? हाँ या नहीं?",
-    "voice": "잘 먹겠습니다.. Would you shout this at your table? Yes or no?",
-    "bg": "bapsang",
+    "en": "Not rude — that's how it works. Would you press it? Yes or no?",
+    "like": "Like if you'd press it twice 👇",
+    "sub_en": "It's not rude. It's how it works. Would you press it? Yes or no?",
+    "sub_vi": "Không phải bất lịch sự. Ở đây là vậy. Bạn có bấm không? Có hay không?",
+    "sub_id": "Bukan tidak sopan. Begitulah caranya. Mau kamu tekan? Iya atau tidak?",
+    "sub_es": "No es de mala educación. Así funciona. ¿Lo pulsarías? ¿Sí o no?",
+    "sub_pt": "Não é falta de educação. É assim que funciona. Você apertaria? Sim ou não?",
+    "sub_ar": "ليس وقاحة. هكذا تسير الأمور. هل ستضغطه؟ نعم أم لا؟",
+    "sub_fil": "Hindi ito bastos. Ganito talaga ang sistema. Pipindutin mo ba? Oo o hindi?",
+    "sub_hi": "यह असभ्य नहीं है। ऐसे ही होता है। क्या आप इसे दबाएँगे? हाँ या नहीं?",
     "voice_parts": [
       {
-        "lang": "ko",
-        "text": "잘 먹겠습니다."
-      },
-      {
         "lang": "en",
-        "text": "Would you shout this at your table? Yes or no?"
+        "text": "It's not rude. It's how it works. Would you press it? Yes or no?"
       }
     ],
-    "dur": 4.4,
-    "video": "vid0.mp4"
+    "bg": "bapsang",
+    "video": "vid1.mp4",
+    "dur": 5.8
   },
   "music": "calm03.mp3",
   "particles": "snow"
