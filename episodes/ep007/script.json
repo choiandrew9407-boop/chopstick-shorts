@@ -1,7 +1,7 @@
 {
   "id": "ep007",
-  "title_en": "One Word for Tired, Shocked and Sad 😮‍💨 #shorts",
-  "description_en": "Koreans say 아이고 (aigo) when they're tired, shocked, sad — even when they just stand up. One word that began as a cry of grief and became an everyday sigh. Stock footage: Pexels (free license)",
+  "title_en": "One Word for Pain, Shock and Tired 😮‍💨 #shorts",
+  "description_en": "Koreans say 아이고 (aigo) when their back hurts, when they hear bad news, even when they just stand up. One word that began as a cry of grief and became an everyday sigh. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,95 +11,113 @@
     "#KoreanPhrases",
     "#shorts"
   ],
-  "hook_en": "One word for every feeling?",
-  "hook_vi": "Một từ cho mọi cảm xúc?",
-  "hook_id": "Satu kata untuk semua perasaan?",
-  "hook_es": "¿Una sola palabra para todo lo que sientes?",
-  "hook_pt": "Uma palavra para todo sentimento?",
-  "hook_ar": "كلمة واحدة لكل شعور؟",
-  "hook_fil": "Isang salita para sa lahat ng damdamin?",
-  "hook_hi": "हर भावना के लिए एक ही शब्द?",
+  "hook_en": "One Korean word for pain, shock, and tired.",
+  "hook_vi": "Một từ tiếng Hàn cho đau, sốc và mệt.",
+  "hook_id": "Satu kata Korea untuk sakit, kaget, dan lelah.",
+  "hook_es": "Una palabra coreana para dolor, shock y cansancio.",
+  "hook_pt": "Uma palavra coreana para dor, choque e cansaço.",
+  "hook_ar": "كلمة كورية واحدة للألم والصدمة والتعب.",
+  "hook_fil": "Isang salitang Koreano para sa sakit, gulat, at pagod.",
+  "hook_hi": "दर्द, सदमे और थकान के लिए एक कोरियाई शब्द।",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "One word for every feeling?"
+      "text": "One Korean word for pain, shock, and tired."
     }
   ],
   "hook_bg": "hanok",
-  "hook_video": "vid0.mp4",
+  "hook_video": "vid1.mp4",
   "hook_dur": 3.0,
   "scenes": [
     {
-      "en": "Tired, shocked, sad — one word.",
-      "sub_en": "Tired, shocked, sad — even just standing up, Koreans use the same word for all of it.",
-      "sub_vi": "Mệt, sốc, buồn — kể cả khi vừa đứng dậy, người Hàn dùng cùng một từ cho tất cả.",
-      "sub_id": "Lelah, kaget, sedih — bahkan saat baru berdiri, orang Korea memakai satu kata yang sama untuk semuanya.",
-      "sub_es": "Cansado, sorprendido, triste: incluso al levantarse, los coreanos usan la misma palabra para todo.",
-      "sub_pt": "Cansado, chocado, triste: até ao se levantar, os coreanos usam a mesma palavra para tudo.",
-      "sub_ar": "متعب، مصدوم، حزين — حتى عند النهوض فقط، يستخدم الكوريون الكلمة نفسها لكل ذلك.",
-      "sub_fil": "Pagod, gulat, lungkot — kahit kakabangon lang, isang salita lang ang gamit ng mga Koreano.",
-      "sub_hi": "थके, चौंके, उदास — यहाँ तक कि उठते समय भी, कोरियाई लोग एक ही शब्द इस्तेमाल करते हैं।",
-      "voice_parts": [
-        {
-          "lang": "en",
-          "text": "Tired, shocked, sad — even just standing up, Koreans use the same word for all of it."
-        }
-      ],
-      "dur": 5.35,
-      "bg": "hanok",
-      "video": "vid0.mp4",
-      "video_ss": 3.0
-    },
-    {
       "ko": "아이고",
       "roman": "aigo",
-      "en": "A sigh that fits everything.",
-      "sub_en": "It's aigo. It began as a cry of grief, and slowly became an everyday sigh.",
-      "sub_vi": "Đó là \"aigo\". Khởi đầu là tiếng khóc than, dần thành tiếng thở dài mỗi ngày.",
-      "sub_id": "Itu \"aigo\". Awalnya tangisan duka, pelan-pelan jadi keluhan sehari-hari.",
-      "sub_es": "Es «aigo». Nació como un lamento y poco a poco se volvió un suspiro diario.",
-      "sub_pt": "É \"aigo\". Nasceu como um lamento e virou um suspiro do dia a dia.",
-      "sub_ar": "إنها \"aigo\". بدأت صرخة حزن، ثم صارت تنهيدة يومية.",
-      "sub_fil": "Ito ang \"aigo\". Nagsimula itong daing sa dalamhati, at naging pang-araw-araw na buntong-hininga.",
-      "sub_hi": "यह \"aigo\" है। शुरुआत में यह शोक की पुकार थी, धीरे-धीरे रोज़ की आह बन गई।",
+      "en": "One word for everything.",
+      "sub_en": "Back pain, bad news, or just standing up — Koreans say one word: aigo.",
+      "sub_vi": "Đau lưng, tin buồn, hay chỉ là đứng dậy — người Hàn nói một từ: \"aigo\".",
+      "sub_id": "Sakit punggung, kabar buruk, atau sekadar berdiri — orang Korea bilang satu kata: \"aigo\".",
+      "sub_es": "Dolor de espalda, una mala noticia o solo levantarse: los coreanos dicen una palabra, «aigo».",
+      "sub_pt": "Dor nas costas, uma notícia ruim ou só levantar: os coreanos dizem uma palavra, \"aigo\".",
+      "sub_ar": "ألم في الظهر، خبر سيئ، أو مجرد النهوض — الكوريون يقولون كلمة واحدة: \\\"أيغو\\\".",
+      "sub_fil": "Masakit ang likod, bad news, o basta tumayo — isang salita lang: \"aigo\".",
+      "sub_hi": "कमर दर्द, बुरी ख़बर, या बस उठना — कोरियाई एक शब्द कहते हैं: \\\"ऐगो\\\"।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "It's"
+          "text": "Back pain, bad news, or just standing up — Koreans say one word:"
         },
         {
           "lang": "ko",
           "text": "아이고"
-        },
-        {
-          "lang": "en",
-          "text": "— it began as a cry of grief, and slowly became an everyday sigh."
         }
       ],
       "bg": "bapsang",
-      "dur": 6.5
+      "video": "vid0.mp4",
+      "dur": 5.4
+    },
+    {
+      "en": "Phone dropped. Bad news. Stand up.",
+      "sub_en": "Drop your phone. Hear something sad. Sit down after work. Same word, every time.",
+      "sub_vi": "Làm rơi điện thoại. Nghe tin buồn. Ngồi xuống sau giờ làm. Cùng một từ.",
+      "sub_id": "Ponsel jatuh. Dengar kabar sedih. Duduk setelah kerja. Kata yang sama terus.",
+      "sub_es": "Se te cae el móvil. Escuchas algo triste. Te sientas tras el trabajo. La misma palabra.",
+      "sub_pt": "Deixa o celular cair. Ouve algo triste. Senta depois do trabalho. A mesma palavra.",
+      "sub_ar": "يسقط هاتفك. تسمع خبرًا حزينًا. تجلس بعد العمل. الكلمة نفسها كل مرة.",
+      "sub_fil": "Nahulog ang cellphone. Nakarinig ng malungkot na balita. Umupo pagkatapos ng trabaho. Isang salita lang.",
+      "sub_hi": "फ़ोन गिरा। दुखद ख़बर सुनी। काम के बाद बैठे। हर बार वही शब्द।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Drop your phone. Hear something sad. Sit down after work. Same word, every time."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid0.mp4",
+      "video_ss": 2.5,
+      "dur": 5.2
+    },
+    {
+      "en": "Every time you stand up.",
+      "sub_en": "After thirty, you say it every time you stand up.",
+      "sub_vi": "Sau ba mươi tuổi, lần nào đứng dậy bạn cũng nói.",
+      "sub_id": "Setelah tiga puluh, kamu mengucapkannya setiap kali berdiri.",
+      "sub_es": "Después de los treinta, lo dices cada vez que te levantas.",
+      "sub_pt": "Depois dos trinta, você diz toda vez que se levanta.",
+      "sub_ar": "بعد الثلاثين، تقولها في كل مرة تنهض فيها.",
+      "sub_fil": "Pagkatapos ng trenta, sinasabi mo ito tuwing tatayo ka.",
+      "sub_hi": "तीस के बाद, हर बार उठते ही आप इसे कहते हैं।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "After thirty, you say it every time you stand up."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid1.mp4",
+      "video_ss": 2.0,
+      "dur": 3.0
     }
   ],
   "cta": {
-    "en": "Everyone says it. Do you have a word like this? Yes or no?",
+    "en": "Do you have a word like this? Yes or no?",
     "like": "Like if you said it today 👇",
-    "sub_en": "Old or young, everyone says it. Do you have a word like this? Yes or no?",
-    "sub_vi": "Già hay trẻ, ai cũng nói. Bạn có từ nào như vậy không? Có hay không?",
-    "sub_id": "Tua atau muda, semua mengucapkannya. Kamu punya kata seperti ini? Iya atau tidak?",
-    "sub_es": "Jóvenes y mayores lo dicen. ¿Tienes una palabra así? ¿Sí o no?",
-    "sub_pt": "Jovens e velhos dizem. Você tem uma palavra assim? Sim ou não?",
-    "sub_ar": "كبيرًا كان أو صغيرًا، الجميع يقولها. هل عندك كلمة مثلها؟ نعم أم لا؟",
-    "sub_fil": "Bata o matanda, sinasabi ito. May salita ka bang ganito? Oo o hindi?",
-    "sub_hi": "बूढ़े हों या जवान, सब कहते हैं। क्या आपके पास ऐसा कोई शब्द है? हाँ या नहीं?",
+    "sub_en": "Do you have a word like this in your language? Yes or no?",
+    "sub_vi": "Ngôn ngữ của bạn có từ như thế không? Có hay không?",
+    "sub_id": "Bahasa kamu punya kata seperti ini? Iya atau tidak?",
+    "sub_es": "¿Tu idioma tiene una palabra así? ¿Sí o no?",
+    "sub_pt": "Seu idioma tem uma palavra assim? Sim ou não?",
+    "sub_ar": "هل في لغتك كلمة مثل هذه؟ نعم أم لا؟",
+    "sub_fil": "May ganyang salita ba sa wika mo? Oo o hindi?",
+    "sub_hi": "क्या आपकी भाषा में ऐसा शब्द है? हाँ या नहीं?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "Old or young, everyone says it. Do you have a word like this? Yes or no?"
+        "text": "Do you have a word like this in your language? Yes or no?"
       }
     ],
     "bg": "hanok",
     "video": "vid1.mp4",
-    "dur": 6.45
+    "dur": 4.0
   },
   "music": "calm03.mp3",
   "particles": "snow"

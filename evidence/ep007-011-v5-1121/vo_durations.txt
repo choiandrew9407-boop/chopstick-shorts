@@ -1,0 +1,51 @@
+=== ep009
+  hook   3.06s
+  s1     4.07s
+  s2     3.19s
+  bonus  2.02s
+  cta    2.84s
+  voice total 15.19s
+=== ep011
+  hook   2.90s
+  s1     2.27s
+  s2     2.60s
+  bonus  2.00s
+  cta    1.56s
+  voice total 11.33s
+=== ep008
+  FAIL ep008 hook 12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+
+  hook   0.00s
+  s1     3.90s
+  FAIL ep008 s2 12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+
+  s2     0.00s
+  bonus  2.05s
+  cta    2.73s
+  voice total 8.68s
+=== ep010
+  hook   2.56s
+  s1     3.21s
+  s2     3.80s
+  bonus  3.24s
+  cta    2.80s
+  voice total 15.61s
+=== ep007
+  FAIL ep007 hook 12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+
+  hook   0.00s
+  s1     3.78s
+  s2     3.17s
+  FAIL ep007 bonus 12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+
+  bonus  0.00s
+  cta    1.99s
+  voice total 8.93s

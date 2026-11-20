@@ -1,7 +1,7 @@
 {
   "id": "ep010",
-  "title_en": "Sleep in Korea for About Ten Dollars? 🥚 #shorts",
-  "description_en": "A 찜질방 (jjimjilbang) is a bathhouse open all night. You pay once, get comfy clothes, sweat in hot rooms, eat baked eggs, and sleep on the warm floor with strangers. Stock footage: Pexels (free license)",
+  "title_en": "Sleep All Night for About $10 🥚 #shorts",
+  "description_en": "A 찜질방 (jjimjilbang) is a Korean bathhouse open all night. You pay once, get comfy clothes, sweat in hot rooms, eat baked eggs, and sleep on the warm floor with strangers. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,18 +11,18 @@
     "#KoreaTravel",
     "#shorts"
   ],
-  "hook_en": "Sleep in Korea for about ten dollars?",
-  "hook_vi": "Ngủ ở Hàn Quốc với khoảng 10 đô?",
-  "hook_id": "Tidur di Korea dengan sekitar sepuluh dolar?",
-  "hook_es": "¿Dormir en Corea por unos diez dólares?",
-  "hook_pt": "Dormir na Coreia por uns dez dólares?",
-  "hook_ar": "تنام في كوريا بعشرة دولارات تقريبًا؟",
-  "hook_fil": "Matulog sa Korea sa mga sampung dolyar?",
-  "hook_hi": "कोरिया में लगभग दस डॉलर में सोना?",
+  "hook_en": "Sleep here all night for about $10.",
+  "hook_vi": "Ngủ cả đêm ở đây với khoảng 10 đô.",
+  "hook_id": "Tidur semalam di sini sekitar 10 dolar.",
+  "hook_es": "Duerme aquí toda la noche por unos 10 dólares.",
+  "hook_pt": "Durma aqui a noite toda por uns 10 dólares.",
+  "hook_ar": "نم هنا طوال الليل بعشرة دولارات تقريبًا.",
+  "hook_fil": "Matulog dito buong gabi sa mga 10 dolyar.",
+  "hook_hi": "यहाँ लगभग दस डॉलर में पूरी रात सोइए।",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "Sleep in Korea for about ten dollars?"
+      "text": "Ten dollars, and you can sleep here all night."
     }
   ],
   "hook_bg": "seoul_night",
@@ -33,18 +33,18 @@
       "ko": "찜질방",
       "roman": "jjimjilbang",
       "en": "A bathhouse open all night.",
-      "sub_en": "A jjimjilbang is a bathhouse open all night. You pay once, get comfy clothes, sweat in hot rooms.",
-      "sub_vi": "\"Jjimjilbang\" là nhà tắm mở cả đêm. Trả tiền một lần, nhận đồ thoải mái, xông hơi.",
-      "sub_id": "\"Jjimjilbang\" adalah pemandian yang buka semalam penuh. Bayar sekali, dapat baju nyaman, lalu berkeringat di ruang panas.",
-      "sub_es": "Un «jjimjilbang» es un baño público abierto toda la noche. Pagas una vez, te dan ropa cómoda y sudas en salas calientes.",
-      "sub_pt": "Um \"jjimjilbang\" é uma casa de banhos aberta a noite toda. Você paga uma vez, ganha roupa confortável e sua nas salas quentes.",
-      "sub_ar": "\"الجيمجيلبانغ\" حمّام عام يفتح طوال الليل. تدفع مرة واحدة، تأخذ ملابس مريحة، وتتعرق في غرف ساخنة.",
-      "sub_fil": "Ang \"jjimjilbang\" ay bathhouse na bukas buong gabi. Bayad ka isang beses, may comfortable na damit, at pawis sa maiinit na silid.",
-      "sub_hi": "\"जिमजिलबांग\" रातभर खुला रहने वाला स्नानगृह है। एक बार पैसे दें, आरामदेह कपड़े मिलते हैं और गरम कमरों में पसीना बहता है।",
+      "sub_en": "It's a jjimjilbang — a Korean sauna that stays open all night.",
+      "sub_vi": "\"Jjimjilbang\" — phòng tắm hơi Hàn Quốc mở suốt đêm.",
+      "sub_id": "\"Jjimjilbang\" — sauna Korea yang buka sepanjang malam.",
+      "sub_es": "Es un «jjimjilbang»: un sauna coreano abierto toda la noche.",
+      "sub_pt": "É um \"jjimjilbang\": uma sauna coreana aberta a noite toda.",
+      "sub_ar": "إنه \\\"جيمجيلبانغ\\\" — ساونا كورية تفتح طوال الليل.",
+      "sub_fil": "Ito ang \"jjimjilbang\" — Korean sauna na bukas buong gabi.",
+      "sub_hi": "यह \\\"जिमजिलबांग\\\" है — कोरियाई सॉना जो पूरी रात खुला रहता है।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "A"
+          "text": "It's a"
         },
         {
           "lang": "ko",
@@ -52,53 +52,76 @@
         },
         {
           "lang": "en",
-          "text": "is a bathhouse open all night. You pay once, get comfy clothes, sweat in hot rooms."
+          "text": "— a Korean sauna that stays open all night."
         }
       ],
       "bg": "seoul_night",
-      "dur": 7.27
+      "video": "vid0.mp4",
+      "dur": 4.6
     },
     {
-      "en": "Eggs, a warm floor, strangers.",
-      "sub_en": "Eat baked eggs, then sleep on the warm floor — with strangers.",
-      "sub_vi": "Ăn trứng nướng, rồi ngủ trên sàn ấm — cùng người lạ.",
-      "sub_id": "Makan telur panggang, lalu tidur di lantai hangat — bersama orang asing.",
-      "sub_es": "Comes huevos horneados y duermes en el suelo caliente, junto a desconocidos.",
-      "sub_pt": "Come ovos assados e dorme no chão quente — com estranhos.",
-      "sub_ar": "تأكل بيضًا مشويًا ثم تنام على أرضية دافئة — مع غرباء.",
-      "sub_fil": "Kumain ng baked eggs, tapos matulog sa mainit na sahig — kasama ng mga estranghero.",
-      "sub_hi": "सिंकाई अंडे खाइए, फिर गरम फ़र्श पर सोइए — अजनबियों के साथ।",
+      "en": "Same clothes. Same floor.",
+      "sub_en": "You pay once, put on the same clothes, sweat in hot rooms, then lie on the warm floor with strangers.",
+      "sub_vi": "Trả tiền một lần, mặc đồ giống nhau, xông hơi, rồi nằm trên sàn ấm cùng người lạ.",
+      "sub_id": "Bayar sekali, pakai baju yang sama, berendam di ruang panas, lalu berbaring di lantai hangat bersama orang asing.",
+      "sub_es": "Pagas una vez, te pones la ropa igual, sudas en salas calientes y luego te tumbas en el suelo cálido con desconocidos.",
+      "sub_pt": "Você paga uma vez, veste a mesma roupa, sua nas salas quentes e depois deita no chão quente com estranhos.",
+      "sub_ar": "تدفع مرة واحدة، وتلبس الثياب نفسها، وتتعرق في غرف ساخنة، ثم تستلقي على أرضية دافئة بين غرباء.",
+      "sub_fil": "Bayad nang isang beses, pareho ang suot, pawisan sa mainit na silid, tapos higa sa mainit na sahig kasama ng estranghero.",
+      "sub_hi": "एक बार भुगतान, सबको एक जैसे कपड़े, गरम कमरों में पसीना, फिर अजनबियों के साथ गरम फ़र्श पर लेटना।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Eat baked eggs, then sleep on the warm floor — with strangers."
+          "text": "You pay once, put on the same clothes, sweat in hot rooms, then lie on the warm floor with strangers."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid0.mp4",
+      "video_ss": 1.5,
+      "dur": 6.6
+    },
+    {
+      "en": "Baked eggs, sweet rice drink.",
+      "sub_en": "The classic snack is baked eggs and a sweet rice drink.",
+      "sub_vi": "Món ăn kèm kinh điển là trứng nướng và nước gạo ngọt.",
+      "sub_id": "Camilan klasiknya telur panggang dan minuman beras manis.",
+      "sub_es": "El tentempié clásico: huevos al horno y una bebida dulce de arroz.",
+      "sub_pt": "O petisco clássico: ovos assados e uma bebida doce de arroz.",
+      "sub_ar": "الوجبة الخفيفة الكلاسيكية بيض مخبوز ومشروب أرز حلو.",
+      "sub_fil": "Ang klasikong meryenda ay baked eggs at matamis na inumin ng bigas.",
+      "sub_hi": "पारंपरिक नाश्ता है बेक्ड अंडे और मीठा चावल पेय।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "The classic snack is baked eggs and a sweet rice drink."
         }
       ],
       "bg": "bapsang",
       "video": "vid1.mp4",
-      "dur": 4.61
+      "video_ss": 1.0,
+      "dur": 3.3
     }
   ],
   "cta": {
-    "en": "All side by side. Would you sleep here? Yes or no?",
-    "like": "Like if you'd sleep here 👇",
-    "sub_en": "Families, students, travelers — all side by side. Would you sleep here? Yes or no?",
-    "sub_vi": "Gia đình, sinh viên, du khách — nằm cạnh nhau. Bạn có ngủ ở đây không? Có hay không?",
-    "sub_id": "Keluarga, mahasiswa, wisatawan — semua berdampingan. Mau tidur di sini? Iya atau tidak?",
-    "sub_es": "Familias, estudiantes, viajeros: todos uno al lado del otro. ¿Dormirías aquí? ¿Sí o no?",
-    "sub_pt": "Famílias, estudantes, viajantes: todos lado a lado. Você dormiria aqui? Sim ou não?",
-    "sub_ar": "عائلات وطلاب ومسافرون — جنبًا إلى جنب. هل ستنام هنا؟ نعم أم لا؟",
-    "sub_fil": "Pamilya, estudyante, turista — magkakatabi. Matutulog ka ba dito? Oo o hindi?",
-    "sub_hi": "परिवार, छात्र, यात्री — सब साथ-साथ। क्या आप यहाँ सोएँगे? हाँ या नहीं?",
+    "en": "Would you sleep on a floor with strangers? Yes or no?",
+    "like": "Like if you'd try it 👇",
+    "sub_en": "Would you sleep on a floor with strangers? Yes or no?",
+    "sub_vi": "Bạn có ngủ trên sàn cùng người lạ không? Có hay không?",
+    "sub_id": "Kamu mau tidur di lantai bersama orang asing? Iya atau tidak?",
+    "sub_es": "¿Dormirías en un suelo con desconocidos? ¿Sí o no?",
+    "sub_pt": "Você dormiria num chão com estranhos? Sim ou não?",
+    "sub_ar": "هل تنام على الأرض بين غرباء؟ نعم أم لا؟",
+    "sub_fil": "Matutulog ka ba sa sahig kasama ng estranghero? Oo o hindi?",
+    "sub_hi": "क्या आप अजनबियों के साथ फ़र्श पर सोएँगे? हाँ या नहीं?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "Families, students, travelers — all side by side. Would you sleep here? Yes or no?"
+        "text": "Would you sleep on a floor with strangers? Yes or no?"
       }
     ],
     "bg": "seoul_night",
-    "video": "vid0.mp4",
-    "dur": 6.42
+    "video": "vid1.mp4",
+    "dur": 3.1
   },
   "music": "calm03.mp3",
   "particles": "snow"

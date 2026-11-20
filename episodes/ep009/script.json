@@ -1,7 +1,7 @@
 {
   "id": "ep009",
-  "title_en": "Why Students Study Six Hours in Cafés ☕ #shorts",
-  "description_en": "Many Korean students live in small rooms, so a café becomes their desk — one coffee, six hours. Koreans even have a word for it: 카공 (kagong). Stock footage: Pexels (free license)",
+  "title_en": "Koreans Leave Laptops in Cafés. Nobody Steals. ☕ #shorts",
+  "description_en": "In Korea, a laptop left on a café table is still there an hour later — nobody takes it. Cafés are full of students doing 카공 (kagong), studying for hours on one coffee. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,91 +11,117 @@
     "#KoreanCafe",
     "#shorts"
   ],
-  "hook_en": "Why study six hours in cafés?",
-  "hook_vi": "Vì sao học sáu tiếng trong quán cà phê?",
-  "hook_id": "Kenapa belajar enam jam di kafe?",
-  "hook_es": "¿Por qué estudiar seis horas en cafés?",
-  "hook_pt": "Por que estudar seis horas em cafés?",
-  "hook_ar": "لماذا تدرس ست ساعات في المقاهي؟",
-  "hook_fil": "Bakit anim na oras mag-aral sa café?",
-  "hook_hi": "कैफ़े में छह घंटे क्यों पढ़ते हैं?",
+  "hook_en": "Koreans leave laptops here. Nobody steals.",
+  "hook_vi": "Người Hàn để laptop đó. Không ai lấy.",
+  "hook_id": "Orang Korea tinggalkan laptop di sini. Tak ada yang mencuri.",
+  "hook_es": "En Corea dejan el portátil ahí. Nadie lo roba.",
+  "hook_pt": "Na Coreia deixam o notebook ali. Ninguém rouba.",
+  "hook_ar": "في كوريا يتركون اللابتوب على الطاولة. لا أحد يسرقه.",
+  "hook_fil": "Iniiwan ng Koreano ang laptop. Walang kumukuha.",
+  "hook_hi": "कोरिया में लैपटॉप छोड़ जाते हैं। कोई चुराता नहीं।",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "Why study six hours in cafés?"
+      "text": "Koreans leave a laptop. Nobody steals it."
     }
   ],
   "hook_bg": "seoul_night",
-  "hook_video": "vid1.mp4",
+  "hook_video": "vid2.mp4",
   "hook_dur": 3.0,
   "scenes": [
-    {
-      "en": "Small rooms, shared homes.",
-      "sub_en": "Many Korean students live in small rooms, or share a home — so the café becomes their desk.",
-      "sub_vi": "Nhiều sinh viên Hàn ở phòng nhỏ hoặc ở chung nhà — nên quán cà phê thành bàn học.",
-      "sub_id": "Banyak mahasiswa Korea tinggal di kamar sempit atau berbagi rumah — jadi kafe menjadi meja belajar.",
-      "sub_es": "Muchos estudiantes coreanos viven en cuartos pequeños o comparten casa, así que el café es su escritorio.",
-      "sub_pt": "Muitos estudantes coreanos moram em quartos pequenos ou dividem casa — então o café vira a mesa deles.",
-      "sub_ar": "كثير من الطلاب الكوريين يعيشون في غرف صغيرة أو يتشاركون منزلًا، فيصبح المقهى مكتبهم.",
-      "sub_fil": "Maraming estudyanteng Koreano ang nakatira sa maliit na kwarto o nakikishare ng bahay — kaya ang café ang mesa nila.",
-      "sub_hi": "कई कोरियाई छात्र छोटे कमरों में या साझा घर में रहते हैं — इसलिए कैफ़े ही उनकी मेज़ है।",
-      "voice_parts": [
-        {
-          "lang": "en",
-          "text": "Many Korean students live in small rooms, or share a home — so the café becomes their desk."
-        }
-      ],
-      "bg": "seoul_night",
-      "dur": 6.32
-    },
     {
       "ko": "카공",
       "roman": "kagong",
       "en": "Café plus study.",
-      "sub_en": "Cafés have light, a little noise and wifi — one coffee, six hours. Koreans call it kagong.",
-      "sub_vi": "Quán có ánh sáng, chút ồn và wifi — một ly cà phê, sáu tiếng. Người Hàn gọi là \"kagong\".",
-      "sub_id": "Kafe punya cahaya, sedikit suara dan wifi — satu kopi, enam jam. Orang Korea menyebutnya \"kagong\".",
-      "sub_es": "Los cafés tienen luz, algo de ruido y wifi: un café, seis horas. Los coreanos lo llaman «kagong».",
-      "sub_pt": "Cafés têm luz, um pouco de ruído e wifi: um café, seis horas. Os coreanos chamam de \"kagong\".",
-      "sub_ar": "المقاهي فيها إضاءة وضجيج خفيف وواي فاي — قهوة واحدة وست ساعات. الكوريون يسمونه \"كاغونغ\".",
-      "sub_fil": "May ilaw, konting ingay at wifi ang café — isang kape, anim na oras. Tinatawag itong \"kagong\".",
-      "sub_hi": "कैफ़े में रोशनी, थोड़ा शोर और वाई-फ़ाई है — एक कॉफ़ी, छह घंटे। कोरियाई इसे \"कागोंग\" कहते हैं।",
+      "sub_en": "Cafés here are full of students doing kagong, café study, for hours. One coffee, six hours.",
+      "sub_vi": "Quán cà phê ở đây đầy sinh viên \"kagong\" — học ở quán, hàng giờ liền. Một ly cà phê, sáu tiếng.",
+      "sub_id": "Kafe di sini penuh mahasiswa yang \"kagong\" — belajar di kafe, berjam-jam. Satu kopi, enam jam.",
+      "sub_es": "Los cafés aquí se llenan de estudiantes haciendo «kagong»: estudiar en el café, durante horas. Un café, seis horas.",
+      "sub_pt": "Os cafés aqui vivem cheios de estudantes fazendo \"kagong\": estudar no café, por horas. Um café, seis horas.",
+      "sub_ar": "المقاهي هنا مليئة بالطلاب الذين يدرسون فيها ساعات. قهوة واحدة، وست ساعات.",
+      "sub_fil": "Puno ang mga café dito ng estudyanteng nag-\"kagong\" — nag-aaral sa café, nang ilang oras. Isang kape, anim na oras.",
+      "sub_hi": "यहाँ के कैफ़े छात्रों से भरे रहते हैं जो घंटों कैफ़े में पढ़ते हैं। एक कॉफ़ी, छह घंटे।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Cafés have light, a little noise and wifi — one coffee, six hours. Koreans call it"
+          "text": "Cafés here are full of students doing"
         },
         {
           "lang": "ko",
           "text": "카공"
+        },
+        {
+          "lang": "en",
+          "text": "— café study, for hours. One coffee, six hours."
         }
       ],
       "bg": "bapsang",
       "video": "vid0.mp4",
-      "dur": 6.36
+      "dur": 6.6
+    },
+    {
+      "en": "Cameras. Everyone watching.",
+      "sub_en": "Cameras are everywhere, and everyone is doing the same thing.",
+      "sub_vi": "Camera ở khắp nơi, và ai cũng làm giống nhau.",
+      "sub_id": "Kamera ada di mana-mana, dan semua orang melakukan hal yang sama.",
+      "sub_es": "Hay cámaras por todas partes, y todos hacen lo mismo.",
+      "sub_pt": "Há câmeras em todo lugar, e todo mundo faz a mesma coisa.",
+      "sub_ar": "الكاميرات في كل مكان، والجميع يفعل الشيء نفسه.",
+      "sub_fil": "May camera sa lahat ng sulok, at pareho ang ginagawa ng lahat.",
+      "sub_hi": "हर जगह कैमरे हैं, और सब वही कर रहे हैं।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Cameras are everywhere, and everyone is doing the same thing."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid0.mp4",
+      "video_ss": 4.0,
+      "dur": 4.0
+    },
+    {
+      "en": "A phone saves the seat.",
+      "sub_en": "Some even leave their phone to save the seat.",
+      "sub_vi": "Có người còn để điện thoại giữ chỗ.",
+      "sub_id": "Ada yang meninggalkan ponsel untuk menandai kursi.",
+      "sub_es": "Algunos incluso dejan el móvil para guardar el sitio.",
+      "sub_pt": "Alguns até deixam o celular para guardar o lugar.",
+      "sub_ar": "بعضهم يتركون الهاتف لحجز المكان.",
+      "sub_fil": "May nag-iiwan pa ng cellphone para itago ang upuan.",
+      "sub_hi": "कुछ लोग सीट रोकने के लिए फ़ोन भी छोड़ देते हैं।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Some even leave their phone to save the seat."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid2.mp4",
+      "video_ss": 2.0,
+      "dur": 3.2
     }
   ],
   "cta": {
-    "en": "Time limits now. Could you study like this? Yes or no?",
-    "like": "Like if you'd study here 👇",
-    "sub_en": "Some cafés now set time limits. Could you study like this? Yes or no?",
-    "sub_vi": "Giờ một số quán giới hạn thời gian. Bạn có học kiểu này được không? Có hay không?",
-    "sub_id": "Kini beberapa kafe membatasi waktu. Kamu bisa belajar seperti ini? Iya atau tidak?",
-    "sub_es": "Ahora algunos cafés ponen límite de tiempo. ¿Podrías estudiar así? ¿Sí o no?",
-    "sub_pt": "Agora alguns cafés limitam o tempo. Você conseguiria estudar assim? Sim ou não?",
-    "sub_ar": "بعض المقاهي تضع حدودًا للوقت. هل تستطيع الدراسة هكذا؟ نعم أم لا؟",
-    "sub_fil": "May time limit na ngayon ang ilang café. Kaya mo bang mag-aral nang ganito? Oo o hindi?",
-    "sub_hi": "अब कुछ कैफ़े समय की सीमा लगाते हैं। क्या आप ऐसे पढ़ सकेंगे? हाँ या नहीं?",
+    "en": "Would your laptop survive ten minutes here? Yes or no?",
+    "like": "Like if you'd never try it 👇",
+    "sub_en": "Would your laptop survive ten minutes in your café? Yes or no?",
+    "sub_vi": "Laptop của bạn có sống nổi mười phút trong quán cà phê của bạn không? Có hay không?",
+    "sub_id": "Laptopmu bertahan sepuluh menit di kafe kamu? Iya atau tidak?",
+    "sub_es": "¿Tu portátil sobreviviría diez minutos en tu café? ¿Sí o no?",
+    "sub_pt": "Seu notebook sobreviveria dez minutos no seu café? Sim ou não?",
+    "sub_ar": "هل يصمد حاسوبك عشر دقائق في مقهى بلدك؟ نعم أم لا؟",
+    "sub_fil": "Mabubuhay ba ang laptop mo nang sampung minuto sa café mo? Oo o hindi?",
+    "sub_hi": "क्या आपका लैपटॉप आपके कैफ़े में दस मिनट टिकेगा? हाँ या नहीं?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "Some cafés now set time limits. Could you study like this? Yes or no?"
+        "text": "Would your laptop survive ten minutes in your café? Yes or no?"
       }
     ],
-    "bg": "seoul_night",
-    "video": "vid0.mp4",
-    "video_ss": 5.2,
-    "dur": 5.63
+    "bg": "bapsang",
+    "video": "vid2.mp4",
+    "dur": 4.2
   },
   "music": "calm03.mp3",
   "particles": "snow"

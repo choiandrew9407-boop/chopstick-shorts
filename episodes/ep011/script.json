@@ -1,7 +1,7 @@
 {
   "id": "ep011",
-  "title_en": "Which Subway Seat Is Always Empty? 🩷 #shorts",
-  "description_en": "Every Seoul subway car has pink seats for pregnant women. Even when the train is packed, many people leave them empty, just in case a mom-to-be gets on. That's 배려석 (baeryeoseok) — care seats. Stock footage: Pexels (free license)",
+  "title_en": "Crowded Train. Empty Seat. Nobody Sits. 🩷 #shorts",
+  "description_en": "Every Seoul subway car has pink seats for pregnant women. Even when the train is packed, most people leave them empty — some even stand rather than sit there. That's 배려석 (baeryeoseok), the care seat. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,18 +11,18 @@
     "#KoreanPhrases",
     "#shorts"
   ],
-  "hook_en": "Which subway seat is always empty?",
-  "hook_vi": "Ghế nào trên tàu điện luôn trống?",
-  "hook_id": "Kursi kereta mana yang selalu kosong?",
-  "hook_es": "¿Qué asiento del metro siempre está vacío?",
-  "hook_pt": "Qual assento do metrô está sempre vazio?",
-  "hook_ar": "أي مقعد في المترو يبقى دائمًا فارغًا؟",
-  "hook_fil": "Aling upuan sa subway ang laging walang tao?",
-  "hook_hi": "मेट्रो की कौन-सी सीट हमेशा खाली रहती है?",
+  "hook_en": "Empty seat. Crowded train. Nobody sits.",
+  "hook_vi": "Tàu đông. Ghế trống. Không ai ngồi.",
+  "hook_id": "Kereta penuh. Kursi kosong. Tak ada yang duduk.",
+  "hook_es": "Tren lleno. Asiento vacío. Nadie se sienta.",
+  "hook_pt": "Trem cheio. Assento vazio. Ninguém senta.",
+  "hook_ar": "قطار مزدحم. مقعد فارغ. لا أحد يجلس.",
+  "hook_fil": "Puno ang tren. Bakante ang upuan. Walang umuupo.",
+  "hook_hi": "भरी ट्रेन। खाली सीट। कोई बैठता नहीं।",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "Which subway seat is always empty?"
+      "text": "Crowded train. Empty seat. Nobody sits."
     }
   ],
   "hook_bg": "seoul_night",
@@ -33,18 +33,18 @@
       "ko": "배려석",
       "roman": "baeryeoseok",
       "en": "Care seats.",
-      "sub_en": "Every Seoul subway car has pink seats for pregnant women: baeryeoseok — care seats.",
-      "sub_vi": "Mỗi toa tàu điện Seoul có ghế màu hồng cho phụ nữ mang thai: \"baeryeoseok\" — ghế quan tâm.",
-      "sub_id": "Setiap gerbong subway Seoul punya kursi pink untuk ibu hamil: \"baeryeoseok\" — kursi kepedulian.",
-      "sub_es": "Cada vagón del metro de Seúl tiene asientos rosas para embarazadas: «baeryeoseok», asientos de cuidado.",
-      "sub_pt": "Cada vagão do metrô de Seul tem assentos cor-de-rosa para gestantes: \"baeryeoseok\", assentos de cuidado.",
-      "sub_ar": "كل عربة مترو في سيول فيها مقاعد وردية للحوامل: \"باريوسوك\" — مقاعد الرعاية.",
-      "sub_fil": "Bawat bagon ng subway sa Seoul may pink na upuan para sa buntis: \"baeryeoseok\" — care seats.",
-      "sub_hi": "सियोल मेट्रो के हर डिब्बे में गर्भवती महिलाओं के लिए गुलाबी सीटें हैं: \"बारेयोसॉक\" — केयर सीट्स।",
+      "sub_en": "Every car has pink seats for pregnant women. It's called baeryeoseok — care seats.",
+      "sub_vi": "Toa nào cũng có ghế màu hồng cho phụ nữ mang thai. Người Hàn gọi là \"baeryeoseok\" — ghế quan tâm.",
+      "sub_id": "Setiap gerbong punya kursi merah muda untuk ibu hamil. Namanya \"baeryeoseok\" — kursi peduli.",
+      "sub_es": "Cada vagón tiene asientos rosas para embarazadas. Se llaman «baeryeoseok»: asientos de cuidado.",
+      "sub_pt": "Todo vagão tem assentos rosa para gestantes. Chama-se \"baeryeoseok\": assentos de cuidado.",
+      "sub_ar": "كل عربة فيها مقاعد وردية للحوامل، ويسمونها \\\"بايريوسوك\\\" — مقاعد الرعاية.",
+      "sub_fil": "May pink na upuan ang bawat bagon para sa buntis. Tinatawag itong \\\"baeryeoseok\\\" — care seats.",
+      "sub_hi": "हर डिब्बे में गर्भवती महिलाओं के लिए गुलाबी सीटें हैं। इसे \\\"बेरयोसॉक\\\" — देखभाल की सीट — कहते हैं।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Every Seoul subway car has pink seats for pregnant women."
+          "text": "Every car has pink seats for pregnant women. It's called"
         },
         {
           "lang": "ko",
@@ -55,53 +55,73 @@
           "text": "— care seats."
         }
       ],
-      "bg": "seoul_night",
-      "dur": 5.3,
-      "video": "vid0.mp4",
-      "video_ss": 3.0
+      "bg": "bapsang",
+      "video": "vid1.mp4",
+      "dur": 6.0
     },
     {
-      "en": "Packed train. Still empty.",
-      "sub_en": "Even when the train is packed, many people leave them empty — just in case a mom-to-be gets on.",
-      "sub_vi": "Kể cả khi tàu đông, nhiều người vẫn để trống — phòng khi có mẹ bầu lên.",
-      "sub_id": "Bahkan saat kereta penuh, banyak orang membiarkannya kosong — kalau-kalau ada ibu hamil naik.",
-      "sub_es": "Aun con el tren lleno, muchos las dejan libres por si sube una futura mamá.",
-      "sub_pt": "Mesmo com o trem cheio, muitos deixam vazios, caso uma gestante entre.",
-      "sub_ar": "حتى في القطار المزدحم، يتركها كثيرون فارغة — احتياطًا لامرأة حامل.",
-      "sub_fil": "Kahit puno ang tren, marami ang nag-iiwan nito — baka sakaling may buntis na sumakay.",
-      "sub_hi": "भीड़ भरी ट्रेन में भी कई लोग इन्हें खाली छोड़ देते हैं — कहीं कोई गर्भवती चढ़ जाए।",
+      "en": "Packed train. Still standing.",
+      "sub_en": "Even when no pregnant woman is on board, most people stay standing. Nobody sits there just for a minute.",
+      "sub_vi": "Dù không có bà bầu trên tàu, đa số vẫn đứng. Không ai ngồi đó dù chỉ một phút.",
+      "sub_id": "Walau tak ada ibu hamil di kereta, kebanyakan orang tetap berdiri. Tak ada yang duduk sebentar saja.",
+      "sub_es": "Aunque no haya ninguna embarazada en el tren, la mayoría sigue de pie. Nadie se sienta ahí ni un minuto.",
+      "sub_pt": "Mesmo sem nenhuma gestante no trem, a maioria continua de pé. Ninguém senta ali nem por um minuto.",
+      "sub_ar": "حتى لو لم تكن هناك حامل في القطار، يبقى أكثر الناس واقفين. لا أحد يجلس هناك ولو دقيقة.",
+      "sub_fil": "Kahit walang buntis sa tren, nakatayo pa rin ang karamihan. Walang umuupo doon kahit isang minuto.",
+      "sub_hi": "ट्रेन में कोई गर्भवती महिला न हो तो भी ज़्यादातर लोग खड़े रहते हैं। कोई एक मिनट भी वहाँ नहीं बैठता।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Even when the train is packed, many people leave them empty — just in case a mom-to-be gets on."
+          "text": "Even when no pregnant woman is on board, most people stay standing. Nobody sits there just for a minute."
         }
       ],
       "bg": "seoul_night",
       "video": "vid1.mp4",
-      "dur": 6.5
+      "video_ss": 1.5,
+      "dur": 5.8
+    },
+    {
+      "en": "Empty all day.",
+      "sub_en": "Most people just keep it empty, all day.",
+      "sub_vi": "Đa số cứ để ghế trống cả ngày.",
+      "sub_id": "Kebanyakan orang membiarkannya kosong sepanjang hari.",
+      "sub_es": "La mayoría lo deja vacío todo el día.",
+      "sub_pt": "A maioria deixa vazio o dia inteiro.",
+      "sub_ar": "أكثر الناس يتركونه فارغًا طوال اليوم.",
+      "sub_fil": "Pinababayaang bakante ito ng karamihan buong araw.",
+      "sub_hi": "ज़्यादातर लोग इसे पूरे दिन खाली ही छोड़ देते हैं।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Most people just keep it empty, all day."
+        }
+      ],
+      "bg": "seoul_night",
+      "video": "vid0.mp4",
+      "video_ss": 2.0,
+      "dur": 3.0
     }
   ],
   "cta": {
-    "en": "Not a rule. Just care. Would you leave it empty? Yes or no?",
-    "like": "Like if you'd leave it empty 👇",
-    "sub_en": "It's not a rule you get fined for. It's care. Would you leave it empty? Yes or no?",
-    "sub_vi": "Không phải luật bị phạt. Đó là sự quan tâm. Bạn có để trống không? Có hay không?",
-    "sub_id": "Bukan aturan yang ada dendanya. Ini kepedulian. Mau kamu biarkan kosong? Iya atau tidak?",
-    "sub_es": "No es una norma con multa. Es cuidado. ¿La dejarías libre? ¿Sí o no?",
-    "sub_pt": "Não é regra com multa. É cuidado. Você deixaria vazio? Sim ou não?",
-    "sub_ar": "ليس قانونًا بغرامة. إنه اهتمام. هل ستتركه فارغًا؟ نعم أم لا؟",
-    "sub_fil": "Hindi ito batas na may multa. Malasakit ito. Iiwan mo bang walang tao? Oo o hindi?",
-    "sub_hi": "यह जुर्माने वाला नियम नहीं है। यह परवाह है। क्या आप इसे खाली छोड़ेंगे? हाँ या नहीं?",
+    "en": "Would you sit there? Yes or no?",
+    "like": "Like if you'd stand 👇",
+    "sub_en": "Would you sit there? Yes or no?",
+    "sub_vi": "Bạn có ngồi đó không? Có hay không?",
+    "sub_id": "Kamu mau duduk di sana? Iya atau tidak?",
+    "sub_es": "¿Tú te sentarías ahí? ¿Sí o no?",
+    "sub_pt": "Você sentaria ali? Sim ou não?",
+    "sub_ar": "هل تجلس هناك؟ نعم أم لا؟",
+    "sub_fil": "Uupo ka ba doon? Oo o hindi?",
+    "sub_hi": "क्या आप वहाँ बैठेंगे? हाँ या नहीं?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "It's not a rule you get fined for. It's care. Would you leave it empty? Yes or no?"
+        "text": "Would you sit there? Yes or no?"
       }
     ],
     "bg": "seoul_night",
-    "video": "vid1.mp4",
-    "video_ss": 6.5,
-    "dur": 6.2
+    "video": "vid0.mp4",
+    "dur": 3.4
   },
   "music": "calm03.mp3",
   "particles": "snow"

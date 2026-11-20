@@ -1,7 +1,7 @@
 {
   "id": "ep008",
-  "title_en": "Dinner for Five Dollars in Korea? 🍙 #shorts",
-  "description_en": "After work many Koreans skip restaurants and walk into a 편의점 (pyeonuijeom) — a convenience store. Triangle kimbap, cup noodles, hot water and a microwave are all right there. Stock footage: Pexels (free license)",
+  "title_en": "Dinner for $4 — Inside a Convenience Store 🍙 #shorts",
+  "description_en": "In Korea, dinner sometimes comes from a 편의점 (pyeonuijeom) — a convenience store. Triangle kimbap, cup ramyeon, free hot water, a microwave, and a counter by the window. Stock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,18 +11,18 @@
     "#BudgetTravel",
     "#shorts"
   ],
-  "hook_en": "Dinner for five dollars in Korea?",
-  "hook_vi": "Bữa tối 5 đô ở Hàn Quốc?",
-  "hook_id": "Makan malam lima dolar di Korea?",
-  "hook_es": "¿Cena por cinco dólares en Corea?",
-  "hook_pt": "Jantar por cinco dólares na Coreia?",
-  "hook_ar": "عشاء بخمسة دولارات في كوريا؟",
-  "hook_fil": "Hapunan sa limang dolyar sa Korea?",
-  "hook_hi": "कोरिया में पाँच डॉलर का डिनर?",
+  "hook_en": "Dinner for $4 — inside a convenience store.",
+  "hook_vi": "Bữa tối 4 đô — ngay trong cửa hàng tiện lợi.",
+  "hook_id": "Makan malam 4 dolar — di dalam minimarket.",
+  "hook_es": "Cena por 4 dólares — dentro de una tienda de conveniencia.",
+  "hook_pt": "Jantar por 4 dólares — dentro de uma loja de conveniência.",
+  "hook_ar": "عشاء بأربعة دولارات — داخل بقالة صغيرة.",
+  "hook_fil": "Hapunan sa 4 na dolyar — sa loob ng convenience store.",
+  "hook_hi": "चार डॉलर का डिनर — सुविधा स्टोर के अंदर।",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "Dinner for five dollars in Korea?"
+      "text": "Four dollars, and dinner is ready inside the store."
     }
   ],
   "hook_bg": "seoul_night",
@@ -33,18 +33,18 @@
       "ko": "편의점",
       "roman": "pyeonuijeom",
       "en": "A convenience store.",
-      "sub_en": "After work, many Koreans skip restaurants and walk into a pyeonuijeom — a convenience store.",
+      "sub_en": "After work, many Koreans skip the restaurant and walk into a pyeonuijeom — a convenience store.",
       "sub_vi": "Sau giờ làm, nhiều người Hàn bỏ qua nhà hàng và ghé \"pyeonuijeom\" — cửa hàng tiện lợi.",
-      "sub_id": "Sepulang kerja, banyak orang Korea melewati restoran dan mampir ke \"pyeonuijeom\" — minimarket.",
-      "sub_es": "Tras el trabajo, muchos coreanos se saltan el restaurante y entran a un «pyeonuijeom»: una tienda de conveniencia.",
-      "sub_pt": "Depois do trabalho, muitos coreanos pulam o restaurante e entram num \"pyeonuijeom\": uma loja de conveniência.",
-      "sub_ar": "بعد العمل، كثير من الكوريين يتجاوزون المطاعم ويدخلون \"بيوني جوم\" — متجرًا صغيرًا مفتوحًا دائمًا.",
-      "sub_fil": "Pagkatapos ng trabaho, maraming Koreano ang hindi na pumapasok sa restaurant at dumadaan sa \"pyeonuijeom\" — convenience store.",
-      "sub_hi": "काम के बाद कई कोरियाई रेस्टोरेंट छोड़कर \"प्योनुइजोम\" — कन्वीनियंस स्टोर — चले जाते हैं।",
+      "sub_id": "Setelah kerja, banyak orang Korea melewati restoran dan masuk ke \"pyeonuijeom\" — minimarket.",
+      "sub_es": "Después del trabajo, muchos coreanos pasan del restaurante y entran a un «pyeonuijeom»: una tienda de conveniencia.",
+      "sub_pt": "Depois do trabalho, muitos coreanos dispensam o restaurante e entram num \"pyeonuijeom\": loja de conveniência.",
+      "sub_ar": "بعد العمل، كثير من الكورين يتجاوزون المطعم ويدخلون \\\"بيونيوجوم\\\" — بقالة صغيرة.",
+      "sub_fil": "Pagkatapos ng trabaho, maraming Koreano ang dumadaan sa \"pyeonuijeom\" — convenience store — sa halip na kainan.",
+      "sub_hi": "काम के बाद कई कोरियाई रेस्टोरेंट छोड़कर \\\"प्योनुइजॉम\\\" — सुविधा स्टोर — में चले जाते हैं।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "After work, many Koreans skip restaurants and walk into a"
+          "text": "After work, many Koreans skip the restaurant and walk into a"
         },
         {
           "lang": "ko",
@@ -55,51 +55,73 @@
           "text": "— a convenience store."
         }
       ],
-      "bg": "seoul_night",
-      "dur": 6.58
+      "bg": "bapsang",
+      "video": "vid1.mp4",
+      "dur": 5.8
     },
     {
-      "en": "Kimbap, noodles, microwave — all there.",
-      "sub_en": "Triangle kimbap, cup noodles, hot water, a microwave — all right there.",
-      "sub_vi": "Cơm nắm tam giác, mì ly, nước nóng, lò vi sóng — có đủ ngay đó.",
-      "sub_id": "Kimbap segitiga, mi cup, air panas, microwave — semua ada di situ.",
-      "sub_es": "Kimbap triangular, fideos instantáneos, agua caliente y microondas: todo ahí.",
-      "sub_pt": "Kimbap triangular, miojo, água quente e micro-ondas: tudo ali.",
-      "sub_ar": "كيمباب مثلث، معكرونة فورية، ماء ساخن وميكروويف — كل شيء هناك.",
-      "sub_fil": "Triangle kimbap, cup noodles, mainit na tubig, microwave — nandiyan lahat.",
-      "sub_hi": "त्रिकोण किम्बैप, कप नूडल्स, गरम पानी, माइक्रोवेव — सब वहीं मौजूद।",
+      "en": "Kimbap, ramyeon, microwave.",
+      "sub_en": "Grab triangle kimbap or cup ramyeon, heat it in the microwave, and eat at the counter by the window.",
+      "sub_vi": "Lấy cơm cuộn hay mì ly, hâm trong lò vi sóng, rồi ăn ngay quầy cạnh cửa sổ.",
+      "sub_id": "Ambil kimbap atau ramyeon cup, panaskan di microwave, lalu makan di meja dekat jendela.",
+      "sub_es": "Coge kimbap o ramyeon de vaso, caliéntalo en el microondas y come en la barra junto a la ventana.",
+      "sub_pt": "Pegue kimbap ou ramyeon de copo, esquente no micro-ondas e coma no balcão junto à janela.",
+      "sub_ar": "خذ كيمباب أو راميون بكوب، وسخّنه في المايكروويف، وكله على الطاولة قرب النافذة.",
+      "sub_fil": "Kumuha ng kimbap o cup ramyeon, initin sa microwave, at kainin sa may bintana.",
+      "sub_hi": "किम्बैप या कप राम्योन लें, माइक्रोवेव में गरम करें और खिड़की के पास बैठकर खाएँ।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Triangle kimbap, cup noodles, hot water, a microwave — all right there."
+          "text": "Grab triangle kimbap or cup ramyeon, heat it in the microwave, and eat at the counter by the window."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid1.mp4",
+      "video_ss": 1.5,
+      "dur": 5.6
+    },
+    {
+      "en": "Hot water is free.",
+      "sub_en": "Hot water for cup noodles is free.",
+      "sub_vi": "Nước nóng cho mì ly là miễn phí.",
+      "sub_id": "Air panas untuk mi cup gratis.",
+      "sub_es": "El agua caliente para los fideos es gratis.",
+      "sub_pt": "A água quente para o miojo é grátis.",
+      "sub_ar": "الماء الساخن للنودلز مجاني.",
+      "sub_fil": "Libre ang mainit na tubig para sa noodles.",
+      "sub_hi": "कप नूडल्स के लिए गरम पानी मुफ़्त है।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Hot water for cup noodles is free."
         }
       ],
       "bg": "bapsang",
       "video": "vid0.mp4",
-      "video_ss": 3.0,
-      "dur": 5.75
+      "video_ss": 2.0,
+      "dur": 3.2
     }
   ],
   "cta": {
-    "en": "Window counter, ten minutes. Would you eat here? Yes or no?",
+    "en": "Dinner at a convenience store — would you? Yes or no?",
     "like": "Like if this is your dinner 👇",
-    "sub_en": "Eat at the window counter, done in ten minutes. Would you eat dinner here? Yes or no?",
-    "sub_vi": "Ăn ở quầy cửa sổ, xong trong mười phút. Bạn có ăn tối ở đây không? Có hay không?",
-    "sub_id": "Makan di meja dekat jendela, selesai sepuluh menit. Mau makan malam di sini? Iya atau tidak?",
-    "sub_es": "Comes en la barra junto a la ventana y listo en diez minutos. ¿Cenarías aquí? ¿Sí o no?",
-    "sub_pt": "Come na bancada da janela e termina em dez minutos. Você jantaria aqui? Sim ou não?",
-    "sub_ar": "تأكل عند النافذة وتنتهي في عشر دقائق. هل ستتعشى هنا؟ نعم أم لا؟",
-    "sub_fil": "Kakain sa may bintana, tapos sa sampung minuto. Kakain ka ba ng hapunan dito? Oo o hindi?",
-    "sub_hi": "खिड़की के पास बैठकर दस मिनट में खाना खत्म। क्या आप यहाँ डिनर करेंगे? हाँ या नहीं?",
+    "sub_en": "Dinner at a convenience store — would you? Yes or no?",
+    "sub_vi": "Bữa tối ở cửa hàng tiện lợi — bạn có ăn không? Có hay không?",
+    "sub_id": "Makan malam di minimarket — kamu mau? Iya atau tidak?",
+    "sub_es": "¿Cenarías en una tienda de conveniencia? ¿Sí o no?",
+    "sub_pt": "Jantar numa loja de conveniência — você jantaria? Sim ou não?",
+    "sub_ar": "عشاء في بقالة صغيرة — هل تفعلها؟ نعم أم لا؟",
+    "sub_fil": "Hapunan sa convenience store — kakain ka ba? Oo o hindi?",
+    "sub_hi": "सुविधा स्टोर में डिनर — क्या आप करेंगे? हाँ या नहीं?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "Eat at the window counter, done in ten minutes. Would you eat dinner here? Yes or no?"
+        "text": "Dinner at a convenience store — would you? Yes or no?"
       }
     ],
     "bg": "seoul_night",
     "video": "vid1.mp4",
-    "dur": 5.97
+    "dur": 3.2
   },
   "music": "calm03.mp3",
   "particles": "snow"
