@@ -1,3 +1,5 @@
 out/
 __pycache__/
 assets/fonts/
+
+voice_samples/

@@ -19,8 +19,14 @@ v4 voice (Claude/은석님 피드백): 네이티브 발음 분리 합성.
     `voice_parts`가 없는 장면은 기존 `voice` 문자열을 영어 뉴럴 음성으로 읽는다(ep004~011 호환).
     edge-tts가 없거나 실패하면 Piper(PIPER_MODEL)로 fallback.
 
+v5 voice (은석님 "Google AI Studio 잘생긴 남자 목소리"): 장면 음성을 **Gemini TTS**(Google AI Studio,
+    기본 `gemini-3.8-flash-tts` + `Charon`)로 바꿨다. 순서는 ① `episodes/<ep>/voice/v{i}.wav` 사전 생성본
+    (저장소에 커밋, API 호출 0회) ② `GEMINI_TTS_VOICE`가 지정돼 있으면 API 실시간 생성 ③ 실패하면 기존
+    edge-tts 한/영 분리 ④ Piper. Gemini는 한국어 단어(카공)를 한 목소리로 자연스럽게 읽으므로
+    ko/en 파트를 나누지 않고 이어 붙인다. 속도는 `GEMINI_TTS_TEMPO`(기본 1.08배)로 21~22초 규격에 맞춘다.
+
 Needs: ffmpeg (FFMPEG env var or on PATH), Pillow, Noto Sans CJK fonts, tools/scenes.py.
-Optional: edge-tts (권장), Piper TTS (PIPER_MODEL env, fallback).
+Optional: edge-tts (권장), Piper TTS (PIPER_MODEL env, fallback), GEMINI_API_KEY(실시간 Gemini TTS).
 Usage: python tools/build.py episodes/ep001 [episodes/ep002 ...]
 """
 import json
@@ -66,6 +72,12 @@ PART_MEAN_DB = -20.0      # 파트별 평균 음량 목표(두 목소리 크기 
 TRIM_SILENCE = ("silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04,"
                 "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04,areverse")
 EDGE_PIP_SPEC = "edge-tts==7.3.1"   # 워크플로에 pip 설치가 없어도 build.py가 직접 설치
+
+# --- v5 voice (Gemini TTS, Google AI Studio) ---
+GEMINI_VOICE = os.environ.get("GEMINI_TTS_VOICE", "")      # 비우면 사전 생성본/edge-tts
+GEMINI_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")
+GEMINI_TEMPO = float(os.environ.get("GEMINI_TTS_TEMPO", "1.10"))  # 21~22초 규격 맞춤
+VOICE_SUBDIR = "voice"            # episodes/<ep>/voice/v{i}.wav (커밋된 사전 생성본)
 
 FONT_DIRS = [ROOT / "assets/fonts", Path("/usr/share/fonts/opentype/noto"),
              Path("/usr/share/fonts/opentype/noto-cjk"), Path("/usr/share/fonts/noto-cjk")]
@@ -475,12 +487,47 @@ def _join_parts(wavs, out, gap=PART_GAP):
                 o.writeframes(silence)
 
 
-def speak(sc, work, stem):
-    """장면 하나의 목소리 트랙. edge-tts(한/영 분리) 우선, 실패 시 Piper."""
+def _gemini_wav(src, out):
+    """Gemini TTS WAV을 파이프라인 규격으로: 앞뒤 무음 정리 + atempo(기본 1.08배) + 44.1k 모노.
+
+    Gemini 음성은 edge-tts보다 8~15% 느려 그대로 쓰면 22초를 넘는다(ep009 24.1초).
+    atempo는 피치를 유지하므로 목소리 결은 그대로다.
+    """
+    af = TRIM_SILENCE
+    if abs(GEMINI_TEMPO - 1.0) > 0.01:
+        af += f",atempo={min(max(GEMINI_TEMPO, 0.5), 2.0):.3f}"
+    run([FF, "-y", "-loglevel", "error", "-i", str(src), "-af", af,
+         "-ac", "1", "-ar", "44100", "-c:a", "pcm_s16le", str(out)])
+    return out
+
+
+def speak(sc, work, stem, ep_dir=None):
+    """장면 하나의 목소리 트랙.
+
+    ① episodes/<ep>/voice/<stem>.wav 사전 생성본(커밋됨, API 호출 없음)
+    ② GEMINI_TTS_VOICE 지정 시 Gemini API 실시간 생성
+    ③ edge-tts(한/영 분리) ④ Piper
+    """
     parts = script_parts(sc)
     if not parts:
         return None
     out = work / f"{stem}.wav"
+
+    if ep_dir is not None:
+        pre = Path(ep_dir) / VOICE_SUBDIR / f"{stem}.wav"
+        if pre.is_file() and pre.stat().st_size > 1000:
+            return _gemini_wav(pre, out)
+
+    if GEMINI_VOICE:
+        try:
+            from tts_gemini import speak_to_wav   # 같은 tools/ 디렉터리
+            tmp = work / f"{stem}_raw.wav"
+            speak_to_wav(" ".join(p["text"] for p in parts), tmp,
+                         voice=GEMINI_VOICE, model=GEMINI_MODEL)
+            return _gemini_wav(tmp, out)
+        except Exception as e:      # 키 없음·한도 초과·네트워크 → edge-tts
+            sys.stderr.write(f"[tts] Gemini TTS failed on {stem}: {e}\n[tts] falling back to edge-tts\n")
+
     if edge_available():
         try:
             wavs = []
@@ -537,7 +584,7 @@ def build(ep_dir):
     for i, sc in enumerate(scenes):
         kind, src = scene_source(ep_dir, sc)
         text = text_layer(sc, sc["kind"], show_tag=(sc["kind"] != "hook"))
-        v = speak(sc, work, f"v{i}")
+        v = speak(sc, work, f"v{i}", ep_dir)
         dur = scene_dur(sc)
         delay = 0.0 if sc["kind"] == "hook" else VOICE_DELAY  # 훅 음성은 0.0s 시작
         dur = max(dur, (wav_seconds(v) + delay + 0.2) if v else 0)
