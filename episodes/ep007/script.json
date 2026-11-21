@@ -120,5 +120,6 @@
     "dur": 4.0
   },
   "music": "calm03.mp3",
-  "particles": "snow"
+  "particles": "snow",
+  "voice_tempo": 1.15
 }

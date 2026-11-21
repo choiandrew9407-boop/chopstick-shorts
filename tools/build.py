@@ -487,21 +487,23 @@ def _join_parts(wavs, out, gap=PART_GAP):
                 o.writeframes(silence)
 
 
-def _gemini_wav(src, out):
-    """Gemini TTS WAV을 파이프라인 규격으로: 앞뒤 무음 정리 + atempo(기본 1.08배) + 44.1k 모노.
+def _gemini_wav(src, out, tempo=None):
+    """Gemini TTS WAV을 파이프라인 규격으로: 앞뒤 무음 정리 + atempo(기본 1.10배) + 44.1k 모노.
 
     Gemini 음성은 edge-tts보다 8~15% 느려 그대로 쓰면 22초를 넘는다(ep009 24.1초).
     atempo는 피치를 유지하므로 목소리 결은 그대로다.
+    `tempo`를 주면 그 값을 쓰고(대본의 `voice_tempo`), 없으면 GEMINI_TTS_TEMPO 기본값.
     """
+    tempo = GEMINI_TEMPO if tempo is None else float(tempo)
     af = TRIM_SILENCE
-    if abs(GEMINI_TEMPO - 1.0) > 0.01:
-        af += f",atempo={min(max(GEMINI_TEMPO, 0.5), 2.0):.3f}"
+    if abs(tempo - 1.0) > 0.01:
+        af += f",atempo={min(max(tempo, 0.5), 2.0):.3f}"
     run([FF, "-y", "-loglevel", "error", "-i", str(src), "-af", af,
          "-ac", "1", "-ar", "44100", "-c:a", "pcm_s16le", str(out)])
     return out
 
 
-def speak(sc, work, stem, ep_dir=None):
+def speak(sc, work, stem, ep_dir=None, tempo=None):
     """장면 하나의 목소리 트랙.
 
     ① episodes/<ep>/voice/<stem>.wav 사전 생성본(커밋됨, API 호출 없음)
@@ -516,7 +518,7 @@ def speak(sc, work, stem, ep_dir=None):
     if ep_dir is not None:
         pre = Path(ep_dir) / VOICE_SUBDIR / f"{stem}.wav"
         if pre.is_file() and pre.stat().st_size > 1000:
-            return _gemini_wav(pre, out)
+            return _gemini_wav(pre, out, tempo)
 
     if GEMINI_VOICE:
         try:
@@ -524,7 +526,7 @@ def speak(sc, work, stem, ep_dir=None):
             tmp = work / f"{stem}_raw.wav"
             speak_to_wav(" ".join(p["text"] for p in parts), tmp,
                          voice=GEMINI_VOICE, model=GEMINI_MODEL)
-            return _gemini_wav(tmp, out)
+            return _gemini_wav(tmp, out, tempo)
         except Exception as e:      # 키 없음·한도 초과·네트워크 → edge-tts
             sys.stderr.write(f"[tts] Gemini TTS failed on {stem}: {e}\n[tts] falling back to edge-tts\n")
 
@@ -584,7 +586,7 @@ def build(ep_dir):
     for i, sc in enumerate(scenes):
         kind, src = scene_source(ep_dir, sc)
         text = text_layer(sc, sc["kind"], show_tag=(sc["kind"] != "hook"))
-        v = speak(sc, work, f"v{i}", ep_dir)
+        v = speak(sc, work, f"v{i}", ep_dir, spec.get("voice_tempo"))
         dur = scene_dur(sc)
         delay = 0.0 if sc["kind"] == "hook" else VOICE_DELAY  # 훅 음성은 0.0s 시작
         dur = max(dur, (wav_seconds(v) + delay + 0.2) if v else 0)
