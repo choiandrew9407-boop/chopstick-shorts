@@ -55,28 +55,32 @@
 
 ---
 
-## 3. 영어 음성 — `11_voiceover/` (13줄, 4인 4색)
+## 3. 영어 음성 — `11_voiceover/` (13줄, 4인 4색) — **2026-11-22 Gemini TTS로 전면 교체**
 
-| 파일 | 씬 | 화자 | 대사 | 총 길이 | 보이스(F0) |
+> 은석님 피드백("기존 음성이 너무 AI 같다")으로 **1화부터 Google AI Studio `gemini-2.5-flash-preview-tts` 자연 연기 톤**으로 교체했습니다.
+> 구 edge-tts 원본은 `11_voiceover/_backup_edgetts/`에 그대로 보관. 상세·새 타임라인은 `11_voiceover/VOICE_TIMING_EP1.md`.
+
+| 파일 | 씬 | 화자 | 대사 | 총 길이 | Gemini 보이스 |
 |---|---|---|---|---|---|
-| `ep01_s01_seoyoon.wav` | S1 | 서윤 | Tae-jun...? | 0.86s | Ava · ~239Hz |
-| `ep01_s02_seoyoon.wav` | S2 | 서윤 | It's our anniversary. | 1.70s | Ava · ~222Hz |
-| `ep01_s03_seoyoon.wav` | S3 | 서윤 | Mother... you knew? | 1.16s | Ava · ~232Hz |
-| `ep01_s05_seoyoon.wav` | S5 | 서윤 | Who is she? | 1.06s | Ava · ~194Hz |
-| `ep01_s02_taejun_1.wav` | S2 | 태준 | You weren't supposed to be here. | 1.70s | Andrew · ~114Hz |
-| `ep01_s02_taejun_2.wav` | S2 | 태준 | Was. | 0.96s | Andrew · ~96Hz |
-| `ep01_s05_taejun.wav` | S5 | 태준 | Turn around. Show her. | 2.00s | Andrew · ~132Hz |
-| `ep01_s03_hyeran_1.wav` | S3 | 혜란 | Lower your voice. This is a family matter. | 3.93s | Sonia(영국) · ~181Hz |
-| `ep01_s03_hyeran_2.wav` | S3 | 혜란 | I arranged it. | 1.51s | Sonia · ~217Hz |
-| `ep01_s04_hyeran_1.wav` | S4 | 혜란 | Six years. No heir. | 2.80s | Sonia · ~159Hz |
-| `ep01_s04_hyeran_2.wav` | S4 | 혜란 | That girl will take your place. | 2.45s | Sonia · ~172Hz |
-| `ep01_s06_chaerin_1.wav` | S6 | 채린 | Don't you recognize me, sister? | 2.06s | Emma · ~246Hz |
-| `ep01_s06_chaerin_2.wav` | S6 | 채린 | I'm your twin. | 1.14s | Emma · ~261Hz |
+| `ep01_s01_seoyoon.wav` | S1 | 서윤 | Tae-jun...? | 1.29s | Aoede |
+| `ep01_s02_seoyoon.wav` | S2 | 서윤 | It's our anniversary. | 2.10s | Aoede |
+| `ep01_s03_seoyoon.wav` | S3 | 서윤 | Mother... you knew? | 2.45s | Aoede |
+| `ep01_s05_seoyoon.wav` | S5 | 서윤 | Who is she? | 1.64s | Aoede |
+| `ep01_s02_taejun_1.wav` | S2 | 태준 | You weren't supposed to be here. | 2.43s | Charon |
+| `ep01_s02_taejun_2.wav` | S2 | 태준 | Was. | 1.04s | Charon |
+| `ep01_s05_taejun.wav` | S5 | 태준 | Turn around. Show her. | 2.88s | Charon |
+| `ep01_s03_hyeran_1.wav` | S3 | 혜란 | Lower your voice. This is a family matter. | 4.58s | Gacrux |
+| `ep01_s03_hyeran_2.wav` | S3 | 혜란 | I arranged it. | 1.93s | Gacrux |
+| `ep01_s04_hyeran_1.wav` | S4 | 혜란 | Six years. No heir. | 3.22s | Gacrux |
+| `ep01_s04_hyeran_2.wav` | S4 | 혜란 | That girl will take your place. | 3.22s | Gacrux |
+| `ep01_s06_chaerin_1.wav` | S6 | 채린 | Don't you recognize me, sister? | 2.09s | Zephyr |
+| `ep01_s06_chaerin_2.wav` | S6 | 채린 | I'm your twin. | 1.46s | Zephyr |
 
-- 포맷: **48kHz / mono / 16-bit PCM**, 피크 -1dBFS 정규화, 앞뒤 무음 0.2초(파일 총 길이 = 발화 + 0.4s).
-- 음색 구분: 서윤(부드러운 30대 여, 느림) < 혜란(낮고 느린 60대 영국 여, 위압) < 채린(가장 밝고 비꼬는 톤). 태준은 저역 남성.
+- 포맷: **48kHz / mono / 16-bit PCM**, 피크 -1.0dBFS 정규화, 앞뒤 무음 0.2초(파일 총 길이 = 발화 + 0.4s).
+- 음색 구분: 서윤(Aoede, 숨죽인 30대 여) / 혜란(Gacrux, 낮고 느린 60대 위압) / 채린(Zephyr, 밝고 비꼬는 톤) / 태준(Charon, 저역 남성).
 - 각 파일은 **단독 1줄**이므로 자유롭게 배치·트림 가능. 앞뒤 0.2초 무음은 컷 여유분입니다.
-- `manifest.json`에 파일별 씬·화자·대사·길이·톤이 들어 있습니다.
+- `manifest.json`에 파일별 씬·화자·대사·길이·보이스·**제안 배치 시각**이 들어 있습니다.
+- 총 음성 30.33s, 마지막 대사 44.86s 종료 → 60초 안에 들어갑니다. 같은 씬 안에서 4줄만 뒤로 밀었고(8.08 / 10.33 / 21.10 / 27.17), 씬 경계는 그대로입니다. 자막 7개 언어 타임코드도 함께 갱신.
 
 ---
 
@@ -84,5 +88,5 @@
 
 1. 이미지 업스케일 → ffmpeg `zoompan` 켄번스(1.00→1.12 등) + 하드컷 + 펀치 줌(1.00→1.25)으로 60초 조립.
 2. 우하단 Flow 워터마크가 프레임에 남지 않도록 팬/줌 방향을 잡아 주세요.
-3. 음성 13줄은 위 표 길이를 기준으로 S1~S6 타임라인(0:00~1:00)에 배치하면 노션 장면표와 정확히 맞습니다.
+3. 음성 13줄은 `11_voiceover/VOICE_TIMING_EP1.md`의 **새 시작 시각**(2.20 / 5.50 / 8.08 / 10.33 / 13.50 / 18.50 / 21.10 / 23.80 / 27.17 / 32.10 / 34.10 / 41.00 / 43.40)에 배치하세요. 씬 경계는 기존 그대로입니다.
 4. 재생성이 필요하면 이 폴더의 파일명 규칙을 그대로 써서 같은 이름으로 교체하면 됩니다.
