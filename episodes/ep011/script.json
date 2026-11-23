@@ -121,8 +121,9 @@
     ],
     "bg": "seoul_night",
     "video": "vid0.mp4",
-    "dur": 3.4
+    "dur": 3.0
   },
   "music": "calm03.mp3",
-  "particles": "snow"
+  "particles": "snow",
+  "voice_tempo": 1.45
 }
