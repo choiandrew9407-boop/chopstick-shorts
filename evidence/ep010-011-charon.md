@@ -26,3 +26,8 @@
 GEMINI_TTS_VOICE=Charon python3 work/tmp/gen_voice_eps.py ep010 ep011   # 10요청, 25초 간격
 FFMPEG=<ffmpeg> python3 tools/build.py episodes/ep010 episodes/ep011
 ```
+
+## CI·산출물
+- GitHub Actions run [`45137701083`](https://github.com/choiandrew9407-boop/chopstick-shorts/actions/runs/45137701083) 성공(빌드 55초), 아티팩트 `shorts-33`. CI 로그: `ep010: 22.4s`, `ep011: 22.9s` (로컬 빌드와 동일).
+- 교체 위치: `downloads/chopstick-shorts/ep010|ep011/` + 루트 평면 사본 + `work/chopstick-shorts/out/ep010|ep011/`. 이전 edge-tts 산출물은 `downloads/chopstick-shorts/_prev-edge-1123/ep010|ep011/`에 백업.
+- CI 최종 mp4 프레임 확인: `evidence/ep010-charon-ci.png`, `evidence/ep011-charon-ci.png` (러너에서도 한글 카드 정상).
