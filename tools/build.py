@@ -31,6 +31,12 @@ v6 audio/loop (은석님 2026-11-23 "소리 치직거리고 루프 어디 감"):
     오디오는 192k. 장면에 `beats`를 주면 한 음성 줄 안에서 카드가 여러 번 바뀌고(펀치 줌 동반),
     최종 MP4가 20MB를 넘으면 영상만 CRF 23으로 자동 재인코딩한다.
 
+v7 badge (은석님 2026-11-24 "영상 내에 이게 한국문화인지 아닌지 어디에도 없다"):
+    모든 프레임 상단에 **'IN KOREA' 배지**를 고정 노출한다(태극 문양 직접 드로잉 + 영문 대문자).
+    첫 0초부터 엔딩까지 한국 문화 편임이 한눈에 보이게 하는 것이 목적이며, 대본 `"badge"`로 문구를
+    바꾸거나 `"badge": false`로 끌 수 있다(없으면 기본값 `IN KOREA`). 호기 카드·CTA 카드 문구에도
+    'In Korea'를 넣어 이중으로 표시한다.
+
 Needs: ffmpeg (FFMPEG env var or on PATH), Pillow, Noto Sans CJK fonts, tools/scenes.py.
 Optional: edge-tts (권장), Piper TTS (PIPER_MODEL env, fallback), GEMINI_API_KEY(실시간 Gemini TTS).
 Usage: python tools/build.py episodes/ep001 [episodes/ep002 ...]
@@ -263,6 +269,66 @@ def scene_source(ep_dir, scene):
     return ("bg", scene.get("bg"))
 
 
+# ---------------------------------------------------------------- Korea badge
+# v7 (은석님 2026-11-24 "영상 내에 이게 한국문화인지 아닌지 어디에도 없다"):
+# 첫 프레임(0초)부터 마지막 프레임까지 화면 상단에 'IN KOREA' 배지를 고정 노출한다.
+# 🇰🇷 이모지는 Noto Sans CJK에 글리프가 없어 두부(□)로 찍히므로 배지에는 쓰지 않는다.
+# 대신 태극 문양을 직접 그려 넣고, 글자는 깨지지 않는 영문 대문자만 쓴다.
+# 카드 레이어와 분리해 슬라이드 컷·펀치 줌 뒤에 합성하므로 배지 자체는 흔들리지 않는다.
+# 대본 `"badge": "..."` 로 문구를 바꾸고, `"badge": false` 로 끌 수 있다(없으면 기본값).
+BADGE_DEFAULT = "IN KOREA"    # 앞으로 만드는 모든 편의 기본값(은석님 고정 지시 2026-11-24)
+BADGE_Y = 330                 # 배지 중심 y — SAFE_TOP(288)보다 아래, Shorts 상단 UI와 겹치지 않게
+BADGE_SIZE = 46
+_BADGE = {"img": None, "mask": None, "pos": (0, 0)}
+
+
+def _taegeuk(d, cx, cy, r):
+    """태극 문양: 위 빨강·아래 파랑 + 두 반원으로 만드는 S 곡선."""
+    box = (cx - r, cy - r, cx + r, cy + r)
+    d.ellipse(box, fill="#0047A0")
+    d.pieslice(box, 180, 360, fill="#CD2E3A")
+    d.ellipse((cx - r, cy - r, cx, cy + r), fill="#CD2E3A")
+    d.ellipse((cx, cy - r, cx + r, cy + r), fill="#0047A0")
+    d.ellipse(box, outline=(255, 255, 255, 235), width=max(2, r // 12))
+
+
+def set_badge(text):
+    """에피소드 배지 이미지를 만들어 전역에 둔다(빈 값이면 배지 없음)."""
+    _BADGE.update(img=None, mask=None)
+    text = clean(text or "")
+    if not text:
+        return
+    f = font("bold", BADGE_SIZE)
+    probe = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
+    tw = probe.textlength(text, font=f)
+    r = BADGE_SIZE // 2
+    pad_x, pad_y = 38, 20
+    w = int(pad_x * 2 + r * 2 + 22 + tw)
+    h = BADGE_SIZE + pad_y * 2
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((1, 1, w - 2, h - 2), h // 2, fill=(0, 0, 0, 168),
+                        outline=(255, 214, 90, 235), width=3)
+    _taegeuk(d, pad_x + r, h // 2, r)
+    d.text((pad_x + r * 2 + 22, h // 2), text, font=f, fill=(255, 214, 90), anchor="lm")
+    _BADGE["img"] = img.convert("RGB")
+    _BADGE["mask"] = img.getchannel("A")
+    _BADGE["pos"] = ((W - w) // 2, BADGE_Y - h // 2)
+
+
+def apply_badge(rgb):
+    """완성된 프레임 위에 배지를 고정 합성한다(슬라이드·펀치 줌 뒤에 호출).
+
+    원본을 보존하려고 복사본에 그린다. 슬라이드 컷의 prev_frame은 배지가 없는 프레임이어야
+    배지가 두 개(미러지는 이전 프레임 + 고정 배지)로 겹치지 않는다.
+    """
+    if _BADGE["img"] is None:
+        return rgb
+    out = rgb.copy()
+    out.paste(_BADGE["img"], _BADGE["pos"], _BADGE["mask"])
+    return out
+
+
 # ---------------------------------------------------------------- overlays
 def text_layer(scene, kind, show_tag=True):
     """Transparent 1080x1920 overlay: hook text, or Korean / romanization / English card."""
@@ -422,7 +488,8 @@ def render_still_scene(bg, lights, layers, dur, idx, seed, particles, out, twist
         rgb = frame.convert("RGB")
         if f < slide_n:
             rgb = slide_frame(rgb, prev_frame, (f + 1) / (slide_n + 1))
-        last = rgb
+        last = rgb                      # 배지 없는 프레임을 다음 씬 슬라이드에 넘긴다
+        rgb = apply_badge(rgb)
         ff.stdin.write(rgb.tobytes())
     ff.stdin.close()
     if ff.wait():
@@ -461,7 +528,8 @@ def render_video_scene(mp4, layers, dur, out, prev_frame=None, slide=False, fade
         rgb = frame.convert("RGB")
         if f < slide_n:
             rgb = slide_frame(rgb, prev_frame, (f + 1) / (slide_n + 1))
-        last = rgb
+        last = rgb                      # 배지 없는 프레임을 다음 씬 슬라이드에 넘긴다
+        rgb = apply_badge(rgb)
         enc.stdin.write(rgb.tobytes())
     dec.stdout.close()
     dec.wait()
@@ -674,6 +742,8 @@ def build(ep_dir):
     work.mkdir(parents=True)
     seed = sum(map(ord, eid))
     particles = spec.get("particles", "snow")
+    badge = spec.get("badge", BADGE_DEFAULT)      # "badge": false → 배지 없음
+    set_badge("" if badge is False else badge)
 
     scenes = [{"kind": "hook", "text": spec["hook_en"], "voice": spec.get("hook_voice", spec["hook_en"]),
                "voice_parts": spec.get("hook_voice_parts"), "dur": spec.get("hook_dur", HOOK_SEC),

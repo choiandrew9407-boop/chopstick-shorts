@@ -12,6 +12,7 @@
     "#shorts"
   ],
   "hook_en": "Yes. $4. And no tip.",
+  "badge": "IN KOREA",
   "hook_vi": "Đúng vậy. 4 đô. Và không cần tip.",
   "hook_id": "Ya. Empat dolar. Tanpa tip.",
   "hook_es": "Sí. Cuatro dólares. Y sin propina.",
@@ -150,7 +151,7 @@
     }
   ],
   "cta": {
-    "en": "Wait — all of this for $4?",
+    "en": "In Korea — all of this for $4?",
     "like": "Like if you'd eat here 👇",
     "sub_en": "Wait. All of this for four dollars?",
     "sub_vi": "Khoan đã — tất cả chỗ này chỉ 4 đô?",
