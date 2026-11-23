@@ -1,7 +1,7 @@
 {
   "id": "ep008",
-  "title_en": "Dinner for $4 — Inside a Convenience Store 🍙 #shorts",
-  "description_en": "In Korea, dinner sometimes comes from a 편의점 (pyeonuijeom) — a convenience store. Triangle kimbap, cup ramyeon, free hot water, a microwave, and a counter by the window. Stock footage: Pexels (free license)",
+  "title_en": "Koreans eat a $4 dinner — no waiter, no tip 🍙 #shorts",
+  "description_en": "In Korea, a 편의점 (pyeonuijeom) is not just a store — it's where dinner happens. Cup ramyeon, triangle kimbap, a drink: about $4. Hot water, the microwave, even the seat by the window are free. No waiter, no dishes, no tip.\n\nStock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,119 +11,167 @@
     "#BudgetTravel",
     "#shorts"
   ],
-  "hook_en": "Dinner for $4 — inside a convenience store.",
-  "hook_vi": "Bữa tối 4 đô — ngay trong cửa hàng tiện lợi.",
-  "hook_id": "Makan malam 4 dolar — di dalam minimarket.",
-  "hook_es": "Cena por 4 dólares — dentro de una tienda de conveniencia.",
-  "hook_pt": "Jantar por 4 dólares — dentro de uma loja de conveniência.",
-  "hook_ar": "عشاء بأربعة دولارات — داخل بقالة صغيرة.",
-  "hook_fil": "Hapunan sa 4 na dolyar — sa loob ng convenience store.",
-  "hook_hi": "चार डॉलर का डिनर — सुविधा स्टोर के अंदर।",
+  "hook_en": "Yes. $4. And no tip.",
+  "hook_vi": "Đúng vậy. 4 đô. Và không cần tip.",
+  "hook_id": "Ya. Empat dolar. Tanpa tip.",
+  "hook_es": "Sí. Cuatro dólares. Y sin propina.",
+  "hook_pt": "Sim. Quatro dólares. E sem gorjeta.",
+  "hook_ar": "نعم. أربعة دولارات. وبدون بقشيش.",
+  "hook_fil": "Oo. Apat na dolyar. At walang tip.",
+  "hook_hi": "हाँ। चार डॉलर। और टिप भी नहीं।",
+  "hook_ja": "そう、4ドル。チップもなし。",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "Four dollars, and dinner is ready inside the store."
+      "text": "Yes. Four dollars. And no tip."
     }
   ],
-  "hook_bg": "seoul_night",
   "hook_video": "vid0.mp4",
   "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "편의점",
       "roman": "pyeonuijeom",
-      "en": "A convenience store.",
-      "sub_en": "After work, many Koreans skip the restaurant and walk into a pyeonuijeom — a convenience store.",
-      "sub_vi": "Sau giờ làm, nhiều người Hàn bỏ qua nhà hàng và ghé \"pyeonuijeom\" — cửa hàng tiện lợi.",
-      "sub_id": "Setelah kerja, banyak orang Korea melewati restoran dan masuk ke \"pyeonuijeom\" — minimarket.",
-      "sub_es": "Después del trabajo, muchos coreanos pasan del restaurante y entran a un «pyeonuijeom»: una tienda de conveniencia.",
-      "sub_pt": "Depois do trabalho, muitos coreanos dispensam o restaurante e entram num \"pyeonuijeom\": loja de conveniência.",
-      "sub_ar": "بعد العمل، كثير من الكورين يتجاوزون المطعم ويدخلون \"بيونيوجوم\" — بقالة صغيرة.",
-      "sub_fil": "Pagkatapos ng trabaho, maraming Koreano ang dumadaan sa \"pyeonuijeom\" — convenience store — sa halip na kainan.",
-      "sub_hi": "काम के बाद कई कोरियाई रेस्टोरेंट छोड़कर \"प्योनुइजॉम\" — सुविधा स्टोर — में चले जाते हैं।",
+      "en": "Secretly a diner.",
+      "sub_en": "Koreans call it a pyeonuijeom: a store that secretly doubles as a diner.",
+      "sub_vi": "Người Hàn gọi đó là \"pyeonuijeom\": cửa hàng tiện lợi mà hoá ra là quán ăn.",
+      "sub_id": "Orang Korea menyebutnya \"pyeonuijeom\": minimarket yang diam-diam jadi restoran.",
+      "sub_es": "En Corea lo llaman «pyeonuijeom»: una tienda que en realidad es un comedor.",
+      "sub_pt": "Na Coreia chamam de \"pyeonuijeom\": uma loja que, na verdade, é um restaurante.",
+      "sub_ar": "الكوريون يسمّونها \"بيونيوجوم\": بقالة صغيرة هي في الحقيقة مطعم.",
+      "sub_fil": "Tinatawag itong \"pyeonuijeom\": convenience store na resto pala.",
+      "sub_hi": "कोरियाई इसे \"प्योनुइजॉम\" कहते हैं: सुविधा स्टोर जो असल में ढाबा है।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "After work, many Koreans skip the restaurant and walk into a"
-        },
-        {
-          "lang": "ko",
-          "text": "편의점"
-        },
-        {
-          "lang": "en",
-          "text": "— a convenience store."
-        }
-      ],
-      "bg": "bapsang",
-      "video": "vid1.mp4",
-      "dur": 5.8
-    },
-    {
-      "en": "Kimbap, ramyeon, microwave.",
-      "sub_en": "Grab triangle kimbap or cup ramyeon, heat it in the microwave, and eat at the counter by the window.",
-      "sub_vi": "Lấy cơm cuộn hay mì ly, hâm trong lò vi sóng, rồi ăn ngay quầy cạnh cửa sổ.",
-      "sub_id": "Ambil kimbap atau ramyeon cup, panaskan di microwave, lalu makan di meja dekat jendela.",
-      "sub_es": "Coge kimbap o ramyeon de vaso, caliéntalo en el microondas y come en la barra junto a la ventana.",
-      "sub_pt": "Pegue kimbap ou ramyeon de copo, esquente no micro-ondas e coma no balcão junto à janela.",
-      "sub_ar": "خذ كيمباب أو راميون بكوب، وسخّنه في المايكروويف، وكله على الطاولة قرب النافذة.",
-      "sub_fil": "Kumuha ng kimbap o cup ramyeon, initin sa microwave, at kainin sa may bintana.",
-      "sub_hi": "किम्बैप या कप राम्योन लें, माइक्रोवेव में गरम करें और खिड़की के पास बैठकर खाएँ।",
-      "voice_parts": [
-        {
-          "lang": "en",
-          "text": "Grab triangle kimbap or cup ramyeon, heat it in the microwave, and eat at the counter by the window."
-        }
-      ],
-      "bg": "bapsang",
-      "video": "vid1.mp4",
-      "video_ss": 1.5,
-      "dur": 5.6
-    },
-    {
-      "en": "Hot water is free.",
-      "sub_en": "Hot water for cup noodles is free.",
-      "sub_vi": "Nước nóng cho mì ly là miễn phí.",
-      "sub_id": "Air panas untuk mi cup gratis.",
-      "sub_es": "El agua caliente para los fideos es gratis.",
-      "sub_pt": "A água quente para o miojo é grátis.",
-      "sub_ar": "الماء الساخن للنودلز مجاني.",
-      "sub_fil": "Libre ang mainit na tubig para sa noodles.",
-      "sub_hi": "कप नूडल्स के लिए गरम पानी मुफ़्त है।",
-      "voice_parts": [
-        {
-          "lang": "en",
-          "text": "Hot water for cup noodles is free."
+          "text": "Koreans call it pyeonuijeom."
         }
       ],
       "bg": "bapsang",
       "video": "vid0.mp4",
-      "video_ss": 2.0,
+      "video_ss": 1.4,
+      "dur": 2.2
+    },
+    {
+      "en": "Cup ramyeon. Triangle kimbap. A drink.",
+      "sub_en": "Cup ramyeon. Triangle kimbap. A drink.",
+      "sub_vi": "Mì ly. Cơm cuộn tam giác. Một lon nước.",
+      "sub_id": "Ramyeon cup. Kimbap segitiga. Sebotol minum.",
+      "sub_es": "Ramyeon de vaso. Kimbap triangular. Una bebida.",
+      "sub_pt": "Ramyeon de copo. Kimbap triangular. Uma bebida.",
+      "sub_ar": "راميون بكوب. كيمباب مثلث. ومشروب.",
+      "sub_fil": "Cup ramyeon. Triangle kimbap. Isang inumin.",
+      "sub_hi": "कप राम्योन। त्रिकोण किम्बैप। एक ड्रिंक।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Cup ramyeon. Triangle kimbap. A drink."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid0.mp4",
+      "video_ss": 2.2,
       "dur": 3.2
+    },
+    {
+      "en": "Back home, $4 is a tip.",
+      "sub_en": "Back home, four dollars is a tip.",
+      "sub_vi": "Ở nước bạn, 4 đô chỉ là tiền tip.",
+      "sub_id": "Di negara saya, empat dolar itu uang tip.",
+      "sub_es": "En mi país, cuatro dólares es la propina.",
+      "sub_pt": "No seu país, quatro dólares é a gorjeta.",
+      "sub_ar": "في بلدك، أربعة دولارات هي البقشيش.",
+      "sub_fil": "Sa bansa namin, apat na dolyar ang tip.",
+      "sub_hi": "आपके देश में चार डॉलर टिप के बराबर हैं।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Back home, four dollars is a tip."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid1.mp4",
+      "video_ss": 0.4,
+      "twist": true,
+      "dur": 2.5
+    },
+    {
+      "beats": [
+        {
+          "en": "Hot water? FREE."
+        },
+        {
+          "en": "Microwave? FREE."
+        },
+        {
+          "en": "Window seat? FREE too."
+        }
+      ],
+      "en": "Free, free, free.",
+      "sub_en": "Hot water? Free. Microwave? Free. The window seat? Also free.",
+      "sub_vi": "Nước nóng? Miễn phí. Lò vi sóng? Miễn phí. Chỗ ngồi cạnh cửa sổ? Cũng miễn phí.",
+      "sub_id": "Air panas? Gratis. Microwave? Gratis. Kursi dekat jendela? Gratis juga.",
+      "sub_es": "¿Agua caliente? Gratis. ¿Microondas? Gratis. ¿La mesa junto a la ventana? También.",
+      "sub_pt": "Água quente? Grátis. Micro-ondas? Grátis. A mesa na janela? Também.",
+      "sub_ar": "ماء ساخن؟ مجاني. مايكروويف؟ مجاني. الطاولة عند النافذة؟ مجانية أيضًا.",
+      "sub_fil": "Mainit na tubig? Libre. Microwave? Libre. Upuan sa may bintana? Libre rin.",
+      "sub_hi": "गरम पानी? मुफ़्त। माइक्रोवेव? मुफ़्त। खिड़की वाली सीट? वह भी मुफ़्त।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Hot water? Free. Microwave? Free. The seat? Free."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid1.mp4",
+      "video_ss": 1.3,
+      "dur": 4.5
+    },
+    {
+      "en": "No waiter. No dishes. No reservation.",
+      "sub_en": "No waiter. No dishes. No reservation.",
+      "sub_vi": "Không bồi bàn. Không rửa bát. Không đặt bàn.",
+      "sub_id": "Tanpa pelayan. Tanpa cuci piring. Tanpa reservasi.",
+      "sub_es": "Sin camarero. Sin platos. Sin reserva.",
+      "sub_pt": "Sem garçom. Sem louça. Sem reserva.",
+      "sub_ar": "لا نادل. لا جلي أطباق. لا حجز.",
+      "sub_fil": "Walang waiter. Walang hugasin. Walang reservation.",
+      "sub_hi": "न वेटर। न बर्तन। न बुकिंग।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "No waiter. No dishes. No reservation."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid0.mp4",
+      "video_ss": 2.8,
+      "dur": 3.0
     }
   ],
   "cta": {
-    "en": "Dinner at a convenience store — would you? Yes or no?",
-    "like": "Like if this is your dinner 👇",
-    "sub_en": "Dinner at a convenience store — would you? Yes or no?",
-    "sub_vi": "Bữa tối ở cửa hàng tiện lợi — bạn có ăn không? Có hay không?",
-    "sub_id": "Makan malam di minimarket — kamu mau? Iya atau tidak?",
-    "sub_es": "¿Cenarías en una tienda de conveniencia? ¿Sí o no?",
-    "sub_pt": "Jantar numa loja de conveniência — você jantaria? Sim ou não?",
-    "sub_ar": "عشاء في بقالة صغيرة — هل تفعلها؟ نعم أم لا؟",
-    "sub_fil": "Hapunan sa convenience store — kakain ka ba? Oo o hindi?",
-    "sub_hi": "सुविधा स्टोर में डिनर — क्या आप करेंगे? हाँ या नहीं?",
+    "en": "Wait — all of this for $4?",
+    "like": "Like if you'd eat here 👇",
+    "sub_en": "Wait. All of this for four dollars?",
+    "sub_vi": "Khoan đã — tất cả chỗ này chỉ 4 đô?",
+    "sub_id": "Tunggu — semua ini cuma empat dolar?",
+    "sub_es": "Espera... ¿todo esto por cuatro dólares?",
+    "sub_pt": "Espera... tudo isso por quatro dólares?",
+    "sub_ar": "انتظر... كل هذا بأربعة دولارات؟",
+    "sub_fil": "Teka — lahat ng ito, apat na dolyar lang?",
+    "sub_hi": "रुकिए — यह सब सिर्फ़ चार डॉलर में?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "Dinner at a convenience store — would you? Yes or no?"
+        "text": "Wait. All of this for four dollars?"
       }
     ],
-    "bg": "seoul_night",
+    "bg": "bapsang",
     "video": "vid0.mp4",
-    "dur": 3.2
+    "video_ss": 0.0,
+    "dur": 2.9
   },
   "music": "calm03.mp3",
   "particles": "snow",
-  "voice_tempo": 1.15
+  "voice_tempo": 1.3
 }

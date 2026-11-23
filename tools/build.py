@@ -25,6 +25,12 @@ v5 voice (은석님 "Google AI Studio 잘생긴 남자 목소리"): 장면 음�
     edge-tts 한/영 분리 ④ Piper. Gemini는 한국어 단어(카공)를 한 목소리로 자연스럽게 읽으므로
     ko/en 파트를 나누지 않고 이어 붙인다. 속도는 `GEMINI_TTS_TEMPO`(기본 1.08배)로 21~22초 규격에 맞춘다.
 
+v6 audio/loop (은석님 2026-11-23 "소리 치직거리고 루프 어디 감"): 장면 음성에 -1.5 dB 헤드룸을 주고
+    (`_gemini_wav`), 최종 믹스는 **2패스 loudnorm(I=-14, TP=-2.5) + alimiter(-2.5 dBFS) + aresample=44100**
+    으로 피크를 -2 dB 이하에 고정한다(기존 1패스 loudnorm은 피크가 0 dBFS까지 올라가 AAC 뒤 치직거렸다).
+    오디오는 192k. 장면에 `beats`를 주면 한 음성 줄 안에서 카드가 여러 번 바뀌고(펀치 줌 동반),
+    최종 MP4가 20MB를 넘으면 영상만 CRF 23으로 자동 재인코딩한다.
+
 Needs: ffmpeg (FFMPEG env var or on PATH), Pillow, Noto Sans CJK fonts, tools/scenes.py.
 Optional: edge-tts (권장), Piper TTS (PIPER_MODEL env, fallback), GEMINI_API_KEY(실시간 Gemini TTS).
 Usage: python tools/build.py episodes/ep001 [episodes/ep002 ...]
@@ -59,7 +65,11 @@ CARD_BOTTOM_MARGIN = 170  # 카드 최소 하단 여백
 CARD_MIN_TOP = 940        # 카드 상단은 이 아래로 내려가지 않음
 GRADE = ("eq=saturation=1.08:contrast=1.05:brightness=0.01,"
          "unsharp=5:5:0.5,noise=alls=4:allf=t")
-LOUDNORM = "loudnorm=I=-14:TP=-1.5:LRA=11"
+LOUDNORM = "loudnorm=I=-14:TP=-2.5:LRA=7"   # (v6) 2-pass + 리미터 — loudnorm_filter() 참고
+LOUD_I, LOUD_TP, LOUD_LRA = -14.0, -2.5, 7.0
+LIMIT_DB = -2.5                 # 최종 브릭월 리미터(-2.5 dBFS): AAC 인코딩 오버슈트 여유
+AUDIO_BITRATE = "192k"          # 128k → 192k (재인코딩 시 치직거림 여지 축소)
+MAX_MB = 20.0                   # 유튜브 브라우저 업로드 한도(별도 재압축 불필요)
 VOICE_DELAY = 0.1         # 자막이 음성보다 0.1 s 먼저
 SLIDE_SEC = 0.15
 
@@ -147,6 +157,49 @@ def run(cmd):
         sys.stderr.write(r.stderr[-3000:])
         raise SystemExit(f"command failed: {' '.join(str(c) for c in cmd[:4])} ...")
     return r
+
+
+# ---------------------------------------------------------------- v6 audio
+def _loudnorm_measure(src):
+    """1패스 측정: loudnorm JSON(입력 I/TP/LRA/thresh)을 돌려준다. 실패하면 None."""
+    r = subprocess.run([FF, "-hide_banner", "-nostats", "-i", str(src), "-af",
+                        f"loudnorm=I={LOUD_I:g}:TP={LOUD_TP:g}:LRA={LOUD_LRA:g}:print_format=json",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    blocks = re.findall(r"\{[^{}]*\}", r.stderr or "")
+    if not blocks:
+        return None
+    try:
+        return json.loads(blocks[-1])
+    except Exception:
+        return None
+
+
+def loudnorm_filter(src):
+    """(v6) 2패스 loudnorm + 브릭월 리미터 + 44.1k 리샘플.
+
+    기존 1패스 `loudnorm=I=-16:TP=-1.5`는 게인만 계산해 적용하므로 피크가 0 dBFS까지
+    올라가고(측정 max_volume 0.0 dB, 0 dB 샘플 79개) AAC 인코딩 뒤 치직거림이 됐다.
+    여기서는 ① 측정값을 넣은 2패스 loudnorm(TP -2.5 dBFS) ② alimiter(-2.5 dBFS, 자동 레벨 끔)
+    ③ aresample=44100 순으로 걸어 최종 피크를 -2 dB 이하로 고정한다.
+    """
+    m = _loudnorm_measure(src)
+    f = f"loudnorm=I={LOUD_I:g}:TP={LOUD_TP:g}:LRA={LOUD_LRA:g}"
+    if m and m.get("input_i") not in (None, "-inf", "-nan"):
+        f += (f":measured_I={m['input_i']}:measured_TP={m['input_tp']}"
+              f":measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}"
+              f":offset={m['target_offset']}")
+    lim = 10 ** (LIMIT_DB / 20.0)          # dBFS → 선형 진폭
+    return f + (f",alimiter=limit={lim:.6f}:attack=5:release=80:level=0"
+                ",aresample=44100")
+
+
+def max_volume_db(path):
+    """최종 파일의 디코드 피크(dBFS)를 잰다. 클리핑 검사·보고용."""
+    r = subprocess.run([FF, "-hide_banner", "-nostats", "-i", str(path), "-af", "volumedetect",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"max_volume:\s*(-?[\d.]+) dB", r.stderr or "")
+    z = re.search(r"histogram_0db:\s*(\d+)", r.stderr or "")
+    return (float(m.group(1)) if m else None), (int(z.group(1)) if z else 0)
 
 
 # ---------------------------------------------------------------- v3 helpers
@@ -282,6 +335,40 @@ def fade_in(img, alpha):
     return out
 
 
+# ---------------------------------------------------------------- v6 beats
+def scene_layers(sc, kind, dur, show_tag=True):
+    """장면 하나의 자막 카드 목록 [(t0, t1, layer), ...].
+
+    `beats`가 있으면 한 음성 줄 안에서 카드가 여러 번 바뀐다(예: "Hot water? FREE" →
+    "Microwave? FREE" → "Window seat? FREE too"). 한 번의 TTS 호출을 그대로 쓰면서
+    화면을 빠르게 튀겨 "템포감"을 내는 용도. 각 비트 길이는 글자 수 비례로 나눈다.
+    """
+    beats = sc.get("beats")
+    if not beats:
+        return [(0.0, float("inf"), text_layer(sc, kind, show_tag))]
+    w = [max(len((b.get("en") or b.get("text") or "")), 8) for b in beats]
+    tot = float(sum(w)) or 1.0
+    out, acc = [], 0.0
+    for b, ww in zip(beats, w):
+        d = dur * ww / tot
+        merged = {k: v for k, v in sc.items() if k != "beats"}
+        merged.update(b)
+        out.append((acc, acc + d, text_layer(merged, kind, show_tag)))
+        acc += d
+    return out
+
+
+def pick_layer(layers, t):
+    """t초에 걸리는 (시작시각, 레이어). 각 비트는 시작 0.12s 동안 페이드인."""
+    cur = layers[0]
+    for L in layers:
+        if t >= L[0]:
+            cur = L
+        else:
+            break
+    return cur[0], cur[2]
+
+
 def slide_frame(new_frame, prev_frame, p):
     """새 장면이 오른쪽에서 밀고 들어오는 0.15s 슬라이드 컷(타임라인 길이는 그대로)."""
     canvas = Image.new("RGB", (W, H))
@@ -299,7 +386,7 @@ def open_encoder(out):
                             stdin=subprocess.PIPE)
 
 
-def render_still_scene(bg, lights, text, dur, idx, seed, particles, out, twist=False,
+def render_still_scene(bg, lights, layers, dur, idx, seed, particles, out, twist=False,
                        prev_frame=None, slide=False, fade=True):
     """Illustrated / photo scene: ken-burns zoom + pan, twinkling lights, particles, text card."""
     n = int(round(dur * FPS))
@@ -330,7 +417,8 @@ def render_still_scene(bg, lights, text, dur, idx, seed, particles, out, twist=F
                 frame.paste(s2, (px, py), s2)
         if parts:
             parts.draw(fx, t)
-        frame.alpha_composite(fade_in(text, sub_alpha(t) if fade else 1.0))
+        t0, layer = pick_layer(layers, t)
+        frame.alpha_composite(fade_in(layer, sub_alpha(t - t0) if fade else 1.0))
         rgb = frame.convert("RGB")
         if f < slide_n:
             rgb = slide_frame(rgb, prev_frame, (f + 1) / (slide_n + 1))
@@ -342,7 +430,8 @@ def render_still_scene(bg, lights, text, dur, idx, seed, particles, out, twist=F
     return last
 
 
-def render_video_scene(mp4, text, dur, out, prev_frame=None, slide=False, fade=True):
+def render_video_scene(mp4, layers, dur, out, prev_frame=None, slide=False, fade=True,
+                       punches=()):
     """Real stock footage: decode the prepped clip frame by frame, put the subtitle card on top."""
     n = int(round(dur * FPS))
     dec = subprocess.Popen([FF, "-loglevel", "error", "-i", str(mp4), "-f", "rawvideo",
@@ -358,7 +447,17 @@ def render_video_scene(mp4, text, dur, out, prev_frame=None, slide=False, fade=T
             buf = last_buf if last_buf is not None else Image.new("RGB", (W, H)).tobytes()
         last_buf = buf
         frame = Image.frombytes("RGB", (W, H), buf).convert("RGBA")
-        frame.alpha_composite(fade_in(text, sub_alpha(f / FPS) if fade else 1.0))
+        t = f / FPS
+        # (v6) 비트 카드가 바뀔 때마다 배경을 0.22s 동안 살짝 당겼다 놓는다(펀치 줌).
+        for p0 in punches:
+            if p0 - 0.02 <= t < p0 + 0.22:
+                z = 1.0 + 0.07 * (1.0 - max(t - p0, 0.0) / 0.22) ** 0.6
+                cw, chh = int(W / z), int(H / z)
+                lx, ty = (W - cw) // 2, (H - chh) // 2
+                frame = frame.crop((lx, ty, lx + cw, ty + chh)).resize((W, H), Image.LANCZOS)
+                break
+        t0, layer = pick_layer(layers, t)
+        frame.alpha_composite(fade_in(layer, sub_alpha(t - t0) if fade else 1.0))
         rgb = frame.convert("RGB")
         if f < slide_n:
             rgb = slide_frame(rgb, prev_frame, (f + 1) / (slide_n + 1))
@@ -498,6 +597,9 @@ def _gemini_wav(src, out, tempo=None):
     af = TRIM_SILENCE
     if abs(tempo - 1.0) > 0.01:
         af += f",atempo={min(max(tempo, 0.5), 2.0):.3f}"
+    # (v6) Gemini 출력은 피크가 0 dBFS라 24k→44.1k 리샘플 뒤 s16 양자화에서 잘린다.
+    #       -1.5 dB 헤드룸을 두고 저장(최종 loudnorm이 다시 -14 LUFS로 올린다).
+    af += ",volume=-1.5dB"
     run([FF, "-y", "-loglevel", "error", "-i", str(src), "-af", af,
          "-ac", "1", "-ar", "44100", "-c:a", "pcm_s16le", str(out)])
     return out
@@ -585,19 +687,20 @@ def build(ep_dir):
     prev_frame = None
     for i, sc in enumerate(scenes):
         kind, src = scene_source(ep_dir, sc)
-        text = text_layer(sc, sc["kind"], show_tag=(sc["kind"] != "hook"))
         v = speak(sc, work, f"v{i}", ep_dir, spec.get("voice_tempo"))
         dur = scene_dur(sc)
         delay = 0.0 if sc["kind"] == "hook" else VOICE_DELAY  # 훅 음성은 0.0s 시작
         dur = max(dur, (wav_seconds(v) + delay + 0.2) if v else 0)
+        layers = scene_layers(sc, sc["kind"], dur, show_tag=(sc["kind"] != "hook"))
         clip = work / f"c{i}.mp4"
         cut_name, _ = transition_for(i - 1) if i else (None, 0.0)
         slide = bool(cut_name)
 
         if kind == "video":
             prepped = prep_clip(src, dur, work / f"p{i}.mp4", float(sc.get("video_ss") or 0.0))
-            prev_frame = render_video_scene(prepped, text, dur, clip, prev_frame, slide,
-                                            fade=(sc["kind"] != "hook"))
+            prev_frame = render_video_scene(prepped, layers, dur, clip, prev_frame, slide,
+                                            fade=(sc["kind"] != "hook"),
+                                            punches=[L[0] for L in layers[1:]])
         else:
             if kind == "img":
                 graded = grade_image(src, work / f"g{i}.png")
@@ -613,7 +716,7 @@ def build(ep_dir):
                 bg, lights = draw_scene(src or DEFAULT_CYCLE[i % len(DEFAULT_CYCLE)],
                                         int(W * 1.055), int(H * 1.055), seed + i)
             indoor = (sc.get("bg") in ("bapsang", "elevator"))
-            prev_frame = render_still_scene(bg, lights, text, dur, i, seed,
+            prev_frame = render_still_scene(bg, lights, layers, dur, i, seed,
                                             "none" if indoor else particles, clip,
                                             twist=bool(sc.get("twist")),
                                             prev_frame=prev_frame, slide=slide,
@@ -652,16 +755,31 @@ def build(ep_dir):
     final = out / f"{eid}.mp4"
     music = ROOT / "assets/music" / spec.get("music", "")
     if spec.get("music") and music.exists():
-        mix = (f"[2]volume=0.12,afade=t=out:st={t - 1.5:.2f}:d=1.5[m];"
-               f"[1][m]amix=inputs=2:duration=first:normalize=0,{LOUDNORM},aresample=44100[a]")
-        run([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(voice),
-             "-stream_loop", "-1", "-i", str(music), "-filter_complex", mix,
-             "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
+        # BGM이 있을 때만 믹스 → 믹스 결과를 2패스 loudnorm(TP -2.5 dBFS)에 넘긴다.
+        mixed = work / "mix.wav"
+        run([FF, "-y", "-loglevel", "error", "-i", str(voice), "-stream_loop", "-1", "-i", str(music),
+             "-filter_complex",
+             (f"[1]volume=0.10,afade=t=out:st={t - 1.5:.2f}:d=1.5[m];"
+              "[0][m]amix=inputs=2:duration=first:normalize=0[o]"),
+             "-map", "[o]", "-c:a", "pcm_s16le", str(mixed)])
+        run([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(mixed),
+             "-map", "0:v", "-map", "1:a", "-af", loudnorm_filter(mixed),
+             "-c:v", "copy", "-c:a", "aac", "-b:a", AUDIO_BITRATE, "-ar", "44100",
              "-t", f"{t:.3f}", "-movflags", "+faststart", str(final)])
     else:
         run([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(voice),
-             "-map", "0:v", "-map", "1:a", "-af", f"{LOUDNORM},aresample=44100", "-c:v", "copy", "-c:a", "aac",
-             "-b:a", "128k", "-ar", "44100", "-shortest", "-movflags", "+faststart", str(final)])
+             "-map", "0:v", "-map", "1:a", "-af", loudnorm_filter(voice), "-c:v", "copy", "-c:a", "aac",
+             "-b:a", AUDIO_BITRATE, "-ar", "44100", "-shortest", "-movflags", "+faststart", str(final)])
+
+    # 20MB 초과면 영상만 CRF 23으로 한 번 더 줄인다(브라우저 업로드 한도 통과, 오디오는 그대로).
+    mb = final.stat().st_size / 1e6
+    if mb > MAX_MB:
+        small = work / "small.mp4"
+        run([FF, "-y", "-loglevel", "error", "-i", str(final), "-c:v", "libx264",
+             "-preset", "veryfast", "-crf", "23", "-maxrate", "4M", "-bufsize", "8M",
+             "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", str(small)])
+        if small.stat().st_size < final.stat().st_size:
+            small.replace(final)
 
     for lang in LANGS:
         # 번역이 없는 언어는 만들지 않는다(영어 문장이 '힌디어 자막'으로 올라가는 사고 방지).
@@ -683,8 +801,10 @@ def build(ep_dir):
     (out / f"{eid}.upload.txt").write_text(
         f"TITLE: {spec['title_en']}\n\nDESCRIPTION:\n{spec.get('description_en', '')}\n\n"
         f"HASHTAGS: {' '.join(spec.get('hashtags', []))}\n", encoding="utf-8")
+    pk, z = max_volume_db(final)
     shutil.rmtree(work)
-    print(f"{eid}: {t:.1f}s -> {final}")
+    print(f"{eid}: {t:.1f}s -> {final}  peak {pk} dBFS (0dB samples {z}), "
+          f"{final.stat().st_size / 1e6:.1f} MB")
 
 
 if __name__ == "__main__":
