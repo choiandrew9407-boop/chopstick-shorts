@@ -1,7 +1,7 @@
 {
   "id": "ep009",
-  "title_en": "Koreans Leave Laptops in Cafés. Nobody Steals. ☕ #shorts",
-  "description_en": "In Korea, a laptop left on a café table is still there an hour later — nobody takes it. Cafés are full of students doing 카공 (kagong), studying for hours on one coffee. Stock footage: Pexels (free license)",
+  "title_en": "Koreans leave laptops in cafés — and nobody takes them ☕ #shorts",
+  "description_en": "In Korea, a café is not just a café — it's a study room. Students call it 카공 (kagong): studying in a café, one coffee, six hours. I left my laptop, my phone and my wallet on the table and went to the bathroom. Twenty minutes later, everything was still there. Nobody touches it.\n\nStock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,118 +11,124 @@
     "#KoreanCafe",
     "#shorts"
   ],
-  "hook_en": "Koreans leave laptops here. Nobody steals.",
-  "hook_vi": "Người Hàn để laptop đó. Không ai lấy.",
-  "hook_id": "Orang Korea tinggalkan laptop di sini. Tak ada yang mencuri.",
-  "hook_es": "En Corea dejan el portátil ahí. Nadie lo roba.",
-  "hook_pt": "Na Coreia deixam o notebook ali. Ninguém rouba.",
-  "hook_ar": "في كوريا يتركون اللابتوب على الطاولة. لا أحد يسرقه.",
-  "hook_fil": "Iniiwan ng Koreano ang laptop. Walang kumukuha.",
-  "hook_hi": "कोरिया में लैपटॉप छोड़ जाते हैं। कोई चुराता नहीं।",
+  "hook_en": "I left it. Nobody touched it.",
+  "badge": "IN KOREA",
+  "hook_vi": "Mình để đó. Không ai đụng vào.",
+  "hook_id": "Aku tinggal. Tak ada yang menyentuhnya.",
+  "hook_es": "Lo dejé. Nadie lo tocó.",
+  "hook_pt": "Deixei ali. Ninguém tocou.",
+  "hook_ar": "تركته. لم يلمسه أحد.",
+  "hook_fil": "Iniwan ko. Walang gumalaw.",
+  "hook_hi": "मैंने छोड़ दिया। किसी ने हाथ नहीं लगाया।",
+  "hook_ja": "置いたまま。誰も触らなかった。",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "Koreans leave a laptop. Nobody steals it."
+      "text": "I left my laptop. Nobody touched it."
     }
   ],
-  "hook_bg": "seoul_night",
-  "hook_video": "vid2.mp4",
+  "hook_video": "vid3.mp4",
   "hook_dur": 3.0,
   "scenes": [
     {
       "ko": "카공",
       "roman": "kagong",
-      "en": "Café plus study.",
-      "sub_en": "Cafés here are full of students doing kagong, café study, for hours. One coffee, six hours.",
-      "sub_vi": "Quán cà phê ở đây đầy sinh viên \"kagong\" — học ở quán, hàng giờ liền. Một ly cà phê, sáu tiếng.",
-      "sub_id": "Kafe di sini penuh mahasiswa yang \"kagong\" — belajar di kafe, berjam-jam. Satu kopi, enam jam.",
-      "sub_es": "Los cafés aquí se llenan de estudiantes haciendo «kagong»: estudiar en el café, durante horas. Un café, seis horas.",
-      "sub_pt": "Os cafés aqui vivem cheios de estudantes fazendo \"kagong\": estudar no café, por horas. Um café, seis horas.",
-      "sub_ar": "المقاهي هنا مليئة بالطلاب الذين يدرسون فيها ساعات. قهوة واحدة، وست ساعات.",
-      "sub_fil": "Puno ang mga café dito ng estudyanteng nag-\"kagong\" — nag-aaral sa café, nang ilang oras. Isang kape, anim na oras.",
-      "sub_hi": "यहाँ के कैफ़े छात्रों से भरे रहते हैं जो घंटों कैफ़े में पढ़ते हैं। एक कॉफ़ी, छह घंटे।",
+      "en": "Café = study room",
+      "sub_en": "In Korea, cafés are study rooms. They call it \"kagong\".",
+      "sub_vi": "Ở Hàn Quốc, quán cà phê là phòng học. Người ta gọi đó là \"kagong\".",
+      "sub_id": "Di Korea, kafe itu ruang belajar. Namanya \"kagong\".",
+      "sub_es": "En Corea, las cafeterías son salas de estudio. Lo llaman «kagong».",
+      "sub_pt": "Na Coreia, café é sala de estudo. Chamam de \"kagong\".",
+      "sub_ar": "في كوريا، المقاهي غرف دراسة. يسمّونها \"كاغونغ\".",
+      "sub_fil": "Sa Korea, ang café ay silid-aralan. Tinatawag itong \"kagong\".",
+      "sub_hi": "कोरिया में कैफ़े पढ़ने की जगह हैं। इसे \"कागोंग\" कहते हैं।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Cafés here are full of students doing"
-        },
-        {
-          "lang": "ko",
-          "text": "카공"
-        },
-        {
-          "lang": "en",
-          "text": "— café study, for hours. One coffee, six hours."
+          "text": "In Korea, cafés are study rooms. They call it kagong."
         }
       ],
       "bg": "bapsang",
       "video": "vid0.mp4",
-      "dur": 6.6
+      "dur": 4.7
     },
     {
-      "en": "Cameras. Everyone watching.",
-      "sub_en": "Cameras are everywhere, and everyone is doing the same thing.",
-      "sub_vi": "Camera ở khắp nơi, và ai cũng làm giống nhau.",
-      "sub_id": "Kamera ada di mana-mana, dan semua orang melakukan hal yang sama.",
-      "sub_es": "Hay cámaras por todas partes, y todos hacen lo mismo.",
-      "sub_pt": "Há câmeras em todo lugar, e todo mundo faz a mesma coisa.",
-      "sub_ar": "الكاميرات في كل مكان، والجميع يفعل الشيء نفسه.",
-      "sub_fil": "May camera sa lahat ng sulok, at pareho ang ginagawa ng lahat.",
-      "sub_hi": "हर जगह कैमरे हैं, और सब वही कर रहे हैं।",
+      "en": "Laptop. Phone. Wallet. On the table.",
+      "sub_en": "I went to the bathroom and left everything on the table.",
+      "sub_vi": "Mình vào nhà vệ sinh và để hết đồ trên bàn.",
+      "sub_id": "Aku ke toilet dan meninggalkan semua barang di meja.",
+      "sub_es": "Fui al baño y dejé todo en la mesa.",
+      "sub_pt": "Fui ao banheiro e deixei tudo na mesa.",
+      "sub_ar": "ذهبت إلى الحمام وتركت كل شيء على الطاولة.",
+      "sub_fil": "Pumunta ako sa banyo at iniwan lahat sa mesa.",
+      "sub_hi": "मैं बाथरूम गया और सब कुछ मेज़ पर छोड़ आया।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Cameras are everywhere, and everyone is doing the same thing."
+          "text": "I went to the bathroom and left everything on the table."
         }
       ],
       "bg": "bapsang",
-      "video": "vid0.mp4",
-      "video_ss": 4.0,
+      "video": "vid3.mp4",
+      "video_ss": 2.0,
       "dur": 4.0
     },
     {
-      "en": "A phone saves the seat.",
-      "sub_en": "Some even leave their phone to save the seat.",
-      "sub_vi": "Có người còn để điện thoại giữ chỗ.",
-      "sub_id": "Ada yang meninggalkan ponsel untuk menandai kursi.",
-      "sub_es": "Algunos incluso dejan el móvil para guardar el sitio.",
-      "sub_pt": "Alguns até deixam o celular para guardar o lugar.",
-      "sub_ar": "بعضهم يتركون الهاتف لحجز المكان.",
-      "sub_fil": "May nag-iiwan pa ng cellphone para itago ang upuan.",
-      "sub_hi": "कुछ लोग सीट रोकने के लिए फ़ोन भी छोड़ देते हैं।",
+      "beats": [
+        {
+          "en": "20 minutes later..."
+        },
+        {
+          "en": "Still there."
+        },
+        {
+          "en": "Even my coffee."
+        }
+      ],
+      "en": "Still there. Even my coffee.",
+      "sub_en": "Twenty minutes later? Still there. Even my coffee.",
+      "sub_vi": "Hai mươi phút sau? Vẫn còn nguyên. Cả ly cà phê của mình.",
+      "sub_id": "Dua puluh menit kemudian? Masih di sana. Bahkan kopiku.",
+      "sub_es": "¿Veinte minutos después? Sigue ahí. Hasta mi café.",
+      "sub_pt": "Vinte minutos depois? Continua lá. Até meu café.",
+      "sub_ar": "بعد عشرين دقيقة؟ ما زال هناك. حتى قهوتي.",
+      "sub_fil": "Makalipas ang dalawampung minuto? Nandiyan pa rin. Pati kape ko.",
+      "sub_hi": "बीस मिनट बाद? अब भी वहीं। मेरी कॉफ़ी भी।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "Some even leave their phone to save the seat."
+          "text": "Twenty minutes later? Still there. Even my coffee."
         }
       ],
       "bg": "bapsang",
-      "video": "vid2.mp4",
-      "video_ss": 2.0,
-      "dur": 3.2
+      "video": "vid1.mp4",
+      "video_ss": 0.5,
+      "twist": true,
+      "dur": 4.0
     }
   ],
   "cta": {
-    "en": "Would your laptop survive ten minutes here? Yes or no?",
-    "like": "Like if you'd never try it 👇",
-    "sub_en": "Would your laptop survive ten minutes in your café? Yes or no?",
-    "sub_vi": "Laptop của bạn có sống nổi mười phút trong quán cà phê của bạn không? Có hay không?",
-    "sub_id": "Laptopmu bertahan sepuluh menit di kafe kamu? Iya atau tidak?",
-    "sub_es": "¿Tu portátil sobreviviría diez minutos en tu café? ¿Sí o no?",
-    "sub_pt": "Seu notebook sobreviveria dez minutos no seu café? Sim ou não?",
-    "sub_ar": "هل يصمد حاسوبك عشر دقائق في مقهى بلدك؟ نعم أم لا؟",
-    "sub_fil": "Mabubuhay ba ang laptop mo nang sampung minuto sa café mo? Oo o hindi?",
-    "sub_hi": "क्या आपका लैपटॉप आपके कैफ़े में दस मिनट टिकेगा? हाँ या नहीं?",
+    "en": "In Korea — you left your laptop alone?",
+    "like": "Like if you'd never do this",
+    "sub_en": "Wait. You left your laptop alone?",
+    "sub_vi": "Khoan đã — bạn để laptop một mình?",
+    "sub_id": "Tunggu — kamu tinggalkan laptopmu sendirian?",
+    "sub_es": "Espera... ¿dejaste tu portátil solo?",
+    "sub_pt": "Espera... você deixou seu notebook sozinho?",
+    "sub_ar": "انتظر... تركت حاسوبك وحده؟",
+    "sub_fil": "Teka — iniwan mo ang laptop mo nang mag-isa?",
+    "sub_hi": "रुकिए — आपने लैपटॉप अकेला छोड़ दिया?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "Would your laptop survive ten minutes in your café? Yes or no?"
+        "text": "Wait. You left your laptop alone?"
       }
     ],
     "bg": "bapsang",
-    "video": "vid2.mp4",
-    "dur": 4.2
+    "video": "vid3.mp4",
+    "video_ss": 0.0,
+    "dur": 3.1
   },
-  "music": "calm03.mp3",
-  "particles": "snow"
+  "particles": "snow",
+  "voice_tempo": 1.1
 }

@@ -98,10 +98,34 @@ def synthesize(text, voice=DEFAULT_VOICE, model=DEFAULT_MODEL, key=None,
                     m = re.search(r"rate=(\d+)", mime)
                     if m:
                         rate = int(m.group(1))
-                    return base64.b64decode(inline["data"]), rate
+                    pcm, hdr_rate = unwrap_wav(base64.b64decode(inline["data"]))
+                    return pcm, (hdr_rate or rate)
         err = f"응답에 오디오 없음: {json.dumps(body)[:300]}"
         time.sleep(4 * (attempt + 1))
     raise RuntimeError(f"Gemini TTS {voice} 실패 — {err}")
+
+
+def unwrap_wav(data):
+    """API가 PCM 대신 WAV 컨테이너를 돌려준 경우 data 청크만 꺼낸다.
+
+    2026-11-24 ep009 생성분은 inlineData가 `RIFF … WAVE fmt … data … C2PA …`인
+    완성 WAV였다. 이걸 그대로 raw PCM으로 저장하면 앞 44바이트(헤더)와 뒤 C2PA 청크가
+    소리로 섞여 시작·끝에 큰 클릭과 잡음이 생긴다(실측 피크 0 dBFS).
+    fmt 청크의 샘플레이트를 함께 돌려준다.
+    """
+    import struct
+    if data[:4] != b"RIFF" or data[8:12] != b"WAVE":
+        return data, None
+    pos, rate = 12, None
+    while pos + 8 <= len(data):
+        cid = data[pos:pos + 4]
+        size = struct.unpack("<I", data[pos + 4:pos + 8])[0]
+        if cid == b"fmt ":
+            rate = struct.unpack("<I", data[pos + 12:pos + 16])[0]
+        elif cid == b"data":
+            return data[pos + 8:pos + 8 + size], rate
+        pos += 8 + size + (size & 1)
+    return data, rate          # 헤더만 있고 data 청크가 없으면 원본 유지
 
 
 def write_wav(pcm, rate, out, channels=1, width=2):
