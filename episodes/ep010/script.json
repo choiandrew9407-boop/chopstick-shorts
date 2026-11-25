@@ -1,7 +1,7 @@
 {
   "id": "ep010",
-  "title_en": "Sleep All Night for About $10 🥚 #shorts",
-  "description_en": "A 찜질방 (jjimjilbang) is a Korean bathhouse open all night. You pay once, get comfy clothes, sweat in hot rooms, eat baked eggs, and sleep on the warm floor with strangers. Stock footage: Pexels (free license)",
+  "title_en": "Why Koreans sleep at a spa for about $10 🥚 #shorts",
+  "description_en": "In Korea, a 찜질방 (jjimjilbang) is a spa you sleep in. You pay once at the door — about ten dollars — and get pajamas, a towel, hot rooms, cold rooms and a shower. Then everyone sits on the warm floor cracking boiled eggs. Some people crack them on their own foreheads. Then they sleep there, all night, next to strangers.\n\nStock footage: Pexels (free license)",
   "hashtags": [
     "#Korea",
     "#LearnKorean",
@@ -11,18 +11,20 @@
     "#KoreaTravel",
     "#shorts"
   ],
-  "hook_en": "Sleep here all night for about $10.",
-  "hook_vi": "Ngủ cả đêm ở đây với khoảng 10 đô.",
-  "hook_id": "Tidur semalam di sini sekitar 10 dolar.",
-  "hook_es": "Duerme aquí toda la noche por unos 10 dólares.",
-  "hook_pt": "Durma aqui a noite toda por uns 10 dólares.",
-  "hook_ar": "نم هنا طوال الليل بعشرة دولارات تقريبًا.",
-  "hook_fil": "Matulog dito buong gabi sa mga 10 dolyar.",
-  "hook_hi": "यहाँ लगभग दस डॉलर में पूरी रात सोइए।",
+  "hook_en": "One night. About $10. On the floor.",
+  "badge": "IN KOREA",
+  "hook_vi": "Một đêm trọn vẹn, khoảng mười đô, nằm trên sàn.",
+  "hook_id": "Semalam penuh, sekitar sepuluh dolar, di lantai.",
+  "hook_es": "Toda una noche, unos diez dólares, en el suelo.",
+  "hook_pt": "A noite toda, uns dez dólares, no chão.",
+  "hook_ar": "ليلة كاملة، بعشرة دولارات تقريبًا، على الأرض.",
+  "hook_fil": "Buong gabi, mga sampung dolyar, sa sahig.",
+  "hook_hi": "पूरी रात, लगभग दस डॉलर में, फ़र्श पर।",
+  "hook_ja": "一晩中、約10ドルで、床の上。",
   "hook_voice_parts": [
     {
       "lang": "en",
-      "text": "Ten dollars, and you can sleep here all night."
+      "text": "A whole night, about ten dollars, on the floor."
     }
   ],
   "hook_bg": "seoul_night",
@@ -32,98 +34,91 @@
     {
       "ko": "찜질방",
       "roman": "jjimjilbang",
-      "en": "A bathhouse open all night.",
-      "sub_en": "It's a jjimjilbang — a Korean sauna that stays open all night.",
-      "sub_vi": "\"Jjimjilbang\" — phòng tắm hơi Hàn Quốc mở suốt đêm.",
-      "sub_id": "\"Jjimjilbang\" — sauna Korea yang buka sepanjang malam.",
-      "sub_es": "Es un «jjimjilbang»: un sauna coreano abierto toda la noche.",
-      "sub_pt": "É um \"jjimjilbang\": uma sauna coreana aberta a noite toda.",
-      "sub_ar": "إنه \"جيمجيلبانغ\" — ساونا كورية تفتح طوال الليل.",
-      "sub_fil": "Ito ang \"jjimjilbang\" — Korean sauna na bukas buong gabi.",
-      "sub_hi": "यह \"जिमजिलबांग\" है — कोरियाई सॉना जो पूरी रात खुला रहता है।",
+      "en": "Korean spa",
+      "sub_en": "Koreans call it jjimjilbang.",
+      "sub_vi": "Người Hàn gọi đó là \"jjimjilbang\".",
+      "sub_id": "Orang Korea menyebutnya \"jjimjilbang\".",
+      "sub_es": "Los coreanos lo llaman «jjimjilbang».",
+      "sub_pt": "Os coreanos chamam de \"jjimjilbang\".",
+      "sub_ar": "الكوريون يسمّونه \"جيمجيلبانغ\".",
+      "sub_fil": "Tinatawag ito ng mga Koreanong \"jjimjilbang\".",
+      "sub_hi": "कोरियाई इसे \"जिमजिलबांग\" कहते हैं।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "It's a"
-        },
-        {
-          "lang": "ko",
-          "text": "찜질방"
-        },
-        {
-          "lang": "en",
-          "text": "— a Korean sauna that stays open all night."
-        }
-      ],
-      "bg": "seoul_night",
-      "video": "vid0.mp4",
-      "dur": 4.6
-    },
-    {
-      "en": "Same clothes. Same floor.",
-      "sub_en": "You pay once, put on the same clothes, sweat in hot rooms, then lie on the warm floor with strangers.",
-      "sub_vi": "Trả tiền một lần, mặc đồ giống nhau, xông hơi, rồi nằm trên sàn ấm cùng người lạ.",
-      "sub_id": "Bayar sekali, pakai baju yang sama, berendam di ruang panas, lalu berbaring di lantai hangat bersama orang asing.",
-      "sub_es": "Pagas una vez, te pones la ropa igual, sudas en salas calientes y luego te tumbas en el suelo cálido con desconocidos.",
-      "sub_pt": "Você paga uma vez, veste a mesma roupa, sua nas salas quentes e depois deita no chão quente com estranhos.",
-      "sub_ar": "تدفع مرة واحدة، وتلبس الثياب نفسها، وتتعرق في غرف ساخنة، ثم تستلقي على أرضية دافئة بين غرباء.",
-      "sub_fil": "Bayad nang isang beses, pareho ang suot, pawisan sa mainit na silid, tapos higa sa mainit na sahig kasama ng estranghero.",
-      "sub_hi": "एक बार भुगतान, सबको एक जैसे कपड़े, गरम कमरों में पसीना, फिर अजनबियों के साथ गरम फ़र्श पर लेटना।",
-      "voice_parts": [
-        {
-          "lang": "en",
-          "text": "You pay once, put on the same clothes, sweat in hot rooms, then lie on the warm floor with strangers."
+          "text": "Koreans call it jjimjilbang."
         }
       ],
       "bg": "bapsang",
       "video": "vid0.mp4",
-      "video_ss": 1.5,
-      "dur": 6.6
+      "dur": 4.5
     },
     {
-      "en": "Baked eggs, sweet rice drink.",
-      "sub_en": "The classic snack is baked eggs and a sweet rice drink.",
-      "sub_vi": "Món ăn kèm kinh điển là trứng nướng và nước gạo ngọt.",
-      "sub_id": "Camilan klasiknya telur panggang dan minuman beras manis.",
-      "sub_es": "El tentempié clásico: huevos al horno y una bebida dulce de arroz.",
-      "sub_pt": "O petisco clássico: ovos assados e uma bebida doce de arroz.",
-      "sub_ar": "الوجبة الخفيفة الكلاسيكية بيض مخبوز ومشروب أرز حلو.",
-      "sub_fil": "Ang klasikong meryenda ay baked eggs at matamis na inumin ng bigas.",
-      "sub_hi": "पारंपरिक नाश्ता है बेक्ड अंडे और मीठा चावल पेय।",
+      "en": "Hot room. Cold room. Shower. Pajamas.",
+      "sub_en": "I paid at the door and got pajamas, a towel, hot rooms and cold rooms.",
+      "sub_vi": "Mình trả tiền ở cửa và được phát đồ ngủ, khăn tắm, phòng nóng và phòng lạnh.",
+      "sub_id": "Aku bayar di pintu dan dapat piyama, handuk, ruang panas dan ruang dingin.",
+      "sub_es": "Pagué en la entrada y me dieron pijama, toalla, salas calientes y salas frías.",
+      "sub_pt": "Paguei na entrada e recebi pijama, toalha, salas quentes e salas frias.",
+      "sub_ar": "دفعت عند الباب وحصلت على بيجامة ومنشفة وغرف ساخنة وغرف باردة.",
+      "sub_fil": "Nagbayad ako sa pinto at binigyan ng pajama, tuwalya, mainit at malamig na silid.",
+      "sub_hi": "मैंने दरवाज़े पर भुगतान किया और पजामा, तौलिया, गरम और ठंडे कमरे मिले।",
       "voice_parts": [
         {
           "lang": "en",
-          "text": "The classic snack is baked eggs and a sweet rice drink."
+          "text": "I paid at the door and got pajamas, a towel, hot rooms and cold rooms."
         }
       ],
       "bg": "bapsang",
-      "video": "vid1.mp4",
+      "video": "vid2.mp4",
       "video_ss": 1.0,
-      "dur": 3.3
+      "dur": 5.0
+    },
+    {
+      "en": "Then... everyone cracked eggs.",
+      "sub_en": "Then everyone started cracking boiled eggs. Some on their own foreheads.",
+      "sub_vi": "Rồi mọi người bắt đầu đập trứng luộc. Có người đập lên trán mình.",
+      "sub_id": "Lalu semua orang mulai memecahkan telur rebus. Ada yang di dahinya sendiri.",
+      "sub_es": "Entonces todos empezaron a cascar huevos cocidos. Algunos en su propia frente.",
+      "sub_pt": "Aí todo mundo começou a quebrar ovos cozidos. Alguns na própria testa.",
+      "sub_ar": "ثم بدأ الجميع يكسرون البيض المسلوق. بعضهم على جباههم.",
+      "sub_fil": "Tapos nagsimulang magbasag ng itlog ang lahat. May sa noo pa mismo.",
+      "sub_hi": "फिर सबने उबले अंडे तोड़ने शुरू किए। कुछ अपने माथे पर ही।",
+      "voice_parts": [
+        {
+          "lang": "en",
+          "text": "Then everyone started cracking boiled eggs. Some on their own foreheads."
+        }
+      ],
+      "bg": "bapsang",
+      "video": "vid3.mp4",
+      "video_ss": 0.5,
+      "twist": true,
+      "dur": 5.2
     }
   ],
   "cta": {
-    "en": "Would you sleep on a floor with strangers? Yes or no?",
-    "like": "Like if you'd try it 👇",
-    "sub_en": "Would you sleep on a floor with strangers? Yes or no?",
-    "sub_vi": "Bạn có ngủ trên sàn cùng người lạ không? Có hay không?",
-    "sub_id": "Kamu mau tidur di lantai bersama orang asing? Iya atau tidak?",
-    "sub_es": "¿Dormirías en un suelo con desconocidos? ¿Sí o no?",
-    "sub_pt": "Você dormiria num chão com estranhos? Sim ou não?",
-    "sub_ar": "هل تنام على الأرض بين غرباء؟ نعم أم لا؟",
-    "sub_fil": "Matutulog ka ba sa sahig kasama ng estranghero? Oo o hindi?",
-    "sub_hi": "क्या आप अजनबियों के साथ फ़र्श पर सोएँगे? हाँ या नहीं?",
+    "en": "In Korea — you slept at a spa for $10?",
+    "like": "Like if you'd try it",
+    "sub_en": "Wait. You slept at a spa for ten dollars?",
+    "sub_vi": "Khoan đã — bạn ngủ ở spa chỉ với mười đô?",
+    "sub_id": "Tunggu — kamu tidur di spa cuma sepuluh dolar?",
+    "sub_es": "Espera... ¿dormiste en un spa por diez dólares?",
+    "sub_pt": "Espera... você dormiu num spa por dez dólares?",
+    "sub_ar": "انتظر... نمت في سبا بعشرة دولارات؟",
+    "sub_fil": "Teka — natulog ka sa spa sa sampung dolyar?",
+    "sub_hi": "रुकिए — आप दस डॉलर में स्पा में सोए?",
     "voice_parts": [
       {
         "lang": "en",
-        "text": "Would you sleep on a floor with strangers? Yes or no?"
+        "text": "Wait. You slept at a spa for ten dollars?"
       }
     ],
-    "bg": "seoul_night",
+    "bg": "bapsang",
     "video": "vid1.mp4",
-    "dur": 3.1
+    "video_ss": 0.0,
+    "dur": 3.2
   },
-  "music": "calm03.mp3",
   "particles": "snow",
-  "voice_tempo": 1.15
+  "voice_tempo": 1.1
 }

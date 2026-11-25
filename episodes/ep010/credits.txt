@@ -1,22 +1,42 @@
-ep010 — 실사 스톡 클립 출처
-수집일: 2026-11-18 (Asia/Seoul)
+ep010 — 실사 스톡 클립 출처 (v7 · v6 루프 대본, 2026-11-25 재편)
+수집: 2026-11-18 / 추가 2026-11-25 (Asia/Seoul)
 
-vid0.mp4  — 사우나 탈의실(찜질방 입구)
+vid0.mp4  — 사우나 탈의실(찜질방 입구) · 장면 1 '찜질방'
   출처: Pexels / Ron Lach
   원본: https://www.pexels.com/video/an-empty-dressing-room-9145017/
-  제목: An Empty Dressing Room
-  사용 구간: 원본 0:04.5~0:09.5 (원본 2160x4096 세로)
+  제목: An Empty Dressing Room · 사용 구간: 원본 0:04.5~0:09.5 (1080x1920)
   라이선스: Pexels License — 상업적 사용·편집 무료, 출처 표기 의무 없음(권장)
-  조정(2026-11-19): 앞 3초가 초점이 풀리고 오른쪽에 검은 테두리가 잡혀 첫 3초 훅이 어두웠다. 앞 3초를 잘라 5초만 쓰도록 바꿨다(훅 0~3.0초가 깨끗한 화면으로 시작).
 
-vid1.mp4  — 반으로 자른 삶은 달걀과 후추(양머리 + 맥반석 계란)
+vid1.mp4  — 반으로 자른 삶은 달걀과 후추 · 훅(0~3.0초) + 엔딩 루프
   출처: Pexels / Klaus Nielsen
   원본: https://www.pexels.com/video/seasoning-falling-on-a-sliced-boiled-egg-6289329/
-  제목: Seasoning Falling on a Sliced Boiled Egg
-  사용 구간: 원본 0:00.5~0:07 (원본 1080x1920 세로)
+  제목: Seasoning Falling on a Sliced Boiled Egg · 사용 구간: 원본 0:00.5~0:07 (1080x1920)
   라이선스: Pexels License
-이 편은 저장소에 AI 이미지가 없었습니다(대본만 있던 상태) — 실사 클립 2장면 + 자체 배경으로 구성.
 
-v5 재편(2026-11-21): 0~3초 훅 = vid1(반으로 자른 삶은 달걀 — 결과 노출), 3~7.6초 = vid0(탈의실),
-7.6~14.2초 = vid0 다른 구간, 14.2~17.5초 = vid1(달걀·후추), 17.5~20.6초 = vid1(훅 클립 루프).
-가격은 지역별 차이가 있어 'about(약)' 표기를 유지했다.
+vid2.mp4  — 사우나 열탕 돌(국자로 물 붓기) · 장면 2 'Hot room. Cold room.'
+  출처: Pexels / Yaroslav Shuraev · 추가 2026-11-25
+  원본: https://www.pexels.com/video/person-pouring-water-on-the-hot-stones-5979944/
+  제목: Person Pouring Water on the Hot Stones (2160x4096 원본 → 1080x2048 HD)
+  사용 구간: 원본 0:01.0~0:06.2
+  라이선스: Pexels License
+
+vid3.mp4  — 삶은 달걀 한 솥 · 장면 3 'everyone cracked eggs'
+  출처: Pexels / Klaus Nielsen · 추가 2026-11-25
+  원본: https://www.pexels.com/video/view-of-peeled-and-boiled-eggs-6288842/
+  제목: View of Peeled and Boiled Eggs (1080x1920)
+  사용 구간: 원본 0:00.5~0:06.0
+  라이선스: Pexels License
+
+v6 루프 재편(2026-11-25): 0~3.0초 훅 = vid1(반 자른 달걀 — 결과 노출),
+3.0~7.6초 = vid0(탈의실), 7.6~12.8초 = vid2(열탕 돌·김), 12.8~18.2초 = vid3(삶은 달걀 솥, 펀치 줌),
+18.2~21.4초 = vid1 0초(훅 클립 루프). 가격은 지역 차이가 있어 'about(약)' 표기 유지.
+
+## 비한국 요소 검수 (qa-clip-checklist.md, 2026-11-25)
+- vid0: 사물함 목재 도어·손잡이만 잡히고 번호판·안내문·스티커 없음(전체 해상도 좌/우 크롭 확인).
+- vid1: 달걀 단면과 후추만 — 포장지·도장·라벨·컵 등 소품 없음(상단 흰 배경 확대 확인).
+- vid2: 화강암 열탕 돌·국자·연통만 — 문자 요소 0건, 사람 없음.
+- vid3: 흰 도자기 냄비와 삶은 달걀만 — 상표·라벨 판독 가능 문자 0건.
+- 검수 시트: `evidence/ep010-v7-inspect/sheet_vid0.png`, `sheet_vid1.png`, `vid0_zoom_L.png`,
+  `vid1_zoom_top.png`, `vid2_full.png`, `vid3_full.png`, 후보 비교 `cand_*.png`.
+  비한국 요소로 교체한 클립: 없음(폐기 후보: Pexels 6288804 'raw egg into ramekin' — 날달걀이라 대본과 불일치).
+- 이 편은 저장소에 AI 이미지가 없습니다 — 실사 클립 4장면 + 자체 배경.
