@@ -68,11 +68,11 @@
 #Korea #LearnKorean #KoreanCulture #AsianCulture #Jjimjilbang #KoreaTravel #shorts
 ```
 
-## ep011 — `Why nobody sits in this empty seat 🩷 #shorts` (21.3초)
+## ep011 — `Why nobody sits in this empty seat 🩷 #shorts` (19.3초 v6 루프, 2026-11-27 22:00 업로드)
 제목: `なぜ満員電車でもこの空席に誰も座らないのか 🩷 #shorts`
 설명:
 ```
-ソウルの地下鉄はどの車両にも、妊婦さんのためのピンクの席があります。満員でもほとんどの人は空けたまま。立っている人もいます。それが 배려석（ペリョソク、思いやりの席）です。Stock footage: Pexels (free license)
+ソウルの地下鉄はどの車両にも、妊婦さんのためのピンクの席があります。満員でもほとんどの人は空けたまま。立っている人もいます。それがベリョソク（baeryeoseok、思いやりの席）です。理由はシンプルです。もっと必要とする人がいるかもしれないから。Stock footage: Pexels (free license) · Illustrations: original
 
 #Korea #LearnKorean #KoreanCulture #AsianCulture #SeoulSubway #KoreanPhrases #shorts
 ```

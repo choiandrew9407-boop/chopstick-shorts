@@ -279,7 +279,20 @@ DEFAULT_CYCLE = ["seoul_night", "bapsang", "hanok", "pojangmacha", "seoul_night"
 
 
 def draw_scene(name, w, h, seed):
-    return SCENES.get(name, seoul_night)(w, h, seed)
+    """이름 → 배경 이미지. SCENES에 없으면 확장 모듈(subway_scenes)에서 찾는다.
+
+    subway_scenes가 scenes의 SS·_font를 쓰므로 순환 임포트를 피하려고 여기서 지연 임포트한다.
+    """
+    if name in SCENES:
+        return SCENES[name](w, h, seed)
+    try:
+        import subway_scenes
+        fn = subway_scenes.SCENES.get(name)
+    except Exception:
+        fn = None
+    if fn:
+        return fn(w, h, seed)
+    return seoul_night(w, h, seed)
 
 
 class Particles:

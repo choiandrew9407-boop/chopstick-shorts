@@ -785,7 +785,7 @@ def build(ep_dir):
             else:
                 bg, lights = draw_scene(src or DEFAULT_CYCLE[i % len(DEFAULT_CYCLE)],
                                         int(W * 1.055), int(H * 1.055), seed + i)
-            indoor = (sc.get("bg") in ("bapsang", "elevator"))
+            indoor = (sc.get("bg") in ("bapsang", "elevator")) or str(sc.get("bg", "")).startswith("subway")
             prev_frame = render_still_scene(bg, lights, layers, dur, i, seed,
                                             "none" if indoor else particles, clip,
                                             twist=bool(sc.get("twist")),
@@ -796,7 +796,9 @@ def build(ep_dir):
         if sc["kind"] == "phrase":
             cues.append((t, t + dur, sc))
         else:
-            cues.append((t, t + dur, {"en": sc["text"],
+            # 훅 카드(hook_en)와 실제로 읽는 문장이 다른 v6 루프 대본을 위해
+            # `hook_sub_en`이 있으면 영어 자막은 그 문장을 쓴다(자막=음성 원칙).
+            cues.append((t, t + dur, {"en": spec.get("hook_sub_en") or sc["text"],
                                       **{l: spec.get(f"hook_{l}", sc["text"])
                                          for l in LANGS if l != "en"}}))
         t += dur
